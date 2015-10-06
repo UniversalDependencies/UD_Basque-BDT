@@ -10,3 +10,9 @@ Sentences were randomized and divided in 60-20-20 splits for the train, dev and 
 References
 
 Aduriz I., Aranzabe M., Arriola J., Atutxa A., Díaz de Ilarraza A., Garmendia A., Oronoz M. 2003 Construction of a Basque Dependency Treebank. In Joakim Nivre and Erhards Hinrichs eds., Proceedings of the Second Workshop on Treebanks and Linguistic Theories, pp.: 201-204, ISSN: 1651-0267, ISBN: 91-7636-394-5, TLT 2003, Vaxjo, Sweden, November 14-15. 
+
+
+Documentation status: partial
+Data source: unknown
+Data available since: UD v1.1
+License: CC BY-NC-SA 3.0
