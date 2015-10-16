@@ -13,6 +13,6 @@ Aduriz I., Aranzabe M., Arriola J., Atutxa A., Díaz de Ilarraza A., Garmendia A
 
 
 Documentation status: partial
-Data source: unknown
+Data source: mainly literary and journalistic texts
 Data available since: UD v1.1
 License: CC BY-NC-SA 3.0
