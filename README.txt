@@ -16,3 +16,4 @@ Documentation status: partial
 Data source: automatic
 Data available since: UD v1.1
 License: CC BY-NC-SA 3.0
+Genre: news fiction
