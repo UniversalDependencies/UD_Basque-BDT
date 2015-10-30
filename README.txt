@@ -17,3 +17,4 @@ Data source: automatic
 Data available since: UD v1.1
 License: CC BY-NC-SA 3.0
 Genre: news fiction
+Contributors: Aranzabe, Maria Jesus; Atutxa, Aitziber; Bengoetxea, Kepa; Diaz de Ilarraza, Arantza; Goenaga, Iakes; Gojenola, Koldo; Uria, Larraitz
