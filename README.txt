@@ -2,14 +2,15 @@ Introduction
 
 The Basque UD treebank is based on a conversion from part of the Basque Dependency Treebank (BDT), created at the University of of the Basque Country by the IXA NLP research group. The treebank consists of 5274 sentences (60563 tokens) and covers mainly literary and journalistic texts.
 
-The morphological and syntactic annotation of the Basque UD treebank is created through an automatic conversion of BDT data (Aduriz et al. 2003).
+Automatic Conversion of the Basque Dependency Treebank to Universal Dependencies
+(Aranzabe et al. 2015).
 Acknowledgments
 
 Sentences were randomized and divided in 60-20-20 splits for the train, dev and test files, repectively.
 
 References
 
-Aduriz I., Aranzabe M., Arriola J., Atutxa A., Díaz de Ilarraza A., Garmendia A., Oronoz M. 2003 Construction of a Basque Dependency Treebank. In Joakim Nivre and Erhards Hinrichs eds., Proceedings of the Second Workshop on Treebanks and Linguistic Theories, pp.: 201-204, ISSN: 1651-0267, ISBN: 91-7636-394-5, TLT 2003, Vaxjo, Sweden, November 14-15. 
+Aranzabe M., Atutxa A., Bengoetxea K., Díaz de Ilarraza A., Goenaga I., Gojenola K., Uria L. 2015 Automatic Conversion of the Basque Dependency Treebank to Universal Dependencies. 14th International Workshop on Treebanks and Linguistic Theories, TLT 2015, Warsaw , Poland, December 11-12. 
 
 
 Documentation status: partial
