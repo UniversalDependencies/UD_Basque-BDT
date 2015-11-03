@@ -4474,7 +4474,7 @@
 7	zituen	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	6	aux	_	_
 8	.	.	PUNCT	_	_	6	punct	_	_
 
-1	Garestiegi	garesti	ADJ	_	Case=Abs|Definite=Ind|Degree=Asp	2	nmod	_	_
+1	Garestiegi	garesti	ADJ	_	Case=Abs|Definite=Ind|Degree=Abs	2	nmod	_	_
 2	ordaindu	ordaindu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 3	dugu	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	2	aux	_	_
 4	1986ko	1986	NUM	_	NumType=Card	5	nmod	_	_
@@ -6846,7 +6846,7 @@
 6	datak	data	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	9	nsubj	_	_
 7	ere	ere	CONJ	_	_	11	advmod	_	_
 8	"	"	PUNCT	_	_	12	punct	_	_
-9	estuegiak	estu	ADJ	_	Case=Abs|Definite=Def|Degree=Asp|Number=Plur	12	ccomp	_	_
+9	estuegiak	estu	ADJ	_	Case=Abs|Definite=Def|Degree=Abs|Number=Plur	12	ccomp	_	_
 10	"	"	PUNCT	_	_	12	punct	_	_
 11	zirela	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	9	cop	_	_
 12	argudiatu	argudiatu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
@@ -6941,7 +6941,7 @@
 12	metroetan	metro	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	10	nmod	_	_
 13	.	.	PUNCT	_	_	10	punct	_	_
 
-1	Goizegi	goiz	ADV	_	Degree=Asp	2	advmod	_	_
+1	Goizegi	goiz	ADV	_	Degree=Abs	2	advmod	_	_
 2	da	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	0	root	_	_
 3	hori	hori	DET	_	Case=Abs|Definite=Def|Number=Sing	4	dobj	_	_
 4	jakiteko	jakin	VERB	_	Case=Abs|Definite=Ind	2	advcl	_	_
@@ -10966,7 +10966,7 @@
 28	.	.	PUNCT	_	_	13	punct	_	_
 
 1	Oraindik	oraindik	ADV	_	_	3	advmod	_	_
-2	goizegi	goiz	ADV	_	Degree=Asp	3	advmod	_	_
+2	goizegi	goiz	ADV	_	Degree=Abs	3	advmod	_	_
 3	da	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	0	root	_	_
 4	horretan	hori	DET	_	Case=Ine|Definite=Def|Number=Sing	5	nmod	_	_
 5	pentsatzeko	pentsatu	VERB	_	Case=Abs|Definite=Ind	3	advcl	_	_
@@ -11931,7 +11931,7 @@
 
 1	Orduan	orduan	CONJ	_	_	4	advmod	_	_
 2	,	,	PUNCT	_	_	4	punct	_	_
-3	azkarregi	azkar	ADJ	_	Case=Abs|Definite=Ind|Degree=Asp	0	root	_	_
+3	azkarregi	azkar	ADJ	_	Case=Abs|Definite=Ind|Degree=Abs	0	root	_	_
 4	da	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	3	cop	_	_
 5	oraindino	oraindino	ADV	_	_	4	advmod	_	_
 6	emaitzak	emaitza	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	7	dobj	_	_

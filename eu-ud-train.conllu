@@ -9268,7 +9268,7 @@
 22	.	.	PUNCT	_	_	14	punct	_	_
 
 1	Indar	indar	NOUN	_	_	3	dobj	_	_
-2	handiegia	handi	ADJ	_	Case=Abs|Definite=Def|Degree=Asp|Number=Sing	1	amod	_	_
+2	handiegia	handi	ADJ	_	Case=Abs|Definite=Def|Degree=Abs|Number=Sing	1	amod	_	_
 3	du	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	0	root	_	_
 4	ezker	ezker	NOUN	_	_	3	nmod	_	_
 5	abertzalean	abertzale	ADJ	_	Case=Ine|Definite=Def|Number=Sing	4	amod	_	_
@@ -9909,7 +9909,7 @@
 
 1	Ukrainako	Ukraina	PROPN	_	Case=Loc|Definite=Def|Number=Sing	2	nmod	_	_
 2	herriak	herri	NOUN	_	Case=Erg|Definite=Def|Number=Sing	4	nsubj	_	_
-3	garestiegi	garesti	ADJ	_	Case=Abs|Definite=Ind|Degree=Asp	4	nmod	_	_
+3	garestiegi	garesti	ADJ	_	Case=Abs|Definite=Ind|Degree=Abs	4	nmod	_	_
 4	ordaindu	ordaindu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 5	du	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	4	aux	_	_
 6	1986ko	1986	NUM	_	NumType=Card	7	nmod	_	_
@@ -10532,7 +10532,7 @@
 5	sartu	sartu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 6	naiz	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=1	5	aux	_	_
 7	eta	eta	CONJ	_	_	5	cc	_	_
-8	urrunegi	urrun	ADV	_	Degree=Asp	9	advmod	_	_
+8	urrunegi	urrun	ADV	_	Degree=Abs	9	advmod	_	_
 9	noa	joan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=1	5	conj	_	_
 10	beharbada	beharbada	ADV	_	_	9	advmod	_	_
 11	.	.	PUNCT	_	_	5	punct	_	_
@@ -13067,7 +13067,7 @@
 6	dira	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	5	aux	_	_
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	sarritan	sarritan	ADV	_	_	19	advmod	_	_
-9	konplexuegiak	konplexu	ADJ	_	Case=Abs|Definite=Def|Degree=Asp|Number=Plur	18	advcl	_	_
+9	konplexuegiak	konplexu	ADJ	_	Case=Abs|Definite=Def|Degree=Abs|Number=Plur	18	advcl	_	_
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	maneiatzeko	maneiatu	VERB	_	Case=Loc	12	advcl	_	_
 12	zailak	zail	ADJ	_	Case=Abs|Definite=Def|Number=Plur	9	conj	_	_
@@ -20487,7 +20487,7 @@
 4	izenak	izen	NOUN	_	Case=Erg|Definite=Def|Number=Sing	8	nsubj	_	_
 5	agian	agian	ADV	_	_	8	advmod	_	_
 6	pisu	pisu	NOUN	_	_	8	dobj	_	_
-7	handiegia	handi	ADJ	_	Case=Abs|Definite=Def|Degree=Asp|Number=Sing	6	amod	_	_
+7	handiegia	handi	ADJ	_	Case=Abs|Definite=Def|Degree=Abs|Number=Sing	6	amod	_	_
 8	du	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	0	root	_	_
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	eta	eta	CONJ	_	_	8	cc	_	_
@@ -32462,7 +32462,7 @@
 3	jangarria	jangarri	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	_
 4	da	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	3	cop	_	_
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	likatsuegia	likatsu	ADJ	_	Case=Abs|Definite=Def|Degree=Asp|Number=Sing	4	advcl	_	_
+6	likatsuegia	likatsu	ADJ	_	Case=Abs|Definite=Def|Degree=Abs|Number=Sing	4	advcl	_	_
 7	izateagatik	izan	VERB	_	Case=Cau|Definite=Def|Number=Sing	6	cop	_	_
 8	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -36417,7 +36417,7 @@
 14	,	,	PUNCT	_	_	9	punct	_	_
 15	dagoeneko	dagoeneko	ADV	_	_	18	advmod	_	_
 16	,	,	PUNCT	_	_	18	punct	_	_
-17	berantegi	berant	ADJ	_	Case=Abs|Definite=Ind|Degree=Asp	18	nmod	_	_
+17	berantegi	berant	ADJ	_	Case=Abs|Definite=Ind|Degree=Abs	18	nmod	_	_
 18	zen	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	9	conj	_	_
 19	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -36699,7 +36699,7 @@
 2	hitzetan	hitz	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	6	nmod	_	_
 3	,	,	PUNCT	_	_	6	punct	_	_
 4	"	"	PUNCT	_	_	6	punct	_	_
-5	azkarregi	azkar	ADJ	_	Case=Abs|Definite=Ind|Degree=Asp	6	nmod	_	_
+5	azkarregi	azkar	ADJ	_	Case=Abs|Definite=Ind|Degree=Abs	6	nmod	_	_
 6	epaitzen	epaitu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 7	dugu	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	6	aux	_	_
 8	,	,	PUNCT	_	_	6	punct	_	_
@@ -39290,7 +39290,7 @@
 2	biek	bi	NUM	_	NumType=Card	6	nsubj	_	_
 3	ere	ere	CONJ	_	_	6	advmod	_	_
 4	joko	joko	NOUN	_	_	6	dobj	_	_
-5	alaiegia	alai	ADJ	_	Case=Abs|Definite=Def|Degree=Asp|Number=Sing	4	amod	_	_
+5	alaiegia	alai	ADJ	_	Case=Abs|Definite=Def|Degree=Abs|Number=Sing	4	amod	_	_
 6	egiten	egin	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 7	zuten	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	6	aux	_	_
 8	ACB	ACB	PROPN	_	_	6	nmod	_	_
@@ -40465,7 +40465,7 @@
 2	,	,	PUNCT	_	_	6	punct	_	_
 3	Carlos	Carlos	PROPN	_	_	6	nsubj	_	_
 4	Merino	Merino	PROPN	_	Case=Abs|Definite=Def|Number=Sing	3	name	_	_
-5	sutsuegi	sutsu	ADJ	_	Case=Abs|Definite=Ind|Degree=Asp	6	xcomp	_	_
+5	sutsuegi	sutsu	ADJ	_	Case=Abs|Definite=Ind|Degree=Abs	6	xcomp	_	_
 6	aritzen	aritu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 7	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	6	aux	_	_
 8	entrenamenduetan	entrenamendu	NOUN	_	Case=Ine|Definite=Def|Number=Plur	6	nmod	_	_
@@ -47121,7 +47121,7 @@
 21	dio	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Sing|Person[abs]=3|Person[dat]=3|Person[erg]=3	20	aux	_	_
 22	.	.	PUNCT	_	_	3	punct	_	_
 
-1	Urrutiegi	urruti	ADJ	_	Case=Abs|Definite=Ind|Degree=Asp	2	nmod	_	_
+1	Urrutiegi	urruti	ADJ	_	Case=Abs|Definite=Ind|Degree=Abs	2	nmod	_	_
 2	zeuden	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	0	root	_	_
 3	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -47155,7 +47155,7 @@
 3	uste	uste	NOUN	_	Case=Abs|Definite=Ind	4	compound	_	_
 4	dut	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=1	0	root	_	_
 5	oraindino	oraindino	ADV	_	_	7	advmod	_	_
-6	azkarregi	azkar	ADJ	_	Case=Abs|Definite=Ind|Degree=Asp	7	nmod	_	_
+6	azkarregi	azkar	ADJ	_	Case=Abs|Definite=Ind|Degree=Abs	7	nmod	_	_
 7	gabiltzala	ibili	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=1	4	advcl	_	_
 8	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -50388,7 +50388,7 @@
 
 1	Kezkatzen	kezkatu	VERB	_	Case=Ine	2	advcl	_	_
 2	hasteko	hasi	VERB	_	Case=Abs|Definite=Ind	4	advcl	_	_
-3	goizegi	goiz	ADV	_	Degree=Asp	4	advmod	_	_
+3	goizegi	goiz	ADV	_	Degree=Abs	4	advmod	_	_
 4	dela	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	5	ccomp	_	_
 5	dio	esan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	0	root	_	_
 6	Lotinak	Lotina	PROPN	_	Case=Erg|Definite=Def|Number=Sing	5	nsubj	_	_
