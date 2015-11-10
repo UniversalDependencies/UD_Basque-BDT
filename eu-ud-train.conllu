@@ -1,3 +1,4 @@
+
 1	Gero	gero	ADV	_	_	7	advmod	_	_
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	lortutako	lortu	VERB	_	Case=Loc|VerbForm=Part	4	advcl	_	_
@@ -820,14 +821,14 @@
 5	dit	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Sing|Person[abs]=3|Person[dat]=1|Person[erg]=3	4	aux	_	_
 6	:	:	PUNCT	_	_	4	punct	_	_
 
-1	Franco	Franco	PROPN	_	_	2	name	_	_
-2	Squillari	Squillari	PROPN	_	_	3	nmod	_	_
+1	Franco	Franco	PROPN	_	_	3	nmod	_	_
+2	Squillari	Squillari	PROPN	_	_	1	name	_	_
 3	argentinarra	argentinar	ADJ	_	Case=Abs|Definite=Def|Number=Sing	10	nsubj	_	_
 4	eta	eta	CONJ	_	_	3	cc	_	_
 5	Ekuadorko	Ekuador	PROPN	_	Case=Loc|Definite=Def|Number=Sing	7	nmod	_	_
-6	Nicolas	Nicolas	PROPN	_	_	7	name	_	_
-7	Lapentti	Lapentti	PROPN	_	_	3	conj	_	_
-8	ere	ere	CONJ	_	_	3	advmod	_	_
+6	Nicolas	Nicolas	PROPN	_	_	3	conj	_	_
+7	Lapentti	Lapentti	PROPN	_	_	6	name	_	_
+8	ere	ere	CONJ	_	_	7	advmod	_	_
 9	kanpora	kanpo	NOUN	_	Animacy=Inan|Case=All|Definite=Def|Number=Sing	10	nmod	_	_
 10	gelditu	gelditu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 11	dira	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	10	aux	_	_
@@ -12709,29 +12710,29 @@
 13	Jakartari	Jakarta	PROPN	_	Case=Dat|Definite=Def|Number=Sing	11	iobj	_	_
 14	.	.	PUNCT	_	_	11	punct	_	_
 
-1	(	(	PUNCT	_	_	18	punct	_	_
+1	(	(	PUNCT	_	_	16	punct	_	_
 2	Euskaraz	euskara	NOUN	_	Animacy=Inan|Case=Ins|Definite=Ind	3	nmod	_	_
 3	da	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	0	root	_	_
 4	Laxalten	Laxalt	PROPN	_	Case=Gen|Definite=Def|Number=Sing	11	nmod	_	_
 5	"	"	PUNCT	_	_	3	punct	_	_
-6	A	a	NOUN	_	_	8	name	_	_
-7	Cup	cup	NOUN	_	_	8	name	_	_
-8	ot	ot	NOUN	_	_	10	name	_	_
-9	Tea	Tea	NOUN	_	_	10	name	_	_
-10	in	in	NOUN	_	_	11	name	_	_
-11	Pamplona	pamplona	NOUN	_	Case=Abs|Definite=Ind	3	nsubj	_	_
+6	A	a	NOUN	_	_	3	nsubj	_	_
+7	Cup	cup	NOUN	_	_	6	name	_	_
+8	ot	ot	NOUN	_	_	7	name	_	_
+9	Tea	Tea	NOUN	_	_	8	name	_	_
+10	in	in	NOUN	_	_	9	name	_	_
+11	Pamplona	pamplona	NOUN	_	Case=Abs|Definite=Ind	10	name	_	_
 12	"	"	PUNCT	_	_	3	punct	_	_
-13	,	,	PUNCT	_	_	11	punct	_	_
-14	edo	edo	CONJ	_	_	11	cc	_	_
-15	'	'	PUNCT	_	_	11	punct	_	_
-16	Kafea	kafe	NOUN	_	Case=Abs|Definite=Def|Number=Sing	18	name	_	_
-17	hartzea	hartu	VERB	_	Case=Abs	18	name	_	_
-18	Iruñean	Iruñea	PROPN	_	Case=Ine|Definite=Def|Number=Sing	11	conj	_	_
-19	'	'	PUNCT	_	_	11	punct	_	_
+13	,	,	PUNCT	_	_	6	punct	_	_
+14	edo	edo	CONJ	_	_	6	cc	_	_
+15	'	'	PUNCT	_	_	6	punct	_	_
+16	Kafea	kafe	NOUN	_	Case=Abs|Definite=Def|Number=Sing	6	conj	_	_
+17	hartzea	hartu	VERB	_	Case=Abs	16	name	_	_
+18	Iruñean	Iruñea	PROPN	_	Case=Ine|Definite=Def|Number=Sing	17	name	_	_
+19	'	'	PUNCT	_	_	6	punct	_	_
 20	ere	ere	CONJ	_	_	3	advmod	_	_
-21	(	(	PUNCT	_	_	18	punct	_	_
+21	(	(	PUNCT	_	_	16	punct	_	_
 22	Elkar	Elkar	PROPN	_	Case=Abs|Definite=Def|Number=Sing	18	appos	_	_
-23	,	,	PUNCT	_	_	11	punct	_	_
+23	,	,	PUNCT	_	_	6	punct	_	_
 24	1986	1986	NUM	_	NumType=Card	18	appos	_	_
 25	)	)	PUNCT	_	_	18	punct	_	_
 26	,	,	PUNCT	_	_	18	punct	_	_
@@ -78367,4 +78368,3 @@
 15	Pedro	Pedro	PROPN	_	_	9	conj	_	_
 16	Beobide	Beobide	PROPN	_	Case=Abs|Definite=Def|Number=Sing	15	name	_	_
 17	.	.	PUNCT	_	_	4	punct	_	_
-

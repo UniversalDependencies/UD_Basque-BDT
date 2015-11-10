@@ -1,3 +1,4 @@
+
 1	Atenasen	Atenas	PROPN	_	Case=Ine|Definite=Def|Number=Sing	8	nmod	_	_
 2	ordea	ordea	CONJ	_	_	8	advmod	_	_
 3	,	,	PUNCT	_	_	8	punct	_	_
@@ -25890,4 +25891,3 @@
 23	lur	lur	NOUN	_	_	20	nsubj	_	_
 24	hura	hura	DET	_	Case=Abs|Definite=Def|Number=Sing	23	det	_	_
 25	.	.	PUNCT	_	_	9	punct	_	_
-
