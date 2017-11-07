@@ -19,7 +19,7 @@ Aranzabe M., Atutxa A., Bengoetxea K., Díaz de Ilarraza A., Goenaga I., Gojenol
 
 # Changelog
 * 2016-12-01 v2.0
-  * We adecuate the v1.2 treebank to v2.0 treebank guidelines	
+  * We adapt the v1.2 treebank to v2.0 treebank guidelines	
 * 2015-11-15 v1.2
   * The size increased since v1.1 after adding a new set of sentences from BDT which include previously non-treated phenomena like multiwords, entities and complex post-positions
   * Some errors in POS have been fixed (related to some SCONJ that were in fact Verbs)
