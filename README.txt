@@ -9,7 +9,7 @@ The Basque UD treebank is based on a automatic conversion from part of the Basqu
 
 # Acknowledgments
 
-The conversion of the original treebank has been performed by Aitziber Atutxa, Iakes Goenaga and Koldo Gojenola at University of the Basque Country (EHU/UPV). In contrast, the conversion of the UD treebank v1.2 to v2.0 has been performed by Dan Zeman. We thank everyone who has collaborate in the transformation of the Basque Dependency Treebank. 
+The conversion of the original treebank has been performed by Aitziber Atutxa, Iakes Goenaga and Koldo Gojenola at University of the Basque Country (EHU/UPV). In contrast, the conversion of the UD treebank v1.2 to v2.0 has been performed by Dan Zeman. We thank everyone who has collaborate in the transformation of the Basque Dependency Treebank.
 
 Sentences were randomized and divided in 60-20-20 splits for the train, dev and test files, repectively.
 
@@ -18,8 +18,11 @@ Sentences were randomized and divided in 60-20-20 splits for the train, dev and 
 Aranzabe M., Atutxa A., Bengoetxea K., Díaz de Ilarraza A., Goenaga I., Gojenola K., Uria L. 2015 Automatic Conversion of the Basque Dependency Treebank to Universal Dependencies. 14th International Workshop on Treebanks and Linguistic Theories, TLT 2015, Warsaw , Poland, December 11-12.
 
 # Changelog
+
+* 2018-04-15 v2.2
+  * Repository renamed from UD_Basque to UD_Basque-BDT.
 * 2016-12-01 v2.0
-  * We adapt the v1.2 treebank to v2.0 treebank guidelines	
+  * We adapt the v1.2 treebank to v2.0 treebank guidelines
 * 2015-11-15 v1.2
   * The size increased since v1.1 after adding a new set of sentences from BDT which include previously non-treated phenomena like multiwords, entities and complex post-positions
   * Some errors in POS have been fixed (related to some SCONJ that were in fact Verbs)
