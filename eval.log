@@ -1,11 +1,11 @@
 Running the following version of tools/evaluate_treebank.pl:
-commit 95f84696ecc537764b7772395d073132bd715b77
+commit 87d374bbd458d29331d76014d05c52eaac32518d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Apr 11 08:54:01 2018 +0200
+Date:   Wed Apr 11 09:21:53 2018 +0200
 Evaluating the following revision of UD_Basque-BDT:
-commit b9cc558aff405be5f441dc472e4ec1a9874b0e2a
-Merge: 005e7dc 6b1b072
+commit cc31626f6c783452ff69ddd30bf506e728aafa1a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed Apr 11 09:14:04 2018 +0200
 Size: counted 121443 of 121443 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.59889003379901.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,7 +19,7 @@ Features: 76510 out of 121443 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 30 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 0 bugs.
+Udapi: found 16510 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 121443 words.
 Genres: found 1 out of 14 known.
 validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-dev.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.694790829012505) = 0.178151494618591
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.752941176470588) = 0.0579185520361991
-(weight=0.307692307692308) * (score{udapi}=1) = 0.307692307692308
+(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.742742653327397) * (availability=1) * (validity=1) = 0.742742653327397
-STARS = 3.5
-UD_Basque-BDT	0.742742653327397	3.5
+(TOTAL score=0.438127268712012) * (availability=1) * (validity=1) = 0.438127268712012
+STARS = 2
+UD_Basque-BDT	0.438127268712012	2
