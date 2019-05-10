@@ -6,6 +6,9 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>8993</sentences><tokens>121443</tokens><words>121443</words><fused>0</fused></total>
+    <train><sentences>5396</sentences><tokens>72974</tokens><words>72974</words><fused>0</fused></train>
+    <dev><sentences>1798</sentences><tokens>24095</tokens><words>24095</words><fused>0</fused></dev>
+    <test><sentences>1799</sentences><tokens>24374</tokens><words>24374</words><fused>0</fused></test>
   </size>
   <lemmas unique="10999" /><!-- ., ,, izan, *edun, eta, ", egin, ukan, ez, bat, egon, hori, ere, baina, bera -->
   <forms unique="24259" /><!-- ., ,, eta, ", da, ez, zuen, du, zen, izan, egin, dira, ere, baina, bat -->
