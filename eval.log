@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Basque-BDT:
-commit ca1abe81fe144992d57383e3da0766395c393497
+commit e06af9fade1b684ca8c44cf8ca367fba9f209d97
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 12 16:43:03 2019 +0100
+Date:   Sun May 10 17:38:02 2020 +0200
 Size: counted 121443 of 121443 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.59889003379901.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,79 +23,79 @@ Udapi: found 17122 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 121443 words.
 Genres: found 1 out of 17 known.
 validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-dev.conllu
-[Line 11 Sent dev-s1 Node 9]: [L5 Morpho aux-lemma] '*edin' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 21 Sent dev-s2 Node 6]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
+[Line 11 Sent dev-s1 Node 9]: [L5 Morpho aux-lemma] '*edin' is not an auxiliary verb in language [eu]
 [Line 32 Sent dev-s3 Node 6]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [7, 9]
-[Line 35 Sent dev-s3 Node 9]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [6]
 [Line 35 Sent dev-s3 Node 9]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [6]
-[Line 38 Sent dev-s3 Node 12]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 46 Sent dev-s4 Node 4]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
 [Line 57 Sent dev-s5 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'ADJ'
-[Line 55 Sent dev-s5 Node 3]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 60 Sent dev-s5 Node 8]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 72 Sent dev-s6 Node 6]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
+[Line 55 Sent dev-s5 Node 3]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+[Line 60 Sent dev-s5 Node 8]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+[Line 72 Sent dev-s6 Node 6]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
 [Line 82 Sent dev-s7 Node 5]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (5:izan:cop --> 6:dakizuke:aux)
-[Line 81 Sent dev-s7 Node 5]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 82 Sent dev-s7 Node 6]: [L5 Morpho aux-lemma] '*edin' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-...suppressing further errors regarding Morpho
+[Line 82 Sent dev-s7 Node 6]: [L5 Morpho aux-lemma] '*edin' is not an auxiliary verb in language [eu]
+[Line 95 Sent dev-s8 Node 9]: [L5 Morpho aux-lemma] '*edin' is not an auxiliary verb in language [eu]
+[Line 108 Sent dev-s9 Node 9]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+[Line 110 Sent dev-s9 Node 11]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+[Line 116 Sent dev-s9 Node 17]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
 [Line 150 Sent dev-s12 Node 1]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 184 Sent dev-s13 Node 17]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
+...suppressing further errors regarding Morpho
 [Line 289 Sent dev-s21 Node 4]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
 [Line 294 Sent dev-s21 Node 9]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8]
+[Line 297 Sent dev-s21 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [13]
 ...suppressing further errors regarding Syntax
-Morpho errors: 2512
-Syntax errors: 1690
-*** FAILED *** with 4202 errors
+Morpho errors: 1299
+Syntax errors: 1561
+*** FAILED *** with 2860 errors
 Exit code: 1
 validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-test.conllu
 [Line 20 Sent test-s1 Node 17]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (17:direlako:cop --> 18:oraindik:advmod)
-[Line 8 Sent test-s1 Node 6]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 19 Sent test-s1 Node 17]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 29 Sent test-s2 Node 5]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 55 Sent test-s3 Node 9]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
+[Line 29 Sent test-s2 Node 5]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
 [Line 68 Sent test-s4 Node 5]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (5:da:cop --> 8:zoritxarrez:advmod)
 [Line 67 Sent test-s4 Node 7]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [8]
-[Line 65 Sent test-s4 Node 5]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
 [Line 75 Sent test-s5 Node 3]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
 [Line 78 Sent test-s5 Node 5]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (5:izanen:cop --> 6:da:aux)
 [Line 80 Sent test-s5 Node 7]: [L3 Syntax leaf-punct] 'punct' not expected to have children (7:,:punct --> 8:bigarrena:nsubj)
 [Line 82 Sent test-s5 Node 7]: [L3 Syntax leaf-punct] 'punct' not expected to have children (7:,:punct --> 10:eta:cc)
 [Line 83 Sent test-s5 Node 10]: [L3 Syntax leaf-cc] 'cc' not expected to have children (10:eta:cc --> 11:hirugarrena:nsubj)
-[Line 77 Sent test-s5 Node 5]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 78 Sent test-s5 Node 6]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 105 Sent test-s7 Node 9]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 114 Sent test-s8 Node 5]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-...suppressing further errors regarding Morpho
+[Line 105 Sent test-s7 Node 9]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+[Line 114 Sent test-s8 Node 5]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+[Line 124 Sent test-s9 Node 3]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+[Line 130 Sent test-s9 Node 9]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+[Line 154 Sent test-s11 Node 4]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+[Line 182 Sent test-s13 Node 7]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+[Line 194 Sent test-s14 Node 6]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+[Line 216 Sent test-s16 Node 7]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
 [Line 222 Sent test-s17 Node 2]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [1]
 ...suppressing further errors regarding Syntax
-Morpho errors: 2502
-Syntax errors: 1573
-*** FAILED *** with 4075 errors
+...suppressing further errors regarding Morpho
+Morpho errors: 1309
+Syntax errors: 1496
+*** FAILED *** with 2805 errors
 Exit code: 1
 validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-train.conllu
 [Line 15 Sent train-s2 Node 2]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
 [Line 16 Sent train-s2 Node 3]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [2]
-[Line 32 Sent train-s2 Node 19]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 41 Sent train-s2 Node 28]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
+[Line 41 Sent train-s2 Node 28]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
 [Line 51 Sent train-s3 Node 5]: [L3 Syntax rel-upos-det] 'det' should be 'DET' or 'PRON' but it is 'NUM'
-[Line 50 Sent train-s3 Node 4]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
 [Line 62 Sent train-s4 Node 4]: [L3 Syntax leaf-cc] 'cc' not expected to have children (4:eta:cc --> 1:Nik:nsubj)
-[Line 67 Sent train-s4 Node 6]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 88 Sent train-s5 Node 16]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
+[Line 88 Sent train-s5 Node 16]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
 [Line 102 Sent train-s6 Node 7]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (7:izan:cop --> 8:zen:aux)
 [Line 112 Sent train-s6 Node 18]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 97 Sent train-s6 Node 3]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 101 Sent train-s6 Node 7]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 102 Sent train-s6 Node 8]: [L5 Morpho aux-lemma] 'izan' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-[Line 109 Sent train-s6 Node 15]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu] (there are no known approved auxiliaries in this language)
-...suppressing further errors regarding Morpho
+[Line 109 Sent train-s6 Node 15]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+[Line 113 Sent train-s6 Node 19]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
 [Line 134 Sent train-s7 Node 13]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [16]
+[Line 125 Sent train-s7 Node 4]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+[Line 149 Sent train-s8 Node 8]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
 [Line 156 Sent train-s9 Node 3]: [L3 Syntax rel-upos-aux] 'aux' should be 'AUX' but it is 'VERB'
-[Line 158 Sent train-s9 Node 5]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [7]
+[Line 158 Sent train-s9 Node 5]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [6, 7, 8]
+[Line 157 Sent train-s9 Node 4]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+[Line 161 Sent train-s9 Node 8]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+[Line 217 Sent train-s14 Node 6]: [L5 Morpho aux-lemma] '*edun' is not an auxiliary verb in language [eu]
+...suppressing further errors regarding Morpho
 ...suppressing further errors regarding Syntax
-Morpho errors: 7476
-Syntax errors: 4989
-*** FAILED *** with 12465 errors
+Morpho errors: 3889
+Syntax errors: 4688
+*** FAILED *** with 8577 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
