@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
+commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 6 20:16:19 2021 +0200
+Date:   Tue Nov 2 22:17:19 2021 +0100
 Evaluating the following revision of UD_Basque-BDT:
-commit 6b809cf5d337e88704796b7eff583e3ae6018bdd
+commit fe9f660be045f476be34e76c36f0cd7a9fb3f1ea
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Nov 11 19:02:51 2020 +0100
+Date:   Thu May 13 08:52:00 2021 +0200
 Size: counted 121443 of 121443 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.59889003379901.
 Size: maximum value 13.815511 is for 1000000 words or more.
