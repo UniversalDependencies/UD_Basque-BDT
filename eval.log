@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Basque-BDT:
-commit fe9f660be045f476be34e76c36f0cd7a9fb3f1ea
+commit 5a257b8dbc8589be9d302f8cc8e4166168e5b91e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 08:52:00 2021 +0200
+Date:   Wed Nov 3 15:55:19 2021 +0100
 Size: counted 121443 of 121443 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.59889003379901.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -46,8 +46,8 @@ validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-dev.conllu
 [Line 297 Sent dev-s21 Node 12]: [L3 Syntax punct-causes-nonproj] Punctuation must not cause non-projectivity of nodes [13]
 ...suppressing further errors regarding Syntax
 Morpho errors: 1299
-Syntax errors: 1561
-*** FAILED *** with 2860 errors
+Syntax errors: 1559
+*** FAILED *** with 2858 errors
 Exit code: 1
 validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-test.conllu
 [Line 20 Sent test-s1 Node 17]: [L3 Syntax leaf-aux-cop] 'cop' not expected to have children (17:direlako:cop --> 18:oraindik:advmod)
@@ -71,8 +71,8 @@ validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-test.conllu
 ...suppressing further errors regarding Syntax
 ...suppressing further errors regarding Morpho
 Morpho errors: 1309
-Syntax errors: 1496
-*** FAILED *** with 2805 errors
+Syntax errors: 1493
+*** FAILED *** with 2802 errors
 Exit code: 1
 validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-train.conllu
 [Line 15 Sent train-s2 Node 2]: [L3 Syntax punct-is-nonproj] Punctuation must not be attached non-projectively over nodes [3]
@@ -96,8 +96,8 @@ validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-train.conllu
 ...suppressing further errors regarding Morpho
 ...suppressing further errors regarding Syntax
 Morpho errors: 3889
-Syntax errors: 4688
-*** FAILED *** with 8577 errors
+Syntax errors: 4687
+*** FAILED *** with 8576 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
