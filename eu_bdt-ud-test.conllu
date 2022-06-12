@@ -20995,9 +20995,9 @@
 
 # sent_id = test-s1356
 # text = ETA EZ, bakea bai lelopean, arratsaldeko lauretan finkatu dute elkarretaratzeko hitzordua, Baionako Euskaldunen plazan.
-1	ETA	ETA	PROPN	_	Case=Abs|Definite=Def|Number=Sing	10	punct	_	_
+1	ETA	eta	CCONJ	_	_	10	cc	_	_
 2	EZ	ez	PART	_	Polarity=Neg	1	flat	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	2	flat	_	_
+3	,	,	PUNCT	_	_	2	punct	_	_
 4	bakea	bake	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	nmod	_	_
 5	bai	bai	PART	_	Polarity=Pos	4	flat	_	_
 6	lelopean	lelope	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	10	obl	_	SpaceAfter=No
@@ -26426,13 +26426,13 @@
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	Eleuterio	Eleuterio	PROPN	_	_	1	conj	_	_
 7	Anguita	Anguita	PROPN	_	_	6	flat	_	_
-8	(	(	PUNCT	_	_	16	punct	_	SpaceAfter=No
-9	Jazztel	Jazztel	PROPN	_	_	21	punct	_	_
-10	-	-	PUNCT	_	_	9	flat	_	_
-11	Costa	Costa	PROPN	_	_	7	appos	_	_
+8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Jazztel	Jazztel	PROPN	_	_	7	appos	_	_
+10	-	-	PUNCT	_	_	9	punct	_	_
+11	Costa	Costa	PROPN	_	_	9	appos	_	_
 12	de	de	X	_	_	11	flat	_	_
-13	Almeria	Almeria	PROPN	_	Case=Abs|Definite=Def|Number=Sing	12	flat	_	SpaceAfter=No
-14	)	)	PUNCT	_	_	7	punct	_	_
+13	Almeria	Almeria	PROPN	_	Case=Abs|Definite=Def|Number=Sing	11	flat	_	SpaceAfter=No
+14	)	)	PUNCT	_	_	9	punct	_	_
 15	eta	eta	CCONJ	_	_	16	cc	_	_
 16	Rafael	Rafael	PROPN	_	_	1	conj	_	_
 17	Casero	Casero	PROPN	_	Case=Abs|Definite=Def|Number=Sing	16	flat	_	_

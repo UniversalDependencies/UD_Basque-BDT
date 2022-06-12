@@ -17476,7 +17476,7 @@
 5	atean	ate	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	6	obl	_	_
 6	jarri	jarri	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 7	zuten	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	6	aux	_	_
-8	eta	eta	CCONJ	_	_	6	punct	_	SpaceAfter=No
+8	eta	eta	CCONJ	_	_	6	cc	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	6	punct	_	_
 10	Cadayren	Caday	PROPN	_	Case=Gen|Definite=Def|Number=Sing	11	nmod	_	_
 11	autoa	auto	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	14	obj	_	_
@@ -18371,12 +18371,12 @@
 15	burua	buru	NOUN	_	Case=Abs|Definite=Def|Number=Sing	16	obj	_	_
 16	bueltatuz	bueltatu	VERB	_	Case=Ins|Definite=Ind|VerbForm=Part	24	advcl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	24	punct	_	_
-18	"	"	PUNCT	_	_	24	punct	_	SpaceAfter=No
-19	komentariorik	komentario	NOUN	_	Case=Abl	3	punct	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	komentariorik	komentario	NOUN	_	Case=Abl	24	ccomp	_	_
 20	gabe	gabe	ADP	_	Definite=Ind	19	case	_	SpaceAfter=No
-21	,	,	PUNCT	_	_	19	flat	_	_
-22	Felipe	Felipe	PROPN	_	Case=Abs|Definite=Def|Number=Sing	24	obj	_	SpaceAfter=No
-23	"	"	PUNCT	_	_	24	punct	_	_
+21	,	,	PUNCT	_	_	22	punct	_	_
+22	Felipe	Felipe	PROPN	_	Case=Abs|Definite=Def|Number=Sing	19	vocative	_	SpaceAfter=No
+23	"	"	PUNCT	_	_	19	punct	_	_
 24	esan	esan	VERB	_	Aspect=Perf|VerbForm=Part	7	conj	_	_
 25	zidan	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Sing|Person[abs]=3|Person[dat]=1|Person[erg]=3	24	aux	_	_
 26	seko-seko	seko-seko	ADV	_	_	24	advmod	_	SpaceAfter=No
@@ -27140,7 +27140,7 @@
 6	israeldarra	israeldar	ADJ	_	Case=Abs|Definite=Def|Number=Sing	5	amod	_	_
 7	dugu	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	0	root	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
-9	baina	baina	CCONJ	_	_	7	punct	_	_
+9	baina	baina	CCONJ	_	_	7	cc	_	_
 10	arabiarrak	arabiar	ADJ	_	Case=Abs|Definite=Def|Number=Plur	9	conj	_	_
 11	gara	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=1	10	cop	_	SpaceAfter=No
 12	;	;	PUNCT	_	_	7	punct	_	_
