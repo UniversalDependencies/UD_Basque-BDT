@@ -25482,7 +25482,7 @@
 18	mundu	mundu	NOUN	_	_	20	obl	_	_
 19	osoarentzat	oso	ADJ	_	Case=Ben|Definite=Def|Number=Sing	18	amod	_	_
 20	aproposa	apropos	ADJ	_	Case=Abs|Definite=Def|Number=Sing	10	conj	_	_
-21	da	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	20	cop	_	SpaceAfter=No
+21	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	20	cop	_	SpaceAfter=No
 22	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 23	.	.	PUNCT	_	_	10	punct	_	_
 
