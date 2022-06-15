@@ -12069,15 +12069,15 @@
 # sent_id = test-s835
 # text = Erregeren ezkutari zintzoa, Dagolberto Martinez de Heredia "Berto"-k bazuen esperantza erregeren sofrikarioarekin bukatzekoa.
 1	Erregeren	errege	NOUN	_	Animacy=Inan|Case=Gen|Definite=Ind	2	nmod	_	_
-2	ezkutari	ezkutari	NOUN	_	_	10	appos	_	_
+2	ezkutari	ezkutari	NOUN	_	_	11	nsubj	_	_
 3	zintzoa	zintzo	ADJ	_	Case=Abs|Definite=Def|Number=Sing	2	amod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	11	punct	_	_
-5	Dagolberto	Dagolberto	PROPN	_	_	10	nmod	_	_
+5	Dagolberto	Dagolberto	PROPN	_	_	2	nmod	_	_
 6	Martinez	Martinez	PROPN	_	_	5	flat	_	_
 7	de	de	X	_	_	6	flat	_	_
 8	Heredia	Heredia	PROPN	_	_	7	flat	_	_
 9	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
-10	Berto"-k	Berto	PROPN	_	Case=Erg|Definite=Def|Number=Sing	11	nsubj	_	_
+10	Berto"-k	Berto	PROPN	_	Case=Erg|Definite=Def|Number=Sing	2	appos	_	_
 11	bazuen	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|Polarity=Pos	0	root	_	_
 12	esperantza	esperantza	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	11	obj	_	_
 13	erregeren	errege	NOUN	_	Animacy=Inan|Case=Gen|Definite=Ind	14	nmod	_	_
