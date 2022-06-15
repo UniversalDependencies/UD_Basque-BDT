@@ -20916,7 +20916,7 @@
 # text = Nazioarteko Gurutze Gorriaren arabera, 171 lagun hil dira harrezkero.
 1	Nazioarteko	nazioarte	NOUN	_	Case=Loc|Definite=Def|Number=Sing	8	obl	_	_
 2	Gurutze	Gurutze_Gorria	PROPN	_	_	1	flat	_	_
-3	Gorriaren	_	PROPN	_	Case=Gen	2	case	_	_
+3	Gorriaren	_	PROPN	_	Case=Gen	1	flat	_	_
 4	arabera	arabera	ADP	_	Case=Gen|Definite=Def|Number=Sing	2	case	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	8	punct	_	_
 6	171	171	NUM	_	NumType=Card	7	nummod	_	_
@@ -21308,7 +21308,7 @@
 5	nintzen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=1	4	aux	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
 7	Euskal	Euskal_Herria	PROPN	_	_	4	obl	_	_
-8	Herritik	herri	PROPN	_	Case=Abl	7	case	_	_
+8	Herritik	herri	PROPN	_	Case=Abl	7	flat	_	_
 9	kanpora	kanpora	ADP	_	Case=All	7	advcl	_	_
 10	ere	ere	CCONJ	_	_	9	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	4	punct	_	_

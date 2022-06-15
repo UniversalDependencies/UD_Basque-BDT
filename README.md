@@ -23,6 +23,7 @@ Aranzabe M., Atutxa A., Bengoetxea K., Díaz de Ilarraza A., Goenaga I., Gojenol
   * Fixed: Only punctuation should be attached via the punct relation; and punctuation should always use it.
   * Fixed: Spurious copulas with wrong UPOS.
   * Fixed: Apposition should go left-to-right.
+  * Fixed: Proper nouns are not case markers.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Basque to UD_Basque-BDT.
 * 2016-12-01 v2.0
