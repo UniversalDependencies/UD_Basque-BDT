@@ -27424,7 +27424,7 @@
 6	irabazi	irabazi	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 7	zuten	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	6	aux	_	SpaceAfter=No
 8	;	;	PUNCT	_	_	9	punct	_	_
-9	Italiak	Italia	PROPN	_	Case=Erg|Definite=Def|Number=Sing	4	appos	_	_
+9	Italiak	Italia	PROPN	_	Case=Erg|Definite=Def|Number=Sing	4	parataxis	_	_
 10	1968an	1968	NUM	_	NumType=Card	9	orphan	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	Frantziak	Frantzia	PROPN	_	Case=Erg|Definite=Def|Number=Sing	9	conj	_	_
