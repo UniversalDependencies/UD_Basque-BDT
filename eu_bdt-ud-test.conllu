@@ -8168,15 +8168,15 @@
 
 # sent_id = test-s567
 # text = Epaitegi-gatazka izugarri batean murgilduta dabil munduko estaturik boteretsuena.
-1	Epaitegi-gatazka	epaitegi-gatazka	NOUN	_	_	4	obl	_	_
+1	Epaitegi-gatazka	epaitegi-gatazka	NOUN	_	_	5	obl	_	_
 2	izugarri	izugarri	ADJ	_	_	1	amod	_	_
 3	batean	bat	NUM	_	NumType=Card	1	nummod	_	_
-4	murgilduta	murgildu	VERB	_	VerbForm=Part	0	root	_	_
-5	dabil	ibili	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	4	cop	_	_
+4	murgilduta	murgildu	VERB	_	VerbForm=Part	5	xcomp	_	_
+5	dabil	ibili	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	0	root	_	_
 6	munduko	mundu	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	7	nmod	_	_
-7	estaturik	estatu	NOUN	_	Case=Par|Definite=Ind	4	nsubj	_	_
+7	estaturik	estatu	NOUN	_	Case=Par|Definite=Ind	5	nsubj	_	_
 8	boteretsuena	boteretsu	ADJ	_	Case=Abs|Definite=Def|Degree=Sup|Number=Sing	7	amod	_	SpaceAfter=No
-9	.	.	PUNCT	_	_	4	punct	_	_
+9	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = test-s568
 # text = ERGO-IA eta IHM erakundeek antolatu dute batzarra.
@@ -8503,13 +8503,13 @@
 2	bete-betean	bete-betean	ADV	_	_	3	advmod	_	_
 3	harrapatu	harrapatu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 4	zituen	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	3	aux	_	_
-5	eta	eta	CCONJ	_	_	7	cc	_	_
-6	txiki-txiki	txiki-txiki	ADJ	_	Case=Abs|Definite=Ind	7	obl	_	_
-7	eginda	egin	VERB	_	VerbForm=Part	3	conj	_	_
-8	geratu	geratu	AUX	_	Aspect=Perf|VerbForm=Part	7	cop	_	_
+5	eta	eta	CCONJ	_	_	8	cc	_	_
+6	txiki-txiki	txiki-txiki	ADJ	_	Case=Abs|Definite=Ind	8	obl	_	_
+7	eginda	egin	VERB	_	VerbForm=Part	8	xcomp	_	_
+8	geratu	geratu	VERB	_	Aspect=Perf|VerbForm=Part	3	conj	_	_
 9	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	8	aux	_	_
 10	berauen	berauek	DET	_	Case=Gen|Number=Plur	11	nmod	_	_
-11	gorputzak	gorputz	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	7	nsubj	_	SpaceAfter=No
+11	gorputzak	gorputz	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	8	nsubj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = test-s591
@@ -8908,10 +8908,10 @@
 # sent_id = test-s613
 # text = Beti ito beldur nabil.
 1	Beti	beti	ADV	_	_	4	advmod	_	_
-2	ito	ito	VERB	_	VerbForm=Part	3	advcl	_	_
-3	beldur	beldur	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	0	root	_	_
-4	nabil	ibili	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=1	3	cop	_	SpaceAfter=No
-5	.	.	PUNCT	_	_	3	punct	_	_
+2	ito	ito	VERB	_	VerbForm=Part	4	advcl	_	_
+3	beldur	beldur	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	4	xcomp	_	_
+4	nabil	ibili	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=1	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = test-s614
 # text = - Hara... Mago batek utzi zidan Galtzagorri, baldintza batekin:
@@ -12490,10 +12490,10 @@
 2	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	1	aux	_	_
 3	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	1	aux	_	_
 4	Szabo	Szabo	PROPN	_	Case=Abs|Definite=Def|Number=Sing	1	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	_
-6	eta	eta	CCONJ	_	_	7	cc	_	_
-7	atzeratuta	atzeratu	VERB	_	VerbForm=Part	1	conj	_	_
-8	ibili	ibili	AUX	_	VerbForm=Part	7	cop	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	8	punct	_	_
+6	eta	eta	CCONJ	_	_	8	cc	_	_
+7	atzeratuta	atzeratu	VERB	_	VerbForm=Part	8	xcomp	_	_
+8	ibili	ibili	VERB	_	VerbForm=Part	1	conj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = test-s862
@@ -17246,9 +17246,9 @@
 
 # sent_id = test-s1155
 # text = KAZETARIAK aztoratuta ibili ziren atzo Euskadi Fundazioak Derion duen egoitzaren atarian.
-1	KAZETARIAK	kazetari	NOUN	_	Case=Abs|Definite=Def|Number=Plur	2	nsubj	_	_
-2	aztoratuta	aztoratu	VERB	_	VerbForm=Part	0	root	_	_
-3	ibili	ibili	AUX	_	Aspect=Perf|VerbForm=Part	2	cop	_	_
+1	KAZETARIAK	kazetari	NOUN	_	Case=Abs|Definite=Def|Number=Plur	3	nsubj	_	_
+2	aztoratuta	aztoratu	VERB	_	VerbForm=Part	3	xcomp	_	_
+3	ibili	ibili	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 4	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	3	aux	_	_
 5	atzo	atzo	ADV	_	_	3	advmod	_	_
 6	Euskadi	Euskadi	PROPN	_	_	7	compound	_	_
@@ -17257,7 +17257,7 @@
 9	duen	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	10	acl	_	_
 10	egoitzaren	egoitza	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	11	nmod	_	_
 11	atarian	atari	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	3	obl	_	SpaceAfter=No
-12	.	.	PUNCT	_	_	2	punct	_	_
+12	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = test-s1156
 # text = ESPAINIAKO txirrindularien hautatzaile Francisco Antequera Sidneyko Olinpiar Jokoetara eramango dituen txirrindularien zerrenda ari da prestatzen.
@@ -29634,10 +29634,10 @@
 5	hurbil	hurbil	ADV	_	_	6	advmod	_	_
 6	edukita	eduki	VERB	_	VerbForm=Part	11	advcl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
-8	apur	apur	NOUN	_	_	10	obl	_	_
+8	apur	apur	NOUN	_	_	11	obl	_	_
 9	bat	bat	NUM	_	NumType=Card	8	nummod	_	_
-10	atsekabetuta	atsekabetu	VERB	_	VerbForm=Part	1	csubj	_	_
-11	geratu	geratu	AUX	_	Aspect=Perf|VerbForm=Part	10	cop	_	_
+10	atsekabetuta	atsekabetu	VERB	_	VerbForm=Part	11	xcomp	_	_
+11	geratu	geratu	VERB	_	Aspect=Perf|VerbForm=Part	1	csubj	_	_
 12	naizela	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=1	11	aux	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	_
 

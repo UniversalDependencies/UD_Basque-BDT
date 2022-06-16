@@ -646,15 +646,15 @@
 # text = Suitzako itzulian nekatuta nenbilen eta erretiratu egin behar izan nuen.
 1	Suitzako	Suitza	PROPN	_	Case=Loc|Definite=Def|Number=Sing	2	nmod	_	_
 2	itzulian	itzuli	NOUN	_	Case=Ine|Definite=Def|Number=Sing	4	obl	_	_
-3	nekatuta	nekatu	VERB	_	VerbForm=Part	0	root	_	_
-4	nenbilen	ibili	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=1	3	cop	_	_
+3	nekatuta	nekatu	VERB	_	VerbForm=Part	4	xcomp	_	_
+4	nenbilen	ibili	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=1	0	root	_	_
 5	eta	eta	CCONJ	_	_	9	cc	_	_
 6	erretiratu	erretiratu	VERB	_	VerbForm=Part	9	xcomp	_	_
 7	egin	egin	VERB	_	VerbForm=Part	6	aux	_	_
 8	behar	behar	NOUN	_	Case=Abs|Definite=Ind	9	compound	_	_
 9	izan	izan	VERB	_	Aspect=Perf|VerbForm=Part	4	conj	_	_
 10	nuen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=1	9	aux	_	SpaceAfter=No
-11	.	.	PUNCT	_	_	3	punct	_	_
+11	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = dev-s46
 # text = Bestalde, kontuan izan behar dugu erasoan Athleticek bere jokoa aldatuko duela, Urzaizen ordezkoak ez baititu bere jokatzeko ezaugarri berak izango.
@@ -6562,10 +6562,10 @@
 
 # sent_id = dev-s452
 # text = Sampras dabil fin.
-1	Sampras	Sampras	PROPN	_	Case=Abs|Definite=Def|Number=Sing	3	nsubj	_	_
-2	dabil	ibili	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	3	cop	_	_
-3	fin	fin	ADJ	_	Case=Abs|Definite=Ind	0	root	_	SpaceAfter=No
-4	.	.	PUNCT	_	_	3	punct	_	_
+1	Sampras	Sampras	PROPN	_	Case=Abs|Definite=Def|Number=Sing	2	nsubj	_	_
+2	dabil	ibili	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	0	root	_	_
+3	fin	fin	ADJ	_	Case=Abs|Definite=Ind	2	xcomp	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = dev-s453
 # text = Gora egin du.
@@ -6738,12 +6738,12 @@
 7	handia	handi	ADJ	_	Case=Abs|Definite=Def|Number=Sing	6	amod	_	_
 8	izan	izan	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 9	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	8	aux	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	14	punct	_	_
-11	eta	eta	CCONJ	_	_	14	cc	_	_
-12	pittin	pittin	NOUN	_	_	14	obl	_	_
+10	,	,	PUNCT	_	_	15	punct	_	_
+11	eta	eta	CCONJ	_	_	15	cc	_	_
+12	pittin	pittin	NOUN	_	_	15	obl	_	_
 13	bat	bat	NUM	_	NumType=Card	12	nummod	_	_
-14	galduta	galdu	VERB	_	VerbForm=Part	8	conj	_	_
-15	nabil	ibili	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=1	14	cop	_	SpaceAfter=No
+14	galduta	galdu	VERB	_	VerbForm=Part	15	xcomp	_	_
+15	nabil	ibili	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=1	8	conj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = dev-s465
@@ -7602,8 +7602,8 @@
 # text = Huelvan ere kezkati dabiltza, eta hainbat dei jaso ditu Rosadok bertatik:
 1	Huelvan	Huelva	PROPN	_	Case=Ine|Definite=Def|Number=Sing	4	obl	_	_
 2	ere	ere	CCONJ	_	_	4	advmod	_	_
-3	kezkati	kezkati	ADV	_	_	0	root	_	_
-4	dabiltza	ibili	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	3	cop	_	SpaceAfter=No
+3	kezkati	kezkati	ADV	_	_	4	xcomp	_	_
+4	dabiltza	ibili	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	9	punct	_	_
 6	eta	eta	CCONJ	_	_	9	cc	_	_
 7	hainbat	hainbat	DET	_	_	8	det	_	_
@@ -7612,7 +7612,7 @@
 10	ditu	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	9	aux	_	_
 11	Rosadok	Rosado	PROPN	_	Case=Erg|Definite=Def|Number=Sing	9	nsubj	_	_
 12	bertatik	bertatik	ADV	_	_	9	advmod	_	SpaceAfter=No
-13	:	:	PUNCT	_	_	3	punct	_	_
+13	:	:	PUNCT	_	_	4	punct	_	_
 
 # sent_id = dev-s527
 # text = Eta gozatu egin genuen pilotaz.
@@ -14459,9 +14459,9 @@
 
 # sent_id = dev-s1011
 # text = Zoriontsu zebilen.
-1	Zoriontsu	zoriontsu	ADJ	_	Case=Abs|Definite=Ind	0	root	_	_
-2	zebilen	ibili	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	1	cop	_	SpaceAfter=No
-3	.	.	PUNCT	_	_	1	punct	_	_
+1	Zoriontsu	zoriontsu	ADJ	_	Case=Abs|Definite=Ind	2	xcomp	_	_
+2	zebilen	ibili	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = dev-s1012
 # text = Partiduko unerik politenak ziren.
@@ -20226,8 +20226,8 @@
 11	goizeko	goiz	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	12	nmod	_	_
 12	txandako	txanda	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	13	nmod	_	_
 13	langileek	langile	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def|Number=Plur	16	nsubj	_	_
-14	erne	erne	ADJ	_	Case=Abs|Definite=Ind	16	xcomp	_	_
-15	ibili	ibili	AUX	_	VerbForm=Part	14	cop	_	_
+14	erne	erne	ADJ	_	Case=Abs|Definite=Ind	15	xcomp	_	_
+15	ibili	ibili	VERB	_	VerbForm=Part	16	xcomp	_	_
 16	behar	behar	ADJ	_	Case=Abs|Definite=Ind	9	conj	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -24078,17 +24078,17 @@
 # text = Berriz ere garbi geratzen da gol gutxi jasotzean dagoela talde baten sendotasuna.
 1	Berriz	berriz	ADV	_	_	4	advmod	_	_
 2	ere	ere	CCONJ	_	_	1	fixed	_	_
-3	garbi	garbi	ADV	_	_	0	root	_	_
-4	geratzen	geratu	AUX	_	Aspect=Imp|VerbForm=Inf	3	cop	_	_
+3	garbi	garbi	ADV	_	_	4	xcomp	_	_
+4	geratzen	geratu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 5	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	4	aux	_	_
 6	gol	gol	NOUN	_	_	8	obj	_	_
 7	gutxi	gutxi	DET	_	Case=Abs|Definite=Ind	6	det	_	_
-8	jasotzean	jaso	VERB	_	Case=Ine	3	csubj	_	_
+8	jasotzean	jaso	VERB	_	Case=Ine	4	csubj	_	_
 9	dagoela	egon	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	8	cop	_	_
 10	talde	talde	NOUN	_	_	12	nmod	_	_
 11	baten	bat	NUM	_	NumType=Card	10	nummod	_	_
 12	sendotasuna	sendotasun	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	8	nsubj	_	SpaceAfter=No
-13	.	.	PUNCT	_	_	3	punct	_	_
+13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = dev-s1518
 # text = hizkuntzaren berreskuraketarako euskarazko metodologia sortzea.
@@ -26741,10 +26741,10 @@
 
 # sent_id = dev-s1652
 # text = Ahulenak geratu ziren aurrena; zatiketak ez zirudien garrantzitsua, baina haize-babes bat osatzen ari zen momentuan erorikoa izan zen tropel erdian, eta karrerista dezente erori egin ziren.
-1	Ahulenak	ahul	ADJ	_	Case=Abs|Definite=Def|Degree=Sup|Number=Plur	4	nsubj	_	_
-2	geratu	geratu	AUX	_	Aspect=Perf|VerbForm=Part	4	cop	_	_
+1	Ahulenak	ahul	ADJ	_	Case=Abs|Definite=Def|Degree=Sup|Number=Plur	2	nsubj	_	_
+2	geratu	geratu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 3	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	2	aux	_	_
-4	aurrena	aurren	NUM	_	NumType=Ord	0	root	_	SpaceAfter=No
+4	aurrena	aurren	NUM	_	NumType=Ord	2	xcomp	_	SpaceAfter=No
 5	;	;	PUNCT	_	_	8	punct	_	_
 6	zatiketak	zatiketa	NOUN	_	Animacy=Inan|Case=Erg|Definite=Ind	8	nsubj	_	_
 7	ez	ez	PART	_	Polarity=Neg	8	advmod	_	_
@@ -26770,7 +26770,7 @@
 27	erori	erori	VERB	_	Aspect=Perf|VerbForm=Part	2	conj	_	_
 28	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	27	aux	_	_
 29	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	27	aux	_	SpaceAfter=No
-30	.	.	PUNCT	_	_	4	punct	_	_
+30	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = dev-s1653
 # text = Nik badauzkat ezagunak ia batere defentsarik gabe, itsasoan daudenak.
