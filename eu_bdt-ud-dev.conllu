@@ -1304,7 +1304,7 @@
 10	propietateak	propietate	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	8	conj	_	_
 11	ezagutzen	ezagutu	VERB	_	Aspect=Imp|VerbForm=Inf	1	advcl	_	_
 12	ditugun	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	11	aux	_	_
-13	neurrian	neurri	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	11	mark	_	SpaceAfter=No
+13	neurrian	neurri	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	11	obl	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = dev-s94
@@ -3708,7 +3708,7 @@
 10	ez	ez	PART	_	Polarity=Neg	12	advmod	_	_
 11	zuela	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	12	ccomp	_	_
 12	esan	esan	VERB	_	VerbForm=Part	17	advcl	_	_
-13	ostean	oste	NOUN	_	Case=Ine|Definite=Def|Number=Sing	12	mark	_	SpaceAfter=No
+13	ostean	oste	NOUN	_	Case=Ine|Definite=Def|Number=Sing	12	obl	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	17	punct	_	_
 15	hura	hura	DET	_	Case=Abs|Definite=Def|Number=Sing	16	obj	_	_
 16	jakinaraztea	jakinaraz	VERB	_	Voice=Cau	17	xcomp	_	_
@@ -5570,7 +5570,7 @@
 5	eltzegorra	eltzegor	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	obj	_	_
 6	jo	jo	VERB	_	Aspect=Perf|VerbForm=Part	4	advcl	_	_
 7	genuen	ukan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	6	aux	_	_
-8	arte	arte	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	6	mark	_	SpaceAfter=No
+8	arte	arte	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	6	obl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = dev-s385
@@ -11490,7 +11490,7 @@
 1	Kezkatzen	kezkatu	VERB	_	Aspect=Imp|VerbForm=Inf	5	advcl	_	_
 2	ez	ez	PART	_	Polarity=Neg	1	advmod	_	_
 3	direnen	izan	AUX	_	Case=Gen|Definite=Def|Mood=Ind|Number=Plur|Number[abs]=Plur|Person[abs]=3	1	aux	_	_
-4	artean	arte	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	1	mark	_	_
+4	artean	arte	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	1	obl	_	_
 5	galdetzen	galdetu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 6	duzu	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=2	5	aux	_	_
 7	Iparraldeko	iparralde	NOUN	_	Case=Loc|Definite=Def|Number=Sing	8	nmod	_	_
@@ -17758,7 +17758,7 @@
 22	kili-kolo	kili-kolo	ADV	_	_	23	advmod	_	_
 23	abiatu	abiatu	VERB	_	Aspect=Perf|VerbForm=Part	15	advcl	_	_
 24	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	23	aux	_	_
-25	bitartean	bitarte	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	23	mark	_	SpaceAfter=No
+25	bitartean	bitarte	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	23	obl	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = dev-s1190
@@ -17913,7 +17913,7 @@
 1	Gijonen	Gijon	PROPN	_	Case=Ine|Definite=Def|Number=Sing	2	obl	_	_
 2	jokatu	jokatu	VERB	_	Aspect=Perf|VerbForm=Part	17	advcl	_	_
 3	duen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	2	aux	_	_
-4	bitartean	bitarte	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	2	mark	_	SpaceAfter=No
+4	bitartean	bitarte	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	2	obl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	2	punct	_	_
 6	Gasteizko	Gasteiz	PROPN	_	Case=Loc|Definite=Def|Number=Sing	7	nmod	_	_
 7	kluba	klub	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	17	nsubj	_	_
@@ -20354,7 +20354,7 @@
 3	barneko	barne	NOUN	_	Case=Loc|Definite=Def|Number=Sing	4	nmod	_	_
 4	eragileak	eragile	NOUN	_	Case=Abs|Definite=Def|Number=Plur	5	nsubj	_	_
 5	direla	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	10	advcl	_	_
-6	medio	medio	NOUN	_	Case=Abs|Definite=Ind	5	mark	_	SpaceAfter=No
+6	medio	medio	NOUN	_	Case=Abs|Definite=Ind	5	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	10	punct	_	_
 8	erliebeak	erliebe	NOUN	_	Animacy=Inan|Case=Erg|Definite=Def|Number=Sing	10	nsubj	_	_
 9	aldaketak	aldaketa	NOUN	_	Case=Abs|Definite=Def|Number=Plur	10	obj	_	_
@@ -20421,7 +20421,7 @@
 18	Akordioak	akordio	NOUN	_	Case=Erg|Definite=Def|Number=Sing	19	nsubj	_	_
 19	biltzen	bildu	VERB	_	Aspect=Imp|VerbForm=Inf	13	advcl	_	_
 20	duen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	19	aux	_	_
-21	gisa	gisa	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	19	mark	_	SpaceAfter=No
+21	gisa	gisa	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	19	obl	_	SpaceAfter=No
 22	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = dev-s1331

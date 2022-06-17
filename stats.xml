@@ -18,7 +18,7 @@
     <tag name="ADJ">5973</tag><!-- handi, on, nagusi, berri, bakar, politiko, oso, garrantzitsu, batu, txiki -->
     <tag name="ADP">1876</tag><!-- arte, _, arabera, inguru, aurre, aurka, gabe, gain, alde, buruz -->
     <tag name="ADV">5178</tag><!-- atzo, oso, gaur, orain, ondoren, gero, hala, han, bertan, beti -->
-    <tag name="AUX">12458</tag><!-- *edun, izan, egon, *edin, *ezan, ari, ukan -->
+    <tag name="AUX">12461</tag><!-- *edun, izan, egon, *edin, *ezan, ari, ukan -->
     <tag name="CCONJ">6189</tag><!-- eta, ere, baina, edo, berriz, arren, ordea, gainera, beraz, bestalde -->
     <tag name="DET">4074</tag><!-- hori, bera, beste, hau, guzti, hura, batzuk, horiek, hauek, zer -->
     <tag name="INTJ">36</tag><!-- beno, alde, a, dzast, ea, hara, kaixo, tira, ahalena, ai -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">9868</tag><!-- Europa, Espainia, Frantzia, Real, EEBB, Israel, ETA, Athletic, EAJ, Madril -->
     <tag name="PUNCT">19811</tag><!-- ., ,, ", :, (, -, ), ?, ;, ! -->
     <tag name="SYM">15</tag><!-- cm, m, kV, kg, kW, km -->
-    <tag name="VERB">19158</tag><!-- izan, egin, ukan, egon, esan, eman, jokatu, hartu, joan, lortu -->
+    <tag name="VERB">19155</tag><!-- izan, egin, ukan, egon, esan, eman, jokatu, hartu, joan, lortu -->
     <tag name="X">173</tag><!-- baino, de, ohi, del, ea, el, ezta, la, gehi, Las -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -105,33 +105,36 @@
     <feat name="Voice" value="Cau" upos="VERB">234</feat><!-- adierazi, jakinarazi, adierazten, ohartarazi, jakinaraziko, geldiarazi, gogorarazi, galarazi, gogorarazten, oroitarazi -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="30">
+  <deps unique="33">
     <dep name="acl">1149</dep>
     <dep name="advcl">5363</dep>
     <dep name="advmod">6715</dep>
     <dep name="amod">4191</dep>
-    <dep name="appos">558</dep>
+    <dep name="appos">559</dep>
     <dep name="aux">10379</dep>
     <dep name="case">1885</dep>
     <dep name="cc">4686</dep>
     <dep name="ccomp">1191</dep>
     <dep name="compound">1609</dep>
-    <dep name="conj">5209</dep>
-    <dep name="cop">2414</dep>
+    <dep name="conj">5210</dep>
+    <dep name="cop">2417</dep>
     <dep name="csubj">305</dep>
     <dep name="dep">244</dep>
-    <dep name="det">3031</dep>
+    <dep name="det">3032</dep>
     <dep name="discourse">66</dep>
+    <dep name="dislocated">1</dep>
     <dep name="fixed">290</dep>
     <dep name="flat">2051</dep>
     <dep name="iobj">1022</dep>
-    <dep name="mark">217</dep>
-    <dep name="nmod">10697</dep>
-    <dep name="nsubj">8715</dep>
+    <dep name="mark">184</dep>
+    <dep name="nmod">10696</dep>
+    <dep name="nsubj">8702</dep>
+    <dep name="nsubj:outer">4</dep>
     <dep name="nummod">2040</dep>
-    <dep name="obj">7521</dep>
-    <dep name="obl">9572</dep>
-    <dep name="parataxis">49</dep>
+    <dep name="obj">7522</dep>
+    <dep name="obl">9604</dep>
+    <dep name="orphan">2</dep>
+    <dep name="parataxis">50</dep>
     <dep name="punct">19811</dep>
     <dep name="root">8993</dep>
     <dep name="vocative">43</dep>

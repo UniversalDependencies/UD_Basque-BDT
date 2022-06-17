@@ -26,6 +26,7 @@ Aranzabe M., Atutxa A., Bengoetxea K., Díaz de Ilarraza A., Goenaga I., Gojenol
   * Fixed: Proper nouns are not case markers.
   * Fixed: Dependents of fixed functional expressions, if any, should be attached to the first node.
   * Fixed: Pseudo-copulas such as ibili, geratu, sartu, sortu, onartu, ari_izan.
+  * Fixed: A predicate can have two subjects only if one of them is :outer and the predicate heads a clause which is a predicate of the outer clause.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Basque to UD_Basque-BDT.
 * 2016-12-01 v2.0
