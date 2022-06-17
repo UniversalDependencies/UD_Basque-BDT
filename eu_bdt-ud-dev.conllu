@@ -18456,7 +18456,7 @@
 15	azkenean	azkenean	ADV	_	_	17	advmod	_	_
 16	garaipena	garaipen	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	17	nsubj	_	_
 17	Astillerorentzat	Astillero	PROPN	_	Case=Ben|Definite=Def|Number=Sing	7	conj	_	_
-18	izan	izan	VERB	_	Aspect=Perf|VerbForm=Part	17	cop	_	_
+18	izan	izan	AUX	_	Aspect=Perf|VerbForm=Part	17	cop	_	_
 19	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	17	aux	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	17	punct	_	_
 21	bost	bost	NUM	_	NumType=Card	22	nummod	_	_
