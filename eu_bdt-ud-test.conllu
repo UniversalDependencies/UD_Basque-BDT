@@ -24474,7 +24474,7 @@
 14	Garzonen	Garzon	PROPN	_	Case=Gen	20	obl	_	_
 15	aurrean	aurre	ADP	_	Case=Ine|Definite=Def|Number=Sing	14	case	_	_
 16	txostena	txosten	NOUN	_	Case=Abs|Definite=Def|Number=Sing	18	nsubj	_	_
-17	berak	bera	DET	_	Case=Erg|Definite=Def|Number=Sing	17	det	_	_
+17	berak	bera	DET	_	Case=Erg|Definite=Def|Number=Sing	16	det	_	_
 18	egina	egin	VERB	_	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	20	ccomp	_	_
 19	zela	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	18	cop	_	_
 20	azalduz	azaldu	VERB	_	Case=Ins|Definite=Ind|VerbForm=Part	12	advcl	_	SpaceAfter=No
