@@ -24950,8 +24950,8 @@
 6	arteko	arte	ADP	_	Case=Loc|Definite=Def|Number=Plur	5	case	_	_
 7	aldea	alde	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	11	nsubj	_	_
 8	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
-9	ez	ez	PART	_	Polarity=Neg	12	advmod	_	_
-10	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	12	aux	_	_
+9	ez	ez	PART	_	Polarity=Neg	11	advmod	_	_
+10	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	11	aux	_	_
 11	handia	handi	ADJ	_	Case=Abs|Definite=Def|Number=Sing	0	root	_	_
 12	izango	izan	AUX	_	Aspect=Prosp|VerbForm=Part	11	cop	_	SpaceAfter=No
 13	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
@@ -24969,7 +24969,7 @@
 25	lehentasunak	lehentasun	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	22	conj	_	SpaceAfter=No
 26	"	"	PUNCT	_	_	22	punct	_	_
 27	direla	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	17	cop	_	_
-28	esan	esan	VERB	_	Aspect=Perf|VerbForm=Part	12	conj	_	_
+28	esan	esan	VERB	_	Aspect=Perf|VerbForm=Part	11	conj	_	_
 29	zuen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	28	aux	_	SpaceAfter=No
 30	.	.	PUNCT	_	_	11	punct	_	_
 

@@ -18123,7 +18123,7 @@
 16	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	8	cop	_	SpaceAfter=No
 17	"	"	PUNCT	_	_	8	punct	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	19	punct	_	_
-19	adituen	aditu	NOUN	_	Case=Gen	16	obl	_	_
+19	adituen	aditu	NOUN	_	Case=Gen	8	obl	_	_
 20	arabera	arabera	ADP	_	Definite=Def|Number=Plur	19	case	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	8	punct	_	_
 
