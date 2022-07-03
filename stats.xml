@@ -108,7 +108,7 @@
   <deps unique="33">
     <dep name="acl">1150</dep>
     <dep name="advcl">5372</dep>
-    <dep name="advmod">6705</dep>
+    <dep name="advmod">6668</dep>
     <dep name="amod">4192</dep>
     <dep name="appos">559</dep>
     <dep name="aux">10379</dep>
@@ -132,7 +132,7 @@
     <dep name="nsubj:outer">5</dep>
     <dep name="nummod">2040</dep>
     <dep name="obj">7521</dep>
-    <dep name="obl">9605</dep>
+    <dep name="obl">9642</dep>
     <dep name="orphan">4</dep>
     <dep name="parataxis">50</dep>
     <dep name="punct">19811</dep>
