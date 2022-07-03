@@ -3074,10 +3074,10 @@
 10	saiatuko	saiatu	VERB	_	Aspect=Prosp|VerbForm=Part	4	conj	_	_
 11	naiz	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=1	10	aux	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	15	punct	_	_
-13	ea	ea	INTJ	_	_	15	discourse	_	_
-14	gehiago	gehiago	DET	_	Case=Abs|Definite=Ind	15	obj	_	_
+13	ea	ea	INTJ	_	_	10	discourse	_	_
+14	gehiago	gehiago	DET	_	Case=Abs|Definite=Ind	10	obj	_	_
 15	izaten	izan	VERB	_	Aspect=Imp|VerbForm=Inf	10	mark	_	_
-16	diren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	15	aux	_	SpaceAfter=No
+16	diren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	10	aux	_	SpaceAfter=No
 17	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -15086,7 +15086,7 @@
 
 # sent_id = dev-s1055
 # text = Sharonen probokazioaren atzean, beraz, zerbait gehiago ere badago.
-1	Sharonen	Sharon	PROPN	_	Case=Gen|Definite=Def|Number=Sing	3	nmod	_	_
+1	Sharonen	Sharon	PROPN	_	Case=Gen|Definite=Def|Number=Sing	2	nmod	_	_
 2	probokazioaren	probokazio	NOUN	_	Case=Gen	10	obl	_	_
 3	atzean	atze	ADP	_	Case=Ine|Definite=Def|Number=Sing	2	case	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
@@ -15433,14 +15433,14 @@
 20	Baltasar	Baltasar	PROPN	_	_	14	iobj	_	_
 21	Garzoni	Garzon	PROPN	_	Case=Dat|Definite=Def|Number=Sing	20	flat	_	SpaceAfter=No
 22	,	,	PUNCT	_	_	31	punct	_	_
-23	Jorde	Jorde	PROPN	_	_	32	nmod	_	_
+23	Jorde	Jorde	PROPN	_	_	31	nmod	_	_
 24	Rafael	Rafael	PROPN	_	_	23	flat	_	_
 25	Videla	Videla	PROPN	_	_	24	flat	_	_
 26	eta	eta	CCONJ	_	_	27	cc	_	_
 27	Eduardo	Eduardo	PROPN	_	_	23	conj	_	_
 28	Emilio	Emilio	PROPN	_	_	27	flat	_	_
 29	Massera	Massera	PROPN	_	_	28	flat	_	_
-30	Argentinako	Argentina	PROPN	_	Case=Loc|Definite=Def|Number=Sing	32	nmod	_	_
+30	Argentinako	Argentina	PROPN	_	Case=Loc|Definite=Def|Number=Sing	31	nmod	_	_
 31	militarren	militar	NOUN	_	Case=Gen	14	obl	_	_
 32	kontra	kontra	ADP	_	Animacy=Anim|Definite=Def|Number=Plur	31	case	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	14	punct	_	_
@@ -15713,7 +15713,7 @@
 
 # sent_id = dev-s1085
 # text = Jazztel-Costa de Almeria taldearen zain nago joan den hilabete eta erdian.
-1	Jazztel-Costa	Jazztel-Costa	PROPN	_	_	5	nmod	_	_
+1	Jazztel-Costa	Jazztel-Costa	PROPN	_	_	4	nmod	_	_
 2	de	de	X	_	_	1	flat	_	_
 3	Almeria	Almeria	PROPN	_	_	2	flat	_	_
 4	taldearen	talde	NOUN	_	Case=Gen	6	obl	_	_
@@ -15810,7 +15810,7 @@
 7	biki	biki	ADJ	_	Case=Abs|Definite=Ind	6	amod	_	_
 8	dira	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	6	cop	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	300na	00na	NUM	_	NumType=Card	12	nummod	_	_
+10	300na	00na	NUM	_	NumType=Card	11	nummod	_	_
 11	metro	metro	NOUN	_	Case=Loc	13	obl	_	_
 12	inguru	inguru	ADP	_	Animacy=Inan|Case=Abs	11	case	_	_
 13	dutenak	ukan	VERB	_	Aspect=Prog|Case=Abs|Definite=Def|Mood=Ind|Number=Plur|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	6	appos	_	SpaceAfter=No
@@ -16091,8 +16091,8 @@
 
 # sent_id = dev-s1104
 # text = EEBBetako hiru gazteren aurkako epaiketa hasi da bi emakume hiltzeagatik.
-1	EEBBetako	EEBB	PROPN	_	Case=Loc|Definite=Def|Number=Plur	4	nmod	_	_
-2	hiru	hiru	NUM	_	NumType=Card	4	nummod	_	_
+1	EEBBetako	EEBB	PROPN	_	Case=Loc|Definite=Def|Number=Plur	3	nmod	_	_
+2	hiru	hiru	NUM	_	NumType=Card	3	nummod	_	_
 3	gazteren	gazte	NOUN	_	Case=Gen	5	nmod	_	_
 4	aurkako	aurkako	ADP	_	Case=Loc|Definite=Ind	3	case	_	_
 5	epaiketa	epaiketa	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	nsubj	_	_
@@ -16347,7 +16347,7 @@
 
 # sent_id = dev-s1116
 # text = Horren guztiaren atzean mezu argi bat dago.
-1	Horren	hori	DET	_	Case=Gen|Definite=Def|Number=Sing	3	nmod	_	_
+1	Horren	hori	DET	_	Case=Gen|Definite=Def|Number=Sing	2	nmod	_	_
 2	guztiaren	guzti	DET	_	Case=Gen	7	obl	_	_
 3	atzean	atze	ADP	_	Case=Ine|Definite=Def|Number=Sing	2	case	_	_
 4	mezu	mezu	NOUN	_	_	7	nsubj	_	_
@@ -16512,7 +16512,7 @@
 # sent_id = dev-s1125
 # text = Sudupek eginiko gonbitari buruz, Buenek adierazi zuen Kontzertu Ekonomiko on bat lortzeko Suduperekin adostasuna bilatzen saiatuko direla.
 1	Sudupek	Sudupe	PROPN	_	Case=Erg|Definite=Def|Number=Sing	2	nsubj	_	_
-2	eginiko	egin	VERB	_	Case=Loc|VerbForm=Part	4	advcl	_	_
+2	eginiko	egin	VERB	_	Case=Loc|VerbForm=Part	3	advcl	_	_
 3	gonbitari	gonbit	NOUN	_	Case=Dat	7	obl	_	_
 4	buruz	buruz	ADP	_	Definite=Def|Number=Sing	3	case	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
@@ -16536,7 +16536,7 @@
 1	Guk	gu	PRON	_	PronType=Prs	7	nsubj	_	_
 2	bi	bi	NUM	_	NumType=Card	3	nummod	_	_
 3	partidu	partidu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	7	obj	_	_
-4	bata	bat	NUM	_	NumType=Card	6	nummod	_	_
+4	bata	bat	NUM	_	NumType=Card	5	nummod	_	_
 5	bestearen	beste	DET	_	Case=Gen	7	obl	_	_
 6	atzetik	atze	ADP	_	Case=Abl|Definite=Def|Number=Sing	5	case	_	_
 7	irabazi	irabazi	VERB	_	VerbForm=Part	12	advcl	_	_
@@ -16755,7 +16755,7 @@
 
 # sent_id = dev-s1135
 # text = Dagokion agintariaren menpe garatuko da babes zibileko boluntarioen lana, istripuak, hondamendiak edo lazeria publikoak izanez gero.
-1	Dagokion	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Person[abs]=3|Person[dat]=3	3	acl	_	_
+1	Dagokion	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Person[abs]=3|Person[dat]=3	2	acl	_	_
 2	agintariaren	agintari	NOUN	_	Case=Gen	4	obl	_	_
 3	menpe	_	ADP	_	Animacy=Anim|Case=Abs|Definite=Def|Number=Sing	2	case	_	_
 4	garatuko	garatu	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
@@ -16902,7 +16902,7 @@
 1	Lege	lege	NOUN	_	_	2	nmod	_	_
 2	aldaketa	aldaketa	NOUN	_	_	8	obj	_	_
 3	hauek	hauek	DET	_	Case=Abs|Definite=Def|Number=Plur	2	det	_	_
-4	ETAren	ETA	PROPN	_	Case=Gen	7	nmod	_	_
+4	ETAren	ETA	PROPN	_	Case=Gen	6	nmod	_	_
 5	aurkako	aurkako	ADP	_	Case=Loc|Definite=Def|Number=Sing	4	case	_	_
 6	neurri	neurri	NOUN	_	Case=Dat	8	obl	_	_
 7	gisa	gisa	ADP	_	Animacy=Inan|Case=Abs	6	case	_	_
@@ -17101,7 +17101,7 @@
 
 # sent_id = dev-s1153
 # text = Bi aldeen artean izandako bi orduko borroka gogorren ondorioz, beste 18 soldadu federal zaurituta geratu ziren.
-1	Bi	bi	NUM	_	NumType=Card	3	nummod	_	_
+1	Bi	bi	NUM	_	NumType=Card	2	nummod	_	_
 2	aldeen	alde	NOUN	_	Case=Gen	4	obl	_	_
 3	artean	arte	ADP	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	2	case	_	_
 4	izandako	izan	VERB	_	Case=Loc|VerbForm=Part	7	advcl	_	_
@@ -17299,7 +17299,7 @@
 
 # sent_id = dev-s1165
 # text = 1995. urteaz geroztik, Frantziako armeniarren elkarte eta erakunde guztiak bilduta daude Apirilaren 24eko Komitea deitutako egitura batean.
-1	1995.	1995.	ADJ	_	NumType=Ord	3	amod	_	_
+1	1995.	1995.	ADJ	_	NumType=Ord	2	amod	_	_
 2	urteaz	urte	NOUN	_	Case=Ins	12	obl	_	_
 3	geroztik	geroztik	ADP	_	Animacy=Inan|Definite=Def|Number=Sing	2	case	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
@@ -17327,7 +17327,7 @@
 4	eskua	esku	NOUN	_	Case=Abs|Definite=Def|Number=Sing	5	obj	_	_
 5	ikusi	ikusi	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 6	du	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	5	aux	_	_
-7	sozialisten	sozialista	ADJ	_	Case=Gen|Definite=Def|Number=Plur	9	nmod	_	_
+7	sozialisten	sozialista	ADJ	_	Case=Gen|Definite=Def|Number=Plur	8	nmod	_	_
 8	proposamenaren	proposamen	NOUN	_	Case=Gen	5	obl	_	_
 9	atzean	atze	ADP	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	8	case	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
@@ -17402,7 +17402,7 @@
 21	diote	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Plur|Person[abs]=3|Person[dat]=3|Person[erg]=3	20	aux	_	_
 22	batzuek	batzuk	DET	_	Case=Erg|Definite=Def|Number=Plur	20	nsubj	_	SpaceAfter=No
 23	,	,	PUNCT	_	_	28	punct	_	_
-24	komunitateren	komunitate	NOUN	_	Animacy=Inan|Case=Gen|Definite=Ind	27	nmod	_	_
+24	komunitateren	komunitate	NOUN	_	Animacy=Inan|Case=Gen|Definite=Ind	26	nmod	_	_
 25	bateko	bat	NUM	_	NumType=Card	24	nummod	_	_
 26	kide	kide	NOUN	_	_	28	obl	_	_
 27	gisa	gisa	ADP	_	Case=Abs	26	case	_	_
@@ -17670,7 +17670,7 @@
 
 # sent_id = dev-s1186
 # text = Bi aste barru hasiko dira Munduko Kopako probak eta ea panelean jarraitzen duen Josuneren boladak.
-1	Bi	bi	NUM	_	NumType=Card	3	nummod	_	_
+1	Bi	bi	NUM	_	NumType=Card	2	nummod	_	_
 2	aste	aste	NOUN	_	_	4	obl	_	_
 3	barru	barru	ADP	_	Animacy=Inan|Case=Abs	2	case	_	_
 4	hasiko	hasi	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
@@ -17726,7 +17726,7 @@
 10	dugun	ukan	VERB	_	_	5	ccomp	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	10	punct	_	_
 12	Madrilen	Madril	PROPN	_	Case=Ine|Definite=Def|Number=Sing	5	obl	_	_
-13	euskal	euskal	NOUN	_	_	15	nmod	_	_
+13	euskal	euskal	NOUN	_	_	14	nmod	_	_
 14	enbaxadore	enbaxadore	NOUN	_	_	5	obl	_	_
 15	gisa	gisa	ADP	_	Animacy=Anim|Case=Abs	14	case	_	SpaceAfter=No
 16	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
@@ -17947,7 +17947,7 @@
 
 # sent_id = dev-s1200
 # text = Sukaldeko ate aldera hurbildu nintzen.
-1	Sukaldeko	sukalde	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	3	nmod	_	_
+1	Sukaldeko	sukalde	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	2	nmod	_	_
 2	ate	ate	NOUN	_	_	4	obl	_	_
 3	aldera	alde	ADP	_	Animacy=Inan|Case=All	2	case	_	_
 4	hurbildu	hurbildu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
@@ -18034,7 +18034,7 @@
 15	den	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	14	aux	_	_
 16	ostiralean	ostiral	NOUN	_	Case=Ine|Definite=Def|Number=Sing	12	obl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	19	punct	_	_
-18	Avtury	Avtury	PROPN	_	_	20	nmod	_	_
+18	Avtury	Avtury	PROPN	_	_	19	nmod	_	_
 19	herritik	herri	NOUN	_	Case=Abl	12	obl	_	_
 20	hurbil	hurbil	ADP	_	Definite=Def|Number=Sing	19	case	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	22	punct	_	_
@@ -18154,7 +18154,7 @@
 9	,	,	PUNCT	_	_	16	punct	_	_
 10	eta	eta	CCONJ	_	_	16	cc	_	_
 11	ordutik	ordutik	ADV	_	_	16	advmod	_	_
-12	ekainaren	ekain	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	14	nmod	_	_
+12	ekainaren	ekain	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	13	nmod	_	_
 13	14ra	14	NUM	_	NumType=Card	16	obl	_	_
 14	arte	arte	ADP	_	Case=Abs|Definite=Def|Number=Sing	13	case	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	13	punct	_	_
@@ -18171,7 +18171,7 @@
 
 # sent_id = dev-s1212
 # text = Bosman legeari esker etorri zen Baskoniara.
-1	Bosman	bosman	NOUN	_	_	3	nmod	_	_
+1	Bosman	bosman	NOUN	_	_	2	nmod	_	_
 2	legeari	lege	NOUN	_	Case=Dat	4	obl	_	_
 3	esker	esker	ADP	_	Case=Abs|Definite=Def|Number=Sing	2	case	_	_
 4	etorri	etorri	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
@@ -18466,7 +18466,7 @@
 
 # sent_id = dev-s1229
 # text = Bozketa honen aurretik ere Chevenementek jakiterat eman zuen Korsikaren bilakaera instituzional eta politikoa zehazten duen lege proiektua ez zuela berak aurkeztuko Frantziako Legebiltzarrean 2001. urte hasieran.
-1	Bozketa	bozketa	NOUN	_	_	3	nmod	_	_
+1	Bozketa	bozketa	NOUN	_	_	2	nmod	_	_
 2	honen	hau	DET	_	Case=Gen	6	nmod	_	_
 3	aurretik	aurre	ADP	_	Case=Abl|Definite=Def|Number=Sing	2	case	_	_
 4	ere	ere	CCONJ	_	_	7	advmod	_	_
@@ -18789,7 +18789,7 @@
 9	,	,	PUNCT	_	_	16	punct	_	_
 10	eta	eta	CCONJ	_	_	16	cc	_	_
 11	garaileak	garaile	NOUN	_	Case=Erg|Definite=Def|Number=Sing	15	nsubj	_	_
-12	Sanchez	Sanchez	PROPN	_	_	14	nmod	_	_
+12	Sanchez	Sanchez	PROPN	_	_	13	nmod	_	_
 13	zarauztarraren	zarauztar	ADJ	_	Case=Gen	15	obl	_	_
 14	aurka	aurka	ADP	_	Case=Abs|Definite=Def|Number=Sing	13	case	_	_
 15	jokatu	jokatu	VERB	_	VerbForm=Part	16	xcomp	_	_
@@ -18831,7 +18831,7 @@
 3	argi	argi	ADV	_	_	4	advmod	_	_
 4	uzten	utzi	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 5	du	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	4	aux	_	_
-6	bi	bi	NUM	_	NumType=Card	8	nummod	_	_
+6	bi	bi	NUM	_	NumType=Card	7	nummod	_	_
 7	bikoteen	bikote	NOUN	_	Case=Gen	9	obl	_	_
 8	artean	arte	ADP	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	7	case	_	_
 9	egon	egon	VERB	_	Aspect=Perf|VerbForm=Part	11	acl	_	_
@@ -19189,7 +19189,7 @@
 3	esan	esan	VERB	_	VerbForm=Part	5	xcomp	_	_
 4	nahi	nahi	NOUN	_	Case=Abs|Definite=Ind	5	compound	_	_
 5	dik	ukan	VERB	_	Aspect=Prog|Gender=Masc|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3|Polite=Infm	0	root	_	_
-6	beste	beste	DET	_	_	8	det	_	_
+6	beste	beste	DET	_	_	7	det	_	_
 7	baten	bat	NUM	_	NumType=Card	9	obl	_	_
 8	ordez	ordez	ADP	_	Number=Sing	7	case	_	_
 9	hartu	hartu	VERB	_	Aspect=Perf|VerbForm=Part	5	ccomp	_	_
@@ -19584,7 +19584,7 @@
 15	eta	eta	CCONJ	_	_	21	cc	_	_
 16	atzo	atzo	ADV	_	_	21	advmod	_	_
 17	dagoeneko	dagoeneko	ADV	_	_	21	advmod	_	_
-18	gainontzeko	gainontzeko	ADJ	_	_	20	nmod	_	_
+18	gainontzeko	gainontzeko	ADJ	_	_	19	nmod	_	_
 19	taldekideekin	taldekide	NOUN	_	Case=Com	21	obl	_	_
 20	batera	bat	ADP	_	Case=All|Definite=Def|Number=Plur	19	case	_	_
 21	aritu	aritu	VERB	_	Aspect=Perf|VerbForm=Part	9	conj	_	_
@@ -19595,7 +19595,7 @@
 # text = BBC albiste agentzia britainiarreko berriemailearen arabera, Intifada garaian ere 80.eko hamarkadako palestinarren altxamenduan ez zen Jerusalemgo kaleetan oraingoan adinako borrokaldi latz eta jendetsurik ikusi.
 1	BBC	BBC	PROPN	_	_	3	nmod	_	_
 2	albiste	albiste	NOUN	_	_	3	nmod	_	_
-3	agentzia	agentzia	NOUN	_	_	6	nmod	_	_
+3	agentzia	agentzia	NOUN	_	_	5	nmod	_	_
 4	britainiarreko	britainiar	ADJ	_	Case=Loc|Definite=Def|Number=Sing	3	nmod	_	_
 5	berriemailearen	berriemaile	NOUN	_	Case=Gen	25	obl	_	_
 6	arabera	arabera	ADP	_	Definite=Def|Number=Sing	5	case	_	SpaceAfter=No
@@ -19659,7 +19659,7 @@
 
 # sent_id = dev-s1291
 # text = Datorren urtera begira gainera 4 urtekoentzat ere zabalik egongo da musika tailerra.
-1	Datorren	etorri	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	3	acl	_	_
+1	Datorren	etorri	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	2	acl	_	_
 2	urtera	urte	NOUN	_	Case=All	9	obl	_	_
 3	begira	begira	ADP	_	Animacy=Inan|Definite=Def|Number=Sing	2	case	_	_
 4	gainera	gainera	CCONJ	_	_	9	advmod	_	_
@@ -19695,7 +19695,7 @@
 # sent_id = dev-s1293
 # text = ELAk euskal subiranotasunaren aldeko bideari eutsi dio, eta bide horren "zutabe sendoenetako bat" LABekin batera eratutako gehiengo sindikala dela berretsi du.
 1	ELAk	ELA	PROPN	_	Animacy=Inan|Case=Erg|Definite=Def|Number=Sing	6	nsubj	_	_
-2	euskal	euskal	NOUN	_	_	4	nmod	_	_
+2	euskal	euskal	NOUN	_	_	3	nmod	_	_
 3	subiranotasunaren	subiranotasun	NOUN	_	Case=Gen	5	nmod	_	_
 4	aldeko	aldeko	ADP	_	Case=Loc|Definite=Def|Number=Sing	3	case	_	_
 5	bideari	bide	NOUN	_	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	6	iobj	_	_
@@ -19844,7 +19844,7 @@
 
 # sent_id = dev-s1301
 # text = Igor Dygalo eledunaren arabera, bederatzigarren gelako pasabideak estuegiak ziren murgilarien bizia arriskuan jarri gabe lanean jarraitzeko.
-1	Igor	Igor	PROPN	_	_	4	nmod	_	_
+1	Igor	Igor	PROPN	_	_	3	nmod	_	_
 2	Dygalo	Dygalo	PROPN	_	_	1	flat	_	_
 3	eledunaren	eledun	NOUN	_	Case=Gen	10	obl	_	_
 4	arabera	arabera	ADP	_	Definite=Def|Number=Sing	3	case	_	SpaceAfter=No
@@ -19869,7 +19869,7 @@
 2	modukoa	modu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	_
 3	zen	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	2	cop	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	6	punct	_	_
-5	hainbeste	hainbeste	DET	_	_	7	det	_	_
+5	hainbeste	hainbeste	DET	_	_	6	det	_	_
 6	lanen	lan	NOUN	_	Case=Gen	3	obl	_	_
 7	ondoren	ondoren	ADP	_	Animacy=Inan|Definite=Def|Number=Plur	6	case	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
@@ -20164,7 +20164,7 @@
 
 # sent_id = dev-s1318
 # text = Mexikoko agintarien arabera, donostiarrak hiru identitate faltsu - Iñaki Ruiz Alfranca, Francisco Javier Arrinda eta Enrique Ruiz - erabili izan ditu duela bost urte Mexikora iritsi zenetik.
-1	Mexikoko	Mexiko	PROPN	_	Case=Loc|Definite=Def|Number=Sing	3	nmod	_	_
+1	Mexikoko	Mexiko	PROPN	_	Case=Loc|Definite=Def|Number=Sing	2	nmod	_	_
 2	agintarien	agintari	NOUN	_	Case=Gen	21	obl	_	_
 3	arabera	arabera	ADP	_	Animacy=Anim|Definite=Def|Number=Plur	2	case	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
@@ -20290,7 +20290,7 @@
 2	zitekeen	*edin	AUX	_	Mood=Pot|Number[abs]=Sing|Person[abs]=3	1	aux	_	_
 3	sartzera	sartu	VERB	_	Case=All	4	advcl	_	_
 4	zihoan	joan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	5	acl	_	_
-5	egoitzaren	egoitza	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	7	nmod	_	_
+5	egoitzaren	egoitza	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	6	nmod	_	_
 6	ate	ate	NOUN	_	_	1	obl	_	_
 7	gainean	gain	ADP	_	Animacy=Inan|Case=Ine	6	case	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	1	punct	_	_
@@ -20638,7 +20638,7 @@
 10	azken	azken	ADJ	_	NumType=Ord	11	amod	_	_
 11	entsegua	entsegu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	4	obj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
-13	Euskal-Jai	Euskal-Jai	PROPN	_	_	15	nmod	_	_
+13	Euskal-Jai	Euskal-Jai	PROPN	_	_	14	nmod	_	_
 14	pilotalekuaren	pilotaleku	NOUN	_	Case=Gen	4	obl	_	_
 15	aitzinean	aitzin	ADP	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	14	case	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	4	punct	_	_
@@ -20777,7 +20777,7 @@
 6	zuen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	5	aux	_	_
 7	atentatuan	atentatu	NOUN	_	Case=Ine|Definite=Def|Number=Sing	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	_
-9	bere	bera	DET	_	Case=Gen|Number=Sing	11	nmod	_	_
+9	bere	bera	DET	_	Case=Gen|Number=Sing	10	nmod	_	_
 10	emaztearekin	emazte	NOUN	_	Case=Com	5	obl	_	_
 11	batera	bat	ADP	_	Animacy=Anim|Case=All|Definite=Def|Number=Sing	10	case	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
@@ -21043,7 +21043,7 @@
 9	hilik	hil	VERB	_	Case=Par|Definite=Ind|VerbForm=Part	2	conj	_	_
 10	zeuden	egon	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	9	cop	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	_
-12	nire	ni	PRON	_	PronType=Prs	14	nmod	_	_
+12	nire	ni	PRON	_	PronType=Prs	13	nmod	_	_
 13	begiak	begi	NOUN	_	Case=Abs	10	obl	_	_
 14	bezala	bezala	ADP	_	Animacy=Inan|Definite=Def|Number=Plur	13	case	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	2	punct	_	_
@@ -21142,7 +21142,7 @@
 12	beste	beste	DET	_	_	13	det	_	_
 13	soinutresna	soinutresna	NOUN	_	_	21	obl	_	_
 14	eta	eta	CCONJ	_	_	16	cc	_	_
-15	hots	hots	NOUN	_	_	17	nmod	_	_
+15	hots	hots	NOUN	_	_	16	nmod	_	_
 16	tresnen	tresna	NOUN	_	Case=Gen	13	conj	_	_
 17	artean	arte	ADP	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	16	case	_	_
 18	halako	halako	ADJ	_	_	19	amod	_	_
@@ -21157,12 +21157,12 @@
 1	Hala	hala	ADV	_	_	12	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	Kostunicak	Kostunica	PROPN	_	Case=Erg|Definite=Def|Number=Sing	9	nsubj	_	_
-4	bigarren	bi+garren!	ADJ	_	NumType=Ord	6	amod	_	_
+4	bigarren	bi+garren!	ADJ	_	NumType=Ord	5	amod	_	_
 5	itzulirik	itzuli	NOUN	_	Case=Abl	9	obl	_	_
 6	gabe	gabe	ADP	_	Definite=Ind	5	case	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
 8	boterea	botere	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	9	obj	_	_
-9	hartzeko	hartu	VERB	_	Case=Loc	11	advcl	_	_
+9	hartzeko	hartu	VERB	_	Case=Loc	10	advcl	_	_
 10	aukera	aukera	NOUN	_	Case=All	12	obl	_	_
 11	gisa	gisa	ADP	_	Animacy=Inan|Case=Abs	10	case	_	_
 12	ikusi	ikusi	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
@@ -21309,7 +21309,7 @@
 # sent_id = dev-s1377
 # text = Merkatuan egindako estreinaldiaren ostean, 85.000 milioi pezetatik 146.611 milioi pezetara igo da Gamesaren kapitalizazioa burtsan.
 1	Merkatuan	merkatu	NOUN	_	Case=Ine|Definite=Def|Number=Sing	2	obl	_	_
-2	egindako	egin	VERB	_	Case=Loc|VerbForm=Part	4	advcl	_	_
+2	egindako	egin	VERB	_	Case=Loc|VerbForm=Part	3	advcl	_	_
 3	estreinaldiaren	estreinaldi	NOUN	_	Case=Gen	12	obl	_	_
 4	ostean	oste	ADP	_	Case=Ine|Definite=Def|Number=Sing	3	case	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
@@ -21330,7 +21330,7 @@
 # text = Realeko sendagileak azterketa berrien zain daude, Tayfunek zer duen zehazki jakiteko.
 1	Realeko	Real	PROPN	_	Case=Loc|Definite=Def|Number=Sing	2	nmod	_	_
 2	sendagileak	sendagile	NOUN	_	Animacy=Anim|Case=Abs|Definite=Def|Number=Plur	6	nsubj	_	_
-3	azterketa	azterketa	NOUN	_	_	5	nmod	_	_
+3	azterketa	azterketa	NOUN	_	_	4	nmod	_	_
 4	berrien	berri	ADJ	_	Case=Gen	6	obl	_	_
 5	zain	zain	ADP	_	Definite=Def|Number=Plur	4	case	_	_
 6	daude	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	0	root	_	SpaceAfter=No
@@ -21377,7 +21377,7 @@
 
 # sent_id = dev-s1380
 # text = Bi arerioren aurka jardun behar du hauteskundeotan Al Gore demokraten hautagaiak azaroaren zazpia bitartean:
-1	Bi	bi	NUM	_	NumType=Card	3	nummod	_	_
+1	Bi	bi	NUM	_	NumType=Card	2	nummod	_	_
 2	arerioren	arerio	NOUN	_	Case=Gen	4	obl	_	_
 3	aurka	aurka	ADP	_	Case=Abs|Definite=Ind	2	case	_	_
 4	jardun	jardun	VERB	_	VerbForm=Part	6	xcomp	_	_
@@ -21388,7 +21388,7 @@
 9	Gore	Gore	PROPN	_	_	8	flat	_	_
 10	demokraten	demokrata	NOUN	_	Animacy=Anim|Case=Gen|Definite=Def|Number=Plur	11	nmod	_	_
 11	hautagaiak	hautagai	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def|Number=Sing	4	nsubj	_	_
-12	azaroaren	azaro	NOUN	_	Case=Gen|Definite=Def|Number=Sing	14	nmod	_	_
+12	azaroaren	azaro	NOUN	_	Case=Gen|Definite=Def|Number=Sing	13	nmod	_	_
 13	zazpia	zazpi	NUM	_	NumType=Card	4	obl	_	_
 14	bitartean	bitartean	ADP	_	Case=Ine|Definite=Def|Number=Sing	13	case	_	SpaceAfter=No
 15	:	:	PUNCT	_	_	6	punct	_	_
@@ -21399,7 +21399,7 @@
 2	erlojupekoak	erlojupe	NOUN	_	Animacy=Inan|Case=Erg|Definite=Def|Number=Sing	3	nsubj	_	_
 3	argituko	argitu	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
 4	ditu	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	3	aux	_	_
-5	Ulrrichen	Ulrrich	PROPN	_	Case=Gen|Definite=Def|Number=Sing	7	nmod	_	_
+5	Ulrrichen	Ulrrich	PROPN	_	Case=Gen|Definite=Def|Number=Sing	6	nmod	_	_
 6	asmoen	asmo	NOUN	_	Case=Gen	8	nmod	_	_
 7	inguruko	inguru	ADP	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Plur	6	case	_	_
 8	zalantza	zalantza	NOUN	_	_	3	obj	_	_
@@ -21481,7 +21481,7 @@
 2	egituran	egitura	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	11	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	jatorrizko	jatorrizko	ADJ	_	_	5	amod	_	_
-5	harkaitzen	harkaitz	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Plur	7	nmod	_	_
+5	harkaitzen	harkaitz	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Plur	6	nmod	_	_
 6	izaeraz	izaera	NOUN	_	Case=Ins	11	obl	_	_
 7	gain	gain	ADP	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	case	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
@@ -21711,7 +21711,7 @@
 8	portuan	portu	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	9	obl	_	_
 9	dago	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	0	root	_	_
 10	eta	eta	CCONJ	_	_	14	cc	_	_
-11	bihar	bihar	ADV	_	_	13	nmod	_	_
+11	bihar	bihar	ADV	_	_	12	nmod	_	_
 12	gauerdira	gauerdi	NOUN	_	Case=All	14	obl	_	_
 13	arte	arte	ADP	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	12	case	_	_
 14	egongo	egon	VERB	_	Aspect=Prosp|VerbForm=Part	9	conj	_	_
@@ -21731,7 +21731,7 @@
 9	zelaierdian	zelaierdi	NOUN	_	Case=Ine|Definite=Def|Number=Sing	7	conj	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	18	punct	_	_
 11	baina	baina	CCONJ	_	_	18	cc	_	_
-12	Malagaren	Malaga	PROPN	_	Case=Gen|Definite=Def|Number=Sing	14	nmod	_	_
+12	Malagaren	Malaga	PROPN	_	Case=Gen|Definite=Def|Number=Sing	13	nmod	_	_
 13	ate	ate	NOUN	_	_	15	obl	_	_
 14	inguruetara	_	ADP	_	Animacy=Inan|Case=All	13	case	_	_
 15	iritsitakoan	iritsi	VERB	_	Case=Ine|Definite=Def|Number=Sing|VerbForm=Part	18	advcl	_	_
@@ -21755,12 +21755,12 @@
 2	Urrutia	Urrutia	PROPN	_	Case=Abs|Definite=Def|Number=Sing	1	flat	_	_
 3	jarri	jarri	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 4	zuen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	3	aux	_	_
-5	lauko	lauko	NOUN	_	_	7	nmod	_	_
+5	lauko	lauko	NOUN	_	_	6	nmod	_	_
 6	atzealdearen	atzealde	NOUN	_	Case=Gen	3	obl	_	_
 7	aurretik	aurre	ADP	_	Animacy=Inan|Case=Abl|Definite=Def|Number=Sing	6	case	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	13	punct	_	_
 9	eta	eta	CCONJ	_	_	13	cc	_	_
-10	Alkiza	Alkiza	PROPN	_	_	14	nmod	_	_
+10	Alkiza	Alkiza	PROPN	_	_	13	nmod	_	_
 11	eta	eta	CCONJ	_	_	12	cc	_	_
 12	Felipe	Felipe	PROPN	_	_	10	conj	_	_
 13	lekeitiarraren	lekeitiar	ADJ	_	Case=Gen	6	conj	_	_
@@ -21797,8 +21797,8 @@
 4	talde	talde	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	2	obj	_	_
 5	43	43	NUM	_	NumType=Card	6	nummod	_	_
 6	metrotik	metro	NOUN	_	Animacy=Inan|Case=Abl|Definite=Def|Number=Sing	7	obl	_	_
-7	gauzatutako	gauzatu	VERB	_	Case=Loc|VerbForm=Part	10	advcl	_	_
-8	zigor	zigor	NOUN	_	_	10	nmod	_	_
+7	gauzatutako	gauzatu	VERB	_	Case=Loc|VerbForm=Part	9	advcl	_	_
+8	zigor	zigor	NOUN	_	_	9	nmod	_	_
 9	kolpeari	kolpe	NOUN	_	Case=Dat	2	obl	_	_
 10	esker	esker	ADP	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	9	case	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	_
@@ -21927,7 +21927,7 @@
 9	Leongo	Leon	PROPN	_	Case=Loc|Definite=Def|Number=Sing	7	dep	_	_
 10	agintariek	agintari	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def|Number=Plur	16	nsubj	_	_
 11	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
-12	trebiñotarren	trebiñotar	NOUN	_	Case=Gen|Definite=Def|Number=Plur	14	nmod	_	_
+12	trebiñotarren	trebiñotar	NOUN	_	Case=Gen|Definite=Def|Number=Plur	13	nmod	_	_
 13	borondatearen	borondate	NOUN	_	Case=Gen	16	obl	_	_
 14	aurka	aurka	ADP	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	13	case	_	SpaceAfter=No
 15	"	"	PUNCT	_	_	13	punct	_	_
@@ -22083,7 +22083,7 @@
 14	haur	haur	NOUN	_	_	17	obl	_	_
 15	baltseroari	baltsero	ADJ	_	Case=Dat	14	amod	_	_
 16	buruz	buruz	ADP	_	Definite=Def|Number=Sing	15	case	_	_
-17	hartutako	hartu	VERB	_	Case=Loc|VerbForm=Part	19	advcl	_	_
+17	hartutako	hartu	VERB	_	Case=Loc|VerbForm=Part	18	advcl	_	_
 18	erabakiaren	erabaki	NOUN	_	Case=Gen	26	obl	_	_
 19	inguruan	inguru	ADP	_	Case=Ine|Definite=Def|Number=Sing	18	case	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	18	punct	_	_
@@ -22134,7 +22134,7 @@
 
 # sent_id = dev-s1418
 # text = Lehen ikerketen arabera, atentatu suizida bat izan zen, eta Sri Lanka iparraldearen independentziaren alde borrokatzen duten Tigre Tamilak izan dira.
-1	Lehen	lehen	ADJ	_	NumType=Ord	3	amod	_	_
+1	Lehen	lehen	ADJ	_	NumType=Ord	2	amod	_	_
 2	ikerketen	ikerketa	NOUN	_	Case=Gen	8	obl	_	_
 3	arabera	arabera	ADP	_	Animacy=Inan|Definite=Def|Number=Plur	2	case	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
@@ -22147,7 +22147,7 @@
 11	eta	eta	CCONJ	_	_	19	cc	_	_
 12	Sri	Sri	PROPN	_	_	14	nmod	_	_
 13	Lanka	Lanka	PROPN	_	_	12	flat	_	_
-14	iparraldearen	iparralde	NOUN	_	Case=Gen|Definite=Def|Number=Sing	16	nmod	_	_
+14	iparraldearen	iparralde	NOUN	_	Case=Gen|Definite=Def|Number=Sing	15	nmod	_	_
 15	independentziaren	independentzia	NOUN	_	Case=Gen	17	obl	_	_
 16	alde	alde	ADP	_	Case=Abs|Definite=Def|Number=Sing	15	case	_	_
 17	borrokatzen	borrokatu	VERB	_	Aspect=Imp|VerbForm=Inf	20	acl	_	_
@@ -22418,7 +22418,7 @@
 # sent_id = dev-s1432
 # text = Estreinakoz Ibex-35eko kide bezala kotizatu zuen; Prisak %1,95 galdu zuen.
 1	Estreinakoz	estreinako	ADJ	_	Case=Ins|Definite=Ind	5	obl	_	_
-2	Ibex-35eko	Ibex-35	NOUN	_	Case=Loc|Definite=Def|Number=Sing	4	nmod	_	_
+2	Ibex-35eko	Ibex-35	NOUN	_	Case=Loc|Definite=Def|Number=Sing	3	nmod	_	_
 3	kide	kide	NOUN	_	_	5	obl	_	_
 4	bezala	bezala	ADP	_	_	3	case	_	_
 5	kotizatu	kotizatu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
@@ -22450,7 +22450,7 @@
 # sent_id = dev-s1434
 # text = Atxiloketa gaueko 01:00a aldera izan zen.
 1	Atxiloketa	atxiloketa	NOUN	_	Case=Abs|Definite=Def|Number=Sing	5	nsubj	_	_
-2	gaueko	gau	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	4	nmod	_	_
+2	gaueko	gau	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	3	nmod	_	_
 3	01:00a	01:00	NUM	_	NumType=Card	5	obl	_	_
 4	aldera	alde	ADP	_	Case=All|Definite=Def|Number=Sing	3	case	_	_
 5	izan	izan	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
@@ -22630,7 +22630,7 @@
 2	erraz	erraz	ADV	_	_	3	advmod	_	_
 3	iristen	iritsi	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 4	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	3	aux	_	_
-5	Lafuenteren	Lafuente	PROPN	_	Case=Gen|Definite=Def|Number=Sing	7	nmod	_	_
+5	Lafuenteren	Lafuente	PROPN	_	Case=Gen|Definite=Def|Number=Sing	6	nmod	_	_
 6	ate	ate	NOUN	_	_	3	obl	_	_
 7	ingurura	_	ADP	_	Animacy=Inan|Case=All	6	case	_	_
 8	baina	baina	CCONJ	_	_	12	cc	_	_
@@ -22898,7 +22898,7 @@
 
 # sent_id = dev-s1459
 # text = 25. kilometro inguruan, aurre-aurrean ere jarri zara, tiraka.
-1	25.	25.	ADJ	_	NumType=Ord	3	amod	_	_
+1	25.	25.	ADJ	_	NumType=Ord	2	amod	_	_
 2	kilometro	kilometro	NOUN	_	Case=Loc	7	obl	_	_
 3	inguruan	inguru	ADP	_	Animacy=Inan|Case=Ine	2	case	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
@@ -23283,7 +23283,7 @@
 12	partikula	partikula	NOUN	_	_	22	nsubj	_	_
 13	hauek	hauek	DET	_	Case=Erg|Definite=Def|Number=Plur	12	det	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	12	punct	_	_
-15	beste	beste	DET	_	_	17	det	_	_
+15	beste	beste	DET	_	_	16	det	_	_
 16	propietateen	propietate	NOUN	_	Case=Gen	22	obl	_	_
 17	artean	arte	ADP	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	16	case	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	16	punct	_	_
@@ -23357,7 +23357,7 @@
 1	Gaurko	gaurko	ADJ	_	_	2	amod	_	_
 2	norgehiagokan	norgehiagoka	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	12	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
-4	taldearen	talde	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	6	nmod	_	_
+4	taldearen	talde	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	5	nmod	_	_
 5	aurkezpenaz	aurkezpen	NOUN	_	Case=Ins	12	obl	_	_
 6	gain	gain	ADP	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	5	case	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	5	punct	_	_
@@ -23676,7 +23676,7 @@
 10	baina	baina	CCONJ	_	_	6	cc	_	_
 11	iluntzea	iluntze	NOUN	_	_	19	obl	_	_
 12	bitartean	bitartean	ADP	_	Case=Ine|Definite=Def|Number=Sing	11	case	_	_
-13	behintzat	behintzat	CCONJ	_	_	12	nmod	_	SpaceAfter=No
+13	behintzat	behintzat	CCONJ	_	_	11	nmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	11	punct	_	_
 15	ez	ez	PART	_	Polarity=Neg	19	advmod	_	_
 16	zuten	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	19	aux	_	_
@@ -23728,7 +23728,7 @@
 8	erasoa	eraso	NOUN	_	Case=Abs|Definite=Def|Number=Sing	9	obj	_	_
 9	indartzeko	indartu	VERB	_	Case=Abs|Definite=Ind	14	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
-11	aurrelari	aurrelari	NOUN	_	_	13	nmod	_	_
+11	aurrelari	aurrelari	NOUN	_	_	12	nmod	_	_
 12	baten	bat	NUM	_	NumType=Card	14	obl	_	_
 13	atzetik	atze	ADP	_	Case=Abl|Number=Sing	12	case	_	_
 14	baitabiltza	ibili	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	6	advcl	_	_
@@ -23870,7 +23870,7 @@
 
 # sent_id = dev-s1508
 # text = PIONGIANG eta Seulgo gobernuen arteko harremanak adiskidetze bidetik doaz, orain hilabete batzuk Kim Jong-il Ipar Koreako agintariak eta Kim Dae-jung Hego Koreako lehendakariak akordioak sinatu zituztenetik.
-1	PIONGIANG	Piongiang	PROPN	_	_	5	nmod	_	_
+1	PIONGIANG	Piongiang	PROPN	_	_	4	nmod	_	_
 2	eta	eta	CCONJ	_	_	3	cc	_	_
 3	Seulgo	Seul	PROPN	_	Case=Loc|Definite=Def|Number=Sing	1	conj	_	_
 4	gobernuen	gobernu	NOUN	_	Case=Gen	6	nmod	_	_
@@ -23988,7 +23988,7 @@
 3	eman	eman	VERB	_	VerbForm=Part	10	advcl	_	_
 4	ondoren	ondoren	ADV	_	_	3	advcl	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
-6	hamar	hamar	NUM	_	NumType=Card	8	nummod	_	_
+6	hamar	hamar	NUM	_	NumType=Card	7	nummod	_	_
 7	metrotik	metro	NOUN	_	Case=Abl	9	nmod	_	_
 8	gorako	gora	ADP	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	7	case	_	_
 9	abantailarekin	abantaila	NOUN	_	Animacy=Inan|Case=Com|Definite=Def|Number=Sing	10	obl	_	_
@@ -24145,7 +24145,7 @@
 9	dira	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	8	cop	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	17	punct	_	_
 11	%76	%76	NUM	_	NumType=Card	17	nsubj	_	_
-12	16	16	NUM	_	NumType=Card	16	nummod	_	_
+12	16	16	NUM	_	NumType=Card	15	nummod	_	_
 13	eta	eta	CCONJ	_	_	14	cc	_	_
 14	35	35	NUM	_	NumType=Card	12	conj	_	_
 15	urte	urte	NOUN	_	_	17	obl	_	_
@@ -24479,7 +24479,7 @@
 12	eta	eta	CCONJ	_	_	20	cc	_	_
 13	AABek	AAB	PROPN	_	Case=Erg|Definite=Def|Number=Sing	20	nsubj	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	Josu	Josu	PROPN	_	_	18	nmod	_	_
+15	Josu	Josu	PROPN	_	_	17	nmod	_	_
 16	Zelarain	Zelarain	PROPN	_	_	15	flat	_	_
 17	bozeramailearen	bozeramaile	NOUN	_	Case=Gen	20	obl	_	_
 18	bitartez	_	ADP	_	Case=Ins|Definite=Def|Number=Sing	17	case	_	SpaceAfter=No
@@ -24516,7 +24516,7 @@
 
 # sent_id = dev-s1539
 # text = Sumendien kraterretatik kanpora irteten den material urtuek solidotzean osa ditzaketen mendien adibide garbienak uharte bolkanikoetan ikusten dira.
-1	Sumendien	sumendi	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Plur	3	nmod	_	_
+1	Sumendien	sumendi	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Plur	2	nmod	_	_
 2	kraterretatik	krater	NOUN	_	Case=Abl	4	obl	_	_
 3	kanpora	kanpora	ADP	_	Animacy=Inan|Case=All|Definite=Def|Number=Plur	2	case	_	_
 4	irteten	irten	VERB	_	Aspect=Imp|VerbForm=Inf	6	acl	_	_
@@ -24610,7 +24610,7 @@
 20	militatzen	militatu	VERB	_	Case=Ine	22	advcl	_	_
 21	ari	ari	AUX	_	_	22	aux	_	_
 22	zen	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	23	advcl	_	_
-23	alderdiaren	alderdi	NOUN	_	Case=Gen|Definite=Def|Number=Sing	25	nmod	_	_
+23	alderdiaren	alderdi	NOUN	_	Case=Gen|Definite=Def|Number=Sing	24	nmod	_	_
 24	interesen	interes	NOUN	_	Case=Gen	26	obl	_	_
 25	aurretik	aurre	ADP	_	Animacy=Inan|Case=Abl|Definite=Def|Number=Plur	24	case	_	_
 26	jarriz	jarri	VERB	_	Case=Ins|Definite=Ind|VerbForm=Part	11	advcl	_	SpaceAfter=No
@@ -24670,7 +24670,7 @@
 # sent_id = dev-s1545
 # text = Tanjug informazio agentziaren arabera, biktimak hiru bala jaso zituen bularraldean eta beste bi buruan.
 1	Tanjug	Tanjug	PROPN	_	_	2	nmod	_	_
-2	informazio	informazio	NOUN	_	_	4	nmod	_	_
+2	informazio	informazio	NOUN	_	_	3	nmod	_	_
 3	agentziaren	agentzia	NOUN	_	Case=Gen	9	obl	_	_
 4	arabera	arabera	ADP	_	Definite=Def|Number=Sing	3	case	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	3	punct	_	_
@@ -24771,7 +24771,7 @@
 3	bilera	bilera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	4	obj	_	_
 4	egiten	egin	VERB	_	Case=Ine	6	advcl	_	_
 5	ari	ari	AUX	_	_	6	aux	_	_
-6	ziren	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	8	advcl	_	_
+6	ziren	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	7	advcl	_	_
 7	eraikinaren	eraikin	NOUN	_	Case=Gen	9	obl	_	_
 8	aurrean	aurre	ADP	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	7	case	_	_
 9	elkartu	elkartu	VERB	_	Aspect=Perf|VerbForm=Part	12	acl	_	_
@@ -24806,7 +24806,7 @@
 # text = GOIZEAN, inolako arazorik gabe, azterketa medikua gainditu ostean, arratsalde partean jada Bartzelonako kideekin entrenatu zen atzo Ivan de la Peña, Erromako Laziok utzita, heldu den denboraldian Bartzelonarekin ariko den jokalaria.
 1	GOIZEAN	goiz	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	17	obl	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	inolako	inolako	ADJ	_	_	5	nmod	_	_
+3	inolako	inolako	ADJ	_	_	4	nmod	_	_
 4	arazorik	arazo	NOUN	_	Case=Abl	17	obl	_	_
 5	gabe	gabe	ADP	_	Animacy=Inan|Definite=Ind	4	case	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	_
@@ -24975,11 +24975,11 @@
 
 # sent_id = dev-s1558
 # text = Andoni Iraola Realeko kanpo harremanetako arduradunaren arabera, erraza izan da ados jartzea:
-1	Andoni	Andoni	PROPN	_	_	7	nmod	_	_
+1	Andoni	Andoni	PROPN	_	_	6	nmod	_	_
 2	Iraola	Iraola	PROPN	_	_	1	flat	_	_
 3	Realeko	Real	PROPN	_	Case=Loc|Definite=Def|Number=Sing	2	flat	_	_
 4	kanpo	kanpo	NOUN	_	_	5	nmod	_	_
-5	harremanetako	harreman	NOUN	_	Case=Loc|Definite=Def|Number=Plur	7	nmod	_	_
+5	harremanetako	harreman	NOUN	_	Case=Loc|Definite=Def|Number=Plur	6	nmod	_	_
 6	arduradunaren	arduradun	NOUN	_	Case=Gen	10	obl	_	_
 7	arabera	arabera	ADP	_	Animacy=Anim|Definite=Def|Number=Sing	6	case	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
@@ -25002,7 +25002,7 @@
 8	batean	bat	NUM	_	NumType=Card	7	nummod	_	_
 9	moldatzeko	moldatu	VERB	_	Case=Loc	10	advcl	_	_
 10	programa	programa	NOUN	_	Case=Abs|Definite=Def|Number=Sing	4	conj	_	_
-11	aipatutako	aipatu	VERB	_	Case=Loc|VerbForm=Part	13	advcl	_	_
+11	aipatutako	aipatu	VERB	_	Case=Loc|VerbForm=Part	12	advcl	_	_
 12	autore-paketeen	autore+-+pakete	NOUN	_	Case=Gen	14	obl	_	_
 13	bidez	bide	ADP	_	Animacy=Anim|Case=Ins|Definite=Def|Number=Plur	12	case	_	_
 14	sortutako	sortu	VERB	_	Case=Loc|VerbForm=Part	15	advcl	_	_
@@ -25191,7 +25191,7 @@
 15	atzo	atzo	ADV	_	_	18	advmod	_	_
 16	Abc	Abc	PROPN	_	_	17	nmod	_	_
 17	egunkariak	egunkari	NOUN	_	Case=Erg|Definite=Def|Number=Sing	18	nsubj	_	_
-18	argitaratutako	argitaratu	VERB	_	Case=Loc|VerbForm=Part	20	advcl	_	_
+18	argitaratutako	argitaratu	VERB	_	Case=Loc|VerbForm=Part	19	advcl	_	_
 19	informazioaren	informazio	NOUN	_	Case=Gen	12	obl	_	_
 20	arabera	arabera	ADP	_	Definite=Def|Number=Sing	19	case	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	12	punct	_	_
@@ -25316,7 +25316,7 @@
 10	urteko	urte	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	11	nmod	_	_
 11	epean	epe	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	7	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
-13	esandako	esan	VERB	_	Case=Loc|VerbForm=Part	15	advcl	_	_
+13	esandako	esan	VERB	_	Case=Loc|VerbForm=Part	14	advcl	_	_
 14	zehaztapenaz	zehaztapen	NOUN	_	Case=Ins	7	obl	_	_
 15	geroztik	geroztik	ADP	_	Animacy=Inan|Definite=Def|Number=Sing	14	case	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	7	punct	_	_
@@ -25357,7 +25357,7 @@
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	herenegun	herenegun	ADV	_	_	7	advmod	_	_
 6	madrildarrek	madrildar	ADJ	_	Case=Erg|Definite=Def|Number=Plur	7	nsubj	_	_
-7	lortutako	lortu	VERB	_	Case=Loc|VerbForm=Part	9	advcl	_	_
+7	lortutako	lortu	VERB	_	Case=Loc|VerbForm=Part	8	advcl	_	_
 8	garaipenari	garaipen	NOUN	_	Case=Dat	2	obl	_	_
 9	esker	esker	ADP	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	8	case	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	1	punct	_	_
@@ -25811,7 +25811,7 @@
 3	zati	zati	NOUN	_	_	5	obl	_	_
 4	horretan	hori	DET	_	Case=Ine|Definite=Def|Number=Sing	3	det	_	_
 5	eginiko	egin	VERB	_	Case=Loc|VerbForm=Part	6	advcl	_	_
-6	defentsa	defentsa	NOUN	_	_	8	nmod	_	_
+6	defentsa	defentsa	NOUN	_	_	7	nmod	_	_
 7	zorrotzari	zorrotz	ADJ	_	Case=Dat	9	obl	_	_
 8	esker	esker	ADP	_	Case=Abs|Definite=Def|Number=Sing	7	case	_	_
 9	eutsi	eutsi	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
@@ -26586,7 +26586,7 @@
 1	Galdera	galdera	NOUN	_	_	10	obj	_	_
 2	hau	hau	DET	_	Case=Abs|Definite=Def|Number=Sing	1	det	_	_
 3	eta	eta	CCONJ	_	_	8	cc	_	_
-4	argiaren	argi	NOUN	_	Case=Gen|Definite=Def|Number=Sing	6	nmod	_	_
+4	argiaren	argi	NOUN	_	Case=Gen|Definite=Def|Number=Sing	5	nmod	_	_
 5	hedapenari	hedapen	NOUN	_	Case=Dat	8	nmod	_	_
 6	buruzko	buruz	ADP	_	Case=Loc|Definite=Def|Number=Sing	5	case	_	_
 7	beste	beste	DET	_	_	8	det	_	_
@@ -26628,7 +26628,7 @@
 
 # sent_id = dev-s1646
 # text = Hiru egun aurretik, IRAk iragarri zuen bere armak erabileratik at uzteko asmoa zuela eta egun horretan bertan Ipar Irlandako autonomia berriro ezartzeko agindua eman zuen Londresek.
-1	Hiru	hiru	NUM	_	NumType=Card	3	nummod	_	_
+1	Hiru	hiru	NUM	_	NumType=Card	2	nummod	_	_
 2	egun	egun	NOUN	_	Case=Ine	6	obl	_	_
 3	aurretik	aurre	ADP	_	Animacy=Inan|Case=Abl	2	case	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
@@ -26661,7 +26661,7 @@
 # text = Sydneykoak amaituta lau urte barru jokatuko dira Atenasen 26. Olinpiar Jokoak.
 1	Sydneykoak	Sydney	PROPN	_	Case=Abs|Definite=Def|Number=Plur	2	nsubj	_	_
 2	amaituta	amaitu	VERB	_	VerbForm=Part	6	advcl	_	_
-3	lau	lau	NUM	_	NumType=Card	5	nummod	_	_
+3	lau	lau	NUM	_	NumType=Card	4	nummod	_	_
 4	urte	urte	NOUN	_	_	6	obl	_	_
 5	barru	barru	ADP	_	Animacy=Inan|Case=Abs	4	case	_	_
 6	jokatuko	jokatu	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
@@ -26689,7 +26689,7 @@
 13	eta	eta	CCONJ	_	_	15	cc	_	_
 14	Eusko	eusko	NOUN	_	_	15	compound	_	_
 15	Basquek	Basque	PROPN	_	Case=Erg|Definite=Def|Number=Sing	12	conj	_	_
-16	lortutako	lortu	VERB	_	Case=Loc|VerbForm=Part	18	advcl	_	_
+16	lortutako	lortu	VERB	_	Case=Loc|VerbForm=Part	17	advcl	_	_
 17	akordioaren	akordio	NOUN	_	Case=Gen	6	obl	_	_
 18	ostean	oste	ADP	_	Animacy=Inan|Definite=Def|Number=Sing	17	case	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	_
@@ -26778,7 +26778,7 @@
 2	badauzkat	eduki	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=1|Polarity=Pos	0	root	_	_
 3	ezagunak	ezagun	NOUN	_	Case=Abs|Definite=Def|Number=Plur	2	obj	_	_
 4	ia	ia	ADV	_	_	2	advmod	_	_
-5	batere	batere	DET	_	_	7	det	_	_
+5	batere	batere	DET	_	_	6	det	_	_
 6	defentsarik	defentsa	NOUN	_	Case=Abl	2	obl	_	_
 7	gabe	gabe	ADP	_	Animacy=Inan|Definite=Ind	6	case	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
@@ -26788,7 +26788,7 @@
 
 # sent_id = dev-s1654
 # text = Buenos Airesko prentsaren arabera, 50 milioi dolar (8.300 milioi pezeta) ordaindu dituzte Batistutarengatik.
-1	Buenos	Buenos	PROPN	_	Case=Abs|Definite=Def|Number=Sing	4	nmod	_	_
+1	Buenos	Buenos	PROPN	_	Case=Abs|Definite=Def|Number=Sing	3	nmod	_	_
 2	Airesko	Aires	PROPN	_	Case=Loc|Definite=Def|Number=Sing	1	flat	_	_
 3	prentsaren	prentsa	NOUN	_	Case=Gen	14	xcomp	_	_
 4	arabera	arabera	ADP	_	Animacy=Inan|Definite=Def|Number=Sing	3	case	_	SpaceAfter=No
@@ -26860,7 +26860,7 @@
 9	atzo	atzo	ADV	_	_	7	advmod	_	_
 10	Alavesek	Alaves	PROPN	_	Case=Erg|Definite=Def|Number=Sing	12	nsubj	_	_
 11	Mendizorrotzan	Mendizorrotza	PROPN	_	Case=Ine|Definite=Def|Number=Sing	12	obl	_	_
-12	egindako	egin	VERB	_	Case=Loc|VerbForm=Part	14	advcl	_	_
+12	egindako	egin	VERB	_	Case=Loc|VerbForm=Part	13	advcl	_	_
 13	entrenamenduaren	entrenamendu	NOUN	_	Case=Gen	7	obl	_	_
 14	ostean	oste	ADP	_	Case=Ine|Definite=Def|Number=Sing	13	case	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	21	punct	_	_
@@ -27002,7 +27002,7 @@
 
 # sent_id = dev-s1666
 # text = Adierazi den epearen barruan, HI-092/94-P27 espedientea Bilbaoko Rekalde zumarkaleko 30.eko 5 eta 6. solairuko bulegoetan egongo da ageriko, azter dadin.
-1	Adierazi	adierazi	VERB	_	Voice=Cau	4	acl	_	_
+1	Adierazi	adierazi	VERB	_	Voice=Cau	3	acl	_	_
 2	den	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	1	aux	_	_
 3	epearen	epe	NOUN	_	Case=Gen	17	obl	_	_
 4	barruan	barru	ADP	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	3	case	_	SpaceAfter=No
@@ -27085,7 +27085,7 @@
 3	tartea	tarte	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	4	nsubj	_	_
 4	izan	izan	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 5	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	4	aux	_	_
-6	hiru	hiru	NUM	_	NumType=Card	8	nummod	_	_
+6	hiru	hiru	NUM	_	NumType=Card	7	nummod	_	_
 7	aurrenekoen	aurreneko	ADJ	_	Case=Gen	4	obl	_	_
 8	artean	arte	ADP	_	Case=Ine|Definite=Def|Number=Plur	7	case	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
@@ -27233,9 +27233,9 @@
 3	EAEko	EAE	PROPN	_	Case=Loc|Definite=Def|Number=Sing	5	nmod	_	_
 4	hiru	hiru	NUM	_	NumType=Card	5	nummod	_	_
 5	herrialdeetan	herrialde	NOUN	_	Case=Ine|Definite=Def|Number=Plur	6	obl	_	_
-6	egingo	egin	VERB	_	Aspect=Prosp|VerbForm=Part	10	acl	_	_
+6	egingo	egin	VERB	_	Aspect=Prosp|VerbForm=Part	9	acl	_	_
 7	dituen	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	6	aux	_	_
-8	IV.	IV.	ADJ	_	NumType=Ord	10	amod	_	_
+8	IV.	IV.	ADJ	_	NumType=Ord	9	amod	_	_
 9	kongresuei	kongresu	NOUN	_	Case=Dat	15	obl	_	_
 10	begira	begira	ADP	_	Animacy=Inan|Definite=Def|Number=Plur	9	case	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
@@ -27405,7 +27405,7 @@
 7	,	,	PUNCT	_	_	15	punct	_	_
 8	baina	baina	CCONJ	_	_	15	cc	_	_
 9	Europako	Europa	PROPN	_	Case=Loc|Definite=Def|Number=Sing	10	nmod	_	_
-10	Batasuneko	batasun	NOUN	_	Case=Loc|Definite=Def|Number=Sing	12	nmod	_	_
+10	Batasuneko	batasun	NOUN	_	Case=Loc|Definite=Def|Number=Sing	11	nmod	_	_
 11	ordezkarien	ordezkari	NOUN	_	Case=Gen	15	obl	_	_
 12	aldetik	alde	ADP	_	Animacy=Anim|Case=Abl|Definite=Def|Number=Plur	11	case	_	_
 13	beste	beste	DET	_	_	14	det	_	_
@@ -27565,7 +27565,7 @@
 9	boleibolean	boleibol	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	1	conj	_	_
 10	eta	eta	CCONJ	_	_	11	cc	_	_
 11	atletismoan	atletismo	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	1	conj	_	_
-12	puntako	punta	NOUN	_	Case=Loc|Definite=Def|Number=Sing	14	nmod	_	_
+12	puntako	punta	NOUN	_	Case=Loc|Definite=Def|Number=Sing	13	nmod	_	_
 13	entrenatzaileen	entrenatzaile	NOUN	_	Case=Gen	15	obl	_	_
 14	artean	arte	ADP	_	Case=Ine|Definite=Def|Number=Plur	13	case	_	_
 15	daude	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	0	root	_	_
@@ -27770,7 +27770,7 @@
 1	Ohitura	ohitura	NOUN	_	_	3	obj	_	_
 2	horiek	horiek	DET	_	Case=Abs|Definite=Def|Number=Plur	1	det	_	_
 3	biltzen	bildu	VERB	_	Case=Ine	4	advcl	_	_
-4	hasteko	hasi	VERB	_	Case=Loc	6	advcl	_	_
+4	hasteko	hasi	VERB	_	Case=Loc	5	advcl	_	_
 5	metodologiari	metodologia	NOUN	_	Case=Dat	9	obl	_	_
 6	buruz	buruz	ADP	_	Animacy=Inan|Definite=Def|Number=Sing	5	case	_	_
 7	zenbait	zenbait	DET	_	_	8	det	_	_
@@ -27822,7 +27822,7 @@
 
 # sent_id = dev-s1711
 # text = Mantxa itsasartearen azpitik Frantzia eta Ingalaterra lotzen dituen trena bi orduz etenik izan zen.
-1	Mantxa	Mantxa	PROPN	_	_	3	nmod	_	_
+1	Mantxa	Mantxa	PROPN	_	_	2	nmod	_	_
 2	itsasartearen	itsasarte	NOUN	_	Case=Gen	7	obl	_	_
 3	azpitik	_	ADP	_	Animacy=Inan|Case=Abl|Definite=Def|Number=Sing	2	case	_	_
 4	Frantzia	Frantzia	PROPN	_	_	7	obj	_	_
@@ -28066,7 +28066,7 @@
 
 # sent_id = dev-s1726
 # text = Igande iluntzera arte iraungo du.
-1	Igande	igande	NOUN	_	_	3	nmod	_	_
+1	Igande	igande	NOUN	_	_	2	nmod	_	_
 2	iluntzera	iluntze	NOUN	_	Case=All	4	obl	_	_
 3	arte	arte	ADP	_	Case=Abs|Definite=Def|Number=Sing	2	case	_	_
 4	iraungo	iraun	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
@@ -28423,7 +28423,7 @@
 6	zuen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	5	aux	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	19	punct	_	_
 8	eta	eta	CCONJ	_	_	19	cc	_	_
-9	Carlos	Carlos	PROPN	_	_	13	nmod	_	_
+9	Carlos	Carlos	PROPN	_	_	12	nmod	_	_
 10	Andres	Andres	PROPN	_	_	9	flat	_	_
 11	Perez	Perez	PROPN	_	_	10	flat	_	_
 12	presidentearen	presidente	NOUN	_	Case=Gen	15	obl	_	_
@@ -28530,7 +28530,7 @@
 23	itsas	itsaso	NOUN	_	_	24	nmod	_	_
 24	seguritatearen	seguritate	NOUN	_	Case=Abs|Definite=Ind	25	obl	_	_
 25	bermatzeko	bermatu	VERB	_	Case=Abs|Definite=Ind	16	advcl	_	_
-26	Erikaren	Erika	PROPN	_	Case=Gen|Definite=Def|Number=Sing	28	nmod	_	_
+26	Erikaren	Erika	PROPN	_	Case=Gen|Definite=Def|Number=Sing	27	nmod	_	_
 27	hondamenetik	hondamen	NOUN	_	Case=Abl	25	obl	_	_
 28	landa	landa	ADP	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	27	case	_	SpaceAfter=No
 29	.	.	PUNCT	_	_	10	punct	_	_
@@ -28558,7 +28558,7 @@
 19	Panmunjom	Panmunjom	PROPN	_	_	20	nmod	_	_
 20	herrian	herri	NOUN	_	Case=Ine|Definite=Def|Number=Sing	15	obl	_	SpaceAfter=No
 21	,	,	PUNCT	_	_	25	punct	_	_
-22	bi	bi	NUM	_	NumType=Card	24	nummod	_	_
+22	bi	bi	NUM	_	NumType=Card	23	nummod	_	_
 23	Koreen	Korea	PROPN	_	Case=Gen	25	nmod	_	_
 24	arteko	arte	ADP	_	Case=Loc|Definite=Def|Number=Plur	23	case	_	_
 25	mugan	muga	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	15	obl	_	SpaceAfter=No
@@ -28912,7 +28912,7 @@
 7	eta	eta	CCONJ	_	_	11	cc	_	_
 8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
 9	pas	pas	NOUN	_	_	10	nmod	_	_
-10	de	de	X	_	_	12	nmod	_	_
+10	de	de	X	_	_	11	nmod	_	_
 11	photos"-en	photos	NOUN	_	Case=Gen	5	conj	_	_
 12	gainetik	gain	ADP	_	Case=Abl|Definite=Def|Number=Plur	11	case	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	5	punct	_	_
@@ -28932,7 +28932,7 @@
 2	Ez	ez	PART	_	Polarity=Neg	3	advmod	_	_
 3	dut	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=1	0	root	_	_
 4	ezer	ezer	PRON	_	Case=Abs|Definite=Ind	3	obj	_	_
-5	hemengo	hemengo	ADJ	_	_	7	nmod	_	_
+5	hemengo	hemengo	ADJ	_	_	6	nmod	_	_
 6	jokalarien	jokalari	NOUN	_	Case=Gen	3	obl	_	_
 7	kontra	kontra	ADP	_	Animacy=Anim|Definite=Def|Number=Plur	6	case	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	_
@@ -29104,7 +29104,7 @@
 
 # sent_id = dev-s1781
 # text = I. tomoan bezala azaltzen da, orduan genero horretan kokatuta baitzegoen.
-1	I.	I+garren!	ADJ	_	NumType=Ord	3	amod	_	_
+1	I.	I+garren!	ADJ	_	NumType=Ord	2	amod	_	_
 2	tomoan	tomo	NOUN	_	Case=Ine	4	obl	_	_
 3	bezala	bezala	ADP	_	Definite=Def|Number=Sing	2	case	_	_
 4	azaltzen	azaldu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
@@ -29157,7 +29157,7 @@
 3	legeak	lege	NOUN	_	Case=Abs|Definite=Def|Number=Plur	4	nsubj	_	_
 4	proposatu	proposatu	VERB	_	Aspect=Perf|VerbForm=Part	6	acl	_	_
 5	dituen	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	4	aux	_	_
-6	taldearen	talde	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	8	nmod	_	_
+6	taldearen	talde	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	7	nmod	_	_
 7	ordezkariaz	ordezkari	NOUN	_	Case=Ins	16	obl	_	_
 8	gain	gain	ADP	_	Animacy=Anim|Case=Abs|Definite=Def|Number=Sing	7	case	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
@@ -29308,7 +29308,7 @@
 3	Palaciosek	Palacios	PROPN	_	Case=Erg|Definite=Def|Number=Sing	1	conj	_	_
 4	badakite	jakin	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3|Polarity=Pos	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	7	punct	_	_
-6	gainerako	gainerako	ADJ	_	_	8	nmod	_	_
+6	gainerako	gainerako	ADJ	_	_	7	nmod	_	_
 7	gorritxoek	gorritxo	NOUN	_	Case=Erg	4	obl	_	_
 8	bezala	bezala	ADP	_	Animacy=Inan|Definite=Def|Number=Plur	7	case	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	16	punct	_	_
@@ -29337,7 +29337,7 @@
 32	,	,	PUNCT	_	_	40	punct	_	_
 33	eta	eta	CCONJ	_	_	40	cc	_	_
 34	futbolean	futbol	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	40	obl	_	_
-35	azken	azken	ADJ	_	NumType=Ord	37	amod	_	_
+35	azken	azken	ADJ	_	NumType=Ord	36	amod	_	_
 36	minutura	minutu	NOUN	_	Case=All	40	obl	_	_
 37	arte	arte	ADP	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	36	case	_	_
 38	edozer	edozer	DET	_	_	39	det	_	_
@@ -29400,7 +29400,7 @@
 
 # sent_id = dev-s1794
 # text = Kosovoko erakundeen barruan integratu behar duten gutxiengoak babesten jarraituko dugu".
-1	Kosovoko	Kosovo	PROPN	_	Case=Loc|Definite=Def|Number=Sing	3	nmod	_	_
+1	Kosovoko	Kosovo	PROPN	_	Case=Loc|Definite=Def|Number=Sing	2	nmod	_	_
 2	erakundeen	erakunde	NOUN	_	Case=Gen	4	obl	_	_
 3	barruan	barru	ADP	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	2	case	_	_
 4	integratu	integratu	VERB	_	VerbForm=Part	6	xcomp	_	_
@@ -29415,7 +29415,7 @@
 
 # sent_id = dev-s1795
 # text = Saharako aferaren inguruan konponezin handia dago NBEn.
-1	Saharako	Sahara	PROPN	_	Case=Loc|Definite=Def|Number=Sing	3	nmod	_	_
+1	Saharako	Sahara	PROPN	_	Case=Loc|Definite=Def|Number=Sing	2	nmod	_	_
 2	aferaren	afera	NOUN	_	Case=Gen	6	obl	_	_
 3	inguruan	inguru	ADP	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	2	case	_	_
 4	konponezin	konponezin	NOUN	_	_	6	nsubj	_	_
@@ -29439,7 +29439,7 @@
 
 # sent_id = dev-s1797
 # text = Notiziaren lagungarri gisa, Luis Morenoren amak eta lagun batek Estatu Kontseiluko egoitza utzi zuteneko argazkia jaso zuen.
-1	Notiziaren	notizia	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	3	nmod	_	_
+1	Notiziaren	notizia	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	2	nmod	_	_
 2	lagungarri	lagungarri	NOUN	_	Case=Dat	17	obl	_	_
 3	gisa	gisa	ADP	_	Animacy=Inan|Case=Abs	2	case	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_

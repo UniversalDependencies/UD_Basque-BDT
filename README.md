@@ -33,6 +33,7 @@ Aranzabe M., Atutxa A., Bengoetxea K., Díaz de Ilarraza A., Goenaga I., Gojenol
   * Fixed: Nodes attached as cc should be leaves.
   * Fixed: NOUN, PROPN, ADJ, NUM, VERB, ADV, PART cannot be attached as det.
   * Fixed: Ordinal numerals should be ADJ, not NUM.
+  * Fixed: Nodes attached as case or mark should be leaves.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Basque to UD_Basque-BDT.
 * 2016-12-01 v2.0
