@@ -31,6 +31,7 @@ Aranzabe M., Atutxa A., Bengoetxea K., Díaz de Ilarraza A., Goenaga I., Gojenol
   * Fixed: NOUN, PROPN, PRON, NUM, VERB, INTJ, X cannot be attached as advmod.
   * Fixed: Punctuation should be leaf and should not cause non-projectivity.
   * Fixed: Nodes attached as cc should be leaves.
+  * Fixed: NUM cannot be attached as det.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Basque to UD_Basque-BDT.
 * 2016-12-01 v2.0

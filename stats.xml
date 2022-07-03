@@ -120,7 +120,7 @@
     <dep name="cop">2417</dep>
     <dep name="csubj">304</dep>
     <dep name="dep">244</dep>
-    <dep name="det">3032</dep>
+    <dep name="det">2616</dep>
     <dep name="discourse">69</dep>
     <dep name="dislocated">1</dep>
     <dep name="fixed">290</dep>
@@ -130,7 +130,7 @@
     <dep name="nmod">10692</dep>
     <dep name="nsubj">8691</dep>
     <dep name="nsubj:outer">5</dep>
-    <dep name="nummod">2041</dep>
+    <dep name="nummod">2457</dep>
     <dep name="obj">7520</dep>
     <dep name="obl">9644</dep>
     <dep name="orphan">6</dep>

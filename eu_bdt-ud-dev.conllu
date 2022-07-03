@@ -147,7 +147,7 @@
 
 # sent_id = dev-s12
 # text = Bi elkarte horiei Guayana eta Surinam estatu txiki eta behartsuak batuko zaizkie batasunerako bidean.
-1	Bi	bi	NUM	_	NumType=Card	2	det	_	_
+1	Bi	bi	NUM	_	NumType=Card	2	nummod	_	_
 2	elkarte	elkarte	NOUN	_	_	11	iobj	_	_
 3	horiei	horiek	DET	_	Case=Dat|Definite=Def|Number=Plur	2	det	_	_
 4	Guayana	Guayana	PROPN	_	_	7	nmod	_	_
@@ -2469,7 +2469,7 @@
 4	urte	urte	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	5	obj	_	_
 5	ditu	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	0	root	_	_
 6	eta	eta	CCONJ	_	_	10	cc	_	_
-7	2,08	2,08	NUM	_	NumType=Card	8	det	_	_
+7	2,08	2,08	NUM	_	NumType=Card	8	nummod	_	_
 8	metro	metro	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	9	obl	_	_
 9	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	10	cop	_	_
 10	luze	luze	ADJ	_	Case=Abs|Definite=Ind	5	conj	_	SpaceAfter=No
@@ -3209,7 +3209,7 @@
 7	zuen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	6	aux	_	_
 8	lurjabe	lurjabe	NOUN	_	_	11	nmod	_	_
 9	zurien	zuri	ADJ	_	Case=Gen|Definite=Def|Number=Plur	8	nmod	_	_
-10	3.041	3.041	NUM	_	NumType=Card	11	det	_	_
+10	3.041	3.041	NUM	_	NumType=Card	11	nummod	_	_
 11	etxalde	etxalde	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	13	obj	_	_
 12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	identifikatu	identifikatu	VERB	_	Aspect=Perf|VerbForm=Part	6	ccomp	_	SpaceAfter=No
@@ -3273,7 +3273,7 @@
 
 # sent_id = dev-s232
 # text = Hamaika aldiz esana diot:
-1	Hamaika	hamaika	NUM	_	NumType=Card	2	det	_	_
+1	Hamaika	hamaika	NUM	_	NumType=Card	2	nummod	_	_
 2	aldiz	aldi	NOUN	_	Animacy=Inan|Case=Ins|Definite=Ind	3	obl	_	_
 3	esana	esan	VERB	_	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	4	xcomp	_	_
 4	diot	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Sing|Person[abs]=3|Person[dat]=3|Person[erg]=1	0	root	_	SpaceAfter=No
@@ -4093,7 +4093,7 @@
 
 # sent_id = dev-s286
 # text = 2,01 metro egin zuen finalean; Hestrie Cloethe hegoafrikarra izan zen bigarren, eta Bergqvist eta Pantelimon hirugarren.
-1	2,01	2,01	NUM	_	NumType=Card	2	det	_	_
+1	2,01	2,01	NUM	_	NumType=Card	2	nummod	_	_
 2	metro	metro	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	3	obj	_	_
 3	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 4	zuen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	3	aux	_	_
@@ -4243,7 +4243,7 @@
 4	ihes	ihes	NOUN	_	Case=Abs|Definite=Ind	5	compound	_	_
 5	egin	egin	VERB	_	VerbForm=Part	8	acl	_	_
 6	zuten	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	5	aux	_	_
-7	150.000-200.000	150.000-200.000	NUM	_	NumType=Card	8	det	_	_
+7	150.000-200.000	150.000-200.000	NUM	_	NumType=Card	8	nummod	_	_
 8	serbiarrek	serbiar	NOUN	_	Animacy=Anim|Case=Erg|Definite=Ind	13	nsubj	_	_
 9	ez	ez	PART	_	Polarity=Neg	13	advmod	_	_
 10	zuten	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	13	aux	_	_
@@ -4748,7 +4748,7 @@
 
 # sent_id = dev-s328
 # text = Bi taldeak gogotsu atera ziren.
-1	Bi	bi	NUM	_	NumType=Card	2	det	_	_
+1	Bi	bi	NUM	_	NumType=Card	2	nummod	_	_
 2	taldeak	talde	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	4	nsubj	_	_
 3	gogotsu	gogotsu	ADJ	_	Case=Abs|Definite=Ind	4	obl	_	_
 4	atera	atera	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
@@ -5081,7 +5081,7 @@
 5	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 6	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	5	aux	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	13	punct	_	_
-8	hiruzpalau	hiruzpalau	NUM	_	NumType=Card	10	det	_	_
+8	hiruzpalau	hiruzpalau	NUM	_	NumType=Card	10	nummod	_	_
 9	entzuketa	entzuketa	NOUN	_	_	10	nmod	_	_
 10	saioak	saio	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	11	obj	_	_
 11	burutu	burutu	VERB	_	VerbForm=Part	13	xcomp	_	_
@@ -5472,7 +5472,7 @@
 6	argitaratu	argitaratu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 7	zituen	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	6	aux	_	_
 8	txosten	txosten	NOUN	_	_	6	obl	_	_
-9	bitan	bi	NUM	_	NumType=Card	8	det	_	SpaceAfter=No
+9	bitan	bi	NUM	_	NumType=Card	8	nummod	_	SpaceAfter=No
 10	:	:	PUNCT	_	_	6	punct	_	_
 
 # sent_id = dev-s380
@@ -6034,13 +6034,13 @@
 2	El	El	PROPN	_	_	1	flat	_	_
 3	Guerrouj	Guerrouj	PROPN	_	_	2	flat	_	_
 4	marokoarra	marokoar	ADJ	_	Case=Abs|Definite=Def|Number=Sing	3	amod	_	_
-5	10.000	10.000	NUM	_	NumType=Card	6	det	_	_
+5	10.000	10.000	NUM	_	NumType=Card	6	nummod	_	_
 6	metroetan	metro	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	4	nmod	_	_
 7	eta	eta	CCONJ	_	_	8	cc	_	_
 8	Ali	aliatu	VERB	_	VerbForm=Inf	1	conj	_	_
 9	Saidi-Sief	Saidi-Sief	PROPN	_	_	8	flat	_	_
 10	algeriarra	aljeriar	ADJ	_	Case=Abs|Definite=Def|Number=Sing	9	amod	_	_
-11	5.000	5.000	NUM	_	NumType=Card	12	det	_	_
+11	5.000	5.000	NUM	_	NumType=Card	12	nummod	_	_
 12	metroetan	metro	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	10	nmod	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	1	punct	_	_
 14	faborito	faborito	ADJ	_	_	0	root	_	_
@@ -6618,7 +6618,7 @@
 
 # sent_id = dev-s457
 # text = Bost milioi hektarea dituzte etxaldeek guztira.
-1	Bost	bost	NUM	_	NumType=Card	2	det	_	_
+1	Bost	bost	NUM	_	NumType=Card	2	nummod	_	_
 2	milioi	milioi	NOUN	_	_	3	nmod	_	_
 3	hektarea	hektarea	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	4	obj	_	_
 4	dituzte	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	0	root	_	_
@@ -7134,7 +7134,7 @@
 
 # sent_id = dev-s491
 # text = Bi lan idatzi zituen euskaraz:
-1	Bi	bi	NUM	_	NumType=Card	2	det	_	_
+1	Bi	bi	NUM	_	NumType=Card	2	nummod	_	_
 2	lan	lan	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	3	obj	_	_
 3	idatzi	idatzi	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 4	zituen	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	3	aux	_	_
@@ -7195,8 +7195,8 @@
 # text = Domina bakar batekin hamazazpi herrialde geratu dira.
 1	Domina	domina	NOUN	_	_	6	obl	_	_
 2	bakar	bakar	ADJ	_	_	1	amod	_	_
-3	batekin	bat	NUM	_	NumType=Card	1	det	_	_
-4	hamazazpi	hamazazpi	NUM	_	NumType=Card	5	det	_	_
+3	batekin	bat	NUM	_	NumType=Card	1	nummod	_	_
+4	hamazazpi	hamazazpi	NUM	_	NumType=Card	5	nummod	_	_
 5	herrialde	herrialde	NOUN	_	_	6	nsubj	_	_
 6	geratu	geratu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 7	dira	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	6	aux	_	SpaceAfter=No
@@ -7753,7 +7753,7 @@
 
 # sent_id = dev-s539
 # text = Bi jarrera erabat kontrajarri ziren.
-1	Bi	bi	NUM	_	NumType=Card	2	det	_	_
+1	Bi	bi	NUM	_	NumType=Card	2	nummod	_	_
 2	jarrera	jarrera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	0	root	_	_
 3	erabat	erabat	ADV	_	_	4	advmod	_	_
 4	kontrajarri	kontrajarri	ADJ	_	Case=Abs|Definite=Ind	2	amod	_	_
@@ -9058,7 +9058,7 @@
 5	Kramnik	Kramnik	PROPN	_	_	6	nmod	_	_
 6	gazteak	gazte	NOUN	_	Case=Erg|Definite=Def|Number=Sing	3	nsubj	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	11	punct	_	_
-8	hamabost	hamabost	NUM	_	NumType=Card	9	det	_	_
+8	hamabost	hamabost	NUM	_	NumType=Card	9	nummod	_	_
 9	urtean	urte	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	11	obl	_	_
 10	harena	hura	DET	_	Case=Abs|Definite=Def|Number=Sing	11	nsubj	_	_
 11	izan	izan	VERB	_	VerbForm=Part	3	advcl	_	_
@@ -9535,7 +9535,7 @@
 4	boita	boita	NOUN	_	_	2	obl	_	_
 5	batean	bat	NUM	_	NumType=Card	4	nummod	_	_
 6	lagun	lagun	NOUN	_	_	2	obl	_	_
-7	batekin	bat	NUM	_	NumType=Card	6	det	_	SpaceAfter=No
+7	batekin	bat	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = dev-s667
@@ -10242,7 +10242,7 @@
 7	lurrazpiko	lurrazpiko	ADJ	_	_	8	amod	_	_
 8	elektrizitate-lineari	elektrizitate+-+linea	NOUN	_	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	17	iobj	_	_
 9	(	(	PUNCT	_	_	11	punct	_	SpaceAfter=No
-10	13,2	13,2	NUM	_	NumType=Card	11	det	_	_
+10	13,2	13,2	NUM	_	NumType=Card	11	nummod	_	_
 11	KV	kv	NOUN	_	Case=Abs|Definite=Ind	8	appos	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	13	punct	_	_
 13	zirkuito	zirkuitu	NOUN	_	_	8	appos	_	_
@@ -10284,7 +10284,7 @@
 # sent_id = dev-s715
 # text = Sarrerak 1.500 pezeta balioko du, eta eserita egon ahal izango da.
 1	Sarrerak	sarrera	NOUN	_	Animacy=Inan|Case=Erg|Definite=Def|Number=Sing	4	nsubj	_	_
-2	1.500	1.500	NUM	_	NumType=Card	3	det	_	_
+2	1.500	1.500	NUM	_	NumType=Card	3	nummod	_	_
 3	pezeta	pezeta	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	4	obj	_	_
 4	balioko	balio_izan	VERB	_	_	0	root	_	_
 5	du	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	4	aux	_	SpaceAfter=No
@@ -10378,7 +10378,7 @@
 6	asebete	asebete	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 7	(	(	PUNCT	_	_	12	punct	_	SpaceAfter=No
 8	gizonezkoen	gizonezko	NOUN	_	Animacy=Anim|Case=Gen|Definite=Def|Number=Plur	10	nmod	_	_
-9	10.000	10.000	NUM	_	NumType=Card	10	det	_	_
+9	10.000	10.000	NUM	_	NumType=Card	10	nummod	_	_
 10	metroetako	metro	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Plur	11	nmod	_	_
 11	azkena	azken	NUM	_	NumType=Ord	12	obj	_	_
 12	galdu	galdu	VERB	_	VerbForm=Part	6	parataxis	_	_
@@ -10419,7 +10419,7 @@
 
 # sent_id = dev-s725
 # text = Zortzi lagun hil dira Danimarkan kontzertu batean.
-1	Zortzi	zortzi	NUM	_	NumType=Card	2	det	_	_
+1	Zortzi	zortzi	NUM	_	NumType=Card	2	nummod	_	_
 2	lagun	lagun	NOUN	_	Animacy=Anim|Case=Abs|Definite=Ind	3	nsubj	_	_
 3	hil	hil	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 4	dira	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	3	aux	_	_
@@ -11523,7 +11523,7 @@
 14	kondentsatuz	kondentsatu	VERB	_	Case=Ins|Definite=Ind|VerbForm=Part	11	advcl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	21	punct	_	_
 16	eta	eta	CCONJ	_	_	21	cc	_	_
-17	460.000	460.000	NUM	_	NumType=Card	18	det	_	_
+17	460.000	460.000	NUM	_	NumType=Card	18	nummod	_	_
 18	Kw	kW	SYM	_	_	19	nmod	_	_
 19	potentziako	potentzia	NOUN	_	Animacy=Inan	20	nmod	_	_
 20	sorgailua	sorgailu	NOUN	_	Case=Abs|Definite=Def|Number=Sing	21	obj	_	_
@@ -11797,7 +11797,7 @@
 13	zitzaion	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Person[abs]=3|Person[dat]=3	12	aux	_	_
 14	eta	eta	CCONJ	_	_	3	cc	_	_
 15	pistola-ametragailu	pistola-ametragailu	NOUN	_	_	17	obl	_	_
-16	batez	bat	NUM	_	NumType=Card	15	det	_	_
+16	batez	bat	NUM	_	NumType=Card	15	nummod	_	_
 17	hil	hil	VERB	_	Aspect=Perf|VerbForm=Part	12	conj	_	_
 18	zuen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	17	aux	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	3	punct	_	_
@@ -11824,7 +11824,7 @@
 
 # sent_id = dev-s823
 # text = Bi aldeetako Gurutze Gorriak lortutako akordioak badu bigarren atal bat.
-1	Bi	bi	NUM	_	NumType=Card	2	det	_	_
+1	Bi	bi	NUM	_	NumType=Card	2	nummod	_	_
 2	aldeetako	alde	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Plur	4	nmod	_	_
 3	Gurutze	gurutze	NOUN	_	_	5	nsubj	_	_
 4	Gorriak	gorri	ADJ	_	Case=Erg|Definite=Def|Number=Sing	3	amod	_	_
@@ -12042,7 +12042,7 @@
 
 # sent_id = dev-s837
 # text = Bost urte egin zituen Juventusen.
-1	Bost	bost	NUM	_	NumType=Card	2	det	_	_
+1	Bost	bost	NUM	_	NumType=Card	2	nummod	_	_
 2	urte	urte	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	3	obj	_	_
 3	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 4	zituen	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	3	aux	_	_
@@ -12361,7 +12361,7 @@
 # sent_id = dev-s859
 # text = Txapelak 4-10 cm-ko diametroa izan dezake, hasieran ganbila da eta pixkanaka-pixkanaka lautu eta zabaldu egiten da eta azkenik erdialdea zertxobait sartu egiten zaio; ertz fina eta biribilkatua du.
 1	Txapelak	txapel	NOUN	_	Animacy=Inan|Case=Erg|Definite=Def|Number=Sing	5	nsubj	_	_
-2	4-10	4-10	NUM	_	NumType=Card	3	det	_	_
+2	4-10	4-10	NUM	_	NumType=Card	3	nummod	_	_
 3	cm-ko	cm	SYM	_	Case=Loc|Definite=Def|Number=Sing	4	nmod	_	_
 4	diametroa	diametro	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	5	obj	_	_
 5	izan	izan	VERB	_	VerbForm=Inf	0	root	_	_
@@ -14070,7 +14070,7 @@
 
 # sent_id = dev-s981
 # text = Bi denboraldi egin ditu Moralesek Gasteizen.
-1	Bi	bi	NUM	_	NumType=Card	2	det	_	_
+1	Bi	bi	NUM	_	NumType=Card	2	nummod	_	_
 2	denboraldi	denboraldi	NOUN	_	Case=Abs|Definite=Ind	3	obj	_	_
 3	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 4	ditu	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	3	aux	_	_
@@ -15293,7 +15293,7 @@
 8	Beachetik	Beach	PROPN	_	Case=Abl|Definite=Def|Number=Sing	7	flat	_	_
 9	Tallahasseera	Tallahassee	PROPN	_	Case=All|Definite=Def|Number=Sing	12	nmod	_	_
 10	Floridako	Florida	PROPN	_	Case=Loc|Definite=Def|Number=Sing	9	flat	_	_
-11	462.000	462.000	NUM	_	NumType=Card	12	det	_	_
+11	462.000	462.000	NUM	_	NumType=Card	12	nummod	_	_
 12	boz	boz	NOUN	_	_	13	nmod	_	_
 13	emaileren	emaile	NOUN	_	Animacy=Anim|Case=Gen|Definite=Ind	15	nmod	_	_
 14	boto	boto	NOUN	_	_	15	nmod	_	_
@@ -15673,7 +15673,7 @@
 2	arabera	arabera	ADP	_	Definite=Def|Number=Sing	1	case	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	Jaurlaritzak	jaurlaritza	NOUN	_	Case=Erg|Definite=Def|Number=Sing	8	nsubj	_	_
-5	16.000	16.000	NUM	_	NumType=Card	6	det	_	_
+5	16.000	16.000	NUM	_	NumType=Card	6	nummod	_	_
 6	milioi	milioi	NOUN	_	_	7	det	_	_
 7	pezeta	pezeta	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	8	obj	_	_
 8	emango	eman	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
@@ -15810,7 +15810,7 @@
 7	biki	biki	ADJ	_	Case=Abs|Definite=Ind	6	amod	_	_
 8	dira	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	6	cop	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	8	punct	_	_
-10	300na	00na	NUM	_	NumType=Card	12	det	_	_
+10	300na	00na	NUM	_	NumType=Card	12	nummod	_	_
 11	metro	metro	NOUN	_	Case=Loc	13	obl	_	_
 12	inguru	inguru	ADP	_	Animacy=Inan|Case=Abs	11	case	_	_
 13	dutenak	ukan	VERB	_	Aspect=Prog|Case=Abs|Definite=Def|Mood=Ind|Number=Plur|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	6	appos	_	SpaceAfter=No
@@ -16132,7 +16132,7 @@
 4	lotzen	lotu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 5	du	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	4	aux	_	_
 6	esku	esku	NOUN	_	_	4	obl	_	_
-7	batez	bat	NUM	_	NumType=Card	6	det	_	SpaceAfter=No
+7	batez	bat	NUM	_	NumType=Card	6	nummod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	14	punct	_	_
 9	besteaz	beste	DET	_	Case=Ins|Definite=Def|Number=Sing	14	obl	_	_
 10	bi	bi	NUM	_	NumType=Card	11	nummod	_	_
@@ -16411,7 +16411,7 @@
 6	egin	egin	VERB	_	VerbForm=Part	7	advcl	_	_
 7	beharko	behar_izan	VERB	_	_	0	root	_	_
 8	dute	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	7	aux	_	_
-9	60.000	60.000	NUM	_	NumType=Card	10	det	_	_
+9	60.000	60.000	NUM	_	NumType=Card	10	nummod	_	_
 10	kidetako	kide	NOUN	_	Case=Loc|Definite=Ind	12	nmod	_	_
 11	bake	bake	NOUN	_	_	12	nmod	_	_
 12	indarrak	indar	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	13	obj	_	_
@@ -17101,7 +17101,7 @@
 
 # sent_id = dev-s1153
 # text = Bi aldeen artean izandako bi orduko borroka gogorren ondorioz, beste 18 soldadu federal zaurituta geratu ziren.
-1	Bi	bi	NUM	_	NumType=Card	3	det	_	_
+1	Bi	bi	NUM	_	NumType=Card	3	nummod	_	_
 2	aldeen	alde	NOUN	_	Case=Gen	4	obl	_	_
 3	artean	arte	ADP	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	2	case	_	_
 4	izandako	izan	VERB	_	Case=Loc|VerbForm=Part	7	advcl	_	_
@@ -17210,7 +17210,7 @@
 
 # sent_id = dev-s1159
 # text = Bi kuartel militar eta hiru begiratoki itxiko ditu Erresuma Batuko Gobernuak.
-1	Bi	bi	NUM	_	NumType=Card	2	det	_	_
+1	Bi	bi	NUM	_	NumType=Card	2	nummod	_	_
 2	kuartel	kuartel	NOUN	_	_	7	obj	_	_
 3	militar	militar	ADJ	_	Case=Abs|Definite=Ind	2	amod	_	_
 4	eta	eta	CCONJ	_	_	6	cc	_	_
@@ -17572,7 +17572,7 @@
 4	sailkatu	sailkatu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 5	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	4	aux	_	_
 6	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
-7	957,5	957,5	NUM	_	NumType=Card	8	det	_	_
+7	957,5	957,5	NUM	_	NumType=Card	8	nummod	_	_
 8	kg	kg	SYM	_	Case=Abs|Definite=Def|Number=Sing	4	parataxis	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -17670,7 +17670,7 @@
 
 # sent_id = dev-s1186
 # text = Bi aste barru hasiko dira Munduko Kopako probak eta ea panelean jarraitzen duen Josuneren boladak.
-1	Bi	bi	NUM	_	NumType=Card	3	det	_	_
+1	Bi	bi	NUM	_	NumType=Card	3	nummod	_	_
 2	aste	aste	NOUN	_	_	4	obl	_	_
 3	barru	barru	ADP	_	Animacy=Inan|Case=Abs	2	case	_	_
 4	hasiko	hasi	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
@@ -18194,7 +18194,7 @@
 
 # sent_id = dev-s1214
 # text = Sei urte hauetan eurak asko eman didate niri, eta aldi berean, nik ere asko eman diet eurei.
-1	Sei	sei	NUM	_	NumType=Card	2	det	_	_
+1	Sei	sei	NUM	_	NumType=Card	2	nummod	_	_
 2	urte	urte	NOUN	_	_	6	obl	_	_
 3	hauetan	hauek	DET	_	Case=Ine|Definite=Def|Number=Plur	2	det	_	_
 4	eurak	eurak	PRON	_	PronType=Prs	6	nsubj	_	_
@@ -19061,7 +19061,7 @@
 
 # sent_id = dev-s1256
 # text = Zortzi urte falta arren, bost hirik dute 2008. urteko Olinpiar Jokoak antolatzeko aukera:
-1	Zortzi	zortzi	NUM	_	NumType=Card	2	det	_	_
+1	Zortzi	zortzi	NUM	_	NumType=Card	2	nummod	_	_
 2	urte	urte	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	3	nsubj	_	_
 3	falta	falta	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	8	advcl	_	_
 4	arren	arren	CCONJ	_	_	3	advcl	_	SpaceAfter=No
@@ -20837,7 +20837,7 @@
 
 # sent_id = dev-s1354
 # text = 20.000 lagun inguruk ez du berogailurik, Gobernuaren arabera.
-1	20.000	20.000	NUM	_	NumType=Card	2	det	_	_
+1	20.000	20.000	NUM	_	NumType=Card	2	nummod	_	_
 2	lagun	lagun	NOUN	_	_	5	nsubj	_	_
 3	inguruk	inguru	NOUN	_	Animacy=Inan|Case=Erg|Definite=Ind	2	det	_	_
 4	ez	ez	PART	_	Polarity=Neg	5	advmod	_	_
@@ -21313,10 +21313,10 @@
 3	estreinaldiaren	estreinaldi	NOUN	_	Case=Gen	12	obl	_	_
 4	ostean	oste	ADP	_	Case=Ine|Definite=Def|Number=Sing	3	case	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
-6	85.000	85.000	NUM	_	NumType=Card	7	det	_	_
+6	85.000	85.000	NUM	_	NumType=Card	7	nummod	_	_
 7	milioi	milioi	NOUN	_	_	8	det	_	_
 8	pezetatik	pezeta	NOUN	_	Animacy=Inan|Case=Abl|Definite=Def|Number=Sing	12	obl	_	_
-9	146.611	146.611	NUM	_	NumType=Card	10	det	_	_
+9	146.611	146.611	NUM	_	NumType=Card	10	nummod	_	_
 10	milioi	milioi	NOUN	_	_	11	det	_	_
 11	pezetara	pezeta	NOUN	_	Animacy=Inan|Case=All|Definite=Def|Number=Sing	12	obl	_	_
 12	igo	igo	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
@@ -21377,7 +21377,7 @@
 
 # sent_id = dev-s1380
 # text = Bi arerioren aurka jardun behar du hauteskundeotan Al Gore demokraten hautagaiak azaroaren zazpia bitartean:
-1	Bi	bi	NUM	_	NumType=Card	3	det	_	_
+1	Bi	bi	NUM	_	NumType=Card	3	nummod	_	_
 2	arerioren	arerio	NOUN	_	Case=Gen	4	obl	_	_
 3	aurka	aurka	ADP	_	Case=Abs|Definite=Ind	2	case	_	_
 4	jardun	jardun	VERB	_	VerbForm=Part	6	xcomp	_	_
@@ -21824,7 +21824,7 @@
 
 # sent_id = dev-s1403
 # text = Bi Gurutze Gorriek izenpetutako ituna goraipatu egin zuen Hego Koreako lehendakariaren bozemaile Park Joon-yungek.
-1	Bi	bi	NUM	_	NumType=Card	3	det	_	_
+1	Bi	bi	NUM	_	NumType=Card	3	nummod	_	_
 2	Gurutze	gurutze	NOUN	_	_	4	nsubj	_	_
 3	Gorriek	gorri	ADJ	_	Case=Erg|Definite=Def|Number=Plur	2	amod	_	_
 4	izenpetutako	izenpetu	VERB	_	Case=Loc|VerbForm=Part	5	advcl	_	_
@@ -22056,7 +22056,7 @@
 11	egutegi	egutegi	NOUN	_	_	15	obj	_	_
 12	zurruna	zurrun	ADJ	_	Case=Abs|Definite=Def|Number=Sing	11	amod	_	_
 13	garaipen	garaipen	NOUN	_	_	15	obl	_	_
-14	batekin	bat	NUM	_	NumType=Card	13	det	_	_
+14	batekin	bat	NUM	_	NumType=Card	13	nummod	_	_
 15	hasteko	hasi	VERB	_	Case=Loc	5	conj	_	_
 16	xedea	xede	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	17	obj	_	_
 17	du	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	0	root	_	_
@@ -22480,7 +22480,7 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	talde	talde	NOUN	_	_	12	obl	_	_
 6	pribatu	pribatu	ADJ	_	_	5	amod	_	_
-7	batentzat	bat	NUM	_	NumType=Card	5	det	_	_
+7	batentzat	bat	NUM	_	NumType=Card	5	nummod	_	_
 8	asmo	asmo	NOUN	_	_	10	nsubj	_	_
 9	hori	hori	DET	_	Case=Abs|Definite=Def|Number=Sing	8	det	_	_
 10	luxu	luxu	NOUN	_	_	0	root	_	_
@@ -22835,7 +22835,7 @@
 2	landa	landa	ADP	_	Case=Abs|Definite=Def|Number=Sing	1	case	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	oroigarri	oroigarri	NOUN	_	_	6	obj	_	_
-5	bana	bana	NUM	_	Case=Abs|Definite=Ind|NumType=Card	4	det	_	_
+5	bana	bana	NUM	_	Case=Abs|Definite=Ind|NumType=Card	4	nummod	_	_
 6	emanen	eman	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
 7	zaie	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Plur|Person[abs]=3|Person[dat]=3	6	aux	_	_
 8	irabazleei	irabazle	NOUN	_	Animacy=Anim|Case=Dat|Definite=Def|Number=Plur	6	iobj	_	SpaceAfter=No
@@ -23568,7 +23568,7 @@
 7	Allianz	Allianz	PROPN	_	_	9	nmod	_	_
 8	aseguru	aseguru	NOUN	_	_	9	nmod	_	_
 9	enpresari	enpresa	NOUN	_	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	14	iobj	_	_
-10	2.000	2.000	NUM	_	NumType=Card	11	det	_	_
+10	2.000	2.000	NUM	_	NumType=Card	11	nummod	_	_
 11	miloi	mila	NUM	_	NumType=Card	12	nmod	_	_
 12	eurotako	euro	NOUN	_	Case=Loc|Definite=Ind	13	nmod	_	_
 13	parte-hartzea	parte-hartze	NOUN	_	Case=Abs|Definite=Def|Number=Sing	14	obj	_	_
@@ -24107,7 +24107,7 @@
 4	Hego	hego	NOUN	_	_	5	compound	_	_
 5	Euskal	euskal	NOUN	_	_	6	compound	_	_
 6	Herriak	herri	NOUN	_	Case=Erg|Definite=Def|Number=Sing	10	nsubj	_	_
-7	47.870	47.870	NUM	_	NumType=Card	8	det	_	_
+7	47.870	47.870	NUM	_	NumType=Card	8	nummod	_	_
 8	milioi	milioi	NOUN	_	_	9	det	_	_
 9	pezeta	pezeta	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	10	obj	_	_
 10	jasoko	jaso	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
@@ -24657,7 +24657,7 @@
 4	Ligan	liga	NOUN	_	Case=Ine|Definite=Def|Number=Sing	6	obl	_	_
 5	ari	ari	AUX	_	_	6	aux	_	_
 6	diren	izan	VERB	_	_	8	acl	_	_
-7	hamasei	hamasei	NUM	_	NumType=Card	8	det	_	_
+7	hamasei	hamasei	NUM	_	NumType=Card	8	nummod	_	_
 8	ontziak	ontzi	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	9	nsubj	_	_
 9	behartuta	behartu	VERB	_	VerbForm=Part	10	advcl	_	_
 10	egon	egon	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
@@ -24917,7 +24917,7 @@
 # text = Beste puntu batekin dago Koteto Ezkurra ere.
 1	Beste	beste	DET	_	_	2	det	_	_
 2	puntu	puntu	NOUN	_	_	4	obl	_	_
-3	batekin	bat	NUM	_	NumType=Card	2	det	_	_
+3	batekin	bat	NUM	_	NumType=Card	2	nummod	_	_
 4	dago	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	0	root	_	_
 5	Koteto	Koteto	PROPN	_	_	4	nsubj	_	_
 6	Ezkurra	Ezkurra	PROPN	_	Case=Abs|Definite=Def|Number=Sing	5	flat	_	_
@@ -25745,7 +25745,7 @@
 
 # sent_id = dev-s1597
 # text = Bederatzi jokalarirekin, nola edo hala eutsi zion Espainiak, eta lortu zuen luzapenera iristea.
-1	Bederatzi	bederatzi	NUM	_	NumType=Card	2	det	_	_
+1	Bederatzi	bederatzi	NUM	_	NumType=Card	2	nummod	_	_
 2	jokalarirekin	jokalari	NOUN	_	Animacy=Anim|Case=Com|Definite=Ind	7	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	nola	nola	ADV	_	PronType=Int	7	advmod	_	_
@@ -26223,7 +26223,7 @@
 4	dauden	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	8	acl	_	_
 5	jatorri	jatorri	NOUN	_	_	8	nmod	_	_
 6	arabiarreko	arabiar	ADJ	_	Case=Loc|Definite=Def|Number=Sing	5	nmod	_	_
-7	hamabi	hamabi	NUM	_	NumType=Card	8	det	_	_
+7	hamabi	hamabi	NUM	_	NumType=Card	8	nummod	_	_
 8	diputatuetako	diputatu	NOUN	_	Animacy=Anim|Case=Loc|Definite=Def|Number=Plur	9	nmod	_	_
 9	bat	bat	NUM	_	NumType=Card	0	root	_	_
 10	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	9	cop	_	_
@@ -26234,7 +26234,7 @@
 # text = Hala, 6.300 milioi pezetako etekin garbia espero du Vital Kutxak urtea ixteko.
 1	Hala	hala	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	6.300	6.300	NUM	_	NumType=Card	4	det	_	_
+3	6.300	6.300	NUM	_	NumType=Card	4	nummod	_	_
 4	milioi	milioi	NOUN	_	_	6	nmod	_	_
 5	pezetako	pezeta	NOUN	_	Animacy=Inan	4	nmod	_	_
 6	etekin	etekin	NOUN	_	_	9	obj	_	_
@@ -26469,7 +26469,7 @@
 
 # sent_id = dev-s1638
 # text = Hiru kilometro geroago, Mapeiko Gianni Faresin elkartu zitzaien.
-1	Hiru	hiru	NUM	_	NumType=Card	2	det	_	_
+1	Hiru	hiru	NUM	_	NumType=Card	2	nummod	_	_
 2	kilometro	kilometro	NOUN	_	_	3	nmod	_	_
 3	geroago	geroago	ADV	_	_	8	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
@@ -26628,7 +26628,7 @@
 
 # sent_id = dev-s1646
 # text = Hiru egun aurretik, IRAk iragarri zuen bere armak erabileratik at uzteko asmoa zuela eta egun horretan bertan Ipar Irlandako autonomia berriro ezartzeko agindua eman zuen Londresek.
-1	Hiru	hiru	NUM	_	NumType=Card	3	det	_	_
+1	Hiru	hiru	NUM	_	NumType=Card	3	nummod	_	_
 2	egun	egun	NOUN	_	Case=Ine	6	obl	_	_
 3	aurretik	aurre	ADP	_	Animacy=Inan|Case=Abl	2	case	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	2	punct	_	_
@@ -26797,7 +26797,7 @@
 7	milioi	milioi	NOUN	_	Case=Abs|Definite=Ind	8	nmod	_	_
 8	dolar	dolar	NOUN	_	Case=Abs|Definite=Ind	14	obj	_	_
 9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	8.300	8.300	NUM	_	NumType=Card	11	det	_	_
+10	8.300	8.300	NUM	_	NumType=Card	11	nummod	_	_
 11	milioi	milioi	NOUN	_	_	12	nmod	_	_
 12	pezeta	pezeta	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	8	appos	_	SpaceAfter=No
 13	)	)	PUNCT	_	_	12	punct	_	_
@@ -28038,7 +28038,7 @@
 
 # sent_id = dev-s1724
 # text = 7,7 milioi markoko isuna jarri diote CDUri legez kanpoko finantzaketagatik.
-1	7,7	7,7	NUM	_	NumType=Card	2	det	_	_
+1	7,7	7,7	NUM	_	NumType=Card	2	nummod	_	_
 2	milioi	milioi	NOUN	_	_	4	nmod	_	_
 3	markoko	marko	NOUN	_	Animacy=Inan	2	nmod	_	_
 4	isuna	isun	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	5	obj	_	_
@@ -28320,7 +28320,7 @@
 14	,	,	PUNCT	_	_	21	punct	_	_
 15	eta	eta	CCONJ	_	_	21	cc	_	_
 16	beste	beste	DET	_	_	18	det	_	_
-17	400.000	400.000	NUM	_	NumType=Card	18	det	_	_
+17	400.000	400.000	NUM	_	NumType=Card	18	nummod	_	_
 18	milioiren	milioi	NOUN	_	Case=Gen|Definite=Ind	19	nmod	_	_
 19	inbertsioak	inbertsio	NOUN	_	Case=Abs|Definite=Def|Number=Plur	20	obj	_	_
 20	aurreikusita	aurreikusi	VERB	_	VerbForm=Part	21	advcl	_	_
@@ -28452,7 +28452,7 @@
 10	orduan	orduan	CCONJ	_	_	15	obl	_	_
 11	talde	talde	NOUN	_	_	15	obl	_	_
 12	bietan	bi	NUM	_	NumType=Card	11	nummod	_	_
-13	hamaika	hamaika	NUM	_	NumType=Card	14	det	_	_
+13	hamaika	hamaika	NUM	_	NumType=Card	14	nummod	_	_
 14	euskaldun	euskaldun	NOUN	_	Case=Abs|Definite=Ind	15	nsubj	_	_
 15	zeuden	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	7	conj	_	_
 16	eta	eta	CCONJ	_	_	18	cc	_	_
@@ -28578,7 +28578,7 @@
 10	Gijonera	Gijon	PROPN	_	Case=All|Definite=Def|Number=Sing	11	obl	_	_
 11	joan	joan	VERB	_	Aspect=Perf|VerbForm=Part	14	acl	_	_
 12	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	11	aux	_	_
-13	7.000	7.000	NUM	_	NumType=Card	14	det	_	_
+13	7.000	7.000	NUM	_	NumType=Card	14	nummod	_	_
 14	zaleei	zale	ADJ	_	Case=Dat|Definite=Def|Number=Plur	15	iobj	_	_
 15	eskaini	eskaini	VERB	_	VerbForm=Part	17	xcomp	_	_
 16	nahi	nahi	NOUN	_	Case=Abs|Definite=Ind	17	compound	_	_
@@ -29369,7 +29369,7 @@
 
 # sent_id = dev-s1793
 # text = Bi jokalariek argi utzi nahi izan dute arrazoi politikoek ez dutela eraginik izan erabakian, "familiarekin denbora gehiago pasatzeagatik" eman diotela ezezkoa Olinpiar Jokoetan aritzeari.
-1	Bi	bi	NUM	_	NumType=Card	2	det	_	_
+1	Bi	bi	NUM	_	NumType=Card	2	nummod	_	_
 2	jokalariek	jokalari	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def|Number=Plur	4	nsubj	_	_
 3	argi	argi	ADV	_	_	4	advmod	_	_
 4	utzi	utzi	VERB	_	VerbForm=Part	6	advcl	_	_
