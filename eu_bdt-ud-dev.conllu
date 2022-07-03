@@ -6844,9 +6844,9 @@
 2	hiltzen	hil	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 3	du	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	2	aux	_	_
 4	frantsesak	frantses	NOUN	_	Case=Erg|Definite=Def|Number=Sing	2	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	6	punct	_	_
-6	ez	ez	PART	_	Polarity=Neg	2	advmod	_	_
-7	Batuak	batu	ADJ	_	Case=Erg|Definite=Def|Number=Sing	2	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	7	punct	_	_
+6	ez	ez	PART	_	Polarity=Neg	7	advmod	_	_
+7	Batuak	batu	ADJ	_	Case=Erg|Definite=Def|Number=Sing	2	conj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = dev-s472
@@ -22771,12 +22771,12 @@
 2	ordezkari	ordezkari	NOUN	_	Animacy=Anim|Case=Abs|Definite=Ind	3	nsubj	_	_
 3	joango	joan	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
 4	dira	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	3	aux	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	7	punct	_	_
+5	,	,	PUNCT	_	_	10	punct	_	_
 6	euskal	euskal	NOUN	_	_	7	nmod	_	_
-7	preso	preso	NOUN	_	_	3	nmod	_	_
+7	preso	preso	NOUN	_	_	10	nmod	_	_
 8	politiko	politiko	ADJ	_	_	7	amod	_	_
 9	bakoitzeko	bakoitz	ADJ	_	Case=Loc|Definite=Def|Number=Sing	7	det	_	_
-10	bana	bana	NUM	_	Case=Abs|Definite=Ind|NumType=Card	3	nsubj	_	SpaceAfter=No
+10	bana	bana	NUM	_	Case=Abs|Definite=Ind|NumType=Card	2	appos	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = dev-s1452
@@ -24366,7 +24366,7 @@
 5	zauritu	zauritu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 6	zituen	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	5	aux	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
-8	guztiak	guzti	DET	_	Case=Abs|Definite=Def|Number=Plur	5	nsubj	_	_
+8	guztiak	guzti	DET	_	Case=Abs|Definite=Def|Number=Plur	4	appos	_	_
 9	Ekialdeko	ekialdeko	ADJ	_	_	10	amod	_	_
 10	Europako	Europa	PROPN	_	Case=Loc|Definite=Def|Number=Sing	11	nmod	_	_
 11	herritarrak	herritar	NOUN	_	Case=Abs|Definite=Def|Number=Plur	8	acl	_	SpaceAfter=No
@@ -25023,7 +25023,7 @@
 # text = Baturantz idatzitako editorial edo berri laburrak dakartzate, baxe-nabartar kutsu gehiagorekin Ekaitzak, lapurtera gehiagorekin Enbatak eta H.H.ak.
 1	Baturantz	batu	ADJ	_	Case=Lat|Definite=Def|Number=Sing	2	obl	_	_
 2	idatzitako	idatzi	VERB	_	Case=Loc|VerbForm=Part	3	advcl	_	_
-3	editorial	editorial	NOUN	_	_	7	obj	_	_
+3	editorial	editorial	NOUN	_	_	7	nsubj	_	_
 4	edo	edo	CCONJ	_	_	5	cc	_	_
 5	berri	berri	NOUN	_	_	3	conj	_	_
 6	laburrak	labur	ADJ	_	Case=Abs|Definite=Def|Number=Plur	5	amod	_	_
@@ -25032,11 +25032,11 @@
 9	baxe-nabartar	baxe-nabartar	NOUN	_	_	10	nmod	_	_
 10	kutsu	kutsu	NOUN	_	_	7	nmod	_	_
 11	gehiagorekin	gehiago	DET	_	Case=Com|Definite=Ind	10	det	_	_
-12	Ekaitzak	Ekaitza	PROPN	_	Case=Erg|Definite=Def|Number=Sing	7	nsubj	_	SpaceAfter=No
+12	Ekaitzak	Ekaitza	PROPN	_	Case=Erg|Definite=Def|Number=Sing	3	appos	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	lapurtera	lapurtera	NOUN	_	_	7	nmod	_	_
+14	lapurtera	lapurtera	NOUN	_	_	16	nmod	_	_
 15	gehiagorekin	gehiago	DET	_	Case=Com|Definite=Ind	14	det	_	_
-16	Enbatak	Enbata	PROPN	_	Case=Erg|Definite=Def|Number=Sing	7	nsubj	_	_
+16	Enbatak	Enbata	PROPN	_	Case=Erg|Definite=Def|Number=Sing	12	conj	_	_
 17	eta	eta	CCONJ	_	_	18	cc	_	_
 18	H.H.ak	H.H.	PROPN	_	Case=Erg|Definite=Def|Number=Sing	16	conj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	7	punct	_	_
@@ -26089,8 +26089,8 @@
 
 # sent_id = dev-s1616
 # text = Kontuak horrela, Gasteizko taldeak hainbat talde Europar indartsuri eskaini die jokalari kataluniarra.
-1	Kontuak	kontu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	10	nsubj	_	_
-2	horrela	horrela	ADV	_	_	10	nmod	_	SpaceAfter=No
+1	Kontuak	kontu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	10	obl	_	_
+2	horrela	horrela	ADV	_	_	10	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	Gasteizko	Gasteiz	PROPN	_	Case=Loc|Definite=Def|Number=Sing	5	nmod	_	_
 5	taldeak	talde	NOUN	_	Animacy=Inan|Case=Erg|Definite=Def|Number=Sing	10	nsubj	_	_
@@ -28201,8 +28201,8 @@
 4	agertzen	agertu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 5	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	4	aux	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
-7	denak	dena	DET	_	Case=Abs|Definite=Def|Number=Plur	4	nsubj	_	_
-8	nahasian	nahasi	VERB	_	Case=Ine|Definite=Def|Number=Sing|VerbForm=Part	4	nmod	_	SpaceAfter=No
+7	denak	dena	DET	_	Case=Abs|Definite=Def|Number=Plur	8	nsubj	_	_
+8	nahasian	nahasi	VERB	_	Case=Ine|Definite=Def|Number=Sing|VerbForm=Part	4	conj	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = dev-s1735
