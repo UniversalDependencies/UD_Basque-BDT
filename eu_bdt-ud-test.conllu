@@ -11197,9 +11197,9 @@
 10	presio	presio	NOUN	_	_	6	conj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	kontrol	kontrol	NOUN	_	_	10	conj	_	_
-13	eta	eta	CCONJ	_	_	5	cc	_	_
+13	eta	eta	CCONJ	_	_	14	cc	_	_
 14	injustiziak	injustizia	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	10	conj	_	SpaceAfter=No
-15	"	"	PUNCT	_	_	13	punct	_	_
+15	"	"	PUNCT	_	_	10	punct	_	_
 16	salatu	salatu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 17	zituen	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	16	aux	_	_
 18	atzo	atzo	ADV	_	_	16	advmod	_	SpaceAfter=No
