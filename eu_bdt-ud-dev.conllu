@@ -4065,7 +4065,7 @@
 4	azken	azken	ADJ	_	NumType=Ord	5	amod	_	_
 5	egun	egun	NOUN	_	_	0	root	_	_
 6	zoragarri	zoragarri	ADJ	_	_	5	amod	_	_
-7	horietakoa	horiek	NOUN	_	Case=Abs|Definite=Def|Number=Sing	5	det	_	_
+7	horietakoa	horiek	DET	_	Case=Abs|Definite=Def|Number=Sing	5	det	_	_
 8	zen	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	5	cop	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -15674,7 +15674,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	Jaurlaritzak	jaurlaritza	NOUN	_	Case=Erg|Definite=Def|Number=Sing	8	nsubj	_	_
 5	16.000	16.000	NUM	_	NumType=Card	6	nummod	_	_
-6	milioi	milioi	NOUN	_	_	7	det	_	_
+6	milioi	milioi	DET	_	_	7	det	_	_
 7	pezeta	pezeta	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	8	obj	_	_
 8	emango	eman	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
 9	ditu	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	8	aux	_	_
@@ -19633,7 +19633,7 @@
 9	,	,	PUNCT	_	_	15	punct	_	_
 10	baina	baina	CCONJ	_	_	15	cc	_	_
 11	garai	garai	NOUN	_	_	15	nsubj	_	_
-12	hartakoak	hura	NOUN	_	Case=Abs|Definite=Def|Number=Plur	11	det	_	_
+12	hartakoak	hura	DET	_	Case=Abs|Definite=Def|Number=Plur	11	det	_	_
 13	ere	ere	CCONJ	_	_	12	advmod	_	_
 14	ez	ez	PART	_	Polarity=Neg	15	advmod	_	_
 15	zuten	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	7	conj	_	_
@@ -20839,7 +20839,7 @@
 # text = 20.000 lagun inguruk ez du berogailurik, Gobernuaren arabera.
 1	20.000	20.000	NUM	_	NumType=Card	2	nummod	_	_
 2	lagun	lagun	NOUN	_	_	5	nsubj	_	_
-3	inguruk	inguru	NOUN	_	Animacy=Inan|Case=Erg|Definite=Ind	2	det	_	_
+3	inguruk	inguru	DET	_	Animacy=Inan|Case=Erg|Definite=Ind	2	det	_	_
 4	ez	ez	PART	_	Polarity=Neg	5	advmod	_	_
 5	du	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	0	root	_	_
 6	berogailurik	berogailu	NOUN	_	Animacy=Inan|Case=Par|Definite=Ind	5	obj	_	SpaceAfter=No
@@ -21314,10 +21314,10 @@
 4	ostean	oste	ADP	_	Case=Ine|Definite=Def|Number=Sing	3	case	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	4	punct	_	_
 6	85.000	85.000	NUM	_	NumType=Card	7	nummod	_	_
-7	milioi	milioi	NOUN	_	_	8	det	_	_
+7	milioi	milioi	DET	_	_	8	det	_	_
 8	pezetatik	pezeta	NOUN	_	Animacy=Inan|Case=Abl|Definite=Def|Number=Sing	12	obl	_	_
 9	146.611	146.611	NUM	_	NumType=Card	10	nummod	_	_
-10	milioi	milioi	NOUN	_	_	11	det	_	_
+10	milioi	milioi	DET	_	_	11	det	_	_
 11	pezetara	pezeta	NOUN	_	Animacy=Inan|Case=All|Definite=Def|Number=Sing	12	obl	_	_
 12	igo	igo	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 13	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	12	aux	_	_
@@ -23157,7 +23157,7 @@
 1	Erdilari	erdilari	NOUN	_	_	6	nsubj	_	_
 2	nafarrak	nafar	ADJ	_	Case=Erg|Definite=Def|Number=Sing	1	amod	_	_
 3	min	min	NOUN	_	_	6	obj	_	_
-4	apur	apur	NOUN	_	_	3	det	_	_
+4	apur	apur	DET	_	_	3	det	_	_
 5	bat	bat	NUM	_	NumType=Card	4	nummod	_	_
 6	nabaritu	nabaritu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 7	zuen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	6	aux	_	_
@@ -24108,7 +24108,7 @@
 5	Euskal	euskal	NOUN	_	_	6	compound	_	_
 6	Herriak	herri	NOUN	_	Case=Erg|Definite=Def|Number=Sing	10	nsubj	_	_
 7	47.870	47.870	NUM	_	NumType=Card	8	nummod	_	_
-8	milioi	milioi	NOUN	_	_	9	det	_	_
+8	milioi	milioi	DET	_	_	9	det	_	_
 9	pezeta	pezeta	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	10	obj	_	_
 10	jasoko	jaso	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
 11	ditu	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	10	aux	_	SpaceAfter=No
@@ -24346,7 +24346,7 @@
 4	zaila	zail	ADJ	_	Case=Abs|Definite=Def|Number=Sing	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	15	punct	_	_
 6	praktika	praktika	NOUN	_	_	10	obl	_	_
-7	apur	apur	NOUN	_	_	6	det	_	_
+7	apur	apur	DET	_	_	6	det	_	_
 8	batekin	bat	NUM	_	NumType=Card	7	nummod	_	_
 9	edonor	edonor	PRON	_	Case=Abs|Definite=Ind	15	nsubj	_	_
 10	izan	izan	AUX	_	VerbForm=Inf	15	cop	_	_

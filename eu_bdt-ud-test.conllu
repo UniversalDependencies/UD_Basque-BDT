@@ -5675,7 +5675,7 @@
 5	hil	hil	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 6	dira	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	5	aux	_	_
 7	eta	eta	CCONJ	_	_	13	cc	_	_
-8	milioi	milioi	NOUN	_	_	10	det	_	_
+8	milioi	milioi	DET	_	_	10	det	_	_
 9	erdi	erdi	NOUN	_	_	8	nmod	_	_
 10	herritar	herritar	NOUN	_	Case=Abs|Definite=Ind	11	nsubj	_	_
 11	baino	baino	ADV	_	_	13	advmod	_	_
@@ -7325,7 +7325,7 @@
 2	hiltzaileak	hiltzaile	NOUN	_	Case=Abs|Definite=Def|Number=Plur	4	nsubj	_	_
 3	kaskomotz	kaskomotz	NOUN	_	_	4	nmod	_	_
 4	talde	talde	NOUN	_	_	0	root	_	_
-5	batekoak	bat	NOUN	_	Case=Abs|Definite=Def|Number=Plur	4	det	_	_
+5	batekoak	bat	DET	_	Case=Abs|Definite=Def|Number=Plur	4	det	_	_
 6	izan	izan	AUX	_	Aspect=Perf|VerbForm=Part	4	cop	_	_
 7	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	6	aux	_	_
 8	eta	eta	CCONJ	_	_	6	cc	_	_
@@ -8123,7 +8123,7 @@
 10	poltsikoratu	poltsikoratu	VERB	_	Aspect=Perf|VerbForm=Part	14	acl	_	_
 11	dituen	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	10	aux	_	_
 12	8,4	8,4	NUM	_	NumType=Card	13	nummod	_	_
-13	bilioi	bilioi	NOUN	_	_	14	det	_	_
+13	bilioi	bilioi	DET	_	_	14	det	_	_
 14	pezetak	pezeta	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	17	nsubj	_	_
 15	zorrak	zor	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	16	obj	_	_
 16	amortizatzeko	amortizatu	VERB	_	Case=Abs|Definite=Ind	17	advcl	_	_
@@ -10062,7 +10062,7 @@
 10	luzera	luzera	NOUN	_	_	11	nmod	_	_
 11	jauzian	jauzi	NOUN	_	Case=Ine|Definite=Def|Number=Sing	16	obl	_	_
 12	eta	eta	CCONJ	_	_	14	cc	_	_
-13	4x100	4x100	NOUN	_	_	14	det	_	_
+13	4x100	4x100	DET	_	_	14	det	_	_
 14	erreleboetan	errelebo	NOUN	_	Case=Ine|Definite=Def|Number=Plur	11	conj	_	_
 15	brontzearekin	brontze	NOUN	_	Animacy=Inan|Case=Com|Definite=Def|Number=Sing	16	obl	_	_
 16	konformatu	konformatu	VERB	_	VerbForm=Part	18	xcomp	_	_
@@ -10231,7 +10231,7 @@
 15	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	14	aux	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	_
 17	irmotasun	irmotasun	NOUN	_	_	14	parataxis	_	_
-18	berekoa	bera	NOUN	_	Case=Abs|Definite=Def|Number=Sing	17	det	_	SpaceAfter=No
+18	berekoa	bera	DET	_	Case=Abs|Definite=Def|Number=Sing	17	det	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
 20	ehiartasun	eihartasun	NOUN	_	_	14	parataxis	_	_
 21	berekoa	bera	DET	_	Case=Abs|Definite=Def|Number=Sing	20	det	_	SpaceAfter=No
@@ -10458,7 +10458,7 @@
 16	zuela	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	15	aux	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	22	punct	_	_
 18	400	400	NUM	_	NumType=Card	19	nummod	_	_
-19	milioi	milioi	NOUN	_	_	20	det	_	_
+19	milioi	milioi	DET	_	_	20	det	_	_
 20	pezetako	pezeta	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	21	nmod	_	_
 21	erreskatea	erreskate	NOUN	_	Case=Abs|Definite=Def|Number=Sing	22	obj	_	_
 22	jaso	jaso	VERB	_	VerbForm=Inf	15	advcl	_	_
@@ -19184,7 +19184,7 @@
 6	den	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	5	aux	_	_
 7	triatloi	triatloi	NOUN	_	_	8	nmod	_	_
 8	txapelketa	txapelketa	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	_
-9	bakarrenetakoa	bakar	NOUN	_	Case=Abs|Definite=Def|Degree=Sup|Number=Sing	8	det	_	_
+9	bakarrenetakoa	bakar	DET	_	Case=Abs|Definite=Def|Degree=Sup|Number=Sing	8	det	_	_
 10	izango	izan	AUX	_	Aspect=Prosp|VerbForm=Part	8	cop	_	_
 11	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	10	aux	_	_
 12	Baionako	Baiona	PROPN	_	Case=Loc|Definite=Def|Number=Sing	13	nmod	_	_
@@ -23583,7 +23583,7 @@
 # text = Hauetatik 200 inguru bildu ziren Laborantza ministerioaren aurrean, han baitzen egin beharrekoa Suhartoren epaiketa.
 1	Hauetatik	hauek	DET	_	Case=Abl|Definite=Def|Number=Plur	4	obl	_	_
 2	200	200	NUM	_	NumType=Card	4	nsubj	_	_
-3	inguru	inguru	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	2	det	_	_
+3	inguru	inguru	DET	_	Animacy=Inan|Case=Abs|Definite=Ind	2	det	_	_
 4	bildu	bildu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 5	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	4	aux	_	_
 6	Laborantza	laborantza	NOUN	_	_	8	nmod	_	_
@@ -25567,7 +25567,7 @@
 1	GAMESA	Gamesa	PROPN	_	_	2	nmod	_	_
 2	enpresak	enpresa	NOUN	_	Animacy=Inan|Case=Erg|Definite=Def|Number=Sing	7	nsubj	_	_
 3	2.945	2.945	NUM	_	NumType=Card	4	nummod	_	_
-4	milioi	milioi	NOUN	_	_	5	det	_	_
+4	milioi	milioi	DET	_	_	5	det	_	_
 5	pezetako	pezeta	NOUN	_	Animacy=Inan	6	nmod	_	_
 6	kontratua	kontratu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	7	obj	_	_
 7	sinatu	sinatu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_

@@ -20,9 +20,9 @@
     <tag name="ADV">5247</tag><!-- atzo, oso, gaur, orain, ondoren, gero, hala, han, bertan, beti -->
     <tag name="AUX">12461</tag><!-- *edun, izan, egon, *edin, *ezan, ari, ukan -->
     <tag name="CCONJ">6189</tag><!-- eta, ere, baina, edo, berriz, arren, ordea, gainera, beraz, bestalde -->
-    <tag name="DET">4074</tag><!-- hori, bera, beste, hau, guzti, hura, batzuk, horiek, hauek, zer -->
+    <tag name="DET">4138</tag><!-- hori, bera, beste, hau, guzti, hura, batzuk, horiek, hauek, zer -->
     <tag name="INTJ">36</tag><!-- beno, alde, a, dzast, ea, hara, kaixo, tira, ahalena, ai -->
-    <tag name="NOUN">29776</tag><!-- talde, urte, behar, nahi, partidu, herri, lan, egun, jokalari, gobernu -->
+    <tag name="NOUN">29712</tag><!-- talde, urte, behar, nahi, partidu, herri, lan, egun, jokalari, gobernu -->
     <tag name="NUM">3565</tag><!-- bat, bi, hiru, lau, bost, sei, zazpi, hamar, 20, zortzi -->
     <tag name="PART">1460</tag><!-- ez, bai, omen -->
     <tag name="PRON">785</tag><!-- ni, gu, eurak, inor, zerbait, ezer, zu, elkar, nor, beraiek -->
@@ -35,7 +35,7 @@
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="69">
     <feat name="Animacy" value="Anim" upos="ADP,NOUN,PROPN">1288</feat><!-- lagun, jokalariak, ordezkariak, jokalariek, agintariek, hilaren, ministroak, epaileak, arduradunak, arteko -->
-    <feat name="Animacy" value="Inan" upos="ADJ,ADP,AUX,NOUN,PROPN,SYM">12165</feat><!-- taldeak, urte, ondorioz, partidua, aukera, taldea, aurretik, urteko, garaipena, gabe -->
+    <feat name="Animacy" value="Inan" upos="ADJ,ADP,AUX,DET,NOUN,PROPN,SYM">12165</feat><!-- taldeak, urte, ondorioz, partidua, aukera, taldea, aurretik, urteko, garaipena, gabe -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">1820</feat><!-- egiten, ematen, izaten, erabiltzen, ikusten, agertzen, esaten, hartzen, gertatzen, jarraitzen -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">5765</feat><!-- izan, egin, esan, eman, joan, lortu, hasi, hil, irabazi, azaldu -->
     <feat name="Aspect" value="Prog" upos="AUX,VERB">4818</feat><!-- da, dira, du, dago, dela, zen, dute, zegoen, daude, dugu -->
@@ -59,7 +59,7 @@
     <feat name="Definite" value="Ind" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">6156</feat><!-- behar, nahi, zer, uste, gehiago, asko, ezin, urte, ondorioz, gabe -->
     <feat name="Degree" value="Abs" upos="ADJ,ADV">30</feat><!-- goizegi, azkarregi, handiegia, estuegiak, berantegi, garestiegi, Urrutiegi, alaiegia, altuegia, bigunegia -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADV,NOUN,VERB">176</feat><!-- nahiago, handiagoa, beranduago, errazago, gehiago, lasaiago, azkarrago, indartsuago, txikiagoa, txikiagoan -->
-    <feat name="Degree" value="Sup" upos="ADJ,ADP,ADV,NOUN,VERB">328</feat><!-- onena, garrantzitsuena, handiena, onenak, onenetakoa, indartsuena, onenean, azkarrena, garrantzitsuenak, egokiena -->
+    <feat name="Degree" value="Sup" upos="ADJ,ADP,ADV,DET,NOUN,VERB">328</feat><!-- onena, garrantzitsuena, handiena, onenak, onenetakoa, indartsuena, onenean, azkarrena, garrantzitsuenak, egokiena -->
     <feat name="Gender" value="Fem" upos="AUX,VERB">44</feat><!-- dun, dinat, naun, din, ditun, niken, zion, baditinagu, baditinat, bazaukan -->
     <feat name="Gender" value="Masc" upos="AUX,VERB">27</feat><!-- duk, diat, dik, nian, zekiat, ditik, dituk, gaudek, nauk, zagok -->
     <feat name="Gender[dat]" value="Masc" upos="AUX,VERB">5</feat><!-- diat, diagu, nian, zaik -->
