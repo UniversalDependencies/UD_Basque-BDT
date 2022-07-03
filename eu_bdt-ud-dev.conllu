@@ -2355,7 +2355,7 @@
 6	Emiliek	Emilia	PROPN	_	Case=Erg|Definite=Def|Number=Sing	8	nsubj	_	_
 7	ez	ez	PART	_	Polarity=Neg	8	advmod	_	_
 8	zeukan	eduki	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	3	conj	_	_
-9	batere	batere	ADV	_	_	10	det	_	_
+9	batere	batere	ADV	_	_	10	advmod	_	_
 10	interesik	interes	NOUN	_	Animacy=Inan|Case=Par|Definite=Ind	8	obj	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -3294,7 +3294,7 @@
 # sent_id = dev-s234
 # text = Goiz hartan, oso goiz, Knox etorri zitzaigun esnatzera.
 1	Goiz	goiz	ADV	_	_	8	advmod	_	_
-2	hartan	hartan	ADV	_	_	1	det	_	SpaceAfter=No
+2	hartan	hartan	ADV	_	_	1	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	oso	oso	ADV	_	_	5	advmod	_	_
 5	goiz	goiz	ADV	_	_	8	advmod	_	SpaceAfter=No
@@ -3351,7 +3351,7 @@
 # sent_id = dev-s238
 # text = Astelehenean bertan egin zioten lehen ebakuntza, lau ordukoa, eta herenegun egin ziotenak hiru ordu iraun zuen.
 1	Astelehenean	astelehen	NOUN	_	Case=Ine|Definite=Def|Number=Sing	3	obl	_	_
-2	bertan	bertan	ADV	_	_	1	det	_	_
+2	bertan	bertan	ADV	_	_	1	advmod	_	_
 3	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 4	zioten	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Plur|Person[abs]=3|Person[dat]=3|Person[erg]=3	3	aux	_	_
 5	lehen	lehen	ADJ	_	NumType=Ord	6	amod	_	_
@@ -9755,7 +9755,7 @@
 10	dialektologia	dialektologia	NOUN	_	_	11	nmod	_	_
 11	ikerketek	ikerketa	NOUN	_	Animacy=Inan|Case=Erg|Definite=Def|Number=Plur	14	nsubj	_	_
 12	aldi	aldi	NOUN	_	_	14	obl	_	_
-13	hartan	hartan	ADV	_	_	12	det	_	_
+13	hartan	hartan	ADV	_	_	12	advmod	_	_
 14	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	16	advcl	_	_
 15	zuten	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	14	aux	_	_
 16	gainbehera	gainbehera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	8	nsubj	_	SpaceAfter=No
@@ -10150,7 +10150,7 @@
 # text = Zer hobetu asko dutela onartzen du, baina.
 1	Zer	zer	DET	_	Case=Abs|Definite=Ind	2	obj	_	_
 2	hobetu	hobetu	VERB	_	VerbForm=Part	4	obj	_	_
-3	asko	asko	ADV	_	_	2	det	_	_
+3	asko	asko	ADV	_	_	2	advmod	_	_
 4	dutela	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	5	ccomp	_	_
 5	onartzen	onartu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 6	du	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	5	aux	_	SpaceAfter=No
@@ -15987,7 +15987,7 @@
 11	Herriak	herri	NOUN	_	Case=Erg|Definite=Def|Number=Sing	16	nsubj	_	_
 12	"	"	PUNCT	_	_	13	punct	_	SpaceAfter=No
 13	ezer	ezer	PRON	_	Case=Abs|Definite=Ind	16	obj	_	_
-14	gutxi	gutxi	ADV	_	_	13	det	_	SpaceAfter=No
+14	gutxi	gutxi	ADV	_	_	13	advmod	_	SpaceAfter=No
 15	"	"	PUNCT	_	_	13	punct	_	_
 16	ematen	eman	VERB	_	Aspect=Imp|VerbForm=Inf	18	advcl	_	_
 17	duelako	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	16	aux	_	_
@@ -20904,7 +20904,7 @@
 8	(	(	PUNCT	_	_	9	punct	_	SpaceAfter=No
 9	10	10	NUM	_	NumType=Card	7	appos	_	SpaceAfter=No
 10	)	)	PUNCT	_	_	9	punct	_	_
-11	askotan	askotan	ADV	_	_	7	det	_	_
+11	askotan	askotan	ADV	_	_	7	advmod	_	_
 12	irabaziak	irabazi	VERB	_	Case=Abs|Definite=Def|Number=Plur|VerbForm=Part	13	advcl	_	_
 13	ditu	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	0	root	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	34	punct	_	_
@@ -26766,7 +26766,7 @@
 23	,	,	PUNCT	_	_	27	punct	_	_
 24	eta	eta	CCONJ	_	_	27	cc	_	_
 25	karrerista	karrerista	NOUN	_	_	27	nsubj	_	_
-26	dezente	dezente	ADV	_	_	25	det	_	_
+26	dezente	dezente	ADV	_	_	25	advmod	_	_
 27	erori	erori	VERB	_	Aspect=Perf|VerbForm=Part	2	conj	_	_
 28	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	27	aux	_	_
 29	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	27	aux	_	SpaceAfter=No

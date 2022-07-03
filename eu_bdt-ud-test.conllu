@@ -1091,7 +1091,7 @@
 1	Erasoan	eraso	NOUN	_	Case=Ine|Definite=Def|Number=Sing	6	obl	_	_
 2	zein	zein	CCONJ	_	_	3	cc	_	_
 3	defentsan	defentsa	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	1	conj	_	_
-4	nahiko	nahiko	ADV	_	_	5	det	_	_
+4	nahiko	nahiko	ADV	_	_	5	advmod	_	_
 5	makal	makal	ADJ	_	Case=Abs|Definite=Ind	6	obj	_	_
 6	azaldu	azaldu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 7	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	6	aux	_	_
@@ -9682,7 +9682,7 @@
 12	eta	eta	CCONJ	_	_	19	cc	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	_
 14	era	era	NOUN	_	_	19	obl	_	_
-15	hartan	hartan	ADV	_	_	14	det	_	SpaceAfter=No
+15	hartan	hartan	ADV	_	_	14	advmod	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	14	punct	_	_
 17	askoz	askoz	ADV	_	_	18	advmod	_	_
 18	ikusgaitzago	ikusgaitz	ADJ	_	Case=Abs|Definite=Ind|Degree=Cmp	19	xcomp	_	_
@@ -20655,7 +20655,7 @@
 1	300	300	NUM	_	NumType=Card	3	nummod	_	_
 2	kamioi	kamioi	NOUN	_	_	3	nmod	_	_
 3	gidari	gidari	NOUN	_	_	13	nsubj	_	_
-4	inguru	inguru	ADV	_	_	3	det	_	_
+4	inguru	inguru	ADV	_	_	3	advmod	_	_
 5	08:00etan	08:00	NUM	_	NumType=Card	13	obl	_	_
 6	Talluntxe	Talluntxe	PROPN	_	_	7	compound	_	_
 7	Industrialdean	industrialde	NOUN	_	Case=Ine|Definite=Def|Number=Sing	13	obl	_	_
@@ -22267,7 +22267,7 @@
 
 # sent_id = test-s1419
 # text = MILAKA zale bildu ziren atzo San Mamesen Athleticen aurkezpenean.
-1	MILAKA	milaka	ADV	_	_	2	det	_	_
+1	MILAKA	milaka	ADV	_	_	2	advmod	_	_
 2	zale	zale	ADJ	_	Case=Abs|Definite=Ind	3	nsubj	_	_
 3	bildu	bildu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 4	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	3	aux	_	_

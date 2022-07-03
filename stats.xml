@@ -108,7 +108,7 @@
   <deps unique="33">
     <dep name="acl">1150</dep>
     <dep name="advcl">5372</dep>
-    <dep name="advmod">6668</dep>
+    <dep name="advmod">6692</dep>
     <dep name="amod">4553</dep>
     <dep name="appos">562</dep>
     <dep name="aux">10379</dep>
@@ -120,7 +120,7 @@
     <dep name="cop">2417</dep>
     <dep name="csubj">304</dep>
     <dep name="dep">244</dep>
-    <dep name="det">2255</dep>
+    <dep name="det">2231</dep>
     <dep name="discourse">69</dep>
     <dep name="dislocated">1</dep>
     <dep name="fixed">290</dep>
