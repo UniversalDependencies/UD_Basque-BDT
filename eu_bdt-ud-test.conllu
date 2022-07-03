@@ -3440,7 +3440,7 @@
 7	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
 8	elkarrizketen	elkarrizketa	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Plur	9	nmod	_	_
 9	emaitzak	emaitza	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	10	nsubj	_	_
-10	baino	baino	X	_	_	14	advmod	_	SpaceAfter=No
+10	baino	baino	ADV	_	_	14	advmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	14	punct	_	_
 12	garrantzi	garrantzi	NOUN	_	_	14	obj	_	_
 13	handiagoa	handi	ADJ	_	Case=Abs|Definite=Def|Degree=Cmp|Number=Sing	12	amod	_	_
@@ -5167,7 +5167,7 @@
 10	kolpetik	kolpetik	ADV	_	_	11	advmod	_	_
 11	etortzen	etorri	VERB	_	Aspect=Imp|VerbForm=Inf	13	nsubj	_	_
 12	direnak	izan	AUX	_	Case=Abs|Definite=Def|Mood=Ind|Number=Plur|Number[abs]=Plur|Person[abs]=3	11	aux	_	_
-13	baino	baino	X	_	_	15	advmod	_	_
+13	baino	baino	ADV	_	_	15	advmod	_	_
 14	fidagarriagoak	fidagarri	ADJ	_	Case=Abs|Definite=Def|Degree=Cmp|Number=Plur	3	advcl	_	_
 15	izaten	izan	AUX	_	Aspect=Imp|VerbForm=Inf	14	cop	_	_
 16	baitira	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	15	aux	_	SpaceAfter=No
@@ -5678,7 +5678,7 @@
 8	milioi	milioi	NOUN	_	_	10	det	_	_
 9	erdi	erdi	NOUN	_	_	8	nmod	_	_
 10	herritar	herritar	NOUN	_	Case=Abs|Definite=Ind	11	nsubj	_	_
-11	baino	baino	X	_	_	13	advmod	_	_
+11	baino	baino	ADV	_	_	13	advmod	_	_
 12	gehiagok	gehiago	DET	_	Case=Erg|Definite=Ind	13	nsubj	_	_
 13	galdu	galdu	VERB	_	Aspect=Perf|VerbForm=Part	5	conj	_	_
 14	dituzte	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	13	aux	_	_
@@ -6263,7 +6263,7 @@
 1	Espanyolen	Espanyol	PROPN	_	Case=Gen|Definite=Def|Number=Sing	2	nmod	_	_
 2	egoera	egoera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	nsubj	_	_
 3	Realarena	Real	NOUN	_	Case=Abs|Definite=Def|Number=Sing	4	nsubj	_	_
-4	baino	baino	X	_	_	7	advmod	_	_
+4	baino	baino	ADV	_	_	7	advmod	_	_
 5	zertxobait	zertxobait	PRON	_	Case=Abs|Definite=Ind	6	obl	_	_
 6	hobea	hobe	ADJ	_	Case=Abs|Definite=Def|Number=Sing	0	root	_	_
 7	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	6	cop	_	SpaceAfter=No
@@ -6597,7 +6597,7 @@
 6	asteburua	asteburu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	7	obj	_	_
 7	pasatzera	pasatu	VERB	_	Case=All	8	advcl	_	_
 8	etortzea	etorri	VERB	_	Case=Abs	9	advcl	_	_
-9	baino	baino	X	_	_	14	advmod	_	_
+9	baino	baino	ADV	_	_	14	advmod	_	_
 10	ideia	ideia	NOUN	_	_	14	obj	_	_
 11	hoberik	hobe	ADJ	_	Case=Par|Definite=Ind	10	amod	_	_
 12	ez	ez	PART	_	Polarity=Neg	14	advmod	_	_
@@ -6669,7 +6669,7 @@
 9	ez	ez	PART	_	Polarity=Neg	10	advmod	_	_
 10	dauka	eduki	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	0	root	_	_
 11	besteak	beste	DET	_	Case=Erg|Definite=Def|Number=Sing	12	nsubj	_	_
-12	baino	baino	X	_	_	14	advmod	_	_
+12	baino	baino	ADV	_	_	14	advmod	_	_
 13	arrisku	arrisku	NOUN	_	_	10	obj	_	_
 14	handiagoa	handi	ADJ	_	Case=Abs|Definite=Def|Degree=Cmp|Number=Sing	13	amod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	10	punct	_	_
@@ -8373,7 +8373,7 @@
 13	Q	q	NOUN	_	_	14	nmod	_	_
 14	puntua	puntu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	19	nsubj	_	_
 15	ebaketa-puntua	ebaketa+-+puntu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	16	nsubj	_	_
-16	baino	baino	X	_	_	19	advmod	_	_
+16	baino	baino	ADV	_	_	19	advmod	_	_
 17	zerbait	zerbait	PRON	_	Case=Abs|Definite=Ind	18	det	_	_
 18	gorago	gora	ADV	_	Degree=Cmp	19	advmod	_	_
 19	kokatzen	kokatu	VERB	_	Aspect=Imp|VerbForm=Inf	10	advcl	_	_
@@ -16054,7 +16054,7 @@
 8	aurretik	aurre	ADP	_	Case=Abl|Definite=Def|Number=Sing	7	case	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	inoiz	inoiz	ADV	_	_	11	nmod	_	_
-11	baino	baino	X	_	_	12	advmod	_	_
+11	baino	baino	ADV	_	_	12	advmod	_	_
 12	bideratuagoa	bideratu	VERB	_	Case=Abs|Definite=Def|Degree=Cmp|Number=Sing|VerbForm=Part	0	root	_	_
 13	zegoen	egon	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	12	cop	_	_
 14	Ekialde	ekialde	NOUN	_	_	15	compound	_	_
@@ -17043,7 +17043,7 @@
 # sent_id = test-s1145
 # text = Hakkinen baino sendoago ari da, argi eta garbi, eta hegazkin istripua izan zuenetik askoz hobeto dabil.
 1	Hakkinen	Hakkinen	PROPN	_	Case=Abs|Definite=Def|Number=Sing	2	nsubj	_	_
-2	baino	baino	X	_	_	5	advmod	_	_
+2	baino	baino	ADV	_	_	5	advmod	_	_
 3	sendoago	sendo	ADJ	_	Degree=Cmp	0	root	_	_
 4	ari	ari	AUX	_	_	5	aux	_	_
 5	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	3	cop	_	SpaceAfter=No
@@ -20868,7 +20868,7 @@
 8	handiagoa	handi	ADJ	_	Case=Abs|Definite=Def|Degree=Cmp|Number=Sing	7	obl	_	_
 9	dago	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	0	root	_	_
 10	emakumezkoenetan	emakumezko	NOUN	_	Case=Ine|Definite=Def|Number=Plur	11	nmod	_	_
-11	baino	baino	X	_	_	7	advmod	_	SpaceAfter=No
+11	baino	baino	ADV	_	_	7	advmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	9	punct	_	_
 
 # sent_id = test-s1350
@@ -21380,7 +21380,7 @@
 12	;	;	PUNCT	_	_	16	punct	_	_
 13	baina	baina	CCONJ	_	_	16	cc	_	_
 14	Atlantan	Atlanta	PROPN	_	Case=Ine|Definite=Def|Number=Sing	15	nmod	_	_
-15	baino	baino	X	_	_	17	advmod	_	_
+15	baino	baino	ADV	_	_	17	advmod	_	_
 16	gusturaxeago	gusturaxe	ADJ	_	Degree=Cmp	3	conj	_	_
 17	nago	egon	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=1	16	cop	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	3	punct	_	_
@@ -24110,7 +24110,7 @@
 1	Pilotes	Pilotes	PROPN	_	_	9	nsubj	_	_
 2	Posadak	Posada	PROPN	_	Case=Erg|Definite=Def|Number=Sing	1	flat	_	_
 3	Portland	Portland	PROPN	_	_	4	nsubj	_	_
-4	baino	baino	X	_	_	9	advmod	_	_
+4	baino	baino	ADV	_	_	9	advmod	_	_
 5	askoz	askoz	ADV	_	_	8	advmod	_	_
 6	ere	ere	CCONJ	_	_	5	fixed	_	_
 7	talde	talde	NOUN	_	_	9	obl	_	_
@@ -27264,7 +27264,7 @@
 # sent_id = test-s1670
 # text = Inoiz baino indartsuago sentitzen da urte hasieratik, eta motibazio aldetik ere "bete-betean" dagoela aitortu digu.
 1	Inoiz	inoiz	ADV	_	_	2	nmod	_	_
-2	baino	baino	X	_	_	4	advmod	_	_
+2	baino	baino	ADV	_	_	4	advmod	_	_
 3	indartsuago	indartsu	ADJ	_	Case=Abs|Definite=Ind|Degree=Cmp	4	xcomp	_	_
 4	sentitzen	sentitu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 5	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	4	aux	_	_
@@ -28387,7 +28387,7 @@
 3	duela	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	6	advcl	_	_
 4	mende	mende	NOUN	_	_	3	obj	_	_
 5	bat	bat	NUM	_	NumType=Card	4	nummod	_	_
-6	baino	baino	X	_	_	8	advmod	_	_
+6	baino	baino	ADV	_	_	8	advmod	_	_
 7	areago	areago	ADV	_	_	8	advmod	_	_
 8	jazotako	jazo	VERB	_	Case=Loc|VerbForm=Part	10	advcl	_	_
 9	bi	bi	NUM	_	NumType=Card	10	nummod	_	_

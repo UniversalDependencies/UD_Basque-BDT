@@ -17,7 +17,7 @@
   <tags unique="16">
     <tag name="ADJ">5973</tag><!-- handi, on, nagusi, berri, bakar, politiko, oso, garrantzitsu, batu, txiki -->
     <tag name="ADP">1876</tag><!-- arte, _, arabera, inguru, aurre, aurka, gabe, gain, alde, buruz -->
-    <tag name="ADV">5178</tag><!-- atzo, oso, gaur, orain, ondoren, gero, hala, han, bertan, beti -->
+    <tag name="ADV">5247</tag><!-- atzo, oso, gaur, orain, ondoren, gero, hala, han, bertan, beti -->
     <tag name="AUX">12461</tag><!-- *edun, izan, egon, *edin, *ezan, ari, ukan -->
     <tag name="CCONJ">6189</tag><!-- eta, ere, baina, edo, berriz, arren, ordea, gainera, beraz, bestalde -->
     <tag name="DET">4074</tag><!-- hori, bera, beste, hau, guzti, hura, batzuk, horiek, hauek, zer -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">19811</tag><!-- ., ,, ", :, (, -, ), ?, ;, ! -->
     <tag name="SYM">15</tag><!-- cm, m, kV, kg, kW, km -->
     <tag name="VERB">19155</tag><!-- izan, egin, ukan, egon, esan, eman, jokatu, hartu, joan, lortu -->
-    <tag name="X">173</tag><!-- baino, de, ohi, del, ea, el, ezta, la, gehi, Las -->
+    <tag name="X">104</tag><!-- de, baino, del, ohi, ea, el, ezta, la, gehi, Las -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="69">

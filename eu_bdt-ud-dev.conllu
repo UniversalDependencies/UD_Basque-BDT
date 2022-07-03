@@ -4139,7 +4139,7 @@
 2	terminalean	terminal	NOUN	_	Case=Ine|Definite=Def|Number=Sing	7	obl	_	_
 3	tentsio	tentsio	NOUN	_	_	5	nsubj	_	_
 4	hori	hori	DET	_	Case=Abs|Definite=Def|Number=Sing	3	det	_	_
-5	baino	baino	X	_	_	7	advmod	_	_
+5	baino	baino	ADV	_	_	7	advmod	_	_
 6	handiagoa	handi	ADJ	_	Case=Abs|Definite=Def|Degree=Cmp|Number=Sing	7	nsubj	_	_
 7	badago	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	13	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	13	punct	_	_
@@ -5647,7 +5647,7 @@
 15	,	,	PUNCT	_	_	25	punct	_	_
 16	beste	beste	DET	_	_	17	det	_	_
 17	faboritoak	faborito	ADJ	_	Case=Abs|Definite=Def|Number=Plur	18	obj	_	_
-18	baino	baino	X	_	_	13	advmod	_	_
+18	baino	baino	ADV	_	_	13	advmod	_	_
 19	atzeraxeago	atzeraxeago	ADV	_	_	13	xcomp	_	SpaceAfter=No
 20	,	,	PUNCT	_	_	25	punct	_	_
 21	baina	baina	CCONJ	_	_	25	cc	_	_
@@ -7801,7 +7801,7 @@
 4	lehen	lehen	ADV	_	_	5	advmod	_	_
 5	ezagutzen	ezagutu	VERB	_	Aspect=Imp|VerbForm=Inf	7	obj	_	_
 6	nuena	*edun	AUX	_	Case=Abs|Definite=Def|Mood=Ind|Number=Sing|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=1	5	aux	_	_
-7	baino	baino	X	_	_	9	advmod	_	_
+7	baino	baino	ADV	_	_	9	advmod	_	_
 8	gehiago	gehiago	DET	_	Case=Abs|Definite=Ind	9	obl	_	_
 9	ezagutzen	ezagutu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 10	orain	orain	ADV	_	_	9	advmod	_	SpaceAfter=No
@@ -10868,7 +10868,7 @@
 
 # sent_id = dev-s758
 # text = Enfin, horretarako daude pronostikoak:
-1	Enfin	enfin	X	_	_	4	advmod	_	SpaceAfter=No
+1	Enfin	enfin	ADV	_	_	4	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	_
 3	horretarako	hori	DET	_	Case=Abs|Definite=Ind	4	obl	_	_
 4	daude	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	0	root	_	_
@@ -11170,7 +11170,7 @@
 15	,	,	PUNCT	_	_	23	punct	_	_
 16	baina	baina	CCONJ	_	_	23	cc	_	_
 17	hasierakoa	hasiera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	18	nsubj	_	_
-18	baino	baino	X	_	_	21	advmod	_	_
+18	baino	baino	ADV	_	_	21	advmod	_	_
 19	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
 20	hobea	hobe	ADJ	_	Case=Abs|Definite=Def|Number=Sing	23	ccomp	_	_
 21	dela	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	20	cop	_	SpaceAfter=No
@@ -12593,7 +12593,7 @@
 9	balio	balio	NOUN	_	_	12	nsubj	_	_
 10	kritiko	kritiko	ADJ	_	_	9	amod	_	_
 11	bat	bat	NUM	_	NumType=Card	9	nummod	_	_
-12	baino	baino	X	_	_	14	advmod	_	_
+12	baino	baino	ADV	_	_	14	advmod	_	_
 13	txikiagoa	txiki	ADJ	_	Case=Abs|Definite=Def|Degree=Cmp|Number=Sing	15	advcl	_	_
 14	izatera	izan	AUX	_	Case=All	13	cop	_	_
 15	behartzea	behartu	VERB	_	Case=Abs	0	root	_	_
@@ -16631,7 +16631,7 @@
 6	,	,	PUNCT	_	_	12	punct	_	_
 7	eta	eta	CCONJ	_	_	12	cc	_	_
 8	gaur	gaur	ADV	_	_	9	nmod	_	_
-9	baino	baino	X	_	_	12	advmod	_	_
+9	baino	baino	ADV	_	_	12	advmod	_	_
 10	denbora	denbora	NOUN	_	_	12	obj	_	_
 11	hobea	hobe	ADJ	_	Case=Abs|Definite=Def|Number=Sing	10	amod	_	_
 12	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	4	conj	_	_
@@ -18712,7 +18712,7 @@
 22	eta	eta	CCONJ	_	_	30	cc	_	_
 23	preso	preso	NOUN	_	_	25	iobj	_	_
 24	sozialei	sozial	ADJ	_	Case=Dat|Definite=Def|Number=Plur	23	amod	_	_
-25	baino	baino	X	_	_	30	advmod	_	_
+25	baino	baino	ADV	_	_	30	advmod	_	_
 26	lege	lege	NOUN	_	_	30	obj	_	_
 27	"	"	PUNCT	_	_	18	punct	_	SpaceAfter=No
 28	gogorragoak	gogor	ADJ	_	Case=Abs|Definite=Def|Degree=Cmp|Number=Plur	26	amod	_	SpaceAfter=No
@@ -21072,7 +21072,7 @@
 4	,	,	PUNCT	_	_	10	punct	_	_
 5	jendea	jende	NOUN	_	Case=Abs|Definite=Def|Number=Sing	10	nsubj	_	_
 6	orain	orain	ADV	_	_	7	nmod	_	_
-7	baino	baino	X	_	_	9	advmod	_	_
+7	baino	baino	ADV	_	_	9	advmod	_	_
 8	lehenago	lehenago	ADV	_	_	9	advmod	_	_
 9	irten	irten	VERB	_	VerbForm=Part	10	xcomp	_	_
 10	beharko	behar_izan	VERB	_	_	0	root	_	_
@@ -22436,7 +22436,7 @@
 2	duen	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	3	acl	_	_
 3	arrantzaleak	arrantzale	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def|Number=Sing	7	nsubj	_	_
 4	lehorrekoak	lehor	NOUN	_	Animacy=Inan|Case=Erg|Definite=Def|Number=Sing	5	nsubj	_	_
-5	baino	baino	X	_	_	7	advmod	_	_
+5	baino	baino	ADV	_	_	7	advmod	_	_
 6	errazago	erraz	ADJ	_	Case=Abs|Definite=Ind|Degree=Cmp	7	obl	_	_
 7	lortzen	lortu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 8	du	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	7	aux	_	_
@@ -23652,7 +23652,7 @@
 16	takarraran	takarrara	NOUN	_	Case=Ine|Definite=Def|Number=Sing	12	obl	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	14	punct	_	_
 18	amia	ami	NOUN	_	Case=Abs|Definite=Def|Number=Sing	19	nsubj	_	_
-19	baino	baino	X	_	_	21	advmod	_	_
+19	baino	baino	ADV	_	_	21	advmod	_	_
 20	azkarrago	azkar	ADJ	_	Case=Abs|Definite=Ind|Degree=Cmp	21	obl	_	_
 21	heldu	heldu	VERB	_	VerbForm=Part	17	xcomp	_	_
 22	eta	eta	CCONJ	_	_	26	cc	_	_
@@ -25824,7 +25824,7 @@
 # text = Donibaneko uste baino hobeto aritu baitzen atzo, eta Trintxerpe eta Donosti Arraun ere ez zituen urrun izan.
 1	Donibaneko	Donibaneko	PROPN	_	Case=Abs|Definite=Def|Number=Sing	5	nsubj	_	_
 2	uste	uste	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	3	nmod	_	_
-3	baino	baino	X	_	_	5	advmod	_	_
+3	baino	baino	ADV	_	_	5	advmod	_	_
 4	hobeto	hobeto	ADV	_	_	5	advmod	_	_
 5	aritu	aritu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 6	baitzen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	5	aux	_	_
@@ -27896,7 +27896,7 @@
 3	,	,	PUNCT	_	_	7	punct	_	_
 4	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
 5	ordukoan	orduko	ADJ	_	Case=Ine|Definite=Def|Number=Sing	6	nmod	_	_
-6	baino	baino	X	_	_	8	advmod	_	_
+6	baino	baino	ADV	_	_	8	advmod	_	_
 7	hobeto	hobeto	ADV	_	_	0	root	_	_
 8	dago	egon	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	7	cop	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	7	punct	_	_
