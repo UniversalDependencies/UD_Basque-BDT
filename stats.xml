@@ -107,8 +107,8 @@
   <!-- Statistics of universal dependency relations. -->
   <deps unique="33">
     <dep name="acl">1150</dep>
-    <dep name="advcl">5363</dep>
-    <dep name="advmod">6714</dep>
+    <dep name="advcl">5372</dep>
+    <dep name="advmod">6705</dep>
     <dep name="amod">4192</dep>
     <dep name="appos">559</dep>
     <dep name="aux">10379</dep>

@@ -3094,7 +3094,7 @@
 
 # sent_id = dev-s221
 # text = Hasteko, ilusioa soberan du Athleticek.
-1	Hasteko	hasi	VERB	_	Case=Abs|Definite=Ind	5	advmod	_	SpaceAfter=No
+1	Hasteko	hasi	VERB	_	Case=Abs|Definite=Ind	5	advcl	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	5	punct	_	_
 3	ilusioa	ilusio	NOUN	_	Case=Abs|Definite=Def|Number=Sing	5	obj	_	_
 4	soberan	sobera	ADJ	_	Case=Ine|Definite=Def|Number=Sing	5	obl	_	_
@@ -3958,7 +3958,7 @@
 
 # sent_id = dev-s279
 # text = Amaitzeko, Fragak "demokrata guztien batasuna" aldarrikatu zuen, "ETAren indarkeriak eragiten duen basakeria eta hondamendia amaitzeko".
-1	Amaitzeko	amaitu	VERB	_	Case=Abs|Definite=Ind	9	advmod	_	SpaceAfter=No
+1	Amaitzeko	amaitu	VERB	_	Case=Abs|Definite=Ind	9	advcl	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	9	punct	_	_
 3	Fragak	Fraga	PROPN	_	Case=Erg|Definite=Def|Number=Sing	9	nsubj	_	_
 4	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
@@ -28407,7 +28407,7 @@
 # sent_id = dev-s1746
 # text = Menderatu egiten dituzu esfortzurik gabe.
 1	Menderatu	menderatu	VERB	_	VerbForm=Part	0	root	_	_
-2	egiten	egin	VERB	_	Aspect=Imp|VerbForm=Inf	1	advmod	_	_
+2	egiten	egin	VERB	_	Aspect=Imp|VerbForm=Inf	1	advcl	_	_
 3	dituzu	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=2	1	aux	_	_
 4	esfortzurik	esfortzu	NOUN	_	Case=Abl	1	obl	_	_
 5	gabe	gabe	ADP	_	Definite=Ind	4	case	_	SpaceAfter=No

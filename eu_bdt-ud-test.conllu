@@ -3269,7 +3269,7 @@
 7	eta	eta	CCONJ	_	_	13	cc	_	_
 8	benetan	benetan	ADV	_	_	13	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
-10	lehiatua	lehiatu	VERB	_	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	13	advmod	_	_
+10	lehiatua	lehiatu	VERB	_	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	13	advcl	_	_
 11	bezain	bezain	ADV	_	_	13	advmod	_	_
 12	ikusgarria	ikusgarri	ADJ	_	Case=Abs|Definite=Def|Number=Sing	13	advmod	_	_
 13	gertatu	gertatu	VERB	_	Aspect=Perf|VerbForm=Part	3	conj	_	_
@@ -15795,7 +15795,7 @@
 6	hainbat	hainbat	DET	_	_	7	det	_	_
 7	gauza	gauza	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	9	obj	_	_
 8	ere	ere	CCONJ	_	_	12	advmod	_	_
-9	ikasten	ikasi	VERB	_	Aspect=Imp|VerbForm=Inf	12	advmod	_	_
+9	ikasten	ikasi	VERB	_	Aspect=Imp|VerbForm=Inf	12	advcl	_	_
 10	dituzte	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	9	aux	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	besteak	beste	DET	_	Case=Abs|Definite=Def|Number=Plur	0	root	_	_
