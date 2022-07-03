@@ -80,7 +80,7 @@
 8	bigarrena	bigarren	NUM	_	NumType=Ord	5	nsubj	_	_
 9	25.000koa	25.000	NUM	_	NumType=Card	8	acl	_	_
 10	eta	eta	CCONJ	_	_	5	cc	_	_
-11	hirugarrena	hirugarren	NUM	_	NumType=Ord	10	nsubj	_	_
+11	hirugarrena	hirugarren	NUM	_	NumType=Ord	5	nsubj	_	_
 12	15.000koa	15.000	NUM	_	NumType=Card	11	acl	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -1844,7 +1844,7 @@
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	eta	eta	CCONJ	_	_	3	cc	_	_
 12	nahita	nahita	ADV	_	_	13	advmod	_	_
-13	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	11	ccomp	_	_
+13	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	3	ccomp	_	_
 14	zuela	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	13	aux	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -1943,7 +1943,7 @@
 4	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	3	aux	_	_
 5	eta	eta	CCONJ	_	_	3	cc	_	_
 6	hirugarren	hirugarren	NUM	_	NumType=Ord	7	acl	_	_
-7	Getxo	Getxo	PROPN	_	Case=Abs|Definite=Def|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	Getxo	Getxo	PROPN	_	Case=Abs|Definite=Def|Number=Sing	3	nsubj	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	_
 
 # sent_id = test-s137
@@ -3488,7 +3488,7 @@
 11	gaitasun	gaitasun	NOUN	_	_	13	nmod	_	_
 12	handiko	handi	ADJ	_	Case=Loc|Definite=Def|Number=Sing	11	nmod	_	_
 13	pertsona	pertsona	NOUN	_	Animacy=Anim|Case=Abs|Definite=Def|Number=Sing	14	nsubj	_	_
-14	zelako	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	9	advcl	_	SpaceAfter=No
+14	zelako	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	6	advcl	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = test-s245
@@ -3782,7 +3782,7 @@
 6	du	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	5	aux	_	_
 7	lurrera	lur	NOUN	_	Animacy=Inan|Case=All|Definite=Def|Number=Sing	5	obl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	_
-9	bestea	beste	DET	_	Case=Abs|Definite=Def|Number=Sing	4	nsubj	_	_
+9	bestea	beste	DET	_	Case=Abs|Definite=Def|Number=Sing	5	nsubj	_	_
 10	harritua	harritu	VERB	_	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	9	acl	_	SpaceAfter=No
 11	)	)	PUNCT	_	_	2	punct	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
@@ -4700,7 +4700,7 @@
 4	abiapuntu	abiapuntu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	11	advcl	_	_
 5	izan	izan	AUX	_	VerbForm=Part	4	cop	_	_
 6	ala	ala	CCONJ	_	_	5	cc	_	_
-7	ez	ez	PART	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
+7	ez	ez	PART	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	4	punct	_	_
 9	dakiguna	jakin	VERB	_	Aspect=Prog|Case=Abs|Definite=Def|Mood=Ind|Number=Sing|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	10	nsubj	_	_
 10	zera	zer	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	_
@@ -4731,7 +4731,7 @@
 12	kanpoarekiko	kanpo	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	13	nmod	_	_
 13	harreman	harreman	NOUN	_	_	15	obj	_	_
 14	guztiak	guzti	DET	_	Case=Abs|Definite=Def|Number=Plur	13	det	_	_
-15	interbenituak	interbenitu	VERB	_	Case=Abs|Definite=Def|Number=Plur|VerbForm=Part	8	ccomp	_	_
+15	interbenituak	interbenitu	VERB	_	Case=Abs|Definite=Def|Number=Plur|VerbForm=Part	6	ccomp	_	_
 16	genituela	ukan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	15	cop	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -4881,7 +4881,7 @@
 3	kapital	kapital	NOUN	_	_	1	conj	_	_
 4	eta	eta	CCONJ	_	_	3	cc	_	_
 5	merkatal	merkatal	NOUN	_	_	6	nmod	_	_
-6	produktu	produktu	NOUN	_	_	4	conj	_	_
+6	produktu	produktu	NOUN	_	_	3	conj	_	_
 7	eta	eta	CCONJ	_	_	3	cc	_	_
 8	zerbitzuen	zerbitzu	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Plur	9	nmod	_	_
 9	trafikoa	trafiko	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	conj	_	SpaceAfter=No
@@ -6514,7 +6514,7 @@
 3	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	2	aux	_	_
 4	hildakoak	hildako	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def|Number=Sing	0	root	_	_
 5	eta	eta	CCONJ	_	_	2	cc	_	_
-6	milaka	milaka	ADV	_	_	5	nsubj	_	_
+6	milaka	milaka	ADV	_	_	2	nsubj	_	_
 7	desplazatuak	desplazatu	VERB	_	Case=Erg|Definite=Def|Number=Sing|VerbForm=Part	6	acl	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -6708,7 +6708,7 @@
 4	da	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	0	root	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	12	punct	_	_
 6	eta	eta	CCONJ	_	_	12	cc	_	_
-7	bizkortasuna	bizkortasun	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	obj	_	SpaceAfter=No
+7	bizkortasuna	bizkortasun	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	12	obj	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	eta	eta	CCONJ	_	_	12	cc	_	_
 10	hori	hori	DET	_	Case=Abs|Definite=Def|Number=Sing	12	nsubj	_	_
@@ -7333,7 +7333,7 @@
 10	zafratu	zafratu	VERB	_	VerbForm=Part	13	advcl	_	_
 11	ondoan	ondo	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	10	advcl	_	_
 12	igerilekura	igerileku	NOUN	_	Animacy=Inan|Case=All|Definite=Def|Number=Sing	13	obl	_	_
-13	bota	bota	VERB	_	VerbForm=Part	8	conj	_	_
+13	bota	bota	VERB	_	VerbForm=Part	6	conj	_	_
 14	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	21	aux	_	_
 15	zuten	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	13	aux	_	_
 16	eta	eta	CCONJ	_	_	6	cc	_	_
@@ -8278,7 +8278,7 @@
 12	)	)	PUNCT	_	_	7	punct	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	7	punct	_	_
 14	baina	baina	CCONJ	_	_	1	cc	_	_
-15	galdu	galdu	VERB	_	VerbForm=Part	14	conj	_	_
+15	galdu	galdu	VERB	_	VerbForm=Part	1	conj	_	_
 16	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	15	aux	_	_
 17	zuen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	15	aux	_	_
 18	aurreneko	aurreneko	ADJ	_	_	19	amod	_	_
@@ -9586,7 +9586,7 @@
 10	eta	eta	CCONJ	_	_	8	cc	_	_
 11	hiru	hiru	NUM	_	NumType=Card	12	nummod	_	_
 12	pertsona	pertsona	NOUN	_	Animacy=Anim|Case=Abs|Definite=Ind	13	obj	_	_
-13	hil	hil	VERB	_	VerbForm=Part	10	conj	_	_
+13	hil	hil	VERB	_	VerbForm=Part	8	conj	_	_
 14	eta	eta	CCONJ	_	_	8	cc	_	_
 15	hainbat	hainbat	DET	_	Case=Abs|Definite=Ind	16	obj	_	_
 16	zauritu	zauritu	VERB	_	Aspect=Perf|VerbForm=Part	13	conj	_	_
@@ -11194,7 +11194,7 @@
 7	jasaten	jasan	VERB	_	Aspect=Imp|VerbForm=Inf	10	acl	_	_
 8	dituen	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	7	aux	_	_
 9	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
-10	presio	presio	NOUN	_	_	6	conj	_	SpaceAfter=No
+10	presio	presio	NOUN	_	_	5	conj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
 12	kontrol	kontrol	NOUN	_	_	10	conj	_	_
 13	eta	eta	CCONJ	_	_	14	cc	_	_
@@ -12406,8 +12406,8 @@
 5	konektatuta	konektatu	VERB	_	VerbForm=Part	0	root	_	_
 6	dago	egon	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	5	cop	_	_
 7	eta	eta	CCONJ	_	_	6	cc	_	_
-8	emisorea	emisore	NOUN	_	Case=Abs|Definite=Def|Number=Sing	7	nsubj	_	_
-9	masari	masa	NOUN	_	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	7	iobj	_	SpaceAfter=No
+8	emisorea	emisore	NOUN	_	Case=Abs|Definite=Def|Number=Sing	6	nsubj	_	_
+9	masari	masa	NOUN	_	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	6	iobj	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = test-s856
@@ -12717,7 +12717,7 @@
 8	hirugarren	hirugarren	NUM	_	NumType=Ord	11	acl	_	_
 9	Osleidys	Osleidys	PROPN	_	_	11	nmod	_	_
 10	Menendez	Menendez	PROPN	_	_	9	flat	_	_
-11	kubatarra	kubatar	ADJ	_	Case=Abs|Definite=Def|Number=Sing	7	nsubj	_	SpaceAfter=No
+11	kubatarra	kubatar	ADJ	_	Case=Abs|Definite=Def|Number=Sing	4	nsubj	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = test-s875
@@ -14397,7 +14397,7 @@
 11	klinikoki	kliniko+!ki	ADV	_	_	12	advmod	_	_
 12	hilda	hil	VERB	_	VerbForm=Part	14	acl	_	_
 13	zegoen	egon	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	12	cop	_	_
-14	polizia	polizia	NOUN	_	_	10	nsubj	_	_
+14	polizia	polizia	NOUN	_	_	4	nsubj	_	_
 15	palestinar	palestinar	ADJ	_	_	14	amod	_	_
 16	bat	bat	NUM	_	NumType=Card	14	nummod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	_
@@ -14477,7 +14477,7 @@
 11	ETAren	ETA	PROPN	_	Case=Gen|Definite=Def|Number=Sing	12	nmod	_	_
 12	erabakiak	erabaki	NOUN	_	Case=Erg|Definite=Def|Number=Sing	14	nsubj	_	_
 13	hori	hori	DET	_	Case=Abs|Definite=Def|Number=Sing	14	obj	_	_
-14	oztopatzen	oztopatu	VERB	_	Aspect=Imp|VerbForm=Inf	10	ccomp	_	_
+14	oztopatzen	oztopatu	VERB	_	Aspect=Imp|VerbForm=Inf	8	ccomp	_	_
 15	duela	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	14	aux	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	8	punct	_	_
 
@@ -14581,7 +14581,7 @@
 13	nagusiak	nagusi	ADJ	_	Case=Abs|Definite=Def|Number=Plur	12	amod	_	SpaceAfter=No
 14	;	;	PUNCT	_	_	18	punct	_	_
 15	eta	eta	CCONJ	_	_	18	cc	_	_
-16	Lizarra	Lizarra	PROPN	_	Case=Abs|Definite=Def|Number=Sing	15	nsubj	_	SpaceAfter=No
+16	Lizarra	Lizarra	PROPN	_	Case=Abs|Definite=Def|Number=Sing	18	nsubj	_	SpaceAfter=No
 17	,	,	PUNCT	_	_	16	punct	_	_
 18	berriz	berriz	CCONJ	_	_	10	conj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
@@ -15121,7 +15121,7 @@
 11	egiteko	egin	VERB	_	Case=Abs|Definite=Ind	12	advcl	_	_
 12	izan	izan	VERB	_	Aspect=Perf|VerbForm=Part	14	acl	_	_
 13	den	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	12	aux	_	_
-14	giroa	giro	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	9	conj	_	_
+14	giroa	giro	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	8	conj	_	_
 15	eta	eta	CCONJ	_	_	8	cc	_	_
 16	azkartasuna	azkartasun	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	14	conj	_	_
 17	ere	ere	CCONJ	_	_	16	advmod	_	_
@@ -16086,8 +16086,8 @@
 5	saioan	saio	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	2	obl	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	eta	eta	CCONJ	_	_	2	cc	_	_
-8	Kafelnikovi	Kafelnikov	PROPN	_	Case=Dat|Definite=Def|Number=Sing	7	iobj	_	_
-9	atzo	atzo	ADV	_	_	7	nmod	_	SpaceAfter=No
+8	Kafelnikovi	Kafelnikov	PROPN	_	Case=Dat|Definite=Def|Number=Sing	2	iobj	_	_
+9	atzo	atzo	ADV	_	_	2	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = test-s1093
@@ -16095,7 +16095,7 @@
 1	urteoro	urteoro	ADV	_	_	8	advmod	_	_
 2	edo	edo	CCONJ	_	_	5	cc	_	_
 3	bi	bi	NUM	_	NumType=Card	4	nummod	_	_
-4	urtetik	urte	NOUN	_	Animacy=Inan|Case=Abl|Definite=Def|Number=Sing	2	nmod	_	_
+4	urtetik	urte	NOUN	_	Animacy=Inan|Case=Abl|Definite=Def|Number=Sing	5	nmod	_	_
 5	behin	behin	ADV	_	_	1	conj	_	_
 6	lorapoteko	lorapote	NOUN	_	Case=Loc|Definite=Def|Number=Sing	7	nmod	_	_
 7	lurra	lur	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	8	obj	_	_
@@ -16103,7 +16103,7 @@
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	edo	edo	CCONJ	_	_	8	cc	_	_
 11	lurra	lur	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	12	obj	_	_
-12	mantendu	mantendu	VERB	_	VerbForm=Part	10	conj	_	_
+12	mantendu	mantendu	VERB	_	VerbForm=Part	8	conj	_	_
 13	eta	eta	CCONJ	_	_	8	cc	_	_
 14	ongarritu	ongarritu	VERB	_	VerbForm=Part	12	conj	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	8	punct	_	_
@@ -16803,9 +16803,9 @@
 4	neurtuko	neurtu	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
 5	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	4	aux	_	_
 6	eta	eta	CCONJ	_	_	4	cc	_	_
-7	igandean	igande	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	6	nmod	_	_
+7	igandean	igande	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	4	nmod	_	_
 8	Leongo	Leon	PROPN	_	Case=Loc|Definite=Def|Number=Sing	9	nmod	_	_
-9	Cistiernarekin	Cistierna	PROPN	_	Case=Com|Definite=Def|Number=Sing	6	nmod	_	SpaceAfter=No
+9	Cistiernarekin	Cistierna	PROPN	_	Case=Com|Definite=Def|Number=Sing	4	nmod	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = test-s1134
@@ -17075,10 +17075,10 @@
 9	punturekin	puntu	NOUN	_	Animacy=Inan|Case=Com|Definite=Ind	7	obl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	eta	eta	CCONJ	_	_	7	cc	_	_
-12	Getafe	Getafe	PROPN	_	Case=Abs|Definite=Def|Number=Sing	11	nsubj	_	_
+12	Getafe	Getafe	PROPN	_	Case=Abs|Definite=Def|Number=Sing	7	nsubj	_	_
 13	18.	18.	NUM	_	NumType=Ord	12	acl	_	_
 14	4	4	NUM	_	NumType=Card	15	nummod	_	_
-15	punturekin	puntu	NOUN	_	Animacy=Inan|Case=Com|Definite=Ind	11	nmod	_	SpaceAfter=No
+15	punturekin	puntu	NOUN	_	Animacy=Inan|Case=Com|Definite=Ind	7	nmod	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = test-s1147
@@ -17220,7 +17220,7 @@
 29	,	,	PUNCT	_	_	33	punct	_	_
 30	jaso	jaso	VERB	_	VerbForm=Inf	32	acl	_	_
 31	dezakeen	*ezan	AUX	_	Mood=Pot|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	30	aux	_	_
-32	diruari	diru	NOUN	_	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	33	iobj	_	_
+32	diruari	diru	NOUN	_	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	28	iobj	_	_
 33	baino	baino	CCONJ	_	_	28	cc	_	SpaceAfter=No
 34	.	.	PUNCT	_	_	13	punct	_	_
 
@@ -17550,9 +17550,9 @@
 6	zehar	_	ADP	_	Animacy=Inan|Definite=Def|Number=Sing	5	case	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	eta	eta	CCONJ	_	_	2	cc	_	_
-9	herenegun	herenegun	ADV	_	_	8	nmod	_	_
+9	herenegun	herenegun	ADV	_	_	2	nmod	_	_
 10	oso	oso	ADV	_	_	11	advmod	_	_
-11	gogor	gogor	ADV	_	_	8	nmod	_	SpaceAfter=No
+11	gogor	gogor	ADV	_	_	2	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = test-s1173
@@ -17629,10 +17629,10 @@
 17	Grenobleren	Grenoble	PROPN	_	Case=Gen	15	obl	_	_
 18	kontra	kontra	ADP	_	Definite=Def|Number=Sing	17	case	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	20	punct	_	_
-20	eta	eta	CCONJ	_	_	9	cc	_	_
-21	ez	ez	PART	_	Polarity=Neg	20	advmod	_	_
-22	noski	noski	ADV	_	_	20	nmod	_	_
-23	hurrengoak	hurrengo	ADJ	_	Case=Abs|Definite=Def|Number=Plur	20	obj	_	_
+20	eta	eta	CCONJ	_	_	15	cc	_	_
+21	ez	ez	PART	_	Polarity=Neg	15	advmod	_	_
+22	noski	noski	ADV	_	_	15	nmod	_	_
+23	hurrengoak	hurrengo	ADJ	_	Case=Abs|Definite=Def|Number=Plur	15	obj	_	_
 24	ere	ere	CCONJ	_	_	23	advmod	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -17808,9 +17808,9 @@
 
 # sent_id = test-s1186
 # text = Politikan lekurik ez, eta kirolean aurkitu zuen gora egiteko bidea.
-1	Politikan	politika	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	5	nmod	_	_
-2	lekurik	leku	NOUN	_	Animacy=Inan|Case=Par|Definite=Ind	5	obj	_	_
-3	ez	ez	PART	_	Polarity=Neg	5	advmod	_	SpaceAfter=No
+1	Politikan	politika	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	7	nmod	_	_
+2	lekurik	leku	NOUN	_	Animacy=Inan|Case=Par|Definite=Ind	7	obj	_	_
+3	ez	ez	PART	_	Polarity=Neg	7	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	3	punct	_	_
 5	eta	eta	CCONJ	_	_	7	cc	_	_
 6	kirolean	kirol	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	7	obl	_	_
@@ -18696,7 +18696,7 @@
 9	medikuen	mediku	NOUN	_	Case=Gen	12	obl	_	_
 10	arabera	arabera	ADP	_	Animacy=Anim|Definite=Def|Number=Plur	9	case	_	_
 11	onera	on	ADJ	_	Case=All|Definite=Def|Number=Sing	12	obl	_	_
-12	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	8	conj	_	_
+12	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	5	conj	_	_
 13	du	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	12	aux	_	_
 14	eta	eta	CCONJ	_	_	5	cc	_	_
 15	ez	ez	PART	_	Polarity=Neg	16	advmod	_	_
@@ -18919,10 +18919,10 @@
 1	I-an	I	NOUN	_	Case=Ine|Definite=Def|Number=Sing	2	nmod	_	_
 2	Iruña	Iruña	PROPN	_	Case=Abs|Definite=Def|Number=Sing	13	obj	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	8	punct	_	_
-4	E-an	E	NOUN	_	Case=Ine|Definite=Def|Number=Sing	8	nmod	_	_
+4	E-an	E	NOUN	_	Case=Ine|Definite=Def|Number=Sing	2	nmod	_	_
 5	eta	eta	CCONJ	_	_	6	cc	_	_
 6	H-an	H	NOUN	_	Case=Ine|Definite=Def|Number=Sing	4	conj	_	_
-7	Trebiño	Trebiño	PROPN	_	Case=Abs|Definite=Def|Number=Sing	5	obj	_	_
+7	Trebiño	Trebiño	PROPN	_	Case=Abs|Definite=Def|Number=Sing	6	obj	_	_
 8	eta	eta	CCONJ	_	_	2	cc	_	_
 9	M-an	M	NOUN	_	Case=Ine|Definite=Def|Number=Sing	12	obl	_	_
 10	Erribera	Erribera	PROPN	_	_	13	obj	_	_
@@ -19499,9 +19499,9 @@
 6	du	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	5	aux	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	eta	eta	CCONJ	_	_	5	cc	_	_
-9	Aimar	Aimar	PROPN	_	_	8	nsubj	_	_
+9	Aimar	Aimar	PROPN	_	_	5	nsubj	_	_
 10	Olaizolak	Olaizola	PROPN	_	Case=Erg|Definite=Def|Number=Sing	9	flat	_	_
-11	Fernando	Fernando	PROPN	_	_	8	nmod	_	_
+11	Fernando	Fernando	PROPN	_	_	5	nmod	_	_
 12	Goñirekin	Goñi	PROPN	_	Case=Com|Definite=Def|Number=Sing	11	flat	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -19964,7 +19964,7 @@
 17	egotea	egon	VERB	_	Case=Abs	13	xcomp	_	_
 18	baina	baina	CCONJ	_	_	13	cc	_	_
 19	euskal	euskal	NOUN	_	_	20	nmod	_	_
-20	jokalariekin	jokalari	NOUN	_	Animacy=Anim|Case=Com|Definite=Def|Number=Plur	18	nmod	_	SpaceAfter=No
+20	jokalariekin	jokalari	NOUN	_	Animacy=Anim|Case=Com|Definite=Def|Number=Plur	13	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	11	punct	_	_
 
 # sent_id = test-s1300
@@ -20021,8 +20021,8 @@
 6	zidaten	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Plur|Person[abs]=3|Person[dat]=1|Person[erg]=3	5	aux	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	_
 8	eta	eta	CCONJ	_	_	5	cc	_	_
-9	beti	beti	ADV	_	_	8	nmod	_	_
-10	hitz	hitz	NOUN	_	_	8	nmod	_	_
+9	beti	beti	ADV	_	_	5	nmod	_	_
+10	hitz	hitz	NOUN	_	_	5	nmod	_	_
 11	honekin	hau	DET	_	Case=Com|Definite=Def|Number=Sing	10	det	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -20047,7 +20047,7 @@
 17	zakar	zakar	ADJ	_	_	16	amod	_	_
 18	edo	edo	CCONJ	_	_	19	cc	_	_
 19	gehiago	gehiago	DET	_	Case=Abs|Definite=Ind	16	conj	_	_
-20	entzun	entzun	VERB	_	Aspect=Perf|VerbForm=Part	6	conj	_	_
+20	entzun	entzun	VERB	_	Aspect=Perf|VerbForm=Part	3	conj	_	_
 21	dituzte	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	20	aux	_	_
 22	eztabaida	eztabaida	NOUN	_	_	20	obl	_	_
 23	bizian	bizi	ADJ	_	Case=Ine|Definite=Def|Number=Sing	22	amod	_	SpaceAfter=No
@@ -20304,7 +20304,7 @@
 10	baina	baina	CCONJ	_	_	5	cc	_	_
 11	Begles	Begles	PROPN	_	_	12	nmod	_	_
 12	taldearen	talde	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	13	nmod	_	_
-13	zelaian	zelai	NOUN	_	Case=Ine|Definite=Def|Number=Sing	10	nmod	_	SpaceAfter=No
+13	zelaian	zelai	NOUN	_	Case=Ine|Definite=Def|Number=Sing	5	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = test-s1319
@@ -20411,8 +20411,8 @@
 8	arrastreko	arrastre	NOUN	_	Case=Loc|Definite=Def|Number=Sing	9	nmod	_	_
 9	flotarentzat	flota	NOUN	_	Animacy=Inan|Case=Ben|Definite=Def|Number=Sing	6	obl	_	_
 10	eta	eta	CCONJ	_	_	6	cc	_	_
-11	%67koak	%67	NOUN	_	Case=Abs|Definite=Def|Number=Plur	10	nsubj	_	_
-12	baxurakoarentzat	baxura	NOUN	_	Case=Ben|Definite=Def|Number=Sing	10	nmod	_	SpaceAfter=No
+11	%67koak	%67	NOUN	_	Case=Abs|Definite=Def|Number=Plur	6	nsubj	_	_
+12	baxurakoarentzat	baxura	NOUN	_	Case=Ben|Definite=Def|Number=Sing	6	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = test-s1324
@@ -20516,11 +20516,11 @@
 8	faltak	falta	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	6	obj	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	eta	eta	CCONJ	_	_	6	cc	_	_
-11	orain	orain	ADV	_	_	10	nmod	_	SpaceAfter=No
+11	orain	orain	ADV	_	_	6	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
 13	aldiz	aldiz	CCONJ	_	_	6	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	_	_	13	punct	_	_
-15	igandero	igandero	ADV	_	_	10	nmod	_	SpaceAfter=No
+15	igandero	igandero	ADV	_	_	6	nmod	_	SpaceAfter=No
 16	"	"	PUNCT	_	_	6	punct	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	6	punct	_	_
 
@@ -20996,7 +20996,7 @@
 # sent_id = test-s1356
 # text = ETA EZ, bakea bai lelopean, arratsaldeko lauretan finkatu dute elkarretaratzeko hitzordua, Baionako Euskaldunen plazan.
 1	ETA	eta	CCONJ	_	_	10	cc	_	_
-2	EZ	ez	PART	_	Polarity=Neg	1	flat	_	SpaceAfter=No
+2	EZ	ez	PART	_	Polarity=Neg	10	flat	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	bakea	bake	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	nmod	_	_
 5	bai	bai	PART	_	Polarity=Pos	4	flat	_	_
@@ -21066,10 +21066,10 @@
 2	joan	joan	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 3	nintzen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=1	2	aux	_	_
 4	eta	eta	CCONJ	_	_	2	cc	_	_
-5	a	a	INTJ	_	_	4	discourse	_	_
+5	a	a	INTJ	_	_	2	discourse	_	_
 6	zer	zer	DET	_	_	7	nmod	_	_
 7	nolako	nolako	ADJ	_	_	8	amod	_	_
-8	sorpresa	sorpresa	NOUN	_	Case=Abs|Definite=Def|Number=Sing	4	obj	_	SpaceAfter=No
+8	sorpresa	sorpresa	NOUN	_	Case=Abs|Definite=Def|Number=Sing	2	obj	_	SpaceAfter=No
 9	:	:	PUNCT	_	_	2	punct	_	_
 
 # sent_id = test-s1360
@@ -21184,7 +21184,7 @@
 13	lurrazala	lurrazal	NOUN	_	Case=Abs|Definite=Def|Number=Sing	14	obj	_	_
 14	lehortzen	lehortu	VERB	_	Aspect=Imp|VerbForm=Inf	16	advcl	_	_
 15	duen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	14	aux	_	_
-16	kasuetan	kasu	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	11	nmod	_	SpaceAfter=No
+16	kasuetan	kasu	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	2	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = test-s1367
@@ -21361,7 +21361,7 @@
 23	boto	boto	NOUN	_	_	24	nmod	_	_
 24	zenbatekoa	zenbateko	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	26	obj	_	_
 25	berriro	berriro	ADV	_	_	26	advmod	_	_
-26	finkatu	finkatu	VERB	_	VerbForm=Part	20	xcomp	_	SpaceAfter=No
+26	finkatu	finkatu	VERB	_	VerbForm=Part	12	xcomp	_	SpaceAfter=No
 27	.	.	PUNCT	_	_	12	punct	_	_
 
 # sent_id = test-s1375
@@ -21457,7 +21457,7 @@
 3	ziren	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	2	cop	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	eta	eta	CCONJ	_	_	3	cc	_	_
-6	egunak	egun	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	5	nsubj	_	_
+6	egunak	egun	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	3	nsubj	_	_
 7	are	are	ADV	_	_	9	advmod	_	_
 8	eta	eta	CCONJ	_	_	7	dep	_	_
 9	luzeagoak	luze	ADJ	_	Case=Abs|Definite=Def|Degree=Cmp|Number=Plur	6	acl	_	SpaceAfter=No
@@ -22770,9 +22770,9 @@
 7	lirateke	izan	AUX	_	Mood=Cnd|Number[abs]=Plur|Person[abs]=3	6	aux	_	SpaceAfter=No
 8	;	;	PUNCT	_	_	9	punct	_	_
 9	eta	eta	CCONJ	_	_	6	cc	_	_
-10	zigiluenean	zigilu	NOUN	_	Case=Ine|Definite=Def|Number=Sing	9	nmod	_	SpaceAfter=No
+10	zigiluenean	zigilu	NOUN	_	Case=Ine|Definite=Def|Number=Sing	6	nmod	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	12	punct	_	_
-12	CDN	CDN	PROPN	_	_	9	nsubj	_	_
+12	CDN	CDN	PROPN	_	_	6	nsubj	_	_
 13	eta	eta	CCONJ	_	_	15	cc	_	_
 14	beste	beste	DET	_	_	15	det	_	_
 15	bi	bi	NUM	_	NumType=Card	12	conj	_	SpaceAfter=No
@@ -22963,7 +22963,7 @@
 3	,	,	PUNCT	_	_	4	punct	_	_
 4	eta	eta	CCONJ	_	_	2	cc	_	_
 5	aurrez	aurrez	ADV	_	_	6	compound	_	_
-6	aurre	aurre	NOUN	_	_	4	nmod	_	SpaceAfter=No
+6	aurre	aurre	NOUN	_	_	2	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	1	punct	_	_
 
 # sent_id = test-s1452
@@ -23464,8 +23464,8 @@
 9	)	)	PUNCT	_	_	8	punct	_	_
 10	azaltzen	azaldu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 11	dizkigu	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[dat]=Plur|Number[erg]=Sing|Person[abs]=3|Person[dat]=1|Person[erg]=3	10	aux	_	_
-12	irakasleek	irakasle	NOUN	_	Case=Erg|Definite=Def|Number=Plur	14	nsubj	_	_
-13	ikasleenganako	ikasle	NOUN	_	Case=Loc|Definite=Def|Number=Plur	14	nmod	_	_
+12	irakasleek	irakasle	NOUN	_	Case=Erg|Definite=Def|Number=Plur	17	nsubj	_	_
+13	ikasleenganako	ikasle	NOUN	_	Case=Loc|Definite=Def|Number=Plur	17	nmod	_	_
 14	eta	eta	CCONJ	_	_	17	cc	_	_
 15	hauek	hauek	DET	_	Case=Erg|Definite=Def|Number=Plur	17	nsubj	_	_
 16	irakasleenganako	irakasle	NOUN	_	Case=Loc|Definite=Def|Number=Plur	17	obl	_	_
@@ -23685,10 +23685,10 @@
 26	baita	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	23	cop	_	SpaceAfter=No
 27	,	,	PUNCT	_	_	28	punct	_	_
 28	eta	eta	CCONJ	_	_	26	cc	_	_
-29	ez	ez	PART	_	Polarity=Neg	28	advmod	_	_
+29	ez	ez	PART	_	Polarity=Neg	26	advmod	_	_
 30	errepikatzeko	errepikatu	VERB	_	Case=Loc	31	advcl	_	_
 31	duten	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	32	acl	_	_
-32	gaitasuna	gaitasun	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	28	obj	_	SpaceAfter=No
+32	gaitasuna	gaitasun	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	26	obj	_	SpaceAfter=No
 33	.	.	PUNCT	_	_	15	punct	_	_
 
 # sent_id = test-s1485
@@ -24055,11 +24055,11 @@
 7	ileak	ile	NOUN	_	Case=Abs|Definite=Def|Number=Plur	8	obj	_	_
 8	ebakitzen	ebaki	VERB	_	Case=Ine	4	advcl	_	_
 9	eta	eta	CCONJ	_	_	12	cc	_	_
-10	Laura	Laura	PROPN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	9	nsubj	_	SpaceAfter=No
+10	Laura	Laura	PROPN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	12	nsubj	_	SpaceAfter=No
 11	,	,	PUNCT	_	_	9	punct	_	_
 12	berriz	berriz	ADV	_	_	4	conj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
-14	loxintze-lanetan	losin+tze+-+lan	NOUN	_	Animacy=Inan|Case=Ine|Definite=Ind	9	nmod	_	SpaceAfter=No
+14	loxintze-lanetan	losin+tze+-+lan	NOUN	_	Animacy=Inan|Case=Ine|Definite=Ind	12	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = test-s1507
@@ -24245,7 +24245,7 @@
 10	azken	azken	NUM	_	NumType=Ord	11	amod	_	_
 11	aldian	aldi	NOUN	_	Case=Ine|Definite=Def|Number=Sing	12	obl	_	_
 12	duten	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	13	acl	_	_
-13	makalaldiarekin	makalaldi	NOUN	_	Animacy=Inan|Case=Com|Definite=Def|Number=Sing	6	nmod	_	SpaceAfter=No
+13	makalaldiarekin	makalaldi	NOUN	_	Animacy=Inan|Case=Com|Definite=Def|Number=Sing	8	nmod	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = test-s1517
@@ -25515,7 +25515,7 @@
 10	ahalik	ahal	NOUN	_	Case=Par|Definite=Ind	12	nmod	_	_
 11	eta	eta	CCONJ	_	_	10	fixed	_	_
 12	gehien	gehien	ADV	_	_	13	advmod	_	_
-13	eutsi	eutsi	VERB	_	VerbForm=Part	8	xcomp	_	SpaceAfter=No
+13	eutsi	eutsi	VERB	_	VerbForm=Part	6	xcomp	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = test-s1585
@@ -25740,7 +25740,7 @@
 15	,	,	PUNCT	_	_	13	punct	_	_
 16	hurrengo	hurrengo	ADJ	_	_	17	amod	_	_
 17	biak	bi	NUM	_	NumType=Card	18	obj	_	_
-18	irabazi	irabazi	VERB	_	VerbForm=Part	8	conj	_	_
+18	irabazi	irabazi	VERB	_	VerbForm=Part	4	conj	_	_
 19	eta	eta	CCONJ	_	_	4	cc	_	_
 20	bosgarrena	bosgarren	NUM	_	NumType=Ord	21	obj	_	_
 21	behartzea	behartu	VERB	_	Case=Abs	22	xcomp	_	_
@@ -27226,7 +27226,7 @@
 13	guztiok	guzti	DET	_	Case=Erg|Definite=Def|Number=Plur	14	nsubj	_	_
 14	dakizkigun	jakin	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	16	acl	_	_
 15	beste	beste	DET	_	_	16	det	_	_
-16	gertaera	gertaera	NOUN	_	_	19	nmod	_	_
+16	gertaera	gertaera	NOUN	_	_	9	nmod	_	_
 17	batzuei	batzuk	DET	_	Case=Dat	16	det	_	_
 18	esker	esker	ADP	_	Case=Abs|Definite=Def|Number=Plur	17	case	_	_
 19	baizik	baizik	CCONJ	_	_	9	cc	_	SpaceAfter=No
@@ -27484,7 +27484,7 @@
 12	Olano	Olano	PROPN	_	_	15	obj	_	_
 13	bera	bera	DET	_	Case=Abs|Definite=Def|Number=Sing	12	nmod	_	_
 14	gibelean	gibel	NOUN	_	Case=Ine|Definite=Def|Number=Sing	15	obl	_	_
-15	utzi	utzi	VERB	_	VerbForm=Part	11	conj	_	SpaceAfter=No
+15	utzi	utzi	VERB	_	VerbForm=Part	3	conj	_	SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	_
 17	eta	eta	CCONJ	_	_	3	cc	_	_
 18	lehendabiziko	lehendabiziko	NUM	_	NumType=Ord	19	amod	_	_
@@ -28284,7 +28284,7 @@
 15	aurka	aurka	ADP	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	14	case	_	_
 16	eta	eta	CCONJ	_	_	14	cc	_	_
 17	giza	giza	NOUN	_	_	18	compound	_	_
-18	eskubideen	eskubide	NOUN	_	Case=Gen|Definite=Def|Number=Plur	16	conj	_	_
+18	eskubideen	eskubide	NOUN	_	Case=Gen|Definite=Def|Number=Plur	14	conj	_	_
 19	eta	eta	CCONJ	_	_	14	cc	_	_
 20	askatasunen	askatasun	NOUN	_	Case=Gen	18	conj	_	_
 21	alde	alde	ADP	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	20	case	_	_
@@ -29283,8 +29283,8 @@
 11	eta	eta	CCONJ	_	_	12	cc	_	_
 12	Trintxerperi	Trintxerpe	PROPN	_	Case=Dat|Definite=Def|Number=Sing	10	conj	_	_
 13	eta	eta	CCONJ	_	_	8	cc	_	_
-14	hamazazpikoa	hamazazpi	NUM	_	NumType=Card	13	obj	_	_
-15	Donosti-Arrauni	Donosti-Arraun	PROPN	_	Case=Dat|Definite=Def|Number=Sing	13	iobj	_	SpaceAfter=No
+14	hamazazpikoa	hamazazpi	NUM	_	NumType=Card	8	obj	_	_
+15	Donosti-Arrauni	Donosti-Arraun	PROPN	_	Case=Dat|Definite=Def|Number=Sing	8	iobj	_	SpaceAfter=No
 16	.	.	PUNCT	_	_	8	punct	_	_
 
 # sent_id = test-s1774
@@ -29349,7 +29349,7 @@
 9	kentzen	kendu	VERB	_	Aspect=Imp|VerbForm=Inf	4	ccomp	_	_
 10	dion	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Sing|Person[abs]=3|Person[dat]=3|Person[erg]=3	9	aux	_	_
 11	edo	edo	CCONJ	_	_	9	cc	_	_
-12	ez	ez	PART	_	Polarity=Neg	11	advmod	_	SpaceAfter=No
+12	ez	ez	PART	_	Polarity=Neg	9	advmod	_	SpaceAfter=No
 13	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = test-s1778
@@ -29450,7 +29450,7 @@
 11	gainera	gainera	CCONJ	_	_	4	conj	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	14	punct	_	_
 13	Miarritzeren	Miarritze	PROPN	_	Case=Gen|Definite=Def|Number=Sing	14	nmod	_	_
-14	multzoan	multzo	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	9	nmod	_	SpaceAfter=No
+14	multzoan	multzo	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	11	nmod	_	SpaceAfter=No
 15	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = test-s1783
@@ -29562,8 +29562,8 @@
 
 # sent_id = test-s1789
 # text = Miamik Eddie Jones, Mason eta Brian Grant, baina Mourning baja izango da.
-1	Miamik	Miami	PROPN	_	Case=Erg|Definite=Def|Number=Sing	10	nsubj	_	_
-2	Eddie	Eddie	PROPN	_	_	10	obj	_	_
+1	Miamik	Miami	PROPN	_	Case=Erg|Definite=Def|Number=Sing	13	nsubj	_	_
+2	Eddie	Eddie	PROPN	_	_	13	obj	_	_
 3	Jones	Jones	PROPN	_	_	2	flat	_	SpaceAfter=No
 4	,	,	PUNCT	_	_	5	punct	_	_
 5	Mason	Mason	PROPN	_	_	2	conj	_	_
