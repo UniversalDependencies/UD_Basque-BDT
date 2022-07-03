@@ -11412,19 +11412,19 @@
 8	Euskal	Euskal	PROPN	_	_	9	compound	_	_
 9	Herriko	herri	NOUN	_	Case=Loc|Definite=Def|Number=Sing	6	conj	_	_
 10	Txapelketetan	txapelketa	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	5	obl	_	SpaceAfter=No
-11	,	,	PUNCT	_	_	19	punct	_	_
-12	baina	baina	CCONJ	_	_	19	cc	_	_
+11	,	,	PUNCT	_	_	16	punct	_	_
+12	baina	baina	CCONJ	_	_	16	cc	_	_
 13	taldekako	taldeka	ADV	_	Case=Loc	14	nmod	_	_
 14	lanak	lan	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	16	obj	_	_
 15	oso	oso	ADV	_	_	16	advmod	_	_
-16	gustuko	gustuko	ADJ	_	Case=Abs|Definite=Ind	19	conj	_	_
+16	gustuko	gustuko	ADJ	_	Case=Abs|Definite=Ind	5	conj	_	_
 17	ditu	ukan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	16	cop	_	SpaceAfter=No
-18	,	,	PUNCT	_	_	17	punct	_	_
-19	eta	eta	CCONJ	_	_	5	conj	_	_
+18	,	,	PUNCT	_	_	23	punct	_	_
+19	eta	eta	CCONJ	_	_	23	cc	_	_
 20	horietan	horiek	DET	_	Case=Ine|Definite=Def|Number=Plur	23	obl	_	_
 21	neurri	neurri	NOUN	_	_	23	obj	_	_
 22	dotorea	dotore	ADJ	_	Case=Abs|Definite=Def|Number=Sing	21	amod	_	_
-23	ematen	eman	VERB	_	Aspect=Imp|VerbForm=Inf	17	conj	_	_
+23	ematen	eman	VERB	_	Aspect=Imp|VerbForm=Inf	16	conj	_	_
 24	du	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	23	aux	_	SpaceAfter=No
 25	.	.	PUNCT	_	_	5	punct	_	_
 

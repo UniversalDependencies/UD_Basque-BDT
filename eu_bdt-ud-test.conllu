@@ -20996,7 +20996,7 @@
 # sent_id = test-s1356
 # text = ETA EZ, bakea bai lelopean, arratsaldeko lauretan finkatu dute elkarretaratzeko hitzordua, Baionako Euskaldunen plazan.
 1	ETA	eta	CCONJ	_	_	10	cc	_	_
-2	EZ	ez	PART	_	Polarity=Neg	10	flat	_	SpaceAfter=No
+2	EZ	ez	PART	_	Polarity=Neg	10	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	bakea	bake	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	nmod	_	_
 5	bai	bai	PART	_	Polarity=Pos	4	flat	_	_
