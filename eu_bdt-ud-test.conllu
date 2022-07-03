@@ -17955,7 +17955,7 @@
 5	makur	makur	ADJ	_	Case=Abs|Definite=Ind	6	xcomp	_	_
 6	agertzen	agertu	VERB	_	Case=Ine	7	advcl	_	_
 7	hasi	hasi	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	19	punct	_	_
+8	,	,	PUNCT	_	_	9	punct	_	_
 9	zeren	zeren	CCONJ	_	_	20	advmod	_	_
 10	eta	eta	CCONJ	_	_	9	fixed	_	_
 11	lekukotasunen	lekukotasun	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Plur	12	nmod	_	_

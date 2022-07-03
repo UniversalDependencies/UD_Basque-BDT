@@ -3073,7 +3073,7 @@
 9	baliatzen	baliatu	VERB	_	Case=Ine	10	advcl	_	_
 10	saiatuko	saiatu	VERB	_	Aspect=Prosp|VerbForm=Part	4	conj	_	_
 11	naiz	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=1	10	aux	_	SpaceAfter=No
-12	,	,	PUNCT	_	_	15	punct	_	_
+12	,	,	PUNCT	_	_	13	punct	_	_
 13	ea	ea	INTJ	_	_	10	discourse	_	_
 14	gehiago	gehiago	DET	_	Case=Abs|Definite=Ind	10	obj	_	_
 15	izaten	izan	VERB	_	Aspect=Imp|VerbForm=Inf	10	mark	_	_
