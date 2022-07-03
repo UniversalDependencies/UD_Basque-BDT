@@ -6527,7 +6527,7 @@
 2	ez	ez	PART	_	Polarity=Neg	4	advmod	_	_
 3	nau	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=1|Person[erg]=3	4	aux	_	_
 4	kezkatzen	kezkatu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	10	punct	_	_
+5	,	,	PUNCT	_	_	9	punct	_	_
 6	guk	gu	PRON	_	PronType=Prs	9	nsubj	_	_
 7	gure	gu	PRON	_	PronType=Prs	8	nmod	_	_
 8	jokoa	joko	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	9	obj	_	_
@@ -16158,7 +16158,7 @@
 5	-	-	PUNCT	_	_	6	punct	_	_
 6	beste	beste	DET	_	_	3	appos	_	_
 7	bat	bat	NUM	_	NumType=Card	6	nummod	_	_
-8	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	3	cop	_	_
 11	askoren	asko	DET	_	Case=Gen	10	obl	_	_
@@ -17477,12 +17477,12 @@
 6	jarri	jarri	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 7	zuten	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	6	aux	_	_
 8	eta	eta	CCONJ	_	_	6	cc	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	_
+9	,	,	PUNCT	_	_	11	punct	_	_
 10	Cadayren	Caday	PROPN	_	Case=Gen|Definite=Def|Number=Sing	11	nmod	_	_
 11	autoa	auto	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	obj	_	_
 12	ez	ez	PART	_	Polarity=Neg	13	compound	_	_
 13	ezik	ezik	CCONJ	_	_	6	advmod	_	SpaceAfter=No
-14	,	,	PUNCT	_	_	13	punct	_	_
+14	,	,	PUNCT	_	_	19	punct	_	_
 15	ondoan	ondo	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	16	obl	_	_
 16	zeuden	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	18	acl	_	_
 17	beste	beste	DET	_	_	18	det	_	_
@@ -18306,7 +18306,7 @@
 17	Cours	Cours	PROPN	_	_	16	flat	_	_
 18	zirkuituan	zirkuitu	NOUN	_	Case=Ine|Definite=Def|Number=Sing	19	obl	_	_
 19	korritzen	korritu	VERB	_	Aspect=Imp|VerbForm=Inf	8	conj	_	SpaceAfter=No
-20	,	,	PUNCT	_	_	23	punct	_	_
+20	,	,	PUNCT	_	_	21	punct	_	_
 21	Paul	Paul	PROPN	_	_	19	nmod	_	_
 22	Ricarden	Ricard	PROPN	_	Case=Gen|Definite=Def|Number=Sing	21	flat	_	_
 23	baizik	baizik	CCONJ	_	_	19	cc	_	SpaceAfter=No
@@ -25394,9 +25394,9 @@
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	baina	baina	CCONJ	_	_	4	cc	_	_
 14	bai	bai	PART	_	Polarity=Pos	4	nmod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	13	punct	_	_
+15	,	,	PUNCT	_	_	14	punct	_	_
 16	ordea	ordea	CCONJ	_	_	11	conj	_	SpaceAfter=No
-17	,	,	PUNCT	_	_	16	punct	_	_
+17	,	,	PUNCT	_	_	18	punct	_	_
 18	klasikak	klasika	NOUN	_	Case=Abs|Definite=Def|Number=Plur	4	nsubj	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
