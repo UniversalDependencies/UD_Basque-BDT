@@ -15,7 +15,7 @@
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="16">
-    <tag name="ADJ">5973</tag><!-- handi, on, nagusi, berri, bakar, politiko, oso, garrantzitsu, batu, txiki -->
+    <tag name="ADJ">6254</tag><!-- handi, on, nagusi, azken, berri, bakar, politiko, oso, garrantzitsu, lehen -->
     <tag name="ADP">1876</tag><!-- arte, _, arabera, inguru, aurre, aurka, gabe, gain, alde, buruz -->
     <tag name="ADV">5247</tag><!-- atzo, oso, gaur, orain, ondoren, gero, hala, han, bertan, beti -->
     <tag name="AUX">12461</tag><!-- *edun, izan, egon, *edin, *ezan, ari, ukan -->
@@ -23,7 +23,7 @@
     <tag name="DET">4074</tag><!-- hori, bera, beste, hau, guzti, hura, batzuk, horiek, hauek, zer -->
     <tag name="INTJ">36</tag><!-- beno, alde, a, dzast, ea, hara, kaixo, tira, ahalena, ai -->
     <tag name="NOUN">29776</tag><!-- talde, urte, behar, nahi, partidu, herri, lan, egun, jokalari, gobernu -->
-    <tag name="NUM">4613</tag><!-- bat, bi, azken, lehen, hiru, bigarren, lau, bost, lehenengo, sei -->
+    <tag name="NUM">4332</tag><!-- bat, bi, hiru, lehen, bigarren, azken, lau, bost, sei, hirugarren -->
     <tag name="PART">1460</tag><!-- ez, bai, omen -->
     <tag name="PRON">785</tag><!-- ni, gu, eurak, inor, zerbait, ezer, zu, elkar, nor, beraiek -->
     <tag name="PROPN">9868</tag><!-- Europa, Espainia, Frantzia, Real, EEBB, Israel, ETA, Athletic, EAJ, Madril -->
@@ -79,7 +79,7 @@
     <feat name="Number[erg]" value="Plur" upos="AUX,VERB">2592</feat><!-- dute, zuten, dugu, dituzte, duten, zituzten, ditugu, diote, zioten, genuen -->
     <feat name="Number[erg]" value="Sing" upos="AUX,VERB">5235</feat><!-- zuen, du, ditu, zituen, zion, dut, duen, dio, duela, nuen -->
     <feat name="NumType" value="Card" upos="NUM">3565</feat><!-- bat, bi, hiru, batean, baten, batek, lau, batez, bost, sei -->
-    <feat name="NumType" value="Ord" upos="NUM">1048</feat><!-- azken, lehen, bigarren, hirugarren, lehenengo, laugarren, bosgarren, seigarren, II.a, lehena -->
+    <feat name="NumType" value="Ord" upos="ADJ,NUM">1048</feat><!-- azken, lehen, bigarren, hirugarren, lehenengo, laugarren, bosgarren, seigarren, II.a, lehena -->
     <feat name="Person" value="1" upos="ADP,NOUN,PRON">33</feat><!-- neure, artean, inguruan, neu, aldetik, begira, bezala, geu, geure, Geuregan -->
     <feat name="Person" value="2" upos="ADP,PRON">9</feat><!-- Zeu, Zeuk, artean, barneko, gain, gisara, heure, inguruan, zeure -->
     <feat name="Person" value="3" upos="ADP,PRON">8</feat><!-- arteko, zenbaitzuk, aitzinean, artean, esku, kontra -->
@@ -109,7 +109,7 @@
     <dep name="acl">1150</dep>
     <dep name="advcl">5372</dep>
     <dep name="advmod">6668</dep>
-    <dep name="amod">4272</dep>
+    <dep name="amod">4553</dep>
     <dep name="appos">562</dep>
     <dep name="aux">10379</dep>
     <dep name="case">1885</dep>
@@ -120,7 +120,7 @@
     <dep name="cop">2417</dep>
     <dep name="csubj">304</dep>
     <dep name="dep">244</dep>
-    <dep name="det">2536</dep>
+    <dep name="det">2255</dep>
     <dep name="discourse">69</dep>
     <dep name="dislocated">1</dep>
     <dep name="fixed">290</dep>

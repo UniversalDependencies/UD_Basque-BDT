@@ -922,7 +922,7 @@
 
 # sent_id = test-s56
 # text = Azken bilera apirilaren 4an egin zuten, eta alkateek nahi dute "lehenbailehen" biltzea eta hitzarmen berriak egitea.
-1	Azken	azken	NUM	_	NumType=Ord	2	det	_	_
+1	Azken	azken	ADJ	_	NumType=Ord	2	amod	_	_
 2	bilera	bilera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	5	obj	_	_
 3	apirilaren	apiril	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	4	nmod	_	_
 4	4an	4	NUM	_	NumType=Card	5	obl	_	_
@@ -3303,7 +3303,7 @@
 12	horrela	horrela	ADV	_	_	13	advmod	_	_
 13	ailagatu	ailagatu	VERB	_	Aspect=Perf|VerbForm=Part	5	conj	_	_
 14	zitzaidan	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Person[abs]=3|Person[dat]=1	13	aux	_	_
-15	azken	azken	NUM	_	NumType=Ord	16	det	_	_
+15	azken	azken	ADJ	_	NumType=Ord	16	amod	_	_
 16	arnasa	arnasa	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	17	obj	_	_
 17	emateko	eman	VERB	_	Case=Loc	18	advcl	_	_
 18	tenorea	tenore	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	13	nsubj	_	SpaceAfter=No
@@ -3642,7 +3642,7 @@
 6	zauria	zauri	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	7	obj	_	_
 7	itxi	itxi	VERB	_	VerbForm=Part	12	advcl	_	_
 8	eta	eta	CCONJ	_	_	11	cc	_	_
-9	lehenengo	lehenengo	NUM	_	NumType=Ord	10	det	_	_
+9	lehenengo	lehenengo	ADJ	_	NumType=Ord	10	amod	_	_
 10	ariketak	ariketa	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	11	obj	_	_
 11	egiten	egin	VERB	_	Case=Ine	7	conj	_	_
 12	hasteko	hasi	VERB	_	Case=Abs|Definite=Ind	4	advcl	_	SpaceAfter=No
@@ -3851,7 +3851,7 @@
 1	Euroaren	euro	NOUN	_	Case=Gen|Definite=Def|Number=Sing	2	nmod	_	_
 2	kotizazio	kotizazio	NOUN	_	_	7	nsubj	_	_
 3	hori	hori	DET	_	Case=Abs|Definite=Def|Number=Sing	2	det	_	_
-4	azken	azken	NUM	_	NumType=Ord	5	det	_	_
+4	azken	azken	ADJ	_	NumType=Ord	5	amod	_	_
 5	lau	lau	NUM	_	NumType=Card	6	nummod	_	_
 6	asteetako	aste	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Plur	7	nmod	_	_
 7	altuena	altu	ADJ	_	Case=Abs|Definite=Def|Degree=Sup|Number=Sing	0	root	_	_
@@ -4299,7 +4299,7 @@
 7	(	(	PUNCT	_	_	8	punct	_	SpaceAfter=No
 8	UCI	UCI	PROPN	_	Case=Abs|Definite=Def|Number=Sing	6	appos	_	SpaceAfter=No
 9	)	)	PUNCT	_	_	8	punct	_	_
-10	lehen	lehen	NUM	_	NumType=Ord	11	det	_	_
+10	lehen	lehen	ADJ	_	NumType=Ord	11	amod	_	_
 11	postuan	postu	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	12	obl	_	_
 12	jarraitzen	jarraitu	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 13	du	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	12	aux	_	SpaceAfter=No
@@ -4360,10 +4360,10 @@
 # sent_id = test-s305
 # text = SAILKAPENEKO azken postuetatik irtetzeko lehen pausoa eman zuen atzo Realak Gasteizen, donostiarrek garaipen baliotsua lortu baitzuten Mendizorrotzan joko gutxiko derbian.
 1	SAILKAPENEKO	sailkapen	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	3	nmod	_	_
-2	azken	azken	NUM	_	NumType=Ord	3	det	_	_
+2	azken	azken	ADJ	_	NumType=Ord	3	amod	_	_
 3	postuetatik	postu	NOUN	_	Animacy=Inan|Case=Abl|Definite=Def|Number=Plur	4	obl	_	_
 4	irtetzeko	irten	VERB	_	Case=Loc	7	advcl	_	_
-5	lehen	lehen	NUM	_	NumType=Ord	6	det	_	_
+5	lehen	lehen	ADJ	_	NumType=Ord	6	amod	_	_
 6	pausoa	pauso	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	7	obj	_	_
 7	eman	eman	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 8	zuen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	7	aux	_	_
@@ -4601,7 +4601,7 @@
 2	Herriko	herri	NOUN	_	Case=Loc|Definite=Def|Number=Sing	3	nmod	_	_
 3	Zesta-punta	zesta-punta	NOUN	_	_	4	nmod	_	_
 4	Txapelketako	txapelketa	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	6	nmod	_	_
-5	lehenengo	lehenengo	NUM	_	NumType=Ord	6	det	_	_
+5	lehenengo	lehenengo	ADJ	_	NumType=Ord	6	amod	_	_
 6	jardunaldian	jardunaldi	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	17	obl	_	SpaceAfter=No
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	Lander	Lander	PROPN	_	_	10	nmod	_	_
@@ -4841,7 +4841,7 @@
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	UCIren	UCI	PROPN	_	Case=Gen|Definite=Def|Number=Sing	6	nmod	_	_
 6	sailkapenean	sailkapen	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	8	obl	_	_
-7	seigarren	seigarren	NUM	_	NumType=Ord	8	det	_	_
+7	seigarren	seigarren	ADJ	_	NumType=Ord	8	amod	_	_
 8	baikaude	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=1	2	advcl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -5490,7 +5490,7 @@
 # sent_id = test-s386
 # text = Eskola-ziurtagiriak lehen mailako lanbide-heziketara sartzeko aukera ematen du.
 1	Eskola-ziurtagiriak	eskola-ziurtagiri	NOUN	_	Animacy=Inan|Case=Erg|Definite=Def|Number=Sing	7	nsubj	_	_
-2	lehen	lehen	NUM	_	NumType=Ord	3	det	_	_
+2	lehen	lehen	ADJ	_	NumType=Ord	3	amod	_	_
 3	mailako	maila	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	4	nmod	_	_
 4	lanbide-heziketara	lanbide-heziketa	NOUN	_	Case=All|Definite=Def|Number=Sing	5	obl	_	_
 5	sartzeko	sartu	VERB	_	Case=Loc	6	advcl	_	_
@@ -5704,7 +5704,7 @@
 11	bikaina	bikain	ADJ	_	Case=Abs|Definite=Def|Number=Sing	10	amod	_	_
 12	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	3	conj	_	_
 13	zuen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	12	aux	_	_
-14	azken	azken	NUM	_	NumType=Ord	15	det	_	_
+14	azken	azken	ADJ	_	NumType=Ord	15	amod	_	_
 15	30	30	NUM	_	NumType=Card	16	nummod	_	_
 16	kilometroetan	kilometro	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	12	obl	_	SpaceAfter=No
 17	.	.	PUNCT	_	_	3	punct	_	_
@@ -5746,7 +5746,7 @@
 7	kapitain	kapitain	NOUN	_	Case=Abs|Definite=Ind	5	xcomp	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	_
 9	eta	eta	CCONJ	_	_	12	cc	_	_
-10	lehen	lehen	NUM	_	NumType=Ord	11	det	_	_
+10	lehen	lehen	ADJ	_	NumType=Ord	11	amod	_	_
 11	txapela	txapel	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	12	obj	_	_
 12	eman	eman	VERB	_	Aspect=Perf|VerbForm=Part	5	conj	_	_
 13	zion	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Sing|Person[abs]=3|Person[dat]=3|Person[erg]=3	12	aux	_	_
@@ -5841,7 +5841,7 @@
 # sent_id = test-s411
 # text = Taldea lehen mailakoa delarik eta zu taldean zaudelarik Tourra beste konturik ez da aipatzen orain.
 1	Taldea	talde	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	3	nsubj	_	_
-2	lehen	lehen	NUM	_	NumType=Ord	3	det	_	_
+2	lehen	lehen	ADJ	_	NumType=Ord	3	amod	_	_
 3	mailakoa	maila	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	14	advcl	_	_
 4	delarik	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	3	cop	_	_
 5	eta	eta	CCONJ	_	_	8	cc	_	_
@@ -6023,7 +6023,7 @@
 18	egin	egin	VERB	_	Aspect=Perf|VerbForm=Part	11	conj	_	_
 19	die	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Plur|Number[erg]=Sing|Person[abs]=3|Person[dat]=3|Person[erg]=3	18	aux	_	_
 20	leku	leku	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	18	obj	_	_
-21	azken	azken	NUM	_	NumType=Ord	22	det	_	_
+21	azken	azken	ADJ	_	NumType=Ord	22	amod	_	_
 22	urteotan	urte	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	18	obl	_	_
 23	kultura	kultura	NOUN	_	_	18	iobj	_	_
 24	aborigenei	aborigen	ADJ	_	Case=Dat|Definite=Def|Number=Plur	23	amod	_	SpaceAfter=No
@@ -6746,7 +6746,7 @@
 8	zapuztu	zapuztu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 9	zuten	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	8	aux	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	19	punct	_	_
-11	azken	azken	NUM	_	NumType=Ord	13	det	_	_
+11	azken	azken	ADJ	_	NumType=Ord	13	amod	_	_
 12	hiru	hiru	NUM	_	NumType=Card	13	nummod	_	_
 13	kilometroetako	kilometro	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Plur	14	nmod	_	_
 14	aldatsa	aldats	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	15	nsubj	_	_
@@ -7225,7 +7225,7 @@
 6	,	,	PUNCT	_	_	12	punct	_	_
 7	baina	baina	CCONJ	_	_	12	cc	_	_
 8	fitxak	fitxa	NOUN	_	Case=Erg|Definite=Def|Number=Sing	12	nsubj	_	_
-9	bigarren	bigarren	NUM	_	NumType=Ord	10	det	_	_
+9	bigarren	bigarren	ADJ	_	NumType=Ord	10	amod	_	_
 10	taldekoa	talde	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	11	obl	_	_
 11	izaten	izan	VERB	_	Case=Ine	12	advcl	_	_
 12	jarraituko	jarraitu	VERB	_	Aspect=Prosp|VerbForm=Part	3	conj	_	_
@@ -7654,7 +7654,7 @@
 
 # sent_id = test-s533
 # text = Lehen partiduan hiru puntuak eskuratzea ez da ezinbestekoa, baina ligari garaipenarekin ekitea oso garrantzitsua izaten da, moralari dagokionean bereziki.
-1	Lehen	lehen	NUM	_	NumType=Ord	2	det	_	_
+1	Lehen	lehen	ADJ	_	NumType=Ord	2	amod	_	_
 2	partiduan	partidu	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	5	obl	_	_
 3	hiru	hiru	NUM	_	NumType=Card	4	nummod	_	_
 4	puntuak	puntu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	5	obj	_	_
@@ -7850,7 +7850,7 @@
 # sent_id = test-s544
 # text = Zure lehen finala da Miarritzerekin, ez zara lasai egongo, kapitaina izanda.
 1	Zure	zu	PRON	_	PronType=Prs	3	nmod	_	_
-2	lehen	lehen	NUM	_	NumType=Ord	3	det	_	_
+2	lehen	lehen	ADJ	_	NumType=Ord	3	amod	_	_
 3	finala	final	NOUN	_	Case=Abs|Definite=Def|Number=Sing	4	nsubj	_	_
 4	da	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	0	root	_	_
 5	Miarritzerekin	Miarritze	PROPN	_	Case=Com|Definite=Def|Number=Sing	4	obl	_	SpaceAfter=No
@@ -8226,7 +8226,7 @@
 
 # sent_id = test-s571
 # text = Lehen mailari eusteko talde hobea behar da.
-1	Lehen	lehen	NUM	_	NumType=Ord	2	det	_	_
+1	Lehen	lehen	ADJ	_	NumType=Ord	2	amod	_	_
 2	mailari	maila	NOUN	_	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	3	iobj	_	_
 3	eusteko	eutsi	VERB	_	Case=Abs|Definite=Ind	4	advcl	_	_
 4	talde	talde	NOUN	_	_	7	nsubj	_	_
@@ -8518,7 +8518,7 @@
 2	zenetik	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	1	aux	_	_
 3	lortzen	lortu	VERB	_	Aspect=Imp|VerbForm=Inf	6	acl	_	_
 4	duen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	3	aux	_	_
-5	lehen	lehen	NUM	_	NumType=Ord	6	det	_	_
+5	lehen	lehen	ADJ	_	NumType=Ord	6	amod	_	_
 6	garaipena	garaipen	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	8	ccomp	_	_
 7	dela	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	6	cop	_	_
 8	gogoratu	gogoratu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
@@ -8955,7 +8955,7 @@
 7	arren	arren	CCONJ	_	_	6	advcl	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	6	punct	_	_
 9	ibilbidearen	ibilbide	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	11	nmod	_	_
-10	lehen	lehen	NUM	_	NumType=Ord	11	det	_	_
+10	lehen	lehen	ADJ	_	NumType=Ord	11	amod	_	_
 11	zatian	zati	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	12	obl	_	_
 12	harrapatu	harrapatu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 13	zuen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	12	aux	_	_
@@ -9064,7 +9064,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	_
 3	sailkapen	sailkapen	NOUN	_	_	7	obl	_	_
 4	nagusian	nagusi	ADJ	_	Case=Ine|Definite=Def|Number=Sing	3	amod	_	_
-5	lehen	lehen	NUM	_	NumType=Ord	6	det	_	_
+5	lehen	lehen	ADJ	_	NumType=Ord	6	amod	_	_
 6	hamarretan	hamar	NUM	_	NumType=Card	7	obl	_	_
 7	sartzea	sartu	VERB	_	Case=Abs	8	xcomp	_	_
 8	nahiko	nahi_izan	VERB	_	_	0	root	_	_
@@ -10203,7 +10203,7 @@
 
 # sent_id = test-s705
 # text = Azken jardunaldian 37-36 irabazi zion Aurillac akenaurrekoari.
-1	Azken	azken	NUM	_	NumType=Ord	2	det	_	_
+1	Azken	azken	ADJ	_	NumType=Ord	2	amod	_	_
 2	jardunaldian	jardunaldi	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	4	obl	_	_
 3	37-36	37-36	NUM	_	NumType=Card	4	obl	_	_
 4	irabazi	irabazi	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
@@ -10467,7 +10467,7 @@
 
 # sent_id = test-s723
 # text = Azken kilometroko pankarta zazpi segundoko aldearekin igaro zuen.
-1	Azken	azken	NUM	_	NumType=Ord	2	det	_	_
+1	Azken	azken	ADJ	_	NumType=Ord	2	amod	_	_
 2	kilometroko	kilometro	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	3	nmod	_	_
 3	pankarta	pankarta	NOUN	_	Case=Abs|Definite=Def|Number=Sing	7	obj	_	_
 4	zazpi	zazpi	NUM	_	NumType=Card	5	nummod	_	_
@@ -11825,7 +11825,7 @@
 # sent_id = test-s819
 # text = Estropadako azken luze biek ez zuten aldaketarik ekarri sailkapenean.
 1	Estropadako	estropada	NOUN	_	Case=Loc|Definite=Def|Number=Sing	3	nmod	_	_
-2	azken	azken	NUM	_	NumType=Ord	3	det	_	_
+2	azken	azken	ADJ	_	NumType=Ord	3	amod	_	_
 3	luze	luze	NOUN	_	_	8	nsubj	_	_
 4	biek	bi	NUM	_	NumType=Card	3	nummod	_	_
 5	ez	ez	PART	_	Polarity=Neg	8	advmod	_	_
@@ -12806,7 +12806,7 @@
 
 # sent_id = test-s881
 # text = Azken 50 urteotan bi alderdi debekatu dituzte:
-1	Azken	azken	NUM	_	NumType=Ord	3	det	_	_
+1	Azken	azken	ADJ	_	NumType=Ord	3	amod	_	_
 2	50	50	NUM	_	NumType=Card	3	nummod	_	_
 3	urteotan	urte	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	6	obl	_	_
 4	bi	bi	NUM	_	NumType=Card	5	nummod	_	_
@@ -13121,7 +13121,7 @@
 6	jokatuko	jokatu	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
 7	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	6	aux	_	_
 8	Ligako	liga	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	10	nmod	_	_
-9	lehen	lehen	NUM	_	NumType=Ord	10	det	_	_
+9	lehen	lehen	ADJ	_	NumType=Ord	10	amod	_	_
 10	jardunaldiko	jardunaldi	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	13	nmod	_	_
 11	Las	Las	PROPN	_	_	13	nmod	_	_
 12	Palmas-Alaves	Palmas-Alaves	PROPN	_	_	11	flat	_	_
@@ -14167,7 +14167,7 @@
 4	zuen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	3	aux	_	_
 5	lekukoa	lekuko	NOUN	_	Case=Abs|Definite=Def|Number=Sing	3	obj	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	_
-7	azken	azken	NUM	_	NumType=Ord	8	det	_	_
+7	azken	azken	ADJ	_	NumType=Ord	8	amod	_	_
 8	itzulian	itzuli	NOUN	_	Case=Ine|Definite=Def|Number=Sing	3	obl	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -15648,7 +15648,7 @@
 8	eta	eta	CCONJ	_	_	15	cc	_	_
 9	etxetik	etxe	NOUN	_	Case=Abl	11	nmod	_	_
 10	kanpoko	kanpo	ADP	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	9	case	_	_
-11	lehenengo	lehenengo	NUM	_	NumType=Ord	12	det	_	_
+11	lehenengo	lehenengo	ADJ	_	NumType=Ord	12	amod	_	_
 12	garaipena	garaipen	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	13	obj	_	_
 13	lortu	lortu	VERB	_	VerbForm=Part	15	xcomp	_	_
 14	nahi	nahi	NOUN	_	Case=Abs|Definite=Ind	15	compound	_	_
@@ -17110,7 +17110,7 @@
 7	batengatik	bat	NUM	_	NumType=Card	6	nummod	_	_
 8	ez	ez	PART	_	Polarity=Neg	9	advmod	_	_
 9	bada	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	23	advcl	_	_
-10	lehen	lehen	NUM	_	NumType=Ord	11	det	_	_
+10	lehen	lehen	ADJ	_	NumType=Ord	11	amod	_	_
 11	zatian	zati	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	12	obl	_	_
 12	aldatzea	aldatu	VERB	_	Case=Abs	22	csubj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	20	punct	_	_
@@ -17932,7 +17932,7 @@
 
 # sent_id = test-s1193
 # text = Azken gai horietan ados jartzea ezinbestekoa da EBn beste hamabi estatu sartzeko.
-1	Azken	azken	NUM	_	NumType=Ord	2	det	_	_
+1	Azken	azken	ADJ	_	NumType=Ord	2	amod	_	_
 2	gai	gai	NOUN	_	_	5	obl	_	_
 3	horietan	horiek	DET	_	Case=Ine|Definite=Def|Number=Plur	2	det	_	_
 4	ados	ados	ADV	_	_	5	advmod	_	_
@@ -18071,7 +18071,7 @@
 4	erraz	erraz	ADV	_	_	5	advmod	_	_
 5	nagusitu	nagusitu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 6	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	5	aux	_	_
-7	lehenengo	lehenengo	NUM	_	NumType=Ord	8	det	_	_
+7	lehenengo	lehenengo	ADJ	_	NumType=Ord	8	amod	_	_
 8	txandan	txanda	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	10	punct	_	_
 10	Santiagotarrak	Santiagotarrak	PROPN	_	_	5	obl	_	SpaceAfter=No
@@ -18876,7 +18876,7 @@
 8	osatuko	osatu	VERB	_	Aspect=Prosp|VerbForm=Part	10	acl	_	_
 9	duten	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	8	aux	_	_
 10	sailaren	sail	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	13	nmod	_	_
-11	lehen	lehen	NUM	_	NumType=Ord	13	det	_	_
+11	lehen	lehen	ADJ	_	NumType=Ord	13	amod	_	_
 12	atal	atal	NOUN	_	_	4	obl	_	_
 13	bezala	bezala	ADP	_	Animacy=Inan	12	case	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	4	punct	_	_
@@ -18974,7 +18974,7 @@
 # text = Hala, azken partidu hartako 16 jokalari berberak sartu ditu deialdian Ziarretak, eta azken orduko aldaketarik ezean, hamaikako bera zelairatuko du Getaferen aurka.
 1	Hala	hala	ADV	_	_	9	advmod	_	SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	_
-3	azken	azken	NUM	_	NumType=Ord	4	det	_	_
+3	azken	azken	ADJ	_	NumType=Ord	4	amod	_	_
 4	partidu	partidu	NOUN	_	_	7	nmod	_	_
 5	hartako	hura	DET	_	Case=Loc|Definite=Def|Number=Sing	4	det	_	_
 6	16	16	NUM	_	NumType=Card	7	nummod	_	_
@@ -18986,7 +18986,7 @@
 12	Ziarretak	Ziarreta	PROPN	_	Case=Erg|Definite=Def|Number=Sing	9	nsubj	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	22	punct	_	_
 14	eta	eta	CCONJ	_	_	22	cc	_	_
-15	azken	azken	NUM	_	NumType=Ord	16	det	_	_
+15	azken	azken	ADJ	_	NumType=Ord	16	amod	_	_
 16	orduko	ordu	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Sing	18	nmod	_	_
 17	aldaketarik	aldaketa	NOUN	_	Case=Abl	22	obl	_	_
 18	ezean	ez	ADP	_	Definite=Ind	17	case	_	SpaceAfter=No
@@ -19117,7 +19117,7 @@
 
 # sent_id = test-s1257
 # text = Lehen txandan Santurtzi erraz nagusitu zen, Zierbena, Algorta, Lutxana-Deustu eta Portugaleteren aurretik.
-1	Lehen	lehen	NUM	_	NumType=Ord	2	det	_	_
+1	Lehen	lehen	ADJ	_	NumType=Ord	2	amod	_	_
 2	txandan	txanda	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	5	obl	_	_
 3	Santurtzi	Santurtzi	PROPN	_	Case=Abs|Definite=Def|Number=Sing	5	nsubj	_	_
 4	erraz	erraz	ADV	_	_	5	advmod	_	_
@@ -19316,7 +19316,7 @@
 5	otsaila	otsail	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	nsubj	_	_
 6	baino	baino	X	_	_	12	obl	_	_
 7	lehen	lehen	ADV	_	_	6	cc	_	_
-8	azken	azken	NUM	_	NumType=Ord	9	det	_	_
+8	azken	azken	ADJ	_	NumType=Ord	9	amod	_	_
 9	fase	fase	NOUN	_	_	11	nmod	_	_
 10	horretarako	hori	DET	_	Case=Abs|Definite=Ind	9	det	_	_
 11	akordio-markoa	akordio-marko	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	12	obj	_	_
@@ -19730,7 +19730,7 @@
 7	prentsaren	prentsa	NOUN	_	Case=Gen	9	obl	_	_
 8	aurrean	aurre	ADP	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	7	case	_	_
 9	egindako	egin	VERB	_	Case=Loc|VerbForm=Part	11	advcl	_	_
-10	lehen	lehen	NUM	_	NumType=Ord	11	det	_	_
+10	lehen	lehen	ADJ	_	NumType=Ord	11	amod	_	_
 11	agerraldian	agerraldi	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	13	obl	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	_
 13	esan	esan	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
@@ -24178,7 +24178,7 @@
 
 # sent_id = test-s1513
 # text = Lehen zatian baloia batik bat Osasunak erabili zuen, bigarrenean are nabarmneagoa izan zen hori, Malagak erantzukizun guztia Osasunari utzi baitzion.
-1	Lehen	lehen	NUM	_	NumType=Ord	2	det	_	_
+1	Lehen	lehen	ADJ	_	NumType=Ord	2	amod	_	_
 2	zatian	zati	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	7	obl	_	_
 3	baloia	baloi	NOUN	_	Case=Abs|Definite=Def|Number=Sing	7	obj	_	_
 4	batik	bat	NUM	_	NumType=Card	7	obl	_	_
@@ -25268,7 +25268,7 @@
 8	hizkuntzalariak	hizkuntzalari	NOUN	_	Case=Erg|Definite=Def|Number=Sing	9	nsubj	_	_
 9	eraman	eraman	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 10	zuen	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	9	aux	_	_
-11	azken	azken	NUM	_	NumType=Ord	12	det	_	_
+11	azken	azken	ADJ	_	NumType=Ord	12	amod	_	_
 12	muturreraino	mutur	NOUN	_	Definite=Def|Number=Sing	9	obl	_	SpaceAfter=No
 13	:	:	PUNCT	_	_	9	punct	_	_
 
@@ -26679,7 +26679,7 @@
 
 # sent_id = test-s1642
 # text = Azken unekoa izan da, azkar egina, lasaitasunik gabe eta azken finean dena gaizki egin da eta ondorioz, horrek eragina du legean".
-1	Azken	azken	NUM	_	NumType=Ord	2	det	_	_
+1	Azken	azken	ADJ	_	NumType=Ord	2	amod	_	_
 2	unekoa	une	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	_
 3	izan	izan	AUX	_	Aspect=Perf|VerbForm=Part	2	cop	_	_
 4	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	3	aux	_	SpaceAfter=No
@@ -27811,7 +27811,7 @@
 8	du	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	7	aux	_	_
 9	gaur	gaur	ADV	_	_	7	advmod	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	17	punct	_	_
-11	azken	azken	NUM	_	NumType=Ord	12	det	_	_
+11	azken	azken	ADJ	_	NumType=Ord	12	amod	_	_
 12	asteetako	aste	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Plur	13	nmod	_	_
 13	bolada	bolada	NOUN	_	_	16	iobj	_	_
 14	onari	on	ADJ	_	Case=Dat|Definite=Def|Number=Sing	13	amod	_	_
@@ -28021,7 +28021,7 @@
 7	kritikatua	kritikatu	VERB	_	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	0	root	_	_
 8	izan	izan	AUX	_	Aspect=Perf|VerbForm=Part	7	cop	_	_
 9	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	8	aux	_	_
-10	azken	azken	NUM	_	NumType=Ord	11	det	_	_
+10	azken	azken	ADJ	_	NumType=Ord	11	amod	_	_
 11	asteetan	aste	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Plur	15	obl	_	_
 12	euroa	euro	NOUN	_	Case=Abs|Definite=Def|Number=Sing	13	obj	_	_
 13	indartzeko	indartu	VERB	_	Case=Loc	14	advcl	_	_
@@ -28771,7 +28771,7 @@
 
 # sent_id = test-s1748
 # text = azken urte hauetan euskara hezkuntza-sisteman sartzearen ondorioz batik bat, asko hazi da elebidunen portzentaia Euskal Autonomi Elkartean.
-1	azken	azken	NUM	_	NumType=Ord	2	det	_	_
+1	azken	azken	ADJ	_	NumType=Ord	2	amod	_	_
 2	urte	urte	NOUN	_	_	6	obl	_	_
 3	hauetan	hauek	DET	_	Case=Ine|Definite=Def|Number=Plur	2	det	_	_
 4	euskara	euskara	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	nsubj	_	_
@@ -29073,7 +29073,7 @@
 10	azkenekoz	azkeneko	ADJ	_	Case=Ins|Definite=Ind	3	obl	_	_
 11	Frantziako	Frantzia	PROPN	_	Case=Loc|Definite=Def|Number=Sing	12	nmod	_	_
 12	Ligako	liga	NOUN	_	Case=Loc|Definite=Def|Number=Sing	14	nmod	_	_
-13	lehen	lehen	NUM	_	NumType=Ord	14	det	_	_
+13	lehen	lehen	ADJ	_	NumType=Ord	14	amod	_	_
 14	fasean	fase	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	3	obl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	20	punct	_	_
 16	eta	eta	CCONJ	_	_	20	cc	_	_
@@ -29354,7 +29354,7 @@
 
 # sent_id = test-s1778
 # text = Azken txanpan, ordea, Rikardo Alberdi printzeak hobeki asmatu zuen, eta erreskadan egin zituen falta zitzaizkion lau tantoak (25-21).
-1	Azken	azken	NUM	_	NumType=Ord	2	det	_	_
+1	Azken	azken	ADJ	_	NumType=Ord	2	amod	_	_
 2	txanpan	txanpa	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	10	obl	_	SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	_
 4	ordea	ordea	CCONJ	_	_	10	advmod	_	SpaceAfter=No
@@ -29390,7 +29390,7 @@
 7	Brasilgo	Brasil	PROPN	_	Case=Loc|Definite=Def|Number=Sing	9	nmod	_	_
 8	udal	udal	NOUN	_	_	9	nmod	_	_
 9	hauteskundeetako	hauteskunde	NOUN	_	Case=Loc|Definite=Def|Number=Plur	11	nmod	_	_
-10	lehen	lehen	NUM	_	NumType=Ord	11	det	_	_
+10	lehen	lehen	ADJ	_	NumType=Ord	11	amod	_	_
 11	itzulian	itzuli	NOUN	_	Case=Ine|Definite=Def|Number=Sing	5	obl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	5	punct	_	_
 
@@ -29596,7 +29596,7 @@
 14	erlojuaren	erloju	NOUN	_	Case=Gen	16	obl	_	_
 15	aurka	aurka	ADP	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	14	case	_	_
 16	korritutako	korritu	VERB	_	Case=Loc|VerbForm=Part	17	advcl	_	_
-17	lehendabiziko	lehendabiziko	NUM	_	NumType=Ord	18	det	_	_
+17	lehendabiziko	lehendabiziko	ADJ	_	NumType=Ord	18	amod	_	_
 18	etapan	etapa	NOUN	_	Case=Ine|Definite=Def|Number=Sing	4	obl	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	4	punct	_	_
 
