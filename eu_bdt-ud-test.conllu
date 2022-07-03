@@ -20075,7 +20075,7 @@
 10	,	,	PUNCT	_	_	11	punct	_	_
 11	STEE-EILAS	STEE-EILAS	PROPN	_	_	5	conj	_	_
 12	eta	eta	CCONJ	_	_	15	cc	_	_
-13	Hiru	Hiru	PROPN	_	_	14	det	_	_
+13	Hiru	Hiru	PROPN	_	_	14	compound	_	_
 14	sindikatuetako	sindikatu	NOUN	_	Animacy=Inan|Case=Loc|Definite=Def|Number=Plur	15	nmod	_	_
 15	arduradunak	arduradun	NOUN	_	Animacy=Anim|Case=Abs|Definite=Def|Number=Plur	5	conj	_	_
 16	izango	izan	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
