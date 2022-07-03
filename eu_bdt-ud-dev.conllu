@@ -54,7 +54,7 @@
 2	izan	izan	VERB	_	Aspect=Perf|VerbForm=Part	4	acl	_	_
 3	ditudan	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=1	2	aux	_	_
 4	aukera	aukera	NOUN	_	_	7	obj	_	_
-5	apurrak	apur	ADJ	_	Case=Abs|Definite=Def|Number=Plur	4	det	_	_
+5	apurrak	apur	ADJ	_	Case=Abs|Definite=Def|Number=Plur	4	amod	_	_
 6	ondo	ondo	ADV	_	_	7	advmod	_	_
 7	baliatu	baliatu	VERB	_	Aspect=Perf|VerbForm=Part	10	ccomp	_	_
 8	ditudala	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=1	7	aux	_	_
@@ -2362,7 +2362,7 @@
 # sent_id = dev-s164
 # text = Lan osoaren laburtzapena ere egina du autoreak berak:
 1	Lan	lan	NOUN	_	_	3	nmod	_	_
-2	osoaren	oso	ADJ	_	Case=Gen|Definite=Def|Number=Sing	1	det	_	_
+2	osoaren	oso	ADJ	_	Case=Gen|Definite=Def|Number=Sing	1	amod	_	_
 3	laburtzapena	laburtzapen	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	5	obj	_	_
 4	ere	ere	CCONJ	_	_	6	advmod	_	_
 5	egina	egin	VERB	_	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	0	root	_	_
@@ -7034,7 +7034,7 @@
 # sent_id = dev-s484
 # text = Talde osoa borobilean jarri eta "amia" aukeratzen zen.
 1	Talde	talde	NOUN	_	_	4	nsubj	_	_
-2	osoa	oso	ADJ	_	Case=Abs|Definite=Def|Number=Sing	1	det	_	_
+2	osoa	oso	ADJ	_	Case=Abs|Definite=Def|Number=Sing	1	amod	_	_
 3	borobilean	borobil	NOUN	_	Case=Ine|Definite=Def|Number=Sing	4	obl	_	_
 4	jarri	jarri	VERB	_	VerbForm=Part	0	root	_	_
 5	eta	eta	CCONJ	_	_	9	cc	_	_
@@ -7160,7 +7160,7 @@
 8	,	,	PUNCT	_	_	13	punct	_	_
 9	eta	eta	CCONJ	_	_	13	cc	_	_
 10	espezialista	espezialista	NOUN	_	_	13	ccomp	_	_
-11	handia	handi	ADJ	_	Case=Abs|Definite=Def|Number=Sing	10	det	_	_
+11	handia	handi	ADJ	_	Case=Abs|Definite=Def|Number=Sing	10	amod	_	_
 12	dela	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	10	cop	_	_
 13	erakutsi	erakutsi	VERB	_	VerbForm=Part	6	conj	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	_
@@ -7812,7 +7812,7 @@
 1	Zein	zein	DET	_	Case=Abs|Definite=Ind	5	nsubj	_	_
 2	dira	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	5	cop	_	_
 3	egoera	egoera	NOUN	_	_	5	nmod	_	_
-4	bakoitzaren	bakoitz	ADJ	_	Case=Gen|Definite=Def|Number=Sing	3	det	_	_
+4	bakoitzaren	bakoitz	ADJ	_	Case=Gen|Definite=Def|Number=Sing	3	amod	_	_
 5	ezaugarriak	ezaugarri	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	0	root	_	SpaceAfter=No
 6	?	?	PUNCT	_	_	5	punct	_	_
 
@@ -10345,7 +10345,7 @@
 # text = Etiketak portu bakoitzaren izena izango luke.
 1	Etiketak	etiketa	NOUN	_	Animacy=Inan|Case=Erg|Definite=Def|Number=Sing	5	nsubj	_	_
 2	portu	portu	NOUN	_	_	4	nmod	_	_
-3	bakoitzaren	bakoitz	ADJ	_	Case=Gen|Definite=Def|Number=Sing	2	det	_	_
+3	bakoitzaren	bakoitz	ADJ	_	Case=Gen|Definite=Def|Number=Sing	2	amod	_	_
 4	izena	izen	NOUN	_	Case=Abs|Definite=Def|Number=Sing	5	obj	_	_
 5	izango	izan	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
 6	luke	*edun	AUX	_	Mood=Cnd|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	5	aux	_	SpaceAfter=No
@@ -17205,7 +17205,7 @@
 15	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	14	aux	_	_
 16	Hego	hego	NOUN	_	_	17	compound	_	_
 17	Amerika	Amerika	PROPN	_	_	14	obl	_	_
-18	osoan	oso	ADJ	_	Case=Ine|Definite=Def|Number=Sing	17	det	_	SpaceAfter=No
+18	osoan	oso	ADJ	_	Case=Ine|Definite=Def|Number=Sing	17	amod	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = dev-s1159
@@ -22775,7 +22775,7 @@
 6	euskal	euskal	NOUN	_	_	7	nmod	_	_
 7	preso	preso	NOUN	_	_	10	nmod	_	_
 8	politiko	politiko	ADJ	_	_	7	amod	_	_
-9	bakoitzeko	bakoitz	ADJ	_	Case=Loc|Definite=Def|Number=Sing	7	det	_	_
+9	bakoitzeko	bakoitz	ADJ	_	Case=Loc|Definite=Def|Number=Sing	7	amod	_	_
 10	bana	bana	NUM	_	Case=Abs|Definite=Ind|NumType=Card	2	appos	_	SpaceAfter=No
 11	.	.	PUNCT	_	_	3	punct	_	_
 
@@ -22799,7 +22799,7 @@
 16	ordez	ordez	ADP	_	Animacy=Inan|Definite=Def|Number=Plur	15	case	_	_
 17	zenbait	zenbait	DET	_	_	18	det	_	_
 18	tokitan	toki	NOUN	_	Animacy=Inan|Case=Ine|Definite=Ind	21	obl	_	_
-19	halako	halako	ADJ	_	_	20	det	_	_
+19	halako	halako	ADJ	_	_	20	amod	_	_
 20	tresnak	tresna	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	21	obj	_	_
 21	jotzen	jo	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 22	zituzten	*edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	21	aux	_	SpaceAfter=No
@@ -24159,7 +24159,7 @@
 2	izaten	izan	VERB	_	Aspect=Imp|VerbForm=Inf	0	root	_	_
 3	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	2	aux	_	_
 4	desberdintasun	desberdintasun	NOUN	_	_	2	nsubj	_	_
-5	ugari	ugari	ADJ	_	Case=Abs|Definite=Ind	4	det	_	_
+5	ugari	ugari	ADJ	_	Case=Abs|Definite=Ind	4	amod	_	_
 6	bi	bi	NUM	_	NumType=Card	7	nummod	_	_
 7	materia	materia	NOUN	_	_	8	nmod	_	_
 8	mota	mota	NOUN	_	_	2	obl	_	_
@@ -27901,7 +27901,7 @@
 8	dago	egon	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	7	cop	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	_
 10	jokalari	jokalari	NOUN	_	_	14	nsubj	_	_
-11	bakoitzak	bakoitz	ADJ	_	Case=Erg|Definite=Def|Number=Sing	10	det	_	_
+11	bakoitzak	bakoitz	ADJ	_	Case=Erg|Definite=Def|Number=Sing	10	amod	_	_
 12	oso	oso	ADV	_	_	13	advmod	_	_
 13	argi	argi	ADV	_	_	14	advmod	_	_
 14	duelako	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	8	advcl	_	_

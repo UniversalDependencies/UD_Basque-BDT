@@ -1415,7 +1415,7 @@
 # text = Holandak egun osoa igaro zezakeen atera jaurtiz:
 1	Holandak	Holanda	PROPN	_	Case=Erg|Definite=Def|Number=Sing	4	nsubj	_	_
 2	egun	egun	NOUN	_	_	4	obj	_	_
-3	osoa	oso	ADJ	_	Case=Abs|Definite=Def|Number=Sing	2	det	_	_
+3	osoa	oso	ADJ	_	Case=Abs|Definite=Def|Number=Sing	2	amod	_	_
 4	igaro	igaro	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 5	zezakeen	*ezan	AUX	_	Mood=Pot|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	4	aux	_	_
 6	atera	ate	NOUN	_	Animacy=Inan|Case=All|Definite=Def|Number=Sing	7	obl	_	_
@@ -3139,7 +3139,7 @@
 8	%78	%78	NUM	_	NumType=Card	16	advcl	_	_
 9	direnez	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	8	cop	_	_
 10	biztanleria	biztanleria	NOUN	_	_	12	nmod	_	_
-11	osoaren	oso	ADJ	_	Case=Gen|Definite=Def|Number=Sing	10	det	_	_
+11	osoaren	oso	ADJ	_	Case=Gen|Definite=Def|Number=Sing	10	amod	_	_
 12	ezaugarrietatik	ezaugarri	NOUN	_	Animacy=Inan|Case=Abl|Definite=Def|Number=Plur	16	obl	_	_
 13	ez	ez	PART	_	Polarity=Neg	16	advmod	_	_
 14	dira	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	16	aux	_	_
@@ -4849,7 +4849,7 @@
 # text = Ia hiri osoa erabat modernoa da:
 1	Ia	ia	ADV	_	_	2	advmod	_	_
 2	hiri	hiri	NOUN	_	_	5	nsubj	_	_
-3	osoa	oso	ADJ	_	Case=Abs|Definite=Def|Number=Sing	2	det	_	_
+3	osoa	oso	ADJ	_	Case=Abs|Definite=Def|Number=Sing	2	amod	_	_
 4	erabat	erabat	ADV	_	_	6	advmod	_	_
 5	modernoa	moderno	ADJ	_	Case=Abs|Definite=Def|Number=Sing	0	root	_	_
 6	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	5	cop	_	SpaceAfter=No
@@ -6940,7 +6940,7 @@
 4	askorik	asko	DET	_	Case=Par|Definite=Ind	5	obj	_	_
 5	lagundu	lagundu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 6	arratsalde	arratsalde	NOUN	_	_	5	obl	_	_
-7	osoan	oso	ADJ	_	Case=Ine|Definite=Def|Number=Sing	6	det	_	SpaceAfter=No
+7	osoan	oso	ADJ	_	Case=Ine|Definite=Def|Number=Sing	6	amod	_	SpaceAfter=No
 8	.	.	PUNCT	_	_	5	punct	_	_
 
 # sent_id = test-s485
@@ -7480,7 +7480,7 @@
 # text = Euskal Herri osoan mota askotako zeramika ontziak aurki ditzakegu.
 1	Euskal	euskal	NOUN	_	_	2	compound	_	_
 2	Herri	herri	NOUN	_	_	8	obl	_	_
-3	osoan	oso	ADJ	_	Case=Ine|Definite=Def|Number=Sing	2	det	_	_
+3	osoan	oso	ADJ	_	Case=Ine|Definite=Def|Number=Sing	2	amod	_	_
 4	mota	mota	NOUN	_	_	7	nmod	_	_
 5	askotako	asko	DET	_	Case=Loc|Definite=Ind	4	det	_	_
 6	zeramika	zeramika	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	7	nmod	_	_
@@ -8362,7 +8362,7 @@
 2	hau	hau	DET	_	Case=Abs|Definite=Def|Number=Sing	1	det	_	_
 3	saihesteko	saihestu	VERB	_	Case=Loc	4	advcl	_	_
 4	transistore	transistore	NOUN	_	_	10	iobj	_	_
-5	bakoitzari	bakoitz	ADJ	_	Case=Dat|Definite=Def|Number=Sing	4	det	_	_
+5	bakoitzari	bakoitz	ADJ	_	Case=Dat|Definite=Def|Number=Sing	4	amod	_	_
 6	zuzeneko	zuzeneko	ADJ	_	_	7	amod	_	_
 7	polarizazio	polarizazio	NOUN	_	_	10	obj	_	_
 8	txiki	txiki	ADJ	_	_	7	amod	_	_
@@ -12021,7 +12021,7 @@
 # sent_id = test-s832
 # text = Gorputz osoan ditu kolpeak eta ezin da bizikletan jarri uneotan.
 1	Gorputz	gorputz	NOUN	_	_	3	obl	_	_
-2	osoan	oso	ADJ	_	Case=Ine|Definite=Def|Number=Sing	1	det	_	_
+2	osoan	oso	ADJ	_	Case=Ine|Definite=Def|Number=Sing	1	amod	_	_
 3	ditu	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	0	root	_	_
 4	kolpeak	kolpe	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	3	obj	_	_
 5	eta	eta	CCONJ	_	_	7	cc	_	_
@@ -13149,7 +13149,7 @@
 # text = Isuritako gizamalko bakoitzeko lore bat erne izan balitz, hura munduko leku politena izango zatekeela pentsarazi zidan bizi egarriak.
 1	Isuritako	isuri	VERB	_	Case=Loc|VerbForm=Part	2	advcl	_	_
 2	gizamalko	gizamalko	NOUN	_	_	6	obl	_	_
-3	bakoitzeko	bakoitz	ADJ	_	Definite=Ind	2	det	_	_
+3	bakoitzeko	bakoitz	ADJ	_	Definite=Ind	2	amod	_	_
 4	lore	lore	NOUN	_	_	6	nsubj	_	_
 5	bat	bat	NUM	_	NumType=Card	4	nummod	_	_
 6	erne	erne	VERB	_	VerbForm=Part	14	advcl	_	_
@@ -13287,7 +13287,7 @@
 2	legeria	legeria	NOUN	_	_	6	obj	_	_
 3	soziala	sozial	ADJ	_	Case=Abs|Definite=Def|Number=Sing	2	amod	_	_
 4	Europa	Europa	PROPN	_	_	6	obl	_	_
-5	osoan	oso	ADJ	_	Case=Ine|Definite=Def|Number=Sing	4	det	_	_
+5	osoan	oso	ADJ	_	Case=Ine|Definite=Def|Number=Sing	4	amod	_	_
 6	bateratzeko	bateratu	VERB	_	Case=Abs|Definite=Ind	7	xcomp	_	_
 7	eskatu	eskatu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 8	zuten	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	7	aux	_	_
@@ -13939,7 +13939,7 @@
 6	zitzaien	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Plur|Person[abs]=3|Person[dat]=3	5	aux	_	_
 7	hots	hots	NOUN	_	_	10	obj	_	_
 8	zakar	zakar	ADJ	_	_	7	amod	_	_
-9	hori	hori	ADJ	_	_	7	det	_	_
+9	hori	hori	ADJ	_	_	7	amod	_	_
 10	entzuten	entzun	VERB	_	Aspect=Imp|VerbForm=Inf	23	advcl	_	_
 11	zutenean	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	10	aux	_	SpaceAfter=No
 12	,	,	PUNCT	_	_	10	punct	_	_
@@ -16195,7 +16195,7 @@
 # sent_id = test-s1099
 # text = Aldi bakoitzean kutxatxoa bere lekuan uzten zuten arreta handiz, eta zoruko ohola jartzen zuten haren gainean.
 1	Aldi	aldi	NOUN	_	_	6	obl	_	_
-2	bakoitzean	bakoitz	ADJ	_	Case=Ine|Definite=Def|Number=Sing	1	det	_	_
+2	bakoitzean	bakoitz	ADJ	_	Case=Ine|Definite=Def|Number=Sing	1	amod	_	_
 3	kutxatxoa	kutxatxo	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	6	obj	_	_
 4	bere	bera	DET	_	_	6	obl	_	_
 5	lekuan	leku	ADP	_	Case=Ine|Number=Sing	4	case	_	_
@@ -19137,7 +19137,7 @@
 # sent_id = test-s1258
 # text = Erabilpen anitzeko zirkuitu konbinazionalak dira, esate baterako:
 1	Erabilpen	erabilpen	NOUN	_	_	3	nmod	_	_
-2	anitzeko	anitz	ADJ	_	Case=Loc|Definite=Def|Number=Sing	1	det	_	_
+2	anitzeko	anitz	ADJ	_	Case=Loc|Definite=Def|Number=Sing	1	amod	_	_
 3	zirkuitu	zirkuitu	NOUN	_	_	5	nsubj	_	_
 4	konbinazionalak	konbinazional	ADJ	_	Case=Abs|Definite=Def|Number=Plur	3	amod	_	_
 5	dira	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	0	root	_	SpaceAfter=No
@@ -21143,7 +21143,7 @@
 # sent_id = test-s1364
 # text = Egur handi samarra eman zioten atzo Koteto Ezkurra txapeldunari.
 1	Egur	egur	NOUN	_	_	4	obj	_	_
-2	handi	handi	ADJ	_	_	1	det	_	_
+2	handi	handi	ADJ	_	_	1	amod	_	_
 3	samarra	samar	ADV	_	Case=Abs|Definite=Def|Number=Sing	1	nmod	_	_
 4	eman	eman	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 5	zioten	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Plur|Person[abs]=3|Person[dat]=3|Person[erg]=3	4	aux	_	_
@@ -24748,7 +24748,7 @@
 15	du	*edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	14	aux	_	_
 16	eta	eta	CCONJ	_	_	22	cc	_	_
 17	kategoria	kategoria	NOUN	_	_	19	iobj	_	_
-18	bakoitzari	bakoitz	ADJ	_	Case=Dat|Definite=Def|Number=Sing	17	det	_	_
+18	bakoitzari	bakoitz	ADJ	_	Case=Dat|Definite=Def|Number=Sing	17	amod	_	_
 19	dagokion	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Person[abs]=3|Person[dat]=3	20	acl	_	_
 20	ixteko	itxi	VERB	_	Case=Loc	21	advcl	_	_
 21	ordutegia	ordutegi	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	22	nsubj	_	_
@@ -26975,7 +26975,7 @@
 6	koniferoetan	konifero	NOUN	_	Case=Ine|Definite=Def|Number=Plur	11	obl	_	_
 7	talde	talde	NOUN	_	_	11	obj	_	_
 8	txiki	txiki	ADJ	_	_	7	amod	_	_
-9	ugariak	ugari	ADJ	_	Case=Abs|Definite=Def|Number=Plur	7	det	_	_
+9	ugariak	ugari	ADJ	_	Case=Abs|Definite=Def|Number=Plur	7	amod	_	_
 10	edo	edo	CCONJ	_	_	7	cc	_	_
 11	osatuz	osatu	VERB	_	Case=Ins|Definite=Ind|VerbForm=Part	3	advcl	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	3	punct	_	_
@@ -28627,7 +28627,7 @@
 9	ekingo	ekin	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
 10	zaio	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Person[abs]=3|Person[dat]=3	9	aux	_	_
 11	herri	herri	NOUN	_	_	14	nmod	_	_
-12	bakoitzeko	bakoitz	ADJ	_	Case=Loc|Definite=Def|Number=Sing	11	det	_	_
+12	bakoitzeko	bakoitz	ADJ	_	Case=Loc|Definite=Def|Number=Sing	11	amod	_	_
 13	lau	lau	NUM	_	NumType=Card	14	nummod	_	_
 14	batzarretan	batzar	NOUN	_	Animacy=Inan|Case=Ine|Definite=Ind	9	obl	_	SpaceAfter=No
 15	,	,	PUNCT	_	_	24	punct	_	_
