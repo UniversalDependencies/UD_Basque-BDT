@@ -14002,7 +14002,7 @@
 
 # sent_id = dev-s976
 # text = Oso iluna zegoen dena.
-1	Oso	oso	ADV	_	_	2	aux	_	_
+1	Oso	oso	ADV	_	_	2	advmod	_	_
 2	iluna	ilun	ADJ	_	Case=Abs|Definite=Def|Number=Sing	0	root	_	_
 3	zegoen	egon	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	2	cop	_	_
 4	dena	dena	DET	_	Case=Abs|Definite=Def|Number=Sing	2	nsubj	_	SpaceAfter=No
