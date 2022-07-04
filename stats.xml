@@ -111,11 +111,11 @@
     <dep name="advmod">6692</dep>
     <dep name="amod">4553</dep>
     <dep name="appos">562</dep>
-    <dep name="aux">10379</dep>
+    <dep name="aux">10102</dep>
     <dep name="case">1885</dep>
     <dep name="cc">4688</dep>
     <dep name="ccomp">1192</dep>
-    <dep name="compound">1610</dep>
+    <dep name="compound">1887</dep>
     <dep name="conj">5214</dep>
     <dep name="cop">2417</dep>
     <dep name="csubj">304</dep>
