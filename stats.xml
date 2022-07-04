@@ -17,7 +17,7 @@
   <tags unique="16">
     <tag name="ADJ">7021</tag><!-- handi, azken, lehen, on, nagusi, berri, bigarren, bakar, politiko, oso -->
     <tag name="ADP">1876</tag><!-- arte, _, arabera, inguru, aurre, aurka, gabe, gain, alde, buruz -->
-    <tag name="ADV">5247</tag><!-- atzo, oso, gaur, orain, ondoren, gero, hala, han, bertan, beti -->
+    <tag name="ADV">5252</tag><!-- atzo, oso, gaur, orain, ondoren, gero, hala, han, bertan, beti -->
     <tag name="AUX">12546</tag><!-- edun, izan, egon, edin, ezan, ari, ukan -->
     <tag name="CCONJ">6189</tag><!-- eta, ere, baina, edo, berriz, arren, ordea, gainera, beraz, bestalde -->
     <tag name="DET">4139</tag><!-- hori, bera, beste, hau, guzti, hura, batzuk, horiek, hauek, zer -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">19811</tag><!-- ., ,, ", :, (, -, ), ?, ;, ! -->
     <tag name="SYM">15</tag><!-- cm, m, kV, kg, kW, km -->
     <tag name="VERB">19069</tag><!-- izan, egin, ukan, egon, esan, eman, jokatu, hartu, joan, lortu -->
-    <tag name="X">104</tag><!-- de, baino, del, ohi, ea, el, ezta, la, gehi, Las -->
+    <tag name="X">99</tag><!-- de, baino, del, ea, el, ezta, ohi, la, gehi, Las -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="69">
@@ -108,10 +108,10 @@
   <deps unique="33">
     <dep name="acl">1150</dep>
     <dep name="advcl">5372</dep>
-    <dep name="advmod">6693</dep>
+    <dep name="advmod">6702</dep>
     <dep name="amod">4553</dep>
     <dep name="appos">562</dep>
-    <dep name="aux">10088</dep>
+    <dep name="aux">10077</dep>
     <dep name="case">1885</dep>
     <dep name="cc">4694</dep>
     <dep name="ccomp">1192</dep>
@@ -120,14 +120,14 @@
     <dep name="cop">2417</dep>
     <dep name="csubj">304</dep>
     <dep name="dep">244</dep>
-    <dep name="det">2229</dep>
+    <dep name="det">2230</dep>
     <dep name="discourse">69</dep>
     <dep name="dislocated">1</dep>
     <dep name="fixed">290</dep>
     <dep name="flat">2050</dep>
     <dep name="iobj">1022</dep>
     <dep name="mark">180</dep>
-    <dep name="nmod">10692</dep>
+    <dep name="nmod">10693</dep>
     <dep name="nsubj">8691</dep>
     <dep name="nsubj:outer">5</dep>
     <dep name="nummod">2458</dep>

@@ -35,6 +35,7 @@ Aranzabe M., Atutxa A., Bengoetxea K., Díaz de Ilarraza A., Goenaga I., Gojenol
   * Fixed: Ordinal numerals should be ADJ, not NUM.
   * Fixed: Nodes attached as case or mark should be leaves.
   * Fixed: Nodes attached as aux should be AUX, not VERB.
+  * Fixed: Nodes attached as cop should be leaves.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Basque to UD_Basque-BDT.
 * 2016-12-01 v2.0
