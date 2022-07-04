@@ -6552,7 +6552,7 @@
 16	marrazkien	marrazki	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Plur	17	nmod	_	_
 17	bidezkoa	bide	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	_
 18	izan	izan	AUX	_	Aspect=Perf|VerbForm=Part	17	cop	_	_
-19	omen	omen	PART	_	_	18	aux	_	_
+19	omen	omen	PART	_	_	17	advmod	_	_
 20	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	18	aux	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	17	punct	_	_
 
@@ -13869,7 +13869,7 @@
 3	edo	edo	CCONJ	_	_	4	cc	_	_
 4	ertaina	ertain	ADJ	_	Case=Abs|Definite=Def|Number=Sing	2	conj	_	_
 5	izan	izan	AUX	_	VerbForm=Part	2	cop	_	_
-6	ohi	ohi	X	_	_	5	aux	_	_
+6	ohi	ohi	ADV	_	_	2	advmod	_	_
 7	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	5	aux	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	14	punct	_	_
 9	eta	eta	CCONJ	_	_	14	cc	_	_
@@ -20776,7 +20776,7 @@
 8	marrubi-pastelak	marrubi-pastel	NOUN	_	Case=Abs|Definite=Def|Number=Plur	20	nsubj	_	_
 9	ezabatzea	ezabatu	VERB	_	Case=Abs	10	xcomp	_	_
 10	proposatu	proposatu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
-11	omen	omen	PART	_	_	10	aux	_	_
+11	omen	omen	PART	_	_	10	advmod	_	_
 12	dute	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	10	aux	_	ReconstructedLemma=Yes
 13	bertako	bertako	ADJ	_	_	14	amod	_	_
 14	hezkuntza-arduradunek	hezkuntza+-+arduradun	NOUN	_	Animacy=Anim|Case=Erg|Definite=Def|Number=Plur	10	nsubj	_	SpaceAfter=No
@@ -21321,7 +21321,7 @@
 1	Uda-udazken	uda-udazken	NOUN	_	Case=Gen	3	obl	_	_
 2	aldean	alde	ADP	_	Case=Ine	1	case	_	_
 3	atera	atera	VERB	_	VerbForm=Part	0	root	_	_
-4	ohi	ohi	X	_	_	3	aux	_	_
+4	ohi	ohi	ADV	_	_	3	advmod	_	_
 5	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	3	aux	_	_
 6	lur	lur	NOUN	_	_	3	obl	_	_
 7	beran	bera	ADJ	_	Case=Ine|Definite=Def|Number=Sing	6	amod	_	_
