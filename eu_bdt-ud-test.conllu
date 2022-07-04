@@ -8880,7 +8880,7 @@
 # sent_id = test-s611
 # text = Ahal baldin badugu beste ezusteko bat ematen saiatuko gara zaila izango dela jakin arren.
 1	Ahal	ahal	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	8	advcl	_	_
-2	baldin	baldin	CCONJ	_	_	1	aux	_	_
+2	baldin	baldin	CCONJ	_	_	1	cc	_	_
 3	badugu	ukan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	1	aux	_	_
 4	beste	beste	DET	_	_	5	det	_	_
 5	ezusteko	ezusteko	NOUN	_	_	7	obj	_	_
