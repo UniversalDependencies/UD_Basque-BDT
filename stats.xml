@@ -10,7 +10,7 @@
     <dev><sentences>1798</sentences><tokens>24095</tokens><words>24095</words><fused>0</fused></dev>
     <test><sentences>1799</sentences><tokens>24374</tokens><words>24374</words><fused>0</fused></test>
   </size>
-  <lemmas unique="10999" /><!-- ., ,, izan, *edun, eta, ", egin, ukan, ez, bat, egon, hori, ere, baina, bera -->
+  <lemmas unique="10999" /><!-- ., ,, izan, edun, eta, ", egin, ukan, ez, bat, egon, hori, ere, baina, bera -->
   <forms unique="24259" /><!-- ., ,, eta, ", da, ez, zuen, du, zen, izan, egin, dira, ere, baina, bat -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -18,7 +18,7 @@
     <tag name="ADJ">7021</tag><!-- handi, azken, lehen, on, nagusi, berri, bigarren, bakar, politiko, oso -->
     <tag name="ADP">1876</tag><!-- arte, _, arabera, inguru, aurre, aurka, gabe, gain, alde, buruz -->
     <tag name="ADV">5247</tag><!-- atzo, oso, gaur, orain, ondoren, gero, hala, han, bertan, beti -->
-    <tag name="AUX">12461</tag><!-- *edun, izan, egon, *edin, *ezan, ari, ukan -->
+    <tag name="AUX">12461</tag><!-- edun, izan, egon, edin, ezan, ari, ukan -->
     <tag name="CCONJ">6189</tag><!-- eta, ere, baina, edo, berriz, arren, ordea, gainera, beraz, bestalde -->
     <tag name="DET">4139</tag><!-- hori, bera, beste, hau, guzti, hura, batzuk, horiek, hauek, zer -->
     <tag name="INTJ">36</tag><!-- beno, alde, a, dzast, ea, hara, kaixo, tira, ahalena, ai -->
