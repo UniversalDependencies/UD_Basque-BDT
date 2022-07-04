@@ -11367,7 +11367,7 @@
 6	guztietan	guzti	DET	_	Case=Ine|Definite=Def|Number=Plur	5	det	_	_
 7	eragina	eragin	NOUN	_	Case=Abs|Definite=Def|Number=Sing	8	obj	_	_
 8	dutela	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	10	ccomp	_	_
-9	jakin	jakin	VERB	_	VerbForm=Part	10	aux	_	_
+9	jakin	jakin	VERB	_	VerbForm=Part	10	compound	_	_
 10	badakigu	jakin	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1|Polarity=Pos	0	root	_	SpaceAfter=No
 11	"	"	PUNCT	_	_	10	punct	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	10	punct	_	_

@@ -4428,7 +4428,7 @@
 
 # sent_id = dev-s310
 # text = Jakin badakigu EAJ eta Gasteizko gobernua ez direla gauza bera, eta mezuak zein posizioak ere ezberdinak izan behar direla, baina rolen joku hori soberan zegoen une horretan.
-1	Jakin	jakin	VERB	_	VerbForm=Part	2	aux	_	_
+1	Jakin	jakin	VERB	_	VerbForm=Part	2	compound	_	_
 2	badakigu	jakin	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1|Polarity=Pos	0	root	_	_
 3	EAJ	EAJ	PROPN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	9	nsubj	_	_
 4	eta	eta	CCONJ	_	_	6	cc	_	_
@@ -29064,7 +29064,7 @@
 
 # sent_id = dev-s1779
 # text = Jakin badakizue afera ez dela Madrilgo gobernuari "ardura eta ausardia" eskatzea, baizik eta hitzez hartutako konpromezua praktikan jartzea.
-1	Jakin	jakin	VERB	_	VerbForm=Part	2	aux	_	_
+1	Jakin	jakin	VERB	_	VerbForm=Part	2	compound	_	_
 2	badakizue	jakin	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=2|Polarity=Pos	0	root	_	_
 3	afera	afera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	5	nsubj	_	_
 4	ez	ez	PART	_	Polarity=Neg	5	advmod	_	_
