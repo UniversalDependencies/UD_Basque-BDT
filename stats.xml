@@ -18,7 +18,7 @@
     <tag name="ADJ">7021</tag><!-- handi, azken, lehen, on, nagusi, berri, bigarren, bakar, politiko, oso -->
     <tag name="ADP">1876</tag><!-- arte, _, arabera, inguru, aurre, aurka, gabe, gain, alde, buruz -->
     <tag name="ADV">5247</tag><!-- atzo, oso, gaur, orain, ondoren, gero, hala, han, bertan, beti -->
-    <tag name="AUX">12461</tag><!-- edun, izan, egon, edin, ezan, ari, ukan -->
+    <tag name="AUX">12546</tag><!-- edun, izan, egon, edin, ezan, ari, ukan -->
     <tag name="CCONJ">6189</tag><!-- eta, ere, baina, edo, berriz, arren, ordea, gainera, beraz, bestalde -->
     <tag name="DET">4139</tag><!-- hori, bera, beste, hau, guzti, hura, batzuk, horiek, hauek, zer -->
     <tag name="INTJ">36</tag><!-- beno, alde, a, dzast, ea, hara, kaixo, tira, ahalena, ai -->
@@ -29,7 +29,7 @@
     <tag name="PROPN">9868</tag><!-- Europa, Espainia, Frantzia, Real, EEBB, Israel, ETA, Athletic, EAJ, Madril -->
     <tag name="PUNCT">19811</tag><!-- ., ,, ", :, (, -, ), ?, ;, ! -->
     <tag name="SYM">15</tag><!-- cm, m, kV, kg, kW, km -->
-    <tag name="VERB">19154</tag><!-- izan, egin, ukan, egon, esan, eman, jokatu, hartu, joan, lortu -->
+    <tag name="VERB">19069</tag><!-- izan, egin, ukan, egon, esan, eman, jokatu, hartu, joan, lortu -->
     <tag name="X">104</tag><!-- de, baino, del, ohi, ea, el, ezta, la, gehi, Las -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->

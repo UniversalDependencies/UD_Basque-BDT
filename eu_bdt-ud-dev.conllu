@@ -181,7 +181,7 @@
 14	txiki	txiki	ADJ	_	_	13	amod	_	_
 15	bat	bat	NUM	_	NumType=Card	13	nummod	_	_
 16	baldin	baldin	CCONJ	_	_	20	advcl	_	_
-17	badugu	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	16	aux	_	SpaceAfter=No
+17	badugu	ukan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	16	aux	_	SpaceAfter=No
 18	,	,	PUNCT	_	_	16	punct	_	_
 19	ahaleginak	ahalegin	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	20	obj	_	_
 20	egingo	egin	VERB	_	Aspect=Prosp|VerbForm=Part	4	conj	_	_
@@ -1911,7 +1911,7 @@
 4	,	,	PUNCT	_	_	8	punct	_	_
 5	horrela	horrela	ADV	_	_	8	advmod	_	_
 6	ezin	ezin	NOUN	_	Case=Abs|Definite=Ind	7	compound	_	_
-7	zuela	ukan	VERB	_	_	8	aux	_	_
+7	zuela	ukan	AUX	_	_	8	aux	_	_
 8	jarraitu	jarraitu	VERB	_	VerbForm=Part	2	ccomp	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	2	punct	_	_
 
@@ -3492,7 +3492,7 @@
 15	estropada	estropada	NOUN	_	_	17	obj	_	_
 16	ona	on	ADJ	_	Case=Abs|Definite=Def|Number=Sing	15	amod	_	_
 17	egin	egin	VERB	_	VerbForm=Part	11	nsubj	_	_
-18	izana	izan	VERB	_	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	17	aux	_	SpaceAfter=No
+18	izana	izan	AUX	_	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	17	aux	_	SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = dev-s247
@@ -6148,7 +6148,7 @@
 # text = "Ezin dugu egun konkreturik jarri, horrek eztabaida mugatzen duelako.
 1	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
 2	Ezin	ezin	NOUN	_	Case=Abs|Definite=Ind	3	compound	_	_
-3	dugu	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	6	aux	_	_
+3	dugu	ukan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	6	aux	_	_
 4	egun	egun	NOUN	_	_	6	obj	_	_
 5	konkreturik	konkretu	ADJ	_	Case=Par|Definite=Ind	4	amod	_	_
 6	jarri	jarri	VERB	_	VerbForm=Part	0	root	_	SpaceAfter=No
@@ -12074,7 +12074,7 @@
 4	,	,	PUNCT	_	_	2	punct	_	_
 5	ETAri	ETA	PROPN	_	Case=Dat|Definite=Def|Number=Sing	6	iobj	_	_
 6	lagundu	lagundu	VERB	_	Aspect=Perf|VerbForm=Part	8	obj	_	_
-7	izana	izan	VERB	_	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	6	aux	_	_
+7	izana	izan	AUX	_	Case=Abs|Definite=Def|Number=Sing|VerbForm=Part	6	aux	_	_
 8	leporatu	leporatu	VERB	_	Aspect=Perf|VerbForm=Part	0	root	_	_
 9	diote	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Number[erg]=Plur|Person[abs]=3|Person[dat]=3|Person[erg]=3	8	aux	_	ReconstructedLemma=Yes
 10	Txantreako	Txantrea	PROPN	_	Case=Loc|Definite=Def|Number=Sing	11	nmod	_	_
@@ -14405,7 +14405,7 @@
 5	herrialdetako	herrialde	NOUN	_	Case=Loc|Definite=Ind	6	nmod	_	_
 6	korrikalariak	korrikalari	NOUN	_	Case=Abs|Definite=Def|Number=Plur	7	nsubj	_	_
 7	ariko	ari_izan	VERB	_	_	0	root	_	_
-8	dira	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	7	aux	_	SpaceAfter=No
+8	dira	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	7	aux	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	_
 10	uztailaren	uztail	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	11	nmod	_	_
 11	22an	22	NUM	_	NumType=Card	7	obl	_	SpaceAfter=No
@@ -14929,7 +14929,7 @@
 5	,	,	PUNCT	_	_	13	punct	_	_
 6	eta	eta	CCONJ	_	_	13	cc	_	_
 7	ahal	ahal	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	9	obj	_	_
-8	dudana	ukan	VERB	_	Aspect=Prog|Case=Abs|Definite=Def|Mood=Ind|Number=Sing|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=1	7	aux	_	_
+8	dudana	ukan	AUX	_	Aspect=Prog|Case=Abs|Definite=Def|Mood=Ind|Number=Sing|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=1	7	aux	_	_
 9	eginez	egin	VERB	_	Case=Ins|Definite=Ind|VerbForm=Part	13	advcl	_	SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	_
 11	taldearen	talde	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	12	nmod	_	_
@@ -15969,7 +15969,7 @@
 10	egundaino	egundaino	ADV	_	_	12	nmod	_	_
 11	arnoa	arno	NOUN	_	Case=Abs|Definite=Def|Number=Sing	12	obj	_	_
 12	maite	maite	NOUN	_	Case=Abs|Definite=Ind	6	conj	_	_
-13	ukan	ukan	VERB	_	Aspect=Perf|VerbForm=Part	12	aux	_	SpaceAfter=No
+13	ukan	ukan	AUX	_	Aspect=Perf|VerbForm=Part	12	aux	_	SpaceAfter=No
 14	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = dev-s1098
@@ -19727,7 +19727,7 @@
 3	,	,	PUNCT	_	_	1	punct	_	_
 4	ez	ez	PART	_	Polarity=Neg	5	advmod	_	_
 5	dago	egon	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	0	root	_	_
-6	egon	egon	VERB	_	VerbForm=Part	5	aux	_	_
+6	egon	egon	AUX	_	VerbForm=Part	5	aux	_	_
 7	euskaraz	euskara	NOUN	_	Animacy=Inan|Case=Ins|Definite=Ind	10	obl	_	_
 8	hizkuntzaren	hizkuntza	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	9	obl	_	_
 9	berreskuraketari	beR+eskura	VERB	_	Case=Dat|Definite=Def|Number=Sing	10	iobj	_	_
@@ -20185,7 +20185,7 @@
 19	Ruiz	Ruiz	PROPN	_	Case=Abs|Definite=Def|Number=Sing	18	flat	_	_
 20	-	-	PUNCT	_	_	7	punct	_	_
 21	erabili	erabili	VERB	_	VerbForm=Part	0	root	_	_
-22	izan	izan	VERB	_	Aspect=Perf|VerbForm=Part	21	aux	_	_
+22	izan	izan	AUX	_	Aspect=Perf|VerbForm=Part	21	aux	_	_
 23	ditu	edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	21	aux	_	ReconstructedLemma=Yes
 24	duela	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	28	advcl	_	_
 25	bost	bost	NUM	_	NumType=Card	26	nummod	_	_
@@ -22790,7 +22790,7 @@
 7	,	,	PUNCT	_	_	6	punct	_	_
 8	atera	atera	VERB	_	VerbForm=Part	9	xcomp	_	_
 9	behar	behar	ADJ	_	Case=Abs|Definite=Ind	12	acl	_	_
-10	zituzten	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	9	aux	_	_
+10	zituzten	ukan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	9	aux	_	_
 11	herriko	herri	NOUN	_	Case=Loc|Definite=Def|Number=Sing	12	nmod	_	_
 12	abereak	abere	NOUN	_	Animacy=Anim|Case=Abs|Definite=Def|Number=Plur	13	obj	_	_
 13	biltzeko	bildu	VERB	_	Case=Abs|Definite=Ind	21	advcl	_	_
@@ -24443,7 +24443,7 @@
 15	uneoro	uneoro	ADV	_	_	13	conj	_	_
 16	jasaten	jasan	VERB	_	Case=Ine	0	root	_	_
 17	ari	ari	AUX	_	_	18	aux	_	_
-18	da	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	16	aux	_	_
+18	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	16	aux	_	_
 19	Euskal	Euskal	PROPN	_	_	20	compound	_	_
 20	Herria	herri	NOUN	_	Case=Abs|Definite=Def|Number=Sing	16	nsubj	_	SpaceAfter=No
 21	.	.	PUNCT	_	_	16	punct	_	_
@@ -25434,7 +25434,7 @@
 3	Enetik	Enea	PROPN	_	Case=Abl|Definite=Def|Number=Sing	2	flat	_	_
 4	beti	beti	ADV	_	_	5	advmod	_	_
 5	jakin	jakin	VERB	_	VerbForm=Part	0	root	_	_
-6	izan	izan	VERB	_	Aspect=Perf|VerbForm=Part	5	aux	_	_
+6	izan	izan	AUX	_	Aspect=Perf|VerbForm=Part	5	aux	_	_
 7	dugu	edun	AUX	_	Mood=Ind|Number[abs]=Sing|Number[erg]=Plur|Person[abs]=3|Person[erg]=1	5	aux	_	ReconstructedLemma=Yes
 8	ezberdintasun	ezberdintasun	NOUN	_	_	10	obl	_	_
 9	politikotik	politiko	ADJ	_	Case=Abl|Definite=Def|Number=Sing	8	amod	_	_
@@ -27776,7 +27776,7 @@
 7	zenbait	zenbait	DET	_	_	8	det	_	_
 8	ideia	ideia	NOUN	_	Animacy=Inan|Case=Abs|Definite=Ind	9	obj	_	_
 9	eman	eman	VERB	_	VerbForm=Part	0	root	_	_
-10	izan	izan	VERB	_	Aspect=Perf|VerbForm=Part	9	aux	_	_
+10	izan	izan	AUX	_	Aspect=Perf|VerbForm=Part	9	aux	_	_
 11	dira	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	9	aux	_	SpaceAfter=No
 12	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -27945,7 +27945,7 @@
 1	EAS	EAS	PROPN	_	_	2	nmod	_	_
 2	sareari	sare	NOUN	_	Animacy=Inan|Case=Dat|Definite=Def|Number=Sing	3	iobj	_	_
 3	ihesi	ihesi	VERB	_	Case=Abs|Definite=Ind|VerbForm=Part	0	root	_	_
-4	zaizkion	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Number[dat]=Sing|Person[abs]=3|Person[dat]=3	3	aux	_	_
+4	zaizkion	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Number[dat]=Sing|Person[abs]=3|Person[dat]=3	3	aux	_	_
 5	hainbaten	hainbat	DET	_	Case=Gen	3	obl	_	_
 6	antzera	antz	ADP	_	Case=All|Definite=Ind	5	case	_	SpaceAfter=No
 7	.	.	PUNCT	_	_	3	punct	_	_
