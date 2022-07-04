@@ -64,7 +64,7 @@
 4	bukaera	bukaera	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	_
 5	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	4	cop	_	_
 6	hau	hau	DET	_	Case=Abs|Definite=Def|Number=Sing	4	nsubj	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	6	punct	_	_
+7	,	,	PUNCT	_	_	8	punct	_	_
 8	zoritxarrez	zoritxarrez	ADV	_	_	4	advmod	_	SpaceAfter=No
 9	.	.	PUNCT	_	_	4	punct	_	_
 
@@ -2983,7 +2983,7 @@
 3	apala	apal	ADJ	_	Case=Abs|Definite=Def|Number=Sing	2	amod	_	_
 4	izanagatik	izan	AUX	_	Case=Cau|Definite=Def|Number=Sing|VerbForm=Part	2	cop	_	_
 5	ere	ere	CCONJ	_	_	2	advcl	_	SpaceAfter=No
-6	,	,	PUNCT	_	_	4	punct	_	_
+6	,	,	PUNCT	_	_	2	punct	_	_
 7	Realari	Real	PROPN	_	Case=Dat|Definite=Def|Number=Sing	11	iobj	_	_
 8	ezin	ezin	NOUN	_	Case=Abs|Definite=Ind	9	compound	_	_
 9	zaio	izan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[dat]=Sing|Person[abs]=3|Person[dat]=3	0	root	_	_
@@ -5876,13 +5876,13 @@
 
 # sent_id = test-s414
 # text = - Nola izango gara, bada, zoriontsu, don Meliton kartzelan dugunean?
-1	-	-	PUNCT	_	_	3	punct	_	_
+1	-	-	PUNCT	_	_	8	punct	_	_
 2	Nola	nola	ADV	_	_	8	advmod	_	_
 3	izango	izan	AUX	_	Aspect=Prosp|VerbForm=Part	8	cop	_	_
 4	gara	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=1	8	aux	_	SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	_
 6	bada	bada	CCONJ	_	_	8	advmod	_	SpaceAfter=No
-7	,	,	PUNCT	_	_	3	punct	_	_
+7	,	,	PUNCT	_	_	6	punct	_	_
 8	zoriontsu	zoriontsu	ADJ	_	Case=Abs|Definite=Ind	0	root	_	SpaceAfter=No
 9	,	,	PUNCT	_	_	13	punct	_	_
 10	don	Don	PROPN	_	_	13	obj	_	_
@@ -6725,7 +6725,7 @@
 5	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	6	cop	_	_
 6	nagusi	nagusi	NOUN	_	Animacy=Anim|Case=Abs|Definite=Ind	0	root	_	_
 7	munduan	mundu	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	6	obl	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	7	punct	_	_
+8	,	,	PUNCT	_	_	14	punct	_	_
 9	eta	eta	CCONJ	_	_	14	cc	_	_
 10	horrek	hori	DET	_	Case=Erg|Definite=Def|Number=Sing	14	nsubj	_	_
 11	errefuxiatuekin	errefuxiatu	NOUN	_	Case=Com|Definite=Def|Number=Plur	14	obl	_	_
@@ -9078,7 +9078,7 @@
 3	izan	izan	AUX	_	Aspect=Perf|VerbForm=Part	2	cop	_	_
 4	zen	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	2	aux	_	_
 5	atzo	atzo	ADV	_	_	2	advmod	_	SpaceAfter=No
-6	;	;	PUNCT	_	_	3	punct	_	_
+6	;	;	PUNCT	_	_	7	punct	_	_
 7	laugarrena	lau~+garren!	ADJ	_	NumType=Ord	2	appos	_	SpaceAfter=No
 8	,	,	PUNCT	_	_	7	punct	_	_
 9	alegia	alegia	CCONJ	_	_	2	advmod	_	SpaceAfter=No
@@ -10961,7 +10961,7 @@
 1	Txikia	txiki	ADJ	_	Case=Abs|Definite=Def|Number=Sing	8	advcl	_	_
 2	izanik	izan	AUX	_	Case=Par|Definite=Ind|VerbForm=Part	1	cop	_	_
 3	ere	ere	CCONJ	_	_	1	advcl	_	SpaceAfter=No
-4	,	,	PUNCT	_	_	2	punct	_	_
+4	,	,	PUNCT	_	_	1	punct	_	_
 5	ez	ez	PART	_	Polarity=Neg	8	advmod	_	_
 6	du	ukan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	8	aux	_	_
 7	jokatzerik	jokatu	VERB	_	Case=Par	8	xcomp	_	_
@@ -11463,7 +11463,7 @@
 8	zituzten	edun	AUX	_	Mood=Ind|Number[abs]=Plur|Number[erg]=Plur|Person[abs]=3|Person[erg]=3	7	aux	_	ReconstructedLemma=Yes
 9	hilobiak	hilobi	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	7	obj	_	SpaceAfter=No
 10	;	;	PUNCT	_	_	15	punct	_	_
-11	ezin	ezin	NOUN	_	Case=Abs|Definite=Ind	12	compound	_	_
+11	ezin	ezin	NOUN	_	Case=Abs|Definite=Ind	15	compound	_	_
 12	zen	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3	15	aux	_	_
 13	hilobietara	hilobi	NOUN	_	Animacy=Inan|Case=All|Definite=Def|Number=Plur	15	obl	_	_
 14	airerik	aire	NOUN	_	Animacy=Inan|Case=Par|Definite=Ind	15	obl	_	_
@@ -18905,7 +18905,7 @@
 2	garaiak	garai	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	0	root	_	_
 3	dira	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Plur|Person[abs]=3	2	cop	_	_
 4	egungoak	egun	ADV	_	Case=Abs|Definite=Def|Number=Plur	2	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	_	_	4	punct	_	_
+5	,	,	PUNCT	_	_	6	punct	_	_
 6	norberak	norbera	PRON	_	Case=Erg|Definite=Def|Number=Sing	2	nsubj	_	_
 7	bere	bera	DET	_	Case=Gen|Number=Sing	8	nmod	_	_
 8	lan	lan	NOUN	_	_	9	nmod	_	_
@@ -22615,7 +22615,7 @@
 18	presidenteak	presidente	NOUN	_	Case=Erg|Definite=Def|Number=Sing	16	nsubj	_	SpaceAfter=No
 19	,	,	PUNCT	_	_	30	punct	_	_
 20	eta	eta	CCONJ	_	_	30	cc	_	_
-21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
 22	beti	beti	ADV	_	Case=Dat	27	advmod	_	_
 23	bezala	bezala	ADP	_	_	22	case	_	SpaceAfter=No
 24	,	,	PUNCT	_	_	22	punct	_	_
@@ -23174,7 +23174,7 @@
 # text = Horrez gain, Josefa Iloilo presidente berriak Laisenia Qarase lehen ministro izendatu zuenean errebeldeek egindako heriotz mehatxuengatik ere epaituak izango dira.
 1	Horrez	hori	DET	_	Case=Ins|Definite=Def|Number=Sing	19	obl	_	_
 2	gain	gain	NOUN	_	Case=Abs|Definite=Ind	1	fixed	_	SpaceAfter=No
-3	,	,	PUNCT	_	_	12	punct	_	_
+3	,	,	PUNCT	_	_	1	punct	_	_
 4	Josefa	Josefa	PROPN	_	_	6	nmod	_	_
 5	Iloilo	Iloilo	PROPN	_	_	4	flat	_	_
 6	presidente	presidente	NOUN	_	_	12	nsubj	_	_
@@ -23938,7 +23938,7 @@
 7	errubloa	errublo	NOUN	_	Case=Abs|Definite=Def|Number=Sing	19	nsubj	_	_
 8	izango	izan	AUX	_	Aspect=Prosp|VerbForm=Part	19	cop	_	_
 9	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3	19	aux	_	SpaceAfter=No
-10	,	,	PUNCT	_	_	8	punct	_	_
+10	,	,	PUNCT	_	_	9	punct	_	_
 11	2005eko	2005	NUM	_	NumType=Card	12	nmod	_	_
 12	urtarrilaren	urtarril	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	13	nmod	_	_
 13	1etik	1	NUM	_	NumType=Card	17	obl	_	_
@@ -24959,7 +24959,7 @@
 5	egon	egon	AUX	_	VerbForm=Part	9	cop	_	SpaceAfter=No
 6	,	,	PUNCT	_	_	7	punct	_	_
 7	arren	arren	INTJ	_	_	9	discourse	_	SpaceAfter=No
-8	,	,	PUNCT	_	_	5	punct	_	_
+8	,	,	PUNCT	_	_	7	punct	_	_
 9	adi	adi	ADV	_	_	0	root	_	SpaceAfter=No
 10	.	.	PUNCT	_	_	9	punct	_	_
 
@@ -25067,7 +25067,7 @@
 6	bien	bi	NUM	_	NumType=Card	7	nmod	_	_
 7	elgarri	elkar	PRON	_	Case=Dat|Definite=Ind	8	nmod	_	_
 8	egokitzea	egoki+tze	NOUN	_	Case=Abs|Definite=Def|Number=Sing	3	csubj	_	SpaceAfter=No
-9	,	,	PUNCT	_	_	8	punct	_	_
+9	,	,	PUNCT	_	_	13	punct	_	_
 10	zeren	zeren	CCONJ	_	_	13	mark	_	_
 11	batzutan	batzuetan	ADV	_	_	13	advmod	_	_
 12	protestak	protesta	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	13	obj	_	_
@@ -26703,7 +26703,7 @@
 22	eragina	eragin	NOUN	_	Case=Abs|Definite=Def|Number=Sing	23	obj	_	_
 23	du	ukan	VERB	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Number[erg]=Sing|Person[abs]=3|Person[erg]=3	3	conj	_	_
 24	legean	lege	NOUN	_	Case=Ine|Definite=Def|Number=Sing	23	obl	_	SpaceAfter=No
-25	"	"	PUNCT	_	_	3	punct	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
 26	.	.	PUNCT	_	_	2	punct	_	_
 
 # sent_id = test-s1643
@@ -28609,7 +28609,7 @@
 12	ziren	izan	AUX	_	Mood=Ind|Number[abs]=Plur|Person[abs]=3	17	aux	_	SpaceAfter=No
 13	,	,	PUNCT	_	_	14	punct	_	_
 14	berriro	berriro	ADV	_	_	17	advmod	_	SpaceAfter=No
-15	,	,	PUNCT	_	_	11	punct	_	_
+15	,	,	PUNCT	_	_	14	punct	_	_
 16	kanpainaren	kanpaina	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	17	nmod	_	_
 17	ardatzak	ardatz	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Plur	0	root	_	SpaceAfter=No
 18	.	.	PUNCT	_	_	17	punct	_	_
