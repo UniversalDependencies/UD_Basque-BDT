@@ -36,6 +36,7 @@ Aranzabe M., Atutxa A., Bengoetxea K., Díaz de Ilarraza A., Goenaga I., Gojenol
   * Fixed: Nodes attached as case or mark should be leaves.
   * Fixed: Nodes attached as aux should be AUX, not VERB.
   * Fixed: Nodes attached as cop should be leaves.
+  * Fixed: A clause has at most one subject.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Basque to UD_Basque-BDT.
 * 2016-12-01 v2.0
