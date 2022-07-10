@@ -14,22 +14,23 @@
   <forms unique="24259" /><!-- ., ,, eta, ", da, ez, zuen, du, zen, izan, egin, dira, ere, baina, bat -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
-  <tags unique="16">
+  <tags unique="17">
     <tag name="ADJ">7021</tag><!-- handi, azken, lehen, on, nagusi, berri, bigarren, bakar, politiko, oso -->
-    <tag name="ADP">1876</tag><!-- arte, _, arabera, inguru, aurre, aurka, gabe, gain, alde, buruz -->
+    <tag name="ADP">1875</tag><!-- arte, _, arabera, inguru, aurre, aurka, gabe, gain, alde, buruz -->
     <tag name="ADV">5252</tag><!-- atzo, oso, gaur, orain, ondoren, gero, hala, han, bertan, beti -->
-    <tag name="AUX">12546</tag><!-- edun, izan, egon, edin, ezan, ari, ukan -->
-    <tag name="CCONJ">6189</tag><!-- eta, ere, baina, edo, berriz, arren, ordea, gainera, beraz, bestalde -->
+    <tag name="AUX">12548</tag><!-- edun, izan, egon, edin, ezan, ari, ukan -->
+    <tag name="CCONJ">6187</tag><!-- eta, ere, baina, edo, berriz, arren, ordea, gainera, beraz, bestalde -->
     <tag name="DET">4139</tag><!-- hori, bera, beste, hau, guzti, hura, batzuk, horiek, hauek, zer -->
     <tag name="INTJ">36</tag><!-- beno, alde, a, dzast, ea, hara, kaixo, tira, ahalena, ai -->
-    <tag name="NOUN">29712</tag><!-- talde, urte, behar, nahi, partidu, herri, lan, egun, jokalari, gobernu -->
+    <tag name="NOUN">29713</tag><!-- talde, urte, behar, nahi, partidu, herri, lan, egun, jokalari, gobernu -->
     <tag name="NUM">3566</tag><!-- bat, bi, hiru, lau, bost, sei, zazpi, hamar, 20, zortzi -->
     <tag name="PART">1459</tag><!-- ez, bai, omen -->
     <tag name="PRON">785</tag><!-- ni, gu, eurak, inor, zerbait, ezer, zu, elkar, nor, beraiek -->
     <tag name="PROPN">9868</tag><!-- Europa, Espainia, Frantzia, Real, EEBB, Israel, ETA, Athletic, EAJ, Madril -->
     <tag name="PUNCT">19811</tag><!-- ., ,, ", :, (, -, ), ?, ;, ! -->
+    <tag name="SCONJ">2</tag><!-- arren, zeren -->
     <tag name="SYM">15</tag><!-- cm, m, kV, kg, kW, km -->
-    <tag name="VERB">19069</tag><!-- izan, egin, ukan, egon, esan, eman, jokatu, hartu, joan, lortu -->
+    <tag name="VERB">19067</tag><!-- izan, egin, ukan, egon, esan, eman, jokatu, hartu, joan, lortu -->
     <tag name="X">99</tag><!-- de, baino, del, ea, el, ezta, ohi, la, gehi, Las -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -101,43 +102,43 @@
     <feat name="PronType" value="Int" upos="ADV,PRON">168</feat><!-- nola, zergatik, non, nork, noiz, nondik, nor, zelan, nora, noren -->
     <feat name="PronType" value="Prs" upos="PRON">525</feat><!-- gure, nire, nik, euren, guk, ni, zure, gu, beraiek, niri -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">2210</feat><!-- egiten, ematen, izan, izaten, erabiltzen, ikusten, agertzen, esaten, hartzen, gertatzen -->
-    <feat name="VerbForm" value="Part" upos="ADV,AUX,VERB">11217</feat><!-- izan, egin, izango, esan, eman, hasi, joan, lortu, hartu, irabazi -->
+    <feat name="VerbForm" value="Part" upos="AUX,VERB">11216</feat><!-- izan, egin, izango, esan, eman, hasi, joan, lortu, hartu, irabazi -->
     <feat name="Voice" value="Cau" upos="VERB">234</feat><!-- adierazi, jakinarazi, adierazten, ohartarazi, jakinaraziko, geldiarazi, gogorarazi, galarazi, gogorarazten, oroitarazi -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="33">
-    <dep name="acl">1150</dep>
+    <dep name="acl">1127</dep>
     <dep name="advcl">5372</dep>
-    <dep name="advmod">6702</dep>
-    <dep name="amod">4553</dep>
-    <dep name="appos">562</dep>
+    <dep name="advmod">6697</dep>
+    <dep name="amod">4552</dep>
+    <dep name="appos">563</dep>
     <dep name="aux">10077</dep>
-    <dep name="case">1885</dep>
-    <dep name="cc">4694</dep>
+    <dep name="case">1883</dep>
+    <dep name="cc">4699</dep>
     <dep name="ccomp">1192</dep>
     <dep name="compound">1894</dep>
-    <dep name="conj">5214</dep>
-    <dep name="cop">2417</dep>
-    <dep name="csubj">304</dep>
-    <dep name="dep">244</dep>
+    <dep name="conj">5308</dep>
+    <dep name="cop">2420</dep>
+    <dep name="csubj">307</dep>
+    <dep name="dep">236</dep>
     <dep name="det">2230</dep>
     <dep name="discourse">69</dep>
     <dep name="dislocated">1</dep>
-    <dep name="fixed">290</dep>
-    <dep name="flat">2050</dep>
-    <dep name="iobj">1022</dep>
-    <dep name="mark">180</dep>
-    <dep name="nmod">10693</dep>
-    <dep name="nsubj">8691</dep>
-    <dep name="nsubj:outer">5</dep>
-    <dep name="nummod">2458</dep>
-    <dep name="obj">7520</dep>
-    <dep name="obl">9644</dep>
-    <dep name="orphan">6</dep>
-    <dep name="parataxis">50</dep>
+    <dep name="fixed">292</dep>
+    <dep name="flat">2049</dep>
+    <dep name="iobj">1021</dep>
+    <dep name="mark">182</dep>
+    <dep name="nmod">10643</dep>
+    <dep name="nsubj">8595</dep>
+    <dep name="nsubj:outer">6</dep>
+    <dep name="nummod">2459</dep>
+    <dep name="obj">7508</dep>
+    <dep name="obl">9652</dep>
+    <dep name="orphan">77</dep>
+    <dep name="parataxis">57</dep>
     <dep name="punct">19811</dep>
     <dep name="root">8993</dep>
     <dep name="vocative">43</dep>
-    <dep name="xcomp">1427</dep>
+    <dep name="xcomp">1428</dep>
   </deps>
 </treebank>
