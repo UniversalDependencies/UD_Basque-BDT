@@ -34,7 +34,7 @@
     <tag name="X">99</tag><!-- de, baino, del, ea, el, ezta, ohi, la, gehi, Las -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="69">
+  <feats unique="70">
     <feat name="Animacy" value="Anim" upos="ADP,NOUN,PROPN">1288</feat><!-- lagun, jokalariak, ordezkariak, jokalariek, agintariek, hilaren, ministroak, epaileak, arduradunak, arteko -->
     <feat name="Animacy" value="Inan" upos="ADJ,ADP,AUX,DET,NOUN,PROPN,SYM">12165</feat><!-- taldeak, urte, ondorioz, partidua, aukera, taldea, aurretik, urteko, garaipena, gabe -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">1820</feat><!-- egiten, ematen, izaten, erabiltzen, ikusten, agertzen, esaten, hartzen, gertatzen, jarraitzen -->
@@ -101,6 +101,7 @@
     <feat name="Polite[erg]" value="Infm" upos="AUX,VERB">16</feat><!-- ezan, duk, huan, Badakik, baduala, baheukan, daukanan, duan, dun, dunala -->
     <feat name="PronType" value="Int" upos="ADV,PRON">168</feat><!-- nola, zergatik, non, nork, noiz, nondik, nor, zelan, nora, noren -->
     <feat name="PronType" value="Prs" upos="PRON">525</feat><!-- gure, nire, nik, euren, guk, ni, zure, gu, beraiek, niri -->
+    <feat name="VerbForm" value="Fin" upos="AUX,VERB">18189</feat><!-- da, zuen, du, zen, dira, dute, zuten, ziren, ditu, dela -->
     <feat name="VerbForm" value="Inf" upos="AUX,VERB">2210</feat><!-- egiten, ematen, izan, izaten, erabiltzen, ikusten, agertzen, esaten, hartzen, gertatzen -->
     <feat name="VerbForm" value="Part" upos="AUX,VERB">11216</feat><!-- izan, egin, izango, esan, eman, hasi, joan, lortu, hartu, irabazi -->
     <feat name="Voice" value="Cau" upos="VERB">234</feat><!-- adierazi, jakinarazi, adierazten, ohartarazi, jakinaraziko, geldiarazi, gogorarazi, galarazi, gogorarazten, oroitarazi -->
