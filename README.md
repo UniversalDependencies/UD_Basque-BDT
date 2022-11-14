@@ -19,6 +19,25 @@ Aranzabe M., Atutxa A., Bengoetxea K., Díaz de Ilarraza A., Goenaga I., Gojenol
 
 # Changelog
 
+* 2022-11-15 v2.11
+  * Fixed: Only punctuation should be attached via the punct relation; and punctuation should always use it.
+  * Fixed: Spurious copulas with wrong UPOS.
+  * Fixed: Apposition should go left-to-right.
+  * Fixed: Proper nouns are not case markers.
+  * Fixed: Dependents of fixed functional expressions, if any, should be attached to the first node.
+  * Fixed: Pseudo-copulas such as ibili, geratu, sartu, sortu, onartu, ari_izan.
+  * Fixed: A predicate can have two subjects only if one of them is :outer and the predicate heads a clause which is a predicate of the outer clause.
+  * Fixed: NOUN, ADJ, DET, INTJ should not be attached as mark.
+  * Fixed: NOUN, PROPN, PRON, NUM, VERB, INTJ, X cannot be attached as advmod.
+  * Fixed: Punctuation should be leaf and should not cause non-projectivity.
+  * Fixed: Nodes attached as cc should be leaves.
+  * Fixed: NOUN, PROPN, ADJ, NUM, VERB, ADV, PART cannot be attached as det.
+  * Fixed: Ordinal numerals should be ADJ, not NUM.
+  * Fixed: Nodes attached as case or mark should be leaves.
+  * Fixed: Nodes attached as aux should be AUX, not VERB.
+  * Fixed: Nodes attached as cop should be leaves.
+  * Fixed: A clause has at most one subject.
+  * Fixed: A verb (VERB, AUX) always has a VerbForm.
 * 2018-04-15 v2.2
   * Repository renamed from UD_Basque to UD_Basque-BDT.
 * 2016-12-01 v2.0
