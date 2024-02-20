@@ -7403,14 +7403,14 @@
 5	.	.	PUNCT	_	_	4	punct	_	_
 
 # sent_id = dev-s511
-# text = Beharbada horixe da PRIren arrakastaren eta ezintasunaren sekretua:
+# text = Beharbada horixe da PRIren arrakastaren eta ezintasunaren sekretua:
 1	Beharbada	beharbada	ADV	_	_	8	advmod	_	_
 2	horixe	hori	DET	_	Case=Abs|Definite=Def|Number=Sing	8	nsubj	_	_
 3	da	izan	AUX	_	Aspect=Prog|Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	8	cop	_	_
 4	PRIren	PRI	PROPN	_	Case=Gen|Definite=Def|Number=Sing	5	nmod	_	_
 5	arrakastaren	arrakasta	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	8	nmod	_	_
 6	eta	eta	CCONJ	_	_	7	cc	_	_
-7	ezintasunaren	ezintasun	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	5	conj	_	_
+7	ezintasunaren	ezintasun	NOUN	_	Animacy=Inan|Case=Gen|Definite=Def|Number=Sing	5	conj	_	_
 8	sekretua	sekretu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	0	root	_	SpaceAfter=No
 9	:	:	PUNCT	_	_	8	punct	_	_
 
@@ -9858,7 +9858,7 @@
 17	.	.	PUNCT	_	_	7	punct	_	_
 
 # sent_id = dev-s687
-# text = Jamaika eta Errusia urruti zituen, baina Nigeria laugarren harrapatzeko modua izango zuela ematen zuen.
+# text = Jamaika eta Errusia urruti zituen, baina Nigeria laugarren harrapatzeko modua izango zuela ematen zuen.
 1	Jamaika	Jamaika	PROPN	_	_	4	obj	_	_
 2	eta	eta	CCONJ	_	_	3	cc	_	_
 3	Errusia	Errusia	PROPN	_	Case=Abs|Definite=Def|Number=Sing	1	conj	_	_
@@ -9867,7 +9867,7 @@
 6	,	,	PUNCT	_	_	14	punct	_	_
 7	baina	baina	CCONJ	_	_	14	cc	_	_
 8	Nigeria	Nigeria	PROPN	_	Case=Abs|Definite=Def|Number=Sing	10	obj	_	_
-9	laugarren	laugarren	ADJ	_	NumType=Ord	10	obl	_	_
+9	laugarren	laugarren	ADJ	_	NumType=Ord	10	obl	_	_
 10	harrapatzeko	harrapatu	VERB	_	Case=Loc|VerbForm=Fin	11	advcl	_	_
 11	modua	modu	NOUN	_	Animacy=Inan|Case=Abs|Definite=Def|Number=Sing	12	obj	_	_
 12	izango	izan	VERB	_	Aspect=Prosp|VerbForm=Part	14	ccomp	_	_
