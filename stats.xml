@@ -11,7 +11,7 @@
     <test><sentences>1799</sentences><tokens>24374</tokens><words>24374</words><fused>0</fused></test>
   </size>
   <lemmas unique="10999" /><!-- ., ,, izan, edun, eta, ", egin, ukan, ez, bat, egon, hori, ere, baina, bera -->
-  <forms unique="24259" /><!-- ., ,, eta, ", da, ez, zuen, du, zen, izan, egin, dira, ere, baina, bat -->
+  <forms unique="24252" /><!-- ., ,, eta, ", da, ez, zuen, du, zen, izan, egin, dira, ere, baina, bat -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
