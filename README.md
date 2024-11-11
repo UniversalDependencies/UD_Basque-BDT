@@ -48,7 +48,7 @@ Aranzabe M., Atutxa A., Bengoetxea K., Díaz de Ilarraza A., Goenaga I., Gojenol
 * 2015-05-15 v1.1
   * First release in UD
 
-
+<pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.1
 License: CC BY-NC-SA 3.0
@@ -63,4 +63,5 @@ Contributors: Aranzabe, Maria Jesus; Atutxa, Aitziber; Bengoetxea, Kepa; Diaz de
 Contributing: elsewhere
 Contact: koldo.gojenola@ehu.eus
 ===============================================================================
+</pre>
 
