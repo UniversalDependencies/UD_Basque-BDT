@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Basque-BDT:
-commit f13d05e6772cb6e00a10984c29570b859a852759
-Merge: bfadc42 6570627
+commit 0a7138eafe70089ec09a41b83c4fd788dc4a9df3
+Merge: 036a119 2640e2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 121443 of 121443 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.59889003379901.
@@ -25,12 +25,35 @@ Udapi: found 8212 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 121443 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-dev.conllu
+[Line 15676 Sent dev-s1083 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:milioi:det --> 5:16.000:nummod)
+[Line 21316 Sent dev-s1377 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:milioi:det --> 6:85.000:nummod)
+[Line 21319 Sent dev-s1377 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:milioi:det --> 9:146.611:nummod)
+[Line 23161 Sent dev-s1472 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:apur:det --> 5:bat:nummod)
+[Line 24110 Sent dev-s1519 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:milioi:det --> 7:47.870:nummod)
+[Line 24350 Sent dev-s1530 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:apur:det --> 8:batekin:nummod)
+Warnings: 6
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-test.conllu
+[Line 5679 Sent test-s400 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:milioi:det --> 9:erdi:nmod)
+[Line 5851 Sent test-s411 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:beste:det --> 9:Tourra:nmod)
+[Line 8125 Sent test-s563 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:bilioi:det --> 12:8,4:nummod)
+[Line 10460 Sent test-s722 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:milioi:det --> 18:400:nummod)
+[Line 25569 Sent test-s1587 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:milioi:det --> 3:2.945:nummod)
+Warnings: 5
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-train.conllu
-[Line 68573 Sent train-s4336 Node 3]: [L3 Warning fixed-gap] Gaps in fixed expression [3, 10] 'azaldu * * * * * * nahiz'
-Warnings: 1
+[Line 3944 Sent train-s261 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:milioi:det --> 3:5.170:nummod)
+[Line 6145 Sent train-s415 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:milioi:det --> 5:4.500:nummod)
+[Line 6477 Sent train-s437 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:milioi:det --> 6:20:nummod)
+[Line 15431 Sent train-s1069 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:milioi:det --> 4:47.870:nummod)
+[Line 21439 Sent train-s1487 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:milioi:det --> 2:2.945:nummod)
+[Line 21693 Sent train-s1505 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:pare:det --> 3:bat:nummod)
+[Line 23924 Sent train-s1663 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:pare:det --> 5:bat:nummod)
+[Line 40497 Sent train-s2792 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:milioi:det --> 2:11.000:nummod)
+[Line 40508 Sent train-s2792 Node 14]: [L3 Warning leaf-det] 'det' not expected to have children (14:bilioi:det --> 13:1,9:nummod)
+[Line 40512 Sent train-s2792 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:miliar:det --> 17:75:nummod)
+...suppressing further errors regarding Warning
+Warnings: 36
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
