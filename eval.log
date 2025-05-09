@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Basque-BDT:
-commit 0a7138eafe70089ec09a41b83c4fd788dc4a9df3
-Merge: 036a119 2640e2e
+commit 02d15c8f978c88292c196ec9348c5d78220da0a8
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 11 15:01:57 2024 +0100
 Size: counted 121443 of 121443 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.59889003379901.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,50 +20,89 @@ Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
 Udapi:
-               TOTAL       8212
-Udapi: found 8212 bugs.
+               TOTAL       8075
+Udapi: found 8075 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 121443 words.
-Genres: found 1 out of 17 known.
+Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-dev.conllu
-[Line 15676 Sent dev-s1083 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:milioi:det --> 5:16.000:nummod)
-[Line 21316 Sent dev-s1377 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:milioi:det --> 6:85.000:nummod)
-[Line 21319 Sent dev-s1377 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:milioi:det --> 9:146.611:nummod)
-[Line 23161 Sent dev-s1472 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:apur:det --> 5:bat:nummod)
-[Line 24110 Sent dev-s1519 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:milioi:det --> 7:47.870:nummod)
-[Line 24350 Sent dev-s1530 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:apur:det --> 8:batekin:nummod)
-Warnings: 6
-*** PASSED ***
-/net/work/people/zeman/unidep/tools/validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-test.conllu
-[Line 5679 Sent test-s400 Node 8]: [L3 Warning leaf-det] 'det' not expected to have children (8:milioi:det --> 9:erdi:nmod)
-[Line 5851 Sent test-s411 Node 10]: [L3 Warning leaf-det] 'det' not expected to have children (10:beste:det --> 9:Tourra:nmod)
-[Line 8125 Sent test-s563 Node 13]: [L3 Warning leaf-det] 'det' not expected to have children (13:bilioi:det --> 12:8,4:nummod)
-[Line 10460 Sent test-s722 Node 19]: [L3 Warning leaf-det] 'det' not expected to have children (19:milioi:det --> 18:400:nummod)
-[Line 25569 Sent test-s1587 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:milioi:det --> 3:2.945:nummod)
-Warnings: 5
-*** PASSED ***
-/net/work/people/zeman/unidep/tools/validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-train.conllu
-[Line 3944 Sent train-s261 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:milioi:det --> 3:5.170:nummod)
-[Line 6145 Sent train-s415 Node 6]: [L3 Warning leaf-det] 'det' not expected to have children (6:milioi:det --> 5:4.500:nummod)
-[Line 6477 Sent train-s437 Node 7]: [L3 Warning leaf-det] 'det' not expected to have children (7:milioi:det --> 6:20:nummod)
-[Line 15431 Sent train-s1069 Node 5]: [L3 Warning leaf-det] 'det' not expected to have children (5:milioi:det --> 4:47.870:nummod)
-[Line 21439 Sent train-s1487 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:milioi:det --> 2:2.945:nummod)
-[Line 21693 Sent train-s1505 Node 2]: [L3 Warning leaf-det] 'det' not expected to have children (2:pare:det --> 3:bat:nummod)
-[Line 23924 Sent train-s1663 Node 4]: [L3 Warning leaf-det] 'det' not expected to have children (4:pare:det --> 5:bat:nummod)
-[Line 40497 Sent train-s2792 Node 3]: [L3 Warning leaf-det] 'det' not expected to have children (3:milioi:det --> 2:11.000:nummod)
-[Line 40508 Sent train-s2792 Node 14]: [L3 Warning leaf-det] 'det' not expected to have children (14:bilioi:det --> 13:1,9:nummod)
-[Line 40512 Sent train-s2792 Node 18]: [L3 Warning leaf-det] 'det' not expected to have children (18:miliar:det --> 17:75:nummod)
+[Line 15220 Sent dev-s1061 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'aldi berean' does not have the 'ExtPos' feature
+[Line 15550 Sent dev-s1076 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'hain zuzen' does not have the 'ExtPos' feature
+[Line 15676 Sent dev-s1083 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:milioi:det --> 5:16.000:nummod)
+[Line 16257 Sent dev-s1111 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Berriro ere' does not have the 'ExtPos' feature
+[Line 16421 Sent dev-s1119 Node 16]: [L3 Warning fixed-without-extpos] Fixed expression 'batez ere' does not have the 'ExtPos' feature
+[Line 16698 Sent dev-s1133 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Gaur egun' does not have the 'ExtPos' feature
+[Line 16987 Sent dev-s1146 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'batik bat' does not have the 'ExtPos' feature
+[Line 17067 Sent dev-s1151 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'gaur egun' does not have the 'ExtPos' feature
+[Line 17162 Sent dev-s1156 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Gaur egun' does not have the 'ExtPos' feature
+[Line 17167 Sent dev-s1156 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'oraindik ere' does not have the 'ExtPos' feature
+[Line 17746 Sent dev-s1189 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'seguru asko' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 36
-*** PASSED ***
-Validity: 1
+[Line 21316 Sent dev-s1377 Node 7]: [L3 Syntax leaf-det] 'det' not expected to have children (7:milioi:det --> 6:85.000:nummod)
+[Line 21319 Sent dev-s1377 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:milioi:det --> 9:146.611:nummod)
+[Line 23161 Sent dev-s1472 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:apur:det --> 5:bat:nummod)
+[Line 24110 Sent dev-s1519 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:milioi:det --> 7:47.870:nummod)
+[Line 24350 Sent dev-s1530 Node 7]: [L3 Syntax leaf-det] 'det' not expected to have children (7:apur:det --> 8:batekin:nummod)
+Syntax errors: 6
+Warnings: 45
+*** FAILED *** with 6 errors
+Exit code: 1
+/net/work/people/zeman/unidep/tools/validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-test.conllu
+[Line 5679 Sent test-s400 Node 8]: [L3 Syntax leaf-det] 'det' not expected to have children (8:milioi:det --> 9:erdi:nmod)
+[Line 5851 Sent test-s411 Node 10]: [L3 Syntax leaf-det] 'det' not expected to have children (10:beste:det --> 9:Tourra:nmod)
+[Line 8125 Sent test-s563 Node 13]: [L3 Syntax leaf-det] 'det' not expected to have children (13:bilioi:det --> 12:8,4:nummod)
+[Line 10460 Sent test-s722 Node 19]: [L3 Syntax leaf-det] 'det' not expected to have children (19:milioi:det --> 18:400:nummod)
+[Line 15454 Sent test-s1061 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'berriro ere' does not have the 'ExtPos' feature
+[Line 15801 Sent test-s1079 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'besteak beste' does not have the 'ExtPos' feature
+[Line 16688 Sent test-s1127 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'batez ere' does not have the 'ExtPos' feature
+[Line 17051 Sent test-s1145 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'argi eta garbi' does not have the 'ExtPos' feature
+[Line 17753 Sent test-s1183 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Gaur egun' does not have the 'ExtPos' feature
+[Line 17959 Sent test-s1194 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'zeren eta' does not have the 'ExtPos' feature
+[Line 18371 Sent test-s1218 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'GAUR EGUNGO' does not have the 'ExtPos' feature
+[Line 18532 Sent test-s1227 Node 7]: [L3 Warning fixed-without-extpos] Fixed expression 'gaur egungo' does not have the 'ExtPos' feature
+[Line 18602 Sent test-s1230 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'gaur egungo' does not have the 'ExtPos' feature
+[Line 18738 Sent test-s1237 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'gehienez ere' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+[Line 25569 Sent test-s1587 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:milioi:det --> 3:2.945:nummod)
+Syntax errors: 5
+Warnings: 53
+*** FAILED *** with 5 errors
+Exit code: 1
+/net/work/people/zeman/unidep/tools/validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-train.conllu
+[Line 3944 Sent train-s261 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:milioi:det --> 3:5.170:nummod)
+[Line 6145 Sent train-s415 Node 6]: [L3 Syntax leaf-det] 'det' not expected to have children (6:milioi:det --> 5:4.500:nummod)
+[Line 6477 Sent train-s437 Node 7]: [L3 Syntax leaf-det] 'det' not expected to have children (7:milioi:det --> 6:20:nummod)
+[Line 15431 Sent train-s1069 Node 5]: [L3 Syntax leaf-det] 'det' not expected to have children (5:milioi:det --> 4:47.870:nummod)
+[Line 21439 Sent train-s1487 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:milioi:det --> 2:2.945:nummod)
+[Line 21693 Sent train-s1505 Node 2]: [L3 Syntax leaf-det] 'det' not expected to have children (2:pare:det --> 3:bat:nummod)
+[Line 23924 Sent train-s1663 Node 4]: [L3 Syntax leaf-det] 'det' not expected to have children (4:pare:det --> 5:bat:nummod)
+[Line 40497 Sent train-s2792 Node 3]: [L3 Syntax leaf-det] 'det' not expected to have children (3:milioi:det --> 2:11.000:nummod)
+[Line 40508 Sent train-s2792 Node 14]: [L3 Syntax leaf-det] 'det' not expected to have children (14:bilioi:det --> 13:1,9:nummod)
+[Line 40512 Sent train-s2792 Node 18]: [L3 Syntax leaf-det] 'det' not expected to have children (18:miliar:det --> 17:75:nummod)
+...suppressing further errors regarding Syntax
+[Line 46208 Sent train-s3179 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'batez ere' does not have the 'ExtPos' feature
+[Line 46272 Sent train-s3182 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'besteak beste' does not have the 'ExtPos' feature
+[Line 46317 Sent train-s3185 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Oraindik ere' does not have the 'ExtPos' feature
+[Line 46365 Sent train-s3187 Node 13]: [L3 Warning fixed-without-extpos] Fixed expression 'gaur egun' does not have the 'ExtPos' feature
+[Line 46851 Sent train-s3211 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'behin eta berriro' does not have the 'ExtPos' feature
+[Line 47229 Sent train-s3231 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'batik bat' does not have the 'ExtPos' feature
+[Line 47800 Sent train-s3260 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'batik bat' does not have the 'ExtPos' feature
+[Line 48700 Sent train-s3304 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'oraindik ere' does not have the 'ExtPos' feature
+[Line 48904 Sent train-s3315 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'batez ere' does not have the 'ExtPos' feature
+[Line 49245 Sent train-s3334 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Oraindik ere' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Syntax errors: 38
+Warnings: 166
+*** FAILED *** with 38 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
 (weight=0.0769230769230769) * (score{lemmas}=0.4) = 0.0307692307692308
 (weight=0.256410256410256) * (score{size}=0.694790829012505) = 0.178151494618591
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.323797995767562) = 0.0996301525438652
+(weight=0.307692307692308) * (score{udapi}=0.335079008259019) = 0.103101233310467
 (weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.540657192390942) * (availability=1) * (validity=1) = 0.540657192390942
-STARS = 2.5
-UD_Basque-BDT	0.540657192390942	2.5
+(TOTAL score=0.543876890553221) * (availability=1) * (validity=0.01) = 0.00543876890553221
+STARS = 0
+UD_Basque-BDT	0.00543876890553221	0
