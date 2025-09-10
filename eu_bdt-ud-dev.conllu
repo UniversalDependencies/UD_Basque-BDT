@@ -10065,7 +10065,7 @@
 15	.	.	PUNCT	_	_	6	punct	_	_
 
 # sent_id = dev-s700
-# text = Uztailean eta abuztuan, Llanesen (Asturias) eta Portugaleten (Bizkaia), egingo da Julen Guerreros Total Football I. Kanpusa.
+# text = Uztailean eta abuztuan, Llanesen (Asturias) eta Portugaleten (Bizkaia), egingo da Julen Guerreros Total Football I. Kanpusa.
 1	Uztailean	uztail	NOUN	_	Animacy=Inan|Case=Ine|Definite=Def|Number=Sing	15	obl	_	_
 2	eta	eta	CCONJ	_	_	3	cc	_	_
 3	abuztuan	abuztu	NOUN	_	Case=Ine|Definite=Def|Number=Sing	1	conj	_	SpaceAfter=No
@@ -10083,7 +10083,7 @@
 15	egingo	egin	VERB	_	Aspect=Prosp|VerbForm=Part	0	root	_	_
 16	da	izan	AUX	_	Mood=Ind|Number[abs]=Sing|Person[abs]=3|VerbForm=Fin	15	aux	_	_
 17	Julen	Julen	PROPN	_	_	22	nmod	_	_
-18	Guerreros	Guerreros	PROPN	_	_	17	flat	_	_
+18	Guerreros	Guerreros	PROPN	_	_	17	flat	_	_
 19	Total	total	NOUN	_	_	18	flat	_	_
 20	Football	football	NOUN	_	_	19	flat	_	_
 21	I.	I.	ADJ	_	NumType=Ord	22	amod	_	_
