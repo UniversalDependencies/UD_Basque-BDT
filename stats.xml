@@ -11,7 +11,7 @@
     <test><sentences>1799</sentences><tokens>24374</tokens><words>24374</words><fused>0</fused></test>
   </size>
   <lemmas unique="10999" /><!-- ., ,, izan, edun, eta, ", egin, ukan, ez, bat, egon, hori, ere, baina, bera -->
-  <forms unique="24252" /><!-- ., ,, eta, ", da, ez, zuen, du, zen, izan, egin, dira, ere, baina, bat -->
+  <forms unique="24251" /><!-- ., ,, eta, ", da, ez, zuen, du, zen, izan, egin, dira, ere, baina, bat -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
@@ -43,7 +43,7 @@
     <feat name="Aspect" value="Prosp" upos="AUX,VERB">1529</feat><!-- izango, egingo, jokatuko, egongo, hartuko, emango, hasiko, aurkeztuko, izanen, joango -->
     <feat name="Case" value="Abl" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PROPN,VERB">882</feat><!-- aurretik, bestetik, hasieratik, horretatik, aldetik, gainetik, ondotik, handik, atzetik, etxetik -->
     <feat name="Case" value="Abs" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PRON,PROPN,SYM,VERB">17381</feat><!-- behar, hori, nahi, hau, handia, batzuk, arte, zer, aurka, uste -->
-    <feat name="Case" value="All" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PRON,PROPN,VERB">864</feat><!-- behera, aurrera, batera, aldera, segundora, etxera, kanpora, gainera, ematera, herrira -->
+    <feat name="Case" value="All" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PRON,PROPN,VERB">864</feat><!-- behera, aurrera, batera, aldera, segundora, etxera, kanpora, gainera, herrira, ematera -->
     <feat name="Case" value="Ben" upos="ADJ,AUX,DET,NOUN,PRON,PROPN">131</feat><!-- gehienentzat, guztientzat, harentzat, Alavesentzat, Eibarrentzat, Udalbiltzarentzat, emakumeentzat, ertzainentzat, gorritxoentzat, guztiontzat -->
     <feat name="Case" value="Cau" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">123</feat><!-- horregatik, izateagatik, arazoengatik, beragatik, honengatik, Horrexegatik, delituengatik, emateagatik, gorrotoarengatik, hilketagatik -->
     <feat name="Case" value="Com" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">659</feat><!-- horrekin, taldearekin, urterekin, elkarrekin, punturekin, honekin, aldearekin, batzuekin, lagunekin, selekzioarekin -->
