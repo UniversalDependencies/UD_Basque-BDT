@@ -1,7 +1,118 @@
-Usage:   perl -I ./tools ./tools/evaluate_treebank.pl <ud-treebank-name>
-Example: perl -I ./tools ./tools/evaluate_treebank.pl UD_Czech-PDTC
-Before running, make sure the current folder is one level above the clones of UD GitHub repositories.
-Specifically, the subfolders should include the evaluated treebank(s), as well as the tools folder,
-from which this script is invoked and which also holds the validator.
-$0 == tools/evaluate_treebank.pl
-The script must be invoked using relative path (starting with a dot) from the superordinate folder at tools/evaluate_treebank.pl line 40.
+Running the following version of UD tools:
+commit 26e6c87a2f518322d15901a351199b6be6569062
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri Nov 7 15:39:58 2025 +0100
+Evaluating the following revision of UD_Basque-BDT:
+commit af5fb64ce13f5317db5b1e2a1ce832ec66b9c4b7
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 18:39:09 2025 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'eu_bdt'
+Language code (from CoNLL-U file name) = 'eu'
+Found the following data files: eu_bdt-ud-dev.conllu, eu_bdt-ud-test.conllu, eu_bdt-ud-train.conllu
+Size: counted 121443 of 121443 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.59889003379901.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Found at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.4.
+Universal POS tags: 17 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.8.
+Features: 77136 out of 121443 total words have one or more features.
+Features: source of annotation (from README) factor is 0.8.
+Universal relations: 32 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.8.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-dev.conllu
+[Line 6 Sent dev-s1]: [L3 Warning pron-det-without-prontype] The word 'beste' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 9 Sent dev-s1]: [L3 Warning pron-det-without-prontype] The word 'gehiago' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 34 Sent dev-s3]: [L3 Warning pron-det-without-prontype] The word 'batzuetan' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 71 Sent dev-s6]: [L3 Warning verbform-fin-without-mood] Finite verb 'beharko' lacks the 'Mood' feature
+[Line 89 Sent dev-s8]: [L3 Warning verbform-fin-without-mood] Finite verb 'idazten' lacks the 'Mood' feature
+[Line 101 Sent dev-s9]: [L3 Warning pron-det-without-prontype] The word 'berean' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 128 Sent dev-s10]: [L3 Warning pron-det-without-prontype] The word 'bere' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 152 Sent dev-s12]: [L3 Warning pron-det-without-prontype] The word 'horiei' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 174 Sent dev-s13]: [L3 Warning pron-det-without-prontype] The word 'haiek' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 176 Sent dev-s13]: [L3 Warning verbform-fin-without-mood] Finite verb 'irabazteko' lacks the 'Mood' feature
+...suppressing further errors regarding Warning
+[Line 1477 Sent dev-s107]: [L3 Syntax too-many-objects] Multiple direct objects [3, 10] ('maitasuna', 'beldurrarenak') under the predicate 'adierazten'.
+[Line 5580 Sent dev-s385]: [L3 Syntax too-many-objects] Multiple direct objects [1, 6] ('Gobernu', 'egoera') under the predicate 'alde'.
+[Line 9733 Sent dev-s678]: [L3 Syntax too-many-objects] Multiple direct objects [2, 6] ('ikusitakoak', 'asaldaziorik') under the predicate 'baretu'.
+[Line 12790 Sent dev-s886]: [L3 Syntax too-many-objects] Multiple direct objects [1, 7] ('Izugarria', 'ahalegina') under the predicate 'iruditzen'.
+[Line 15400 Sent dev-s1070]: [L3 Syntax too-many-objects] Multiple direct objects [18, 25, 30] ('Bartzelona', 'Dinamo', 'Portland') under the predicate 'aurkari'.
+[Line 15676 Sent dev-s1083]: [L3 Syntax leaf-det] 'det' not expected to have children (6:milioi:det --> 5:16.000:nummod)
+[Line 17477 Sent dev-s1173]: [L3 Syntax too-many-objects] Multiple direct objects [1, 11] ('Lehergailua', 'autoa') under the predicate 'jarri'.
+[Line 20151 Sent dev-s1316]: [L3 Syntax too-many-objects] Multiple direct objects [16, 22] ('kolektibitatea', 'zera') under the predicate 'nabarmenduz'.
+[Line 21316 Sent dev-s1377]: [L3 Syntax leaf-det] 'det' not expected to have children (7:milioi:det --> 6:85.000:nummod)
+[Line 21319 Sent dev-s1377]: [L3 Syntax leaf-det] 'det' not expected to have children (10:milioi:det --> 9:146.611:nummod)
+...suppressing further errors regarding Syntax
+Syntax errors: 16
+Warnings: 1614
+*** FAILED *** with 16 errors
+Exit code: 1
+/net/work/people/zeman/unidep/tools/validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-test.conllu
+[Line 31 Sent test-s2]: [L3 Warning pron-det-without-prontype] The word 'hau' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 32 Sent test-s2]: [L3 Warning verbform-fin-without-mood] Finite verb 'onartzeko' lacks the 'Mood' feature
+[Line 34 Sent test-s2]: [L3 Warning verbform-fin-without-mood] Finite verb 'zeudela' lacks the 'Mood' feature
+[Line 53 Sent test-s3]: [L3 Warning pron-det-without-prontype] The word 'horiek' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 56 Sent test-s3]: [L3 Warning verbform-fin-without-mood] Finite verb 'bermatzeko' lacks the 'Mood' feature
+[Line 66 Sent test-s4]: [L3 Warning pron-det-without-prontype] The word 'hau' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 103 Sent test-s7]: [L3 Warning pron-det-without-prontype] The word 'askotatik' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 131 Sent test-s9]: [L3 Warning pron-det-without-prontype] The word 'bere' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 161 Sent test-s12]: [L3 Warning pron-det-without-prontype] The word 'horretan' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 162 Sent test-s12]: [L3 Warning pron-det-without-prontype] The word 'denon' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+[Line 5679 Sent test-s400]: [L3 Syntax leaf-det] 'det' not expected to have children (8:milioi:det --> 9:erdi:nmod)
+[Line 5851 Sent test-s411]: [L3 Syntax leaf-det] 'det' not expected to have children (10:beste:det --> 9:Tourra:nmod)
+[Line 7176 Sent test-s499]: [L3 Syntax too-many-objects] Multiple direct objects [4, 5] ('hori', 'guztia') under the predicate 'izateko'.
+[Line 7766 Sent test-s539]: [L3 Syntax too-many-objects] Multiple direct objects [1, 4] ('Zorionak', 'posturik') under the predicate 'egin'.
+[Line 8125 Sent test-s563]: [L3 Syntax leaf-det] 'det' not expected to have children (13:bilioi:det --> 12:8,4:nummod)
+[Line 10460 Sent test-s722]: [L3 Syntax leaf-det] 'det' not expected to have children (19:milioi:det --> 18:400:nummod)
+[Line 17817 Sent test-s1186]: [L3 Syntax too-many-objects] Multiple direct objects [2, 11] ('lekurik', 'bidea') under the predicate 'aurkitu'.
+[Line 18734 Sent test-s1237]: [L3 Syntax too-many-objects] Multiple direct objects [6, 10] ('kasu', 'diosalaren') under the predicate 'egiten'.
+[Line 18931 Sent test-s1248]: [L3 Syntax too-many-objects] Multiple direct objects [2, 10] ('Iruña', 'Erribera') under the predicate 'mugakide'.
+[Line 19699 Sent test-s1286]: [L3 Syntax too-many-objects] Multiple direct objects [4, 12] ('gune', 'portua') under the predicate 'blokeatu'.
+...suppressing further errors regarding Syntax
+Syntax errors: 17
+Warnings: 1689
+*** FAILED *** with 17 errors
+Exit code: 1
+/net/work/people/zeman/unidep/tools/validate.py --lang eu --max-err=10 UD_Basque-BDT/eu_bdt-ud-train.conllu
+[Line 23 Sent train-s2]: [L3 Warning verbform-fin-without-mood] Finite verb 'ematen' lacks the 'Mood' feature
+[Line 24 Sent train-s2]: [L3 Warning verbform-fin-without-mood] Finite verb 'jarraitzeko' lacks the 'Mood' feature
+[Line 35 Sent train-s2]: [L3 Warning verbform-fin-without-mood] Finite verb 'indartzeko' lacks the 'Mood' feature
+[Line 37 Sent train-s2]: [L3 Warning verbform-fin-without-mood] Finite verb 'jarraitzeko' lacks the 'Mood' feature
+[Line 48 Sent train-s3]: [L3 Warning pron-det-without-prontype] The word 'hartan' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 68 Sent train-s4]: [L3 Warning verbform-fin-without-mood] Finite verb 'inketatzen' lacks the 'Mood' feature
+[Line 90 Sent train-s5]: [L3 Warning pron-det-without-prontype] The word 'gehienentzat' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 105 Sent train-s6]: [L3 Warning pron-det-without-prontype] The word 'bere' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 114 Sent train-s6]: [L3 Warning pron-det-without-prontype] The word 'bere' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 117 Sent train-s6]: [L3 Warning pron-det-without-prontype] The word 'hartan' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+[Line 3944 Sent train-s261]: [L3 Syntax leaf-det] 'det' not expected to have children (4:milioi:det --> 3:5.170:nummod)
+[Line 6145 Sent train-s415]: [L3 Syntax leaf-det] 'det' not expected to have children (6:milioi:det --> 5:4.500:nummod)
+[Line 6477 Sent train-s437]: [L3 Syntax leaf-det] 'det' not expected to have children (7:milioi:det --> 6:20:nummod)
+[Line 8547 Sent train-s570]: [L3 Syntax too-many-objects] Multiple direct objects [1, 3] ('Gauza', 'korsikar') under the predicate 'galdegiten'.
+[Line 12649 Sent train-s871]: [L3 Syntax too-many-objects] Multiple direct objects [2, 6] ('kilo', 'metro') under the predicate 'ditu'.
+[Line 15431 Sent train-s1069]: [L3 Syntax leaf-det] 'det' not expected to have children (5:milioi:det --> 4:47.870:nummod)
+[Line 16099 Sent train-s1116]: [L3 Syntax too-many-objects] Multiple direct objects [3, 8] ('Merzedez', 'zoin') under the predicate 'ezarria'.
+[Line 18319 Sent train-s1274]: [L3 Syntax too-many-objects] Multiple direct objects [3, 13] ('gol', 'penaltiko') under the predicate 'egin'.
+[Line 18870 Sent train-s1309]: [L3 Syntax too-many-objects] Multiple direct objects [12, 20] ('konparadore', 'ziklokoa') under the predicate 'izango'.
+[Line 21439 Sent train-s1487]: [L3 Syntax leaf-det] 'det' not expected to have children (3:milioi:det --> 2:2.945:nummod)
+...suppressing further errors regarding Syntax
+Syntax errors: 75
+Warnings: 4845
+*** FAILED *** with 75 errors
+Exit code: 1
+Validity: 0.01
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.4) = 0.0444444444444444
+(weight=0.37037037037037) * (score{size}=0.694790829012505) = 0.257329936671298
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{udeprels}=0.691891891891892) = 0.0768768768768769
+(TOTAL score=0.636675949350644) * (availability=1) * (validity=0.01) = 0.00636675949350644
+STARS = 0
+UD_Basque-BDT	0.00636675949350644	0
